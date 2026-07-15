@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-15T01:11:40Z",
+  "status": "applied",
+  "source_snapshot": "data/latest-firmographic.json",
+  "source_snapshot_sha256": "6ddc51be975b0821ec0bc8cd22023a61e52f322d6f931b468dd97d4b3199b9a7",
+  "prompt_version": "firmographic-industry-judge-v1.0",
+  "prompt_sha256": "9e95e78b89bdc05ab721d2a85dac2e27ce31bc2fc827772dc19051214d806e0d",
+  "model": "gpt-5.6",
+  "reasoning_effort": "high",
+  "case_count": 300,
+  "provider_count": 7,
+  "provider_slugs": [
+    "apollo",
+    "company-enrich",
+    "explorium",
+    "fiber",
+    "ocean",
+    "people-data-labs",
+    "predictleads"
+  ],
+  "paid_call_design": "one all-industry structured-output call per provider",
+  "completed_at": "2026-07-15T01:22:55Z",
+  "applied_at": "2026-07-16T18:57:54Z"
+}

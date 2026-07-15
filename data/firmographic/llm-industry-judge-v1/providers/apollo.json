@@ -1,0 +1,5725 @@
+{
+  "schema_version": 1,
+  "prompt_version": "firmographic-industry-judge-v1.0",
+  "prompt_sha256": "9e95e78b89bdc05ab721d2a85dac2e27ce31bc2fc827772dc19051214d806e0d",
+  "source_snapshot_sha256": "6ddc51be975b0821ec0bc8cd22023a61e52f322d6f931b468dd97d4b3199b9a7",
+  "model": "gpt-5.6",
+  "reasoning_effort": "high",
+  "provider_slug": "apollo",
+  "judged_at": "2026-07-15T01:15:29Z",
+  "latency_ms": 199296,
+  "response_id": "resp_023bedd93bae1eed016a56de6b932c819abce58c05a8bb69bc",
+  "usage": {
+    "input_tokens": 14204,
+    "input_tokens_details": {
+      "cache_write_tokens": 14201,
+      "cached_tokens": 0
+    },
+    "output_tokens": 17423,
+    "output_tokens_details": {
+      "reasoning_tokens": 846
+    },
+    "total_tokens": 31627
+  },
+  "case_count": 299,
+  "judgments": [
+    {
+      "case_slug": "rebrand_source_row_1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact label 'automotive'.",
+      "reference": [
+        "Automotive"
+      ],
+      "provider_value": [
+        "automotive",
+        "electrical/electronic manufacturing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_10",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "'food & beverages' is the same broad food-and-beverage industry family.",
+      "reference": [
+        "Food and Beverage Services"
+      ],
+      "provider_value": [
+        "food & beverages",
+        "agriculture"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_13",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Accounting and management consulting are professional-services subsectors.",
+      "reference": [
+        "Professional Services"
+      ],
+      "provider_value": [
+        "accounting",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_16",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "IT services is an accepted broader family for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_17",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "'dairy' and food production cover dairy-product manufacturing.",
+      "reference": [
+        "Dairy Product Manufacturing"
+      ],
+      "provider_value": [
+        "dairy",
+        "food production"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_18",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_21",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_22",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact renamed venture-capital/private-equity label.",
+      "reference": [
+        "Venture Capital and Private Equity Principals"
+      ],
+      "provider_value": [
+        "venture capital & private equity",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_23",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_27",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_30",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the synonymous biotechnology label.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "research",
+        "biotechnology"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_31",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_35",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Renewables and machinery are consistent broader families for renewable-energy equipment.",
+      "reference": [
+        "Renewable Energy Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "renewables & environment",
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_36",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting",
+        "marketing & advertising",
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_37",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Industrial automation and mechanical engineering are consistent robotics specializations.",
+      "reference": [
+        "Robotics Engineering"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering",
+        "industrial automation",
+        "machinery",
+        "computer software",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_39",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "E-Learning Providers"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_40",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 100,
+      "rationale": "Marketing/advertising and market research are accepted marketing-services mappings.",
+      "reference": [
+        "Marketing Services"
+      ],
+      "provider_value": [
+        "marketing & advertising",
+        "market research"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_42",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Medical devices is the conventional label for medical-equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "medical devices"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_47",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Mining"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_48",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Education management is the conventional corresponding label.",
+      "reference": [
+        "Education Administration Programs"
+      ],
+      "provider_value": [
+        "government administration",
+        "higher education",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_49",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact law-practice label.",
+      "reference": [
+        "Law Practice"
+      ],
+      "provider_value": [
+        "law practice"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_50",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_51",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_52",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_53",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software",
+        "internet"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_54",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact renamed venture-capital/private-equity label.",
+      "reference": [
+        "Venture Capital and Private Equity Principals"
+      ],
+      "provider_value": [
+        "venture capital & private equity",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_55",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment banking",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_56",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the synonymous biotechnology label.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "research",
+        "biotechnology",
+        "pharmaceuticals"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_58",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Marketing and advertising is the conventional corresponding label.",
+      "reference": [
+        "Marketing Services"
+      ],
+      "provider_value": [
+        "marketing & advertising",
+        "computer software",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_60",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'plastics' is the conventional label for plastics manufacturing.",
+      "reference": [
+        "Plastics Manufacturing"
+      ],
+      "provider_value": [
+        "plastics",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_61",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Mining and metals is the direct broader mining family.",
+      "reference": [
+        "Mining"
+      ],
+      "provider_value": [
+        "mining & metals",
+        "chemicals",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_62",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Medical devices is the conventional label for medical-equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "medical devices"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_63",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Logistics and supply chain is the conventional corresponding label.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "logistics & supply chain",
+        "events services",
+        "warehousing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_65",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Information technology and services is a consistent technology-sector family.",
+      "reference": [
+        "Technology, Information and Internet"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "defense & space"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_66",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact former label 'newspapers'.",
+      "reference": [
+        "Newspaper Publishing"
+      ],
+      "provider_value": [
+        "publishing",
+        "newspapers",
+        "marketing & advertising"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_67",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Blockchain Services"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_69",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 94,
+      "rationale": "Renewables and environment is a broader family containing solar power generation.",
+      "reference": [
+        "Solar Electric Power Generation"
+      ],
+      "provider_value": [
+        "renewables & environment",
+        "electrical/electronic manufacturing",
+        "mechanical or industrial engineering",
+        "environmental services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_70",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the synonymous biotechnology label.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "research",
+        "biotechnology",
+        "pharmaceuticals"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_72",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact telecommunications label.",
+      "reference": [
+        "Telecommunications"
+      ],
+      "provider_value": [
+        "telecommunications",
+        "internet",
+        "wireless"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_73",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Marketing and advertising is the conventional corresponding label.",
+      "reference": [
+        "Advertising Services"
+      ],
+      "provider_value": [
+        "marketing & advertising"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_77",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Aviation and aerospace is the broader family containing aerospace-component manufacturing.",
+      "reference": [
+        "Aviation and Aerospace Component Manufacturing"
+      ],
+      "provider_value": [
+        "aviation & aerospace",
+        "electrical/electronic manufacturing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_80",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "insurance",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_81",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_83",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "insurance",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_84",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_85",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 99,
+      "rationale": "Telecommunications, internet, and IT services do not identify public safety.",
+      "reference": [
+        "Public Safety"
+      ],
+      "provider_value": [
+        "telecommunications",
+        "internet",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_86",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'pharmaceuticals' is the conventional label for pharmaceutical manufacturing.",
+      "reference": [
+        "Pharmaceutical Manufacturing"
+      ],
+      "provider_value": [
+        "pharmaceuticals",
+        "computer hardware",
+        "semiconductors",
+        "biotechnology"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_87",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "rebrand_source_row_9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "consumer goods",
+        "apparel & fashion"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_94",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_96",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "rebrand_source_row_97",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_0012a83c1e6cda9d73a22dbeaac47e8f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact government-administration label.",
+      "reference": [
+        "Government Administration"
+      ],
+      "provider_value": [
+        "government administration"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_00f4c22a198d95f4f8eb1608ddf4c9ec",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "investment management",
+        "renewables & environment",
+        "farming",
+        "oil & energy",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_01a4ebc5504ed829b7c7358b36ebef95",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction",
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_037f16602eb7373091454e99f0c8da5c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Hospital and health care is an accepted broader family for home health care.",
+      "reference": [
+        "Home Health Care Services"
+      ],
+      "provider_value": [
+        "hospital & health care",
+        "medical practice"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_03e062d9f92027490903f1d2a49da9b9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact real-estate label.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "real estate",
+        "commercial real estate"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_04503fa46b58adb0e50c421ed5249180",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 94,
+      "rationale": "Automotive is the broader family containing vehicle repair and maintenance.",
+      "reference": [
+        "Vehicle Repair and Maintenance"
+      ],
+      "provider_value": [
+        "automotive"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_048ec01d04362c38ca9aad65258e5093",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact e-learning label.",
+      "reference": [
+        "E-Learning Providers"
+      ],
+      "provider_value": [
+        "e-learning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_06d07fac68a3b137e3cdf18e55d4061a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_09a7ae5955da82295abd34ba63761291",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "museums & institutions",
+        "arts & crafts",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_0a3fcddca63177e7b2fbac811f2413a3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_0b444e668f2ebed85bfd5e2babd6d70e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Education management is the conventional corresponding education label.",
+      "reference": [
+        "Education"
+      ],
+      "provider_value": [
+        "education management",
+        "professional training & coaching"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_0dd54372781ae14a129219c5566a9fcb",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact performing-arts label.",
+      "reference": [
+        "Performing Arts"
+      ],
+      "provider_value": [
+        "performing arts",
+        "events services",
+        "professional training & coaching"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_0e4075da2a2527fdb67ab9469f626fc2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 82,
+      "rationale": "Textiles and industrial engineering identify manufacturing subsectors.",
+      "reference": [
+        "Manufacturing"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering",
+        "retail",
+        "textiles",
+        "wholesale"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_11ec7760151ba99608c124fc23a05b3a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "outsourcing/offshoring"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_11f314ac631b971bb63f9967b65278a1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact government-administration label.",
+      "reference": [
+        "Government Administration"
+      ],
+      "provider_value": [
+        "government administration"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_11fda74849e1a70aea1b8c941dd63859",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Mining and metals is the direct broader mining family.",
+      "reference": [
+        "Mining"
+      ],
+      "provider_value": [
+        "mining & metals"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_12c26854bcd45f5946775c31a00f5062",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_133ba05b352951272ee8b075ff836aed",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software",
+        "information services",
+        "computer & network security"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_136fd5494ff226ff5d6571170a1d9e3c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_152cc96f307286122fa26a5ee3c13e5a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact accounting label.",
+      "reference": [
+        "Accounting"
+      ],
+      "provider_value": [
+        "accounting",
+        "civic & social organization",
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_1567ea411b1b2726d3486d15a57a822f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "research"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_157b7cb6a857384c73cb44f599016c7e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care",
+        "individual & family services",
+        "mental health care"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_15cc49b41290dbf4f0165f8c6d115233",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact staffing-and-recruiting label.",
+      "reference": [
+        "Staffing and Recruiting"
+      ],
+      "provider_value": [
+        "staffing & recruiting",
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_17650bd2b86d755728a4bcf42a6c3f4c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 92,
+      "rationale": "Environmental services is a broader family containing waste treatment and disposal.",
+      "reference": [
+        "Waste Treatment and Disposal"
+      ],
+      "provider_value": [
+        "environmental services",
+        "semiconductors"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_19aa455f36aea97e91b8aa760118d241",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "IT services is an accepted broader family for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_1a1c3d25c9e4ab664c031e1628a8982c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Aviation and aerospace is the broader component-manufacturing family.",
+      "reference": [
+        "Aviation and Aerospace Component Manufacturing"
+      ],
+      "provider_value": [
+        "aviation & aerospace",
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_1a2f30489fceb35bc993707dad1759cb",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Legal Services"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_1a461ff202a409d1e4ceb4597e935b07",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting",
+        "outsourcing/offshoring",
+        "staffing & recruiting",
+        "human resources",
+        "information technology & services",
+        "legal services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_1a6f9289ebb892a7a31d02a44b8de6c5",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact telecommunications label.",
+      "reference": [
+        "Telecommunications"
+      ],
+      "provider_value": [
+        "telecommunications"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_1aa2e91b77ea85e1c8846c89ee6e874d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "apparel & fashion"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_1b9fd5e835e2b3d7d514724a7d87678c",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Advertising Services"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_1e448844699d1b81c70ad05fe2967ede",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'civic & social organization' is the equivalent singular label.",
+      "reference": [
+        "Civic and Social Organizations"
+      ],
+      "provider_value": [
+        "civic & social organization",
+        "nonprofit organization management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_1ee302306b931b2e96111b7e9f94a09a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_21123b836fa2ca0959e8810e55974bf7",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Nonprofit organization management is the conventional corresponding label.",
+      "reference": [
+        "Non-profit Organizations"
+      ],
+      "provider_value": [
+        "nonprofit organization management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_21672681d57b4e78b5c16e723a792e4a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact computer-games label.",
+      "reference": [
+        "Computer Games"
+      ],
+      "provider_value": [
+        "computer games"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_22ab5b1f63f42acef1a8f90636b97761",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'airlines/aviation' is the conventional equivalent label.",
+      "reference": [
+        "Airlines and Aviation"
+      ],
+      "provider_value": [
+        "airlines/aviation",
+        "aviation & aerospace"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_233e04d35d6a4bbfcbb99c6ffcb873dd",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_2345d47041ac7d9b90131135a29668c9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'luxury goods & jewelry' is the conventional corresponding label.",
+      "reference": [
+        "Retail Luxury Goods and Jewelry"
+      ],
+      "provider_value": [
+        "luxury goods & jewelry",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_23e773c1e0d69f2513443fdb2de05c48",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer & network security"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_243d5f6e89764f4e460ca0c31ac920a5",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'maritime' is the conventional corresponding label.",
+      "reference": [
+        "Maritime Transportation"
+      ],
+      "provider_value": [
+        "maritime",
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_26ebcc8da55c5cd86c36c98362866db7",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact banking label.",
+      "reference": [
+        "Banking"
+      ],
+      "provider_value": [
+        "banking"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_27bca8f72578559ab9f1c3284ac4c11a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "research",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_29b78f44f94b1cf83c888ef8de96fae6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "banking",
+        "capital markets",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2b3d67b7d6eb86091b342fc32a73a80c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Electrical/electronic manufacturing is the conventional corresponding label.",
+      "reference": [
+        "Appliances, Electrical, and Electronics Manufacturing"
+      ],
+      "provider_value": [
+        "electrical/electronic manufacturing",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_2b5c0760b9beed96ad106617dedd44fa",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'machinery' is the conventional label for machinery manufacturing.",
+      "reference": [
+        "Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "machinery",
+        "logistics & supply chain",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2bf2d1bc76a170424ceffc95b2919cee",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2c3bc1cec97df18a0c1030783613c35f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "insurance",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2c3ed841cc4f50e14ad08f67cbadadec",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Internet and information technology are direct technology/internet family labels.",
+      "reference": [
+        "Technology, Information and Internet"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "financial services",
+        "internet"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2eaabe790df923e529ffd33a1afcd60c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_2ed0f8e1b7779fed4ffb357aff552cdb",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'pharmaceuticals' is the conventional label for pharmaceutical manufacturing.",
+      "reference": [
+        "Pharmaceutical Manufacturing"
+      ],
+      "provider_value": [
+        "pharmaceuticals",
+        "nonprofit organization management",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_2f60492ca384e6e297af03cd908ff95a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact investment-management label.",
+      "reference": [
+        "Investment Management"
+      ],
+      "provider_value": [
+        "investment management",
+        "venture capital & private equity",
+        "hospitality",
+        "real estate",
+        "restaurants",
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3158eb61373d63ee10b64285f351fdfa",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_31a5200241c910717cb32ef0939a4f0f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact apparel-and-fashion label.",
+      "reference": [
+        "Apparel & Fashion"
+      ],
+      "provider_value": [
+        "apparel & fashion",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_320db40ce3ce99e0a654570cec133e04",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Aviation and aerospace is the broader component-manufacturing family.",
+      "reference": [
+        "Aviation and Aerospace Component Manufacturing"
+      ],
+      "provider_value": [
+        "aviation & aerospace",
+        "airlines/aviation"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_32fcc8cfe1fa4c77b5c58dafd36d1a98",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "information services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_34b79ddbbae1b7d0391d9caefa5d12f4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'entertainment' is the conventional corresponding label.",
+      "reference": [
+        "Entertainment Providers"
+      ],
+      "provider_value": [
+        "entertainment",
+        "electrical/electronic manufacturing",
+        "motion pictures & film"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_353d65641c421808b1ab7111cd886ff9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact real-estate label.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "real estate",
+        "commercial real estate",
+        "hospitality"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3725c379fb8e5707c981f64939a9982a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Leisure, travel and tourism is the broader family containing travel arrangements.",
+      "reference": [
+        "Travel Arrangements"
+      ],
+      "provider_value": [
+        "leisure, travel & tourism"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_374a18640f2aa2ae77a1ca3557738ba6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Marketing and advertising is the conventional corresponding label.",
+      "reference": [
+        "Marketing Services"
+      ],
+      "provider_value": [
+        "marketing & advertising",
+        "staffing & recruiting",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_37a70bfe6cb9b1af966d4664b1ad1e61",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "IT services and online media are consistent technology-and-media subsectors.",
+      "reference": [
+        "Technology, Information and Media"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "online media",
+        "think tanks"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_37e0eaaff0973a8ab20092edeacf2ff0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "professional training & coaching",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3815511cb8db0d28103b24ea2414a152",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 78,
+      "rationale": "Consumer services, electronics, and retail do not specifically identify repair or maintenance.",
+      "reference": [
+        "Repair and Maintenance"
+      ],
+      "provider_value": [
+        "consumer services",
+        "consumer electronics",
+        "retail"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_39c262467c88c220e0a45750f725a4a8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact restaurants label.",
+      "reference": [
+        "Restaurants"
+      ],
+      "provider_value": [
+        "restaurants"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3ab2f3acb81d3e18ec62f94951ea8390",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_3b9a098d733163842595082f2feae03c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 94,
+      "rationale": "Information technology and services is an accepted broader software-development family.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "internet",
+        "fund-raising"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_3c34ae6a89533052c6778f1d9bb4b317",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact real-estate label.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "real estate",
+        "commercial real estate",
+        "hospitality",
+        "hospital & health care",
+        "health, wellness & fitness"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3d0f0b9625784afe52904d9e2441d95f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact defense-and-space label.",
+      "reference": [
+        "Defense & Space"
+      ],
+      "provider_value": [
+        "defense & space"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_3da678392d5ac1ff456fe6e06354fdef",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "Government administration is a broader family for public education-administration programs.",
+      "reference": [
+        "Education Administration Programs"
+      ],
+      "provider_value": [
+        "government administration",
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_3e716c9d59d061dbf9e37203f9ff221d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'outsourcing/offshoring' is the conventional corresponding label.",
+      "reference": [
+        "Outsourcing and Offshoring Consulting"
+      ],
+      "provider_value": [
+        "outsourcing/offshoring",
+        "facilities services",
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_41f42510b0adae3011fd7179ae206086",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact business-supplies-and-equipment label.",
+      "reference": [
+        "Business Supplies & Equipment"
+      ],
+      "provider_value": [
+        "business supplies & equipment",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_4236a3619615e6a340ce02461732b655",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact hospitality label.",
+      "reference": [
+        "Hospitality"
+      ],
+      "provider_value": [
+        "hospitality"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_43207fd5e34f87c48d584fc5c11befb8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Oil and energy is the conventional broader label for oil and gas.",
+      "reference": [
+        "Oil and Gas"
+      ],
+      "provider_value": [
+        "oil & energy",
+        "construction",
+        "maritime"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_432bc07b920b9e25a83c780c7232c541",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction",
+        "civil engineering",
+        "mechanical or industrial engineering"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_4614b1f3a471f475f5857c052337e09e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact events-services label.",
+      "reference": [
+        "Events Services"
+      ],
+      "provider_value": [
+        "events services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_46232b608ec35d269f3db2c1e0e82cff",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact veterinary label.",
+      "reference": [
+        "Veterinary"
+      ],
+      "provider_value": [
+        "veterinary"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_46c28c0331fc21f3223734d210374f72",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact hospitality label.",
+      "reference": [
+        "Hospitality"
+      ],
+      "provider_value": [
+        "hospitality"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_486e5cc203a284532db9b631a011a168",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Services for Renewable Energy"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_4a0255b7923d21c88bdc4d9c22d8936c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact civil-engineering label.",
+      "reference": [
+        "Civil Engineering"
+      ],
+      "provider_value": [
+        "civil engineering",
+        "construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_4e6e3040e8851635294319dc95e93027",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "capital markets"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_4f382d26d3852b5edf97966804b49c01",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact legal-services label.",
+      "reference": [
+        "Legal Services"
+      ],
+      "provider_value": [
+        "legal services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_507c3f62063e6f4771cfba78809f76a4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact professional-training-and-coaching label.",
+      "reference": [
+        "Professional Training and Coaching"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "nonprofit organization management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_51123cc7268f8de95508a0aae34ad577",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'research' is the conventional corresponding label.",
+      "reference": [
+        "Research Services"
+      ],
+      "provider_value": [
+        "research"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_51e4e58ffb0218aa3348acb99c6de545",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_5211e739d7db35206c586d5ff27f34cf",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact information-technology-and-services label.",
+      "reference": [
+        "Information Technology & Services"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "e-learning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_526e25ebabe938b8322c06d253f918b0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Automotive is the broader family containing motor-vehicle manufacturing.",
+      "reference": [
+        "Motor Vehicle Manufacturing"
+      ],
+      "provider_value": [
+        "automotive",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_5325dc48e755498686ad2e3a7dcde409",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'chemicals' is the conventional label for chemical manufacturing.",
+      "reference": [
+        "Chemical Manufacturing"
+      ],
+      "provider_value": [
+        "chemicals",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_535b2362e64ff901a954bb280afb197e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact education-management label.",
+      "reference": [
+        "Education Management"
+      ],
+      "provider_value": [
+        "education management",
+        "higher education",
+        "research"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_583e39f257439685a80189ee1df5e134",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care",
+        "mental health care"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_58ee2794cc87707943624dc8db2ff5a0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_5ab3fa43bf1cdfe8f008a84737679ab0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_5cca48cb4250836e4203b69ee8a2c685",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_5d25db42f4ecf28302c623a3ff618264",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Logistics and supply chain is the conventional corresponding label.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "logistics & supply chain",
+        "transportation/trucking/railroad",
+        "warehousing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_5d97a7ef70f6c883d61c5201c3069882",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "supermarkets",
+        "financial services",
+        "apparel & fashion",
+        "banking"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_5e45ee43ad4c583428f4381f141c836d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 90,
+      "rationale": "Management consulting and design are professional-services subsectors.",
+      "reference": [
+        "Professional Services"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "civil engineering",
+        "maritime",
+        "research",
+        "management consulting",
+        "design"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_5f34d0e6f248482868ba7b8ff25bd603",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "IT services is a broader family containing custom software development.",
+      "reference": [
+        "IT System Custom Software Development"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_61f0c4877ceb961e6ecab9bcd110a858",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Information technology and services is a consistent technology-sector family.",
+      "reference": [
+        "Technology, Information and Internet"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_6247e2816af2cfeaadb7304f3211baae",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 100,
+      "rationale": "Semiconductors and renewables jointly describe the reference manufacturing sector.",
+      "reference": [
+        "Renewable Energy Semiconductor Manufacturing"
+      ],
+      "provider_value": [
+        "semiconductors",
+        "renewables & environment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_630c28168d48d0bf014d177b72c02978",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact wholesale label.",
+      "reference": [
+        "Wholesale"
+      ],
+      "provider_value": [
+        "wholesale",
+        "banking",
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_637d86f2fe56e90a9507a9c8457f1a42",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Food production is the conventional manufacturing-oriented label.",
+      "reference": [
+        "Food and Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "food production",
+        "food & beverages"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_65e66f8c0afdb9b8229d9029cb3016af",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact civil-engineering label.",
+      "reference": [
+        "Civil Engineering"
+      ],
+      "provider_value": [
+        "civil engineering",
+        "construction",
+        "facilities services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_675fd9f03c1db48ad5a3c500d945a73c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Food production is a manufacturing subsector.",
+      "reference": [
+        "Manufacturing"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering",
+        "food & beverages",
+        "food production"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_689629807e89478f1d6ec2002b7f82bc",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Apparel and fashion is the conventional corresponding retail-industry label.",
+      "reference": [
+        "Retail Apparel and Fashion"
+      ],
+      "provider_value": [
+        "apparel & fashion",
+        "nonprofit organization management",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_6991895ecc56768f4e0f4b5266efac64",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact public-safety label.",
+      "reference": [
+        "Public Safety"
+      ],
+      "provider_value": [
+        "public safety",
+        "security & investigations"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_6b770f3b7c281868ec42c36703320eb2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact international-trade-and-development label.",
+      "reference": [
+        "International Trade and Development"
+      ],
+      "provider_value": [
+        "international trade & development",
+        "government administration"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_6c12888121ec598c20897888e81aa659",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Marketing and advertising is the conventional corresponding label.",
+      "reference": [
+        "Advertising Services"
+      ],
+      "provider_value": [
+        "marketing & advertising",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_6c782e066051527678b2d95fcf333d89",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact staffing-and-recruiting label.",
+      "reference": [
+        "Staffing and Recruiting"
+      ],
+      "provider_value": [
+        "staffing & recruiting",
+        "outsourcing/offshoring"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_6d24a5ca0921fea0b7048c85f25b932d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'research' is the conventional corresponding label.",
+      "reference": [
+        "Research Services"
+      ],
+      "provider_value": [
+        "research",
+        "program development"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_6f28f4d866235f72702219514eef4e12",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Defense and space is the broader family containing defense manufacturing.",
+      "reference": [
+        "Defense and Space Manufacturing"
+      ],
+      "provider_value": [
+        "defense & space",
+        "aviation & aerospace"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7096dca61db91fb5534429a147cf01ca",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "apparel & fashion",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_71028d01d546b4bb60cbcb762fa7777c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care",
+        "professional training & coaching",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_720e79c7f49c1042fdbd8d7657c098d6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Aviation and aerospace is the broader component-manufacturing family.",
+      "reference": [
+        "Aviation and Aerospace Component Manufacturing"
+      ],
+      "provider_value": [
+        "aviation & aerospace"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_72d8ba6e28731add68ca0712d415897d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_72e42599f17490ec11eb465267fd8b65",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'entertainment' is the conventional corresponding label.",
+      "reference": [
+        "Entertainment Providers"
+      ],
+      "provider_value": [
+        "entertainment",
+        "consumer goods",
+        "publishing",
+        "marketing & advertising",
+        "printing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_7412ae8dbd8c1bb976a375f5569187d3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7536e84e6ba35207c6f3b6e088cf8319",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Machinery is the broader family containing automation-machinery manufacturing.",
+      "reference": [
+        "Automation Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "machinery",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_77b8fdbb9f355bd628eefc2483ac6e44",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7aa3f3d18d9f041bbd5b25d79a68b07e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact media-production label.",
+      "reference": [
+        "Media Production"
+      ],
+      "provider_value": [
+        "media production"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_7ab8678e1f3786db20b74478b3dcfaa8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7c77080acc898d293b6d10277e161170",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7d6ef7159994fd58fffcea264aefb5db",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact computer-games label.",
+      "reference": [
+        "Computer Games"
+      ],
+      "provider_value": [
+        "computer games"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_7da995c4475a937dfdd1dbc776850f36",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact staffing-and-recruiting label.",
+      "reference": [
+        "Staffing and Recruiting"
+      ],
+      "provider_value": [
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_7ddf5941070a55a4fb82dfa052e44bff",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Sports is the broader family containing spectator sports.",
+      "reference": [
+        "Spectator Sports"
+      ],
+      "provider_value": [
+        "sports",
+        "events services",
+        "recreational facilities & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_7fa3ceee2137a442ef2acc5a716f50c3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 95,
+      "rationale": "IT services is an accepted broader family for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer & network security",
+        "management consulting"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8004d637b6236202217be3dfcdd8ce59",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact telecommunications label.",
+      "reference": [
+        "Telecommunications"
+      ],
+      "provider_value": [
+        "telecommunications"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_8068d7635f7a7795f28eb3ad0633f538",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Online media is the broader media family containing internet news.",
+      "reference": [
+        "Internet News"
+      ],
+      "provider_value": [
+        "online media",
+        "information services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_844c6d82a7a0fd3365c7dc5e496aa39b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'machinery' is the conventional label for machinery manufacturing.",
+      "reference": [
+        "Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering",
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_859268caa778a8c4c300af9df1739076",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact leisure-travel-and-tourism label.",
+      "reference": [
+        "Leisure, Travel & Tourism"
+      ],
+      "provider_value": [
+        "leisure, travel & tourism"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_85b179903512d9148c3b05be74b1f1e1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "insurance",
+        "facilities services",
+        "environmental services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_867e9ab13f591b6da73a3c5ef92048d9",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_86b8935fbd47e2722904456718d148d6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "research",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_8717c3c4893196eb0a4ab5f09e789e64",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "supermarkets"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_87fa5fad29d583aa0986b12ceabc3df9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Packaging and containers is the conventional corresponding manufacturing label.",
+      "reference": [
+        "Packaging and Containers Manufacturing"
+      ],
+      "provider_value": [
+        "packaging & containers",
+        "paper & forest products"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8928d9d198ec2dfc3961ce107b9695d8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Internet and IT services are direct technology/internet family labels.",
+      "reference": [
+        "Technology, Information and Internet"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "financial services",
+        "staffing & recruiting",
+        "internet"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_896d7ea6ffc0a80e9c3703fb35fd7a34",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Professional training and coaching is a broader family containing vocational training.",
+      "reference": [
+        "Technical and Vocational Training"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8b1a493dacd40c3e95e0ff7cbc3a4311",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact renamed venture-capital/private-equity label.",
+      "reference": [
+        "Venture Capital and Private Equity Principals"
+      ],
+      "provider_value": [
+        "venture capital & private equity"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8b1fd5b0e2d353392e146617d3476b62",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'civic & social organization' is the equivalent singular label.",
+      "reference": [
+        "Civic and Social Organizations"
+      ],
+      "provider_value": [
+        "civic & social organization",
+        "nonprofit organization management",
+        "information technology & services",
+        "research"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8bbed0561fb3eaa614232d7a2214eaa0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Sports is the broader family containing spectator sports.",
+      "reference": [
+        "Spectator Sports"
+      ],
+      "provider_value": [
+        "marketing & advertising",
+        "sports"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_8d23698a945eceb8bf52b3f00072f524",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'chemicals' is the conventional label for chemical manufacturing.",
+      "reference": [
+        "Chemical Manufacturing"
+      ],
+      "provider_value": [
+        "chemicals",
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8eec2011b73da7968f5a41800c6c645c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Public relations and communications is the conventional equivalent label.",
+      "reference": [
+        "Public Relations and Communications Services"
+      ],
+      "provider_value": [
+        "public relations & communications",
+        "marketing & advertising"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_8f1fd091cc48ed9cbc666ea885f31a93",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "insurance",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_912fba58607e905e25fbe5f75ebbb0ef",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9145f9fce1b3d36b3cf02899b17298df",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "marketing & advertising",
+        "internet"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_927d99cef5c78d08d546dd21268ec355",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact architecture-and-planning label.",
+      "reference": [
+        "Architecture and Planning"
+      ],
+      "provider_value": [
+        "architecture & planning",
+        "design"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_9854e1a1f89ee9bcae85c716c75acb34",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_993908128d5f57a3b5c2bf30c66f03dc",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 100,
+      "rationale": "Semiconductors and renewables jointly describe the reference manufacturing sector.",
+      "reference": [
+        "Renewable Energy Semiconductor Manufacturing"
+      ],
+      "provider_value": [
+        "semiconductors",
+        "renewables & environment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_99d4a02f5011c51b6084b311ebe72d89",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_99e002fefb78253291bf83d335fd4da8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact events-services label.",
+      "reference": [
+        "Events Services"
+      ],
+      "provider_value": [
+        "events services",
+        "publishing",
+        "marketing & advertising"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9a5f7131b46fd2bcfb6106cbcd4e84f3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Building materials is the product family underlying wholesale building materials.",
+      "reference": [
+        "Wholesale Building Materials"
+      ],
+      "provider_value": [
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9a8a2b75b7e0e44fbfb63657d9c04e51",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact utilities label.",
+      "reference": [
+        "Utilities"
+      ],
+      "provider_value": [
+        "utilities",
+        "telecommunications",
+        "insurance",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9c8324a6a44a80413ab534b138925229",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9d0cec3f95d8950e74658af9825562ea",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Publishing is the broader family containing book and periodical publishing.",
+      "reference": [
+        "Book and Periodical Publishing"
+      ],
+      "provider_value": [
+        "publishing",
+        "e-learning",
+        "program development"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9df981e28f837797e4cd2dc925b5ac4e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 97,
+      "rationale": "Building materials is the product family underlying wholesale building materials.",
+      "reference": [
+        "Wholesale Building Materials"
+      ],
+      "provider_value": [
+        "public safety",
+        "building materials",
+        "professional training & coaching"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_9eab5a76741e5945a56a37514566c011",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 86,
+      "rationale": "Mining and metals is a broader metals family that includes fabricated metal products.",
+      "reference": [
+        "Fabricated Metal Products"
+      ],
+      "provider_value": [
+        "mining & metals",
+        "machinery",
+        "construction",
+        "maritime"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a0164cbfe882aa11e433a6b503cb62db",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care",
+        "health, wellness & fitness"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a17c66baf7ecfb46712b81a5d64dcf21",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact real-estate label.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "real estate"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_a2a4a17454594bc08900365095fee3f2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact e-learning label.",
+      "reference": [
+        "E-Learning Providers"
+      ],
+      "provider_value": [
+        "e-learning",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_a3ac404d23f05f13c5ccf04b14cfd4c2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Software and IT services are broader technology families containing artificial intelligence.",
+      "reference": [
+        "Artificial Intelligence"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a42fbf9ed83f4dffaa4fa637c129e5e6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact staffing-and-recruiting label.",
+      "reference": [
+        "Staffing and Recruiting"
+      ],
+      "provider_value": [
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a4637ab273ac085c46a22f43cd9ece49",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact professional-training-and-coaching label.",
+      "reference": [
+        "Professional Training and Coaching"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "e-learning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a49ff3e5cd3fb3d269b6edf8ccbca025",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting",
+        "staffing & recruiting",
+        "outsourcing/offshoring",
+        "human resources"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_a4b2a31e88e20111647133531938e993",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact computer-hardware label.",
+      "reference": [
+        "Computer Hardware"
+      ],
+      "provider_value": [
+        "computer hardware",
+        "consumer electronics"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_a723cdefc158eb32951f62beb287c4a6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact investment-management label.",
+      "reference": [
+        "Investment Management"
+      ],
+      "provider_value": [
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_aa0afb1587aba489809274cb1d871666",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact civil-engineering label.",
+      "reference": [
+        "Civil Engineering"
+      ],
+      "provider_value": [
+        "civil engineering",
+        "architecture & planning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_ae0b54daa2fb7633bf6349d1c642c328",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting",
+        "professional training & coaching"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_aea621c01e95cab0540d279d531bfff6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_aeb628bde170cc23573f0b2c50674e20",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Education management and primary/secondary education are education subsectors.",
+      "reference": [
+        "Education"
+      ],
+      "provider_value": [
+        "education management",
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_af10494427daf1cafadafb321c609911",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Sports is the broader family containing spectator sports.",
+      "reference": [
+        "Spectator Sports"
+      ],
+      "provider_value": [
+        "sports",
+        "marketing & advertising",
+        "entertainment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_b04ccd57418c722ce17c92fd94e4e3a6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "management consulting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_b0b907f3fa87e4c84830d96b5a49c055",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 75,
+      "rationale": "Mechanical or industrial engineering is consistent with the broad industrial manufacturing family.",
+      "reference": [
+        "Manufacturing"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b1e076df6775a6ed193f2563e8461655",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b4bfc4ebea88244c44ac63822b8907cb",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact renamed venture-capital/private-equity label.",
+      "reference": [
+        "Venture Capital and Private Equity Principals"
+      ],
+      "provider_value": [
+        "venture capital & private equity"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b5863195c72bfc4f244fead4fd93bfdf",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'chemicals' is the conventional label for chemical manufacturing.",
+      "reference": [
+        "Chemical Manufacturing"
+      ],
+      "provider_value": [
+        "chemicals",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b58e9bbab88649a6144887d5ad155aa3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Transportation/trucking/railroad is the conventional broader label containing truck transportation.",
+      "reference": [
+        "Truck Transportation"
+      ],
+      "provider_value": [
+        "transportation/trucking/railroad"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b5f826c8c39505be6b882245d2683b56",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "Media production is a broader media family containing movie and sound production.",
+      "reference": [
+        "Movies and Sound Recording"
+      ],
+      "provider_value": [
+        "media production",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b861a9831c5104c06e9975c7e7aa877b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_b9281cd9078ff2d736f7ab5188b3fde0",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "banking"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_ba078849b941510b0b6b20916df99738",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact education-management label.",
+      "reference": [
+        "Education Management"
+      ],
+      "provider_value": [
+        "education management",
+        "nonprofit organization management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_ba4e2de519d7413925e8b8199cdcdd6a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact hospitality label.",
+      "reference": [
+        "Hospitality"
+      ],
+      "provider_value": [
+        "hospitality",
+        "recreational facilities & services",
+        "events services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_bbb6aa241d0eb3909b841880fbdce620",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Wholesale plus mining and metals identifies wholesale metals and minerals.",
+      "reference": [
+        "Wholesale Metals and Minerals"
+      ],
+      "provider_value": [
+        "mining & metals",
+        "wholesale"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_bc20331fd4628403d6db6d5700f58717",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "e-learning",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_bc309d75070be5d97724e8f9afa119d9",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 86,
+      "rationale": "Paper and forest products is the relevant broader product family for wholesale paper products.",
+      "reference": [
+        "Wholesale Paper Products"
+      ],
+      "provider_value": [
+        "paper & forest products",
+        "retail"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_bc95108e4789e4b7e6f01e473027c976",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_bca426ed7f6f2c51ba05caf7ed8ef22b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact higher-education label despite the auxiliary K-12 label.",
+      "reference": [
+        "Higher Education"
+      ],
+      "provider_value": [
+        "higher education",
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_bcdf6c502c01bd67e77d00f36b35b56f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Machinery and industrial automation directly cover industrial-machinery manufacturing.",
+      "reference": [
+        "Industrial Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "machinery",
+        "industrial automation",
+        "mechanical or industrial engineering"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_bd36a6ad298702c9f911f78163dadd5d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction",
+        "civil engineering",
+        "maritime"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_bd7c09bbbd67e93511c55cece0bcd3ab",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact staffing-and-recruiting label.",
+      "reference": [
+        "Staffing and Recruiting"
+      ],
+      "provider_value": [
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_bf734e15bc860a6d25257c4aef8f593e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact professional-training-and-coaching label.",
+      "reference": [
+        "Professional Training and Coaching"
+      ],
+      "provider_value": [
+        "professional training & coaching",
+        "e-learning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c1dad158473d599736ffe74624b615b1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'airlines/aviation' is the conventional equivalent label.",
+      "reference": [
+        "Airlines and Aviation"
+      ],
+      "provider_value": [
+        "airlines/aviation",
+        "aviation & aerospace"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c30ef2e7822e8d57238813025b1431d4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "IT services is a broader technology family containing data infrastructure and analytics.",
+      "reference": [
+        "Data Infrastructure and Analytics"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "market research",
+        "management consulting"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c31fd6f286852be0f2a56aa0f7013105",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact photography label.",
+      "reference": [
+        "Photography"
+      ],
+      "provider_value": [
+        "photography",
+        "publishing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_c39080d5290573c0da8e39b6f65e4362",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 92,
+      "rationale": "'food & beverages' is the same broad food-and-beverage industry family.",
+      "reference": [
+        "Food and Beverage Services"
+      ],
+      "provider_value": [
+        "food & beverages",
+        "retail",
+        "wine & spirits"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c408b5d5ce9d86f6de26964da05749a6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "Government administration is a broader family for public education-administration programs.",
+      "reference": [
+        "Education Administration Programs"
+      ],
+      "provider_value": [
+        "government administration",
+        "primary/secondary education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c577c99f4d3fe0ba8f94844d3c7d588e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Food production is the conventional manufacturing-oriented label.",
+      "reference": [
+        "Food and Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "food production"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c6cdf76db74acb676e2f4a320fe0a93f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "marketing & advertising",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_c6dc59e0e8300a4b3b3b3ff329fb1868",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "apparel & fashion"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_c7d3dc1c0ef1dd2969fa1b4c9648b85d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact government-administration label.",
+      "reference": [
+        "Government Administration"
+      ],
+      "provider_value": [
+        "government administration",
+        "military"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_cc1f23b2865a2d0fee80c33356daa76d",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 99,
+      "rationale": "Human resources and staffing do not identify venture capital or private equity.",
+      "reference": [
+        "Venture Capital and Private Equity Principals"
+      ],
+      "provider_value": [
+        "human resources",
+        "staffing & recruiting"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_cc3afd22f247d4e73591f9b628bd13df",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'hospital & health care' is the conventional equivalent label.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "hospital & health care"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_cd3d95b5e8f83320f010930265f8d5ca",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Broadcast media is the conventional corresponding label.",
+      "reference": [
+        "Broadcast Media Production and Distribution"
+      ],
+      "provider_value": [
+        "media production",
+        "broadcast media"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_cd79759627eeb41ec0aa7f5ec9a3898f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software",
+        "computer & network security"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ce7831a074404d86972c595baeedfeee",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 99,
+      "rationale": "Machinery is the broader label for industrial-machinery manufacturing.",
+      "reference": [
+        "Industrial Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_cf79ae6addba60ad018347359bd144d2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "insurance",
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d027519051ee6d8cad6e48dace66bc2d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Medical devices is the conventional label for medical-equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "medical devices"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d06fae2f57f107089318b5bab330e172",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "wholesale",
+        "warehousing",
+        "import & export",
+        "logistics & supply chain"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d0781cdd2edefab8811b6f1f7d570e42",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact real-estate label.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "real estate",
+        "logistics & supply chain",
+        "transportation/trucking/railroad"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d09c9e5eab0a61687ff48f362a241f86",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Logistics and supply chain is the conventional corresponding label.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "logistics & supply chain",
+        "warehousing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d18f32c3cddc78ccc40d534f10e48f29",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d1a8c81d5bcbe531d2baa1ebfeecf52b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact banking label.",
+      "reference": [
+        "Banking"
+      ],
+      "provider_value": [
+        "banking",
+        "financial services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d40f9e1e33b9a9ab05d6b941af5a6f63",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Computer and Network Security"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d4a93297083a23cc099f7bd6a8621131",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'research' is the conventional corresponding label.",
+      "reference": [
+        "Research Services"
+      ],
+      "provider_value": [
+        "research",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d63fbf8c3173730f82b150c5ef38b8ff",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact retail label.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "retail",
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d7bc578046daf48ed2c1e6746ff68490",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "management consulting",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d80190f31bf86f143dcd0ce9766990c6",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "Provider industry is missing.",
+      "reference": [
+        "Wholesale"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d92dbeaf912a30561039420aa8560bc3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Food production is the conventional manufacturing-oriented label.",
+      "reference": [
+        "Food and Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "food production",
+        "packaging & containers"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_da18bc4c4d886ea41fcaba372bdedade",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "aviation & aerospace",
+        "computer software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_da219be8afda052a8b51f31c438af377",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the synonymous biotechnology label.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "research",
+        "biotechnology",
+        "aviation & aerospace",
+        "nanotechnology"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_da660d361de5efcf46435c4327833251",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management consulting is the conventional corresponding label.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "management consulting",
+        "government relations",
+        "public relations & communications"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_dc0c5fdddb3a1f373a91da7ea6c2d732",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "Automotive is the broader family containing motor-vehicle manufacturing.",
+      "reference": [
+        "Motor Vehicle Manufacturing"
+      ],
+      "provider_value": [
+        "automotive",
+        "retail"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_dc0eed22bb626fd154463c19c7e0108b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'computer software' is the conventional former label for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "computer software",
+        "internet"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_dfa93581b5c0c079a8b00d25161e1005",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact telecommunications label.",
+      "reference": [
+        "Telecommunications"
+      ],
+      "provider_value": [
+        "telecommunications",
+        "consumer electronics",
+        "electrical/electronic manufacturing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_dfd319c28b718755c6c7e700e21ce0f1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'primary/secondary education' is the equivalent label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education",
+        "education management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_e18231069588ddd3e35b0f36c4b16610",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 93,
+      "rationale": "Food production is a broader manufacturing family containing beverage manufacturing.",
+      "reference": [
+        "Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "food production",
+        "capital markets",
+        "financial services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_e2da886f376c017f6c0ab2bb73516dd8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction",
+        "building materials"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e521943b58ff75715dd16dbb5e1e19fa",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact nanotechnology label.",
+      "reference": [
+        "Nanotechnology Research"
+      ],
+      "provider_value": [
+        "nanotechnology",
+        "machinery",
+        "semiconductors"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e552059ae74b3149786b486cd99144c6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact investment-management label.",
+      "reference": [
+        "Investment Management"
+      ],
+      "provider_value": [
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e6c40156574939a44f787ba4cbb48ddb",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 83,
+      "rationale": "Research is a broader category containing biotechnology research.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "research",
+        "computer software",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e960e1cbb8fd54728026677aa7caf71c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_eaa39182f0bc458b0e47b3fc3a08bb84",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact mechanical-or-industrial-engineering label.",
+      "reference": [
+        "Mechanical Or Industrial Engineering"
+      ],
+      "provider_value": [
+        "mechanical or industrial engineering"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_eb98ec29ea29440204ac0412be1e2b1a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Marketing and advertising is the conventional corresponding label.",
+      "reference": [
+        "Advertising Services"
+      ],
+      "provider_value": [
+        "marketing & advertising"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ec0459b17645c8a95aab9faa6963918c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 96,
+      "rationale": "IT services is an accepted broader family for software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "information technology & services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ec1f2b4d9be6caf8a50533737cdda9f4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "'entertainment' is the conventional corresponding label.",
+      "reference": [
+        "Entertainment Providers"
+      ],
+      "provider_value": [
+        "entertainment",
+        "computer software",
+        "computer games"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_ec487bdd221d18cee09a4091d097e7fe",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Import and export is the conventional label for wholesale import and export.",
+      "reference": [
+        "Wholesale Import and Export"
+      ],
+      "provider_value": [
+        "import & export",
+        "machinery"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_edf1893cb4803d1052ca4e5a70458ede",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Information technology and services is the conventional former label.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "information technology & services",
+        "human resources"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_eef83da5f4bf1168b71baec76e8d17cb",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact government-administration label.",
+      "reference": [
+        "Government Administration"
+      ],
+      "provider_value": [
+        "government administration",
+        "transportation/trucking/railroad"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_efff4a474eca3081cb0831ece43b786a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact nonprofit-organization-management label.",
+      "reference": [
+        "Non-profit Organization Management"
+      ],
+      "provider_value": [
+        "nonprofit organization management",
+        "civic & social organization"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f04b823098403f7cb451732f35aab376",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact restaurants label.",
+      "reference": [
+        "Restaurants"
+      ],
+      "provider_value": [
+        "restaurants"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f26214b3c2129316bfacb41b11f2a9a6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact events-services label.",
+      "reference": [
+        "Events Services"
+      ],
+      "provider_value": [
+        "events services",
+        "media production"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f3bba9cfab80aea71926f5f5f5368ad4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "'textiles' is the conventional corresponding manufacturing label.",
+      "reference": [
+        "Textile Manufacturing"
+      ],
+      "provider_value": [
+        "textiles",
+        "apparel & fashion"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f3f169821867f3be0647ae198e0a304d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Health, wellness and fitness is the conventional corresponding label.",
+      "reference": [
+        "Wellness and Fitness Services"
+      ],
+      "provider_value": [
+        "health, wellness & fitness"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f5720cd55ad50c8a41e270c1a250678e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "computer software",
+        "information technology & services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f5f3b8d720f34ebebceb7765e447268b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Exact law-practice label.",
+      "reference": [
+        "Law Practice"
+      ],
+      "provider_value": [
+        "law practice"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f66920ce3326117a94d7225091a6af20",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact primary/secondary-education label.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "primary/secondary education",
+        "professional training & coaching",
+        "higher education"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f7104e89e89fc4b2922908a32e44ee60",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Logistics and supply chain is the conventional corresponding label.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "logistics & supply chain",
+        "maritime",
+        "warehousing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f80fc889c58f1719e12e34c62454221e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Medical devices is the conventional label for medical-equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "medical devices"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f9b554404f9d45536239799e23c7da8c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact financial-services label.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "financial services",
+        "investment management"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_fb580da97fdc843019c5d4609038612d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Provider includes the exact insurance label.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "insurance",
+        "consumer services",
+        "information services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "effective_date": "2026-07-14",
+  "basis": "Public entry paid self-serve rate; free allowances, taxes, minimum commitments, and volume discounts excluded.",
+  "providers": [
+    {
+      "provider_slug": "fiber",
+      "provider_name": "Fiber",
+      "usd_per_usage_unit": 0.02,
+      "rate_label": "$0.020 / credit",
+      "pricing_url": "https://www.fiber.ai/",
+      "uses_usage_proxy": false
+    },
+    {
+      "provider_slug": "ocean",
+      "provider_name": "Ocean.io",
+      "usd_per_usage_unit": 0.064,
+      "rate_label": "$0.064 / credit",
+      "pricing_url": "https://www.ocean.io/pricing",
+      "uses_usage_proxy": false
+    },
+    {
+      "provider_slug": "people-data-labs",
+      "provider_name": "People Data Labs",
+      "usd_per_usage_unit": 0.1,
+      "rate_label": "$0.10 / match",
+      "pricing_url": "https://www.peopledatalabs.com/pricing/company",
+      "uses_usage_proxy": false
+    },
+    {
+      "provider_slug": "predictleads",
+      "provider_name": "PredictLeads",
+      "usd_per_usage_unit": 0.04,
+      "rate_label": "$0.04 / request",
+      "pricing_url": "https://predictleads.com/pricing",
+      "uses_usage_proxy": false
+    },
+    {
+      "provider_slug": "apollo",
+      "provider_name": "Apollo",
+      "usd_per_usage_unit": 0.0196,
+      "rate_label": "$0.0196 / credit",
+      "pricing_url": "https://www.apollo.io/pricing?solution=enrichment",
+      "uses_usage_proxy": true
+    },
+    {
+      "provider_slug": "company-enrich",
+      "provider_name": "CompanyEnrich",
+      "usd_per_usage_unit": 0.0098,
+      "rate_label": "$0.0098 / credit",
+      "pricing_url": "https://companyenrich.com/pricing",
+      "uses_usage_proxy": false
+    },
+    {
+      "provider_slug": "explorium",
+      "provider_name": "Explorium",
+      "usd_per_usage_unit": 0.04,
+      "rate_label": "$0.04 / credit",
+      "pricing_url": "https://www.explorium.ai/pricing/",
+      "uses_usage_proxy": true
+    }
+  ]
+}

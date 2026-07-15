@@ -1,0 +1,1025 @@
+{
+  "schema_version": 1,
+  "prompt_version": "firmographic-industry-judge-v1.0",
+  "prompt_sha256": "9e95e78b89bdc05ab721d2a85dac2e27ce31bc2fc827772dc19051214d806e0d",
+  "source_snapshot_sha256": "6ddc51be975b0821ec0bc8cd22023a61e52f322d6f931b468dd97d4b3199b9a7",
+  "model": "gpt-5.6",
+  "reasoning_effort": "high",
+  "provider_slug": "company-enrich",
+  "judged_at": "2026-07-15T01:22:55Z",
+  "latency_ms": 94808,
+  "response_id": "resp_082364ea0fa9120d016a56e09196a8819ba77efc73e68825ab",
+  "usage": {
+    "input_tokens": 3508,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3505
+    },
+    "output_tokens": 4511,
+    "output_tokens_details": {
+      "reasoning_tokens": 1488
+    },
+    "total_tokens": 8019
+  },
+  "case_count": 49,
+  "judgments": [
+    {
+      "case_slug": "ww_cc3afd22f247d4e73591f9b628bd13df",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Hospitals, physician clinics, and dental offices are narrower health-care provider categories.",
+      "reference": [
+        "Hospitals and Health Care"
+      ],
+      "provider_value": [
+        "Hospitals & Physicians Clinics",
+        "Hospitals & Physicians Clinics/Dental Offices"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_cd3d95b5e8f83320f010930265f8d5ca",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Media & Internet/Broadcasting is a taxonomy equivalent of broadcast media production and distribution.",
+      "reference": [
+        "Broadcast Media Production and Distribution"
+      ],
+      "provider_value": [
+        "Media & Internet",
+        "Media & Internet/Broadcasting",
+        "Business Services/Advertising & Marketing",
+        "Media & Internet/Publishing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_cd79759627eeb41ec0aa7f5ec9a3898f",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Custom Software & IT Services directly matches IT services and consulting.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "Software",
+        "Business Services/Custom Software & IT Services",
+        "Media & Internet/Data Collection & Internet Portals"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ce7831a074404d86972c595baeedfeee",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Industrial Machinery & Equipment manufacturing directly matches industrial machinery manufacturing.",
+      "reference": [
+        "Industrial Machinery Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Industrial Machinery & Equipment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_cf79ae6addba60ad018347359bd144d2",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "The provider label exactly matches Insurance.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "Insurance"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d027519051ee6d8cad6e48dace66bc2d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Medical Devices & Equipment manufacturing is synonymous with medical equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Medical Devices & Equipment",
+        "Manufacturing/Photographic & Optical Equipment",
+        "Manufacturing/Test & Measurement Equipment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d06fae2f57f107089318b5bab330e172",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Construction, design, and textile manufacturing do not identify the retail industry.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": [
+        "Construction",
+        "Construction/Architecture, Engineering & Design",
+        "Manufacturing/Textiles & Apparel"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d0781cdd2edefab8811b6f1f7d570e42",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 99,
+      "rationale": "Transportation, logistics, consulting, and research are unrelated to real estate.",
+      "reference": [
+        "Real Estate"
+      ],
+      "provider_value": [
+        "Transportation/Trucking, Moving & Storage",
+        "Transportation",
+        "Transportation/Freight & Logistics Services",
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d09c9e5eab0a61687ff48f362a241f86",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 100,
+      "rationale": "Freight logistics and trucking are direct subsectors of the reference transportation and logistics family.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "Transportation/Freight & Logistics Services",
+        "Transportation/Trucking, Moving & Storage",
+        "Transportation"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d18f32c3cddc78ccc40d534f10e48f29",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Finance is a conventional equivalent of financial services.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "Finance",
+        "Finance/Credit Cards & Transaction Processing",
+        "Business Services/Custom Software & IT Services",
+        "Media & Internet/Data Collection & Internet Portals",
+        "Software"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d1a8c81d5bcbe531d2baa1ebfeecf52b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Finance/Banking directly matches Banking.",
+      "reference": [
+        "Banking"
+      ],
+      "provider_value": [
+        "Finance",
+        "Finance/Credit Cards & Transaction Processing",
+        "Finance/Banking"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d40f9e1e33b9a9ab05d6b941af5a6f63",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 87,
+      "rationale": "Custom software and IT services is a broader technology-services family containing computer and network security.",
+      "reference": [
+        "Computer and Network Security"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Software",
+        "Media & Internet/Data Collection & Internet Portals",
+        "Business Services/Custom Software & IT Services",
+        "Business Services/Facilities Management & Commercial Cleaning"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d4a93297083a23cc099f7bd6a8621131",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 98,
+      "rationale": "Research & Development is a conventional equivalent of research services.",
+      "reference": [
+        "Research Services"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development",
+        "Manufacturing/Test & Measurement Equipment",
+        "Energy, Utilities & Waste/Waste Treatment, Environmental Services & Recycling",
+        "Education/Colleges & Universities"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d63fbf8c3173730f82b150c5ef38b8ff",
+      "provider_present": false,
+      "is_correct": false,
+      "relationship": "not_returned",
+      "confidence": 100,
+      "rationale": "No provider industry was returned.",
+      "reference": [
+        "Retail"
+      ],
+      "provider_value": null,
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d7bc578046daf48ed2c1e6746ff68490",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Custom Software & IT Services directly matches IT services and consulting.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "Business Services/Custom Software & IT Services",
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development",
+        "Business Services/Facilities Management & Commercial Cleaning"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_d80190f31bf86f143dcd0ce9766990c6",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Retail and wholesale are distinct distribution-channel industries.",
+      "reference": [
+        "Wholesale"
+      ],
+      "provider_value": [
+        "Retail",
+        "Retail/Consumer Electronics & Computers Retail"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_d92dbeaf912a30561039420aa8560bc3",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Manufacturing/Food & Beverage directly matches food and beverage manufacturing.",
+      "reference": [
+        "Food and Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Food & Beverage",
+        "Retail/Pet Products",
+        "Agriculture/Crops"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_da18bc4c4d886ea41fcaba372bdedade",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Custom Software & IT Services directly matches IT services and consulting.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "Software",
+        "Media & Internet/Data Collection & Internet Portals",
+        "Business Services/Custom Software & IT Services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_da219be8afda052a8b51f31c438af377",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "Research & Development is a broader research category containing biotechnology research.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": true,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_da660d361de5efcf46435c4327833251",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Management Consulting is a conventional equivalent of business consulting services.",
+      "reference": [
+        "Business Consulting and Services"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development",
+        "Business Services/Advertising & Marketing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_dc0c5fdddb3a1f373a91da7ea6c2d732",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Manufacturing/Motor Vehicles directly matches motor vehicle manufacturing.",
+      "reference": [
+        "Motor Vehicle Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Motor Vehicles",
+        "Manufacturing/Automotive Parts"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_dc0eed22bb626fd154463c19c7e0108b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Software and Custom Software & IT Services directly support software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Business Services/Custom Software & IT Services",
+        "Software",
+        "Media & Internet/Data Collection & Internet Portals"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_dfa93581b5c0c079a8b00d25161e1005",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 96,
+      "rationale": "Medical, optical, measurement, retail-electronics, and IT-service labels do not identify telecommunications.",
+      "reference": [
+        "Telecommunications"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Medical Devices & Equipment",
+        "Manufacturing/Photographic & Optical Equipment",
+        "Manufacturing/Test & Measurement Equipment",
+        "Retail/Consumer Electronics & Computers Retail",
+        "Business Services/Custom Software & IT Services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_dfd319c28b718755c6c7e700e21ce0f1",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "K-12 Schools is synonymous with primary and secondary education.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "Education",
+        "Education/K-12 Schools",
+        "Education/Training"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e18231069588ddd3e35b0f36c4b16610",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 100,
+      "rationale": "Finance and transportation labels are unrelated to beverage manufacturing.",
+      "reference": [
+        "Beverage Manufacturing"
+      ],
+      "provider_value": [
+        "Finance",
+        "Finance/Investment Banking",
+        "Finance/Lending & Brokerage",
+        "Finance/Venture Capital & Private Equity",
+        "Transportation/Freight & Logistics Services",
+        "Transportation/Trucking, Moving & Storage"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e2da886f376c017f6c0ab2bb73516dd8",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "The provider includes the exact Construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "Construction",
+        "Construction/Commercial & Residential Construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e521943b58ff75715dd16dbb5e1e19fa",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 97,
+      "rationale": "Industrial machinery manufacturing does not identify nanotechnology research.",
+      "reference": [
+        "Nanotechnology Research"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Industrial Machinery & Equipment"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e552059ae74b3149786b486cd99144c6",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 91,
+      "rationale": "Finance is a broader umbrella, while venture capital and private equity are investment-management specializations.",
+      "reference": [
+        "Investment Management"
+      ],
+      "provider_value": [
+        "Finance",
+        "Finance/Investment Banking",
+        "Finance/Lending & Brokerage",
+        "Finance/Venture Capital & Private Equity"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_e6c40156574939a44f787ba4cbb48ddb",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Software, IT services, and internet portals are unrelated to biotechnology research.",
+      "reference": [
+        "Biotechnology Research"
+      ],
+      "provider_value": [
+        "Software",
+        "Business Services/Custom Software & IT Services",
+        "Media & Internet/Data Collection & Internet Portals"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_e960e1cbb8fd54728026677aa7caf71c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "The provider includes the exact Construction label.",
+      "reference": [
+        "Construction"
+      ],
+      "provider_value": [
+        "Construction",
+        "Construction/Civil Engineering Construction"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_eaa39182f0bc458b0e47b3fc3a08bb84",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 83,
+      "rationale": "Industrial machinery and measurement-equipment manufacturing are consistent specializations within mechanical and industrial engineering.",
+      "reference": [
+        "Mechanical Or Industrial Engineering"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Medical Devices & Equipment",
+        "Manufacturing/Photographic & Optical Equipment",
+        "Manufacturing/Test & Measurement Equipment",
+        "Manufacturing/Industrial Machinery & Equipment"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_eb98ec29ea29440204ac0412be1e2b1a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Advertising & Marketing directly contains the advertising-services classification.",
+      "reference": [
+        "Advertising Services"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Software",
+        "Business Services/Custom Software & IT Services",
+        "Business Services/Advertising & Marketing"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ec0459b17645c8a95aab9faa6963918c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 98,
+      "rationale": "Custom Software & IT Services directly supports software development.",
+      "reference": [
+        "Software Development"
+      ],
+      "provider_value": [
+        "Business Services/Custom Software & IT Services",
+        "Construction/Architecture, Engineering & Design",
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_ec1f2b4d9be6caf8a50533737cdda9f4",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 97,
+      "rationale": "Software, internet portals, and IT services do not identify entertainment providers.",
+      "reference": [
+        "Entertainment Providers"
+      ],
+      "provider_value": [
+        "Software",
+        "Media & Internet/Data Collection & Internet Portals",
+        "Business Services/Custom Software & IT Services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_ec487bdd221d18cee09a4091d097e7fe",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 99,
+      "rationale": "Industrial machinery manufacturing is distinct from wholesale import and export.",
+      "reference": [
+        "Wholesale Import and Export"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Industrial Machinery & Equipment"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_edf1893cb4803d1052ca4e5a70458ede",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Custom Software & IT Services directly matches IT services and consulting.",
+      "reference": [
+        "IT Services and IT Consulting"
+      ],
+      "provider_value": [
+        "Business Services",
+        "Business Services/Advertising & Marketing",
+        "Construction/Architecture, Engineering & Design",
+        "Business Services/Custom Software & IT Services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_eef83da5f4bf1168b71baec76e8d17cb",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Rail, bus, and taxi transportation is not government administration.",
+      "reference": [
+        "Government Administration"
+      ],
+      "provider_value": [
+        "Transportation",
+        "Transportation/Rail, Bus & Taxi"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_efff4a474eca3081cb0831ece43b786a",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Non-Profit & Charitable Organizations directly matches non-profit organization management.",
+      "reference": [
+        "Non-profit Organization Management"
+      ],
+      "provider_value": [
+        "Organizations",
+        "Organizations/Membership Organizations",
+        "Organizations/Non-Profit & Charitable Organizations",
+        "Organizations/Religious Organizations",
+        "Education/Training",
+        "Healthcare Services/Elderly Care Services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f04b823098403f7cb451732f35aab376",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Hospitality/Restaurants directly matches Restaurants.",
+      "reference": [
+        "Restaurants"
+      ],
+      "provider_value": [
+        "Hospitality",
+        "Hospitality/Restaurants"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f26214b3c2129316bfacb41b11f2a9a6",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 87,
+      "rationale": "Performing-arts theaters and advertising services are adjacent to, but not classifications of, events services.",
+      "reference": [
+        "Events Services"
+      ],
+      "provider_value": [
+        "Hospitality/Performing Arts Theaters",
+        "Business Services",
+        "Business Services/Advertising & Marketing"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f3bba9cfab80aea71926f5f5f5368ad4",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Manufacturing/Textiles & Apparel directly includes textile manufacturing.",
+      "reference": [
+        "Textile Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing",
+        "Manufacturing/Textiles & Apparel"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f3f169821867f3be0647ae198e0a304d",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 98,
+      "rationale": "Fitness and dance facilities are a narrower specialization within wellness and fitness services.",
+      "reference": [
+        "Wellness and Fitness Services"
+      ],
+      "provider_value": [
+        "Hospitality",
+        "Hospitality/Fitness & Dance Facilities"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f5720cd55ad50c8a41e270c1a250678e",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Software, internet portals, and IT services do not identify financial services.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "Software",
+        "Media & Internet/Data Collection & Internet Portals",
+        "Business Services/Custom Software & IT Services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f5f3b8d720f34ebebceb7765e447268b",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Law Firms & Legal Services is synonymous with law practice.",
+      "reference": [
+        "Law Practice"
+      ],
+      "provider_value": [
+        "Law Firms & Legal Services"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f66920ce3326117a94d7225091a6af20",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "K-12 Schools is synonymous with primary and secondary education.",
+      "reference": [
+        "Primary and Secondary Education"
+      ],
+      "provider_value": [
+        "Education",
+        "Education/K-12 Schools"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f7104e89e89fc4b2922908a32e44ee60",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "same_family",
+      "confidence": 100,
+      "rationale": "Marine shipping, freight logistics, and trucking are direct subsectors of the reference transportation and logistics family.",
+      "reference": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "provider_value": [
+        "Transportation/Marine Shipping & Transportation",
+        "Transportation/Freight & Logistics Services",
+        "Transportation/Trucking, Moving & Storage",
+        "Transportation"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": true,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    },
+    {
+      "case_slug": "ww_f80fc889c58f1719e12e34c62454221e",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 100,
+      "rationale": "Manufacturing/Medical Devices & Equipment is synonymous with medical equipment manufacturing.",
+      "reference": [
+        "Medical Equipment Manufacturing"
+      ],
+      "provider_value": [
+        "Manufacturing/Medical Devices & Equipment",
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_f9b554404f9d45536239799e23c7da8c",
+      "provider_present": true,
+      "is_correct": true,
+      "relationship": "exact_or_synonym",
+      "confidence": 99,
+      "rationale": "Finance is a conventional equivalent of financial services.",
+      "reference": [
+        "Financial Services"
+      ],
+      "provider_value": [
+        "Finance",
+        "Finance/Investment Banking",
+        "Finance/Lending & Brokerage",
+        "Finance/Venture Capital & Private Equity"
+      ],
+      "general_llm_is_correct": true,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": true
+    },
+    {
+      "case_slug": "ww_fb580da97fdc843019c5d4609038612d",
+      "provider_present": true,
+      "is_correct": false,
+      "relationship": "contradictory_or_unrelated",
+      "confidence": 98,
+      "rationale": "Transportation, consulting, research, and health-care labels do not identify insurance.",
+      "reference": [
+        "Insurance"
+      ],
+      "provider_value": [
+        "Transportation",
+        "Business Services",
+        "Business Services/Management Consulting",
+        "Business Services/Research & Development",
+        "Healthcare Services"
+      ],
+      "general_llm_is_correct": false,
+      "deterministic_is_correct": false,
+      "changed_from_general_llm": false,
+      "changed_from_deterministic": false
+    }
+  ]
+}

@@ -1,0 +1,5587 @@
+{
+  "schema_version": 1,
+  "prompt_version": "firmographic-provider-chunk-judge-v2.0",
+  "prompt_sha256": "d77cd15243c479c693804f88c20e61de26115c8923f4fd7dc11b7112b3a46840",
+  "snapshot_sha256": "8fd3612b586992057e79483fe9f258335d97a810362caa53cc11305d4396f2e0",
+  "model": "gpt-5.6",
+  "reasoning_effort": "high",
+  "provider_slug": "company-enrich",
+  "chunk_index": 2,
+  "case_slugs": [
+    "ww_2c3ed841cc4f50e14ad08f67cbadadec",
+    "ww_2eaabe790df923e529ffd33a1afcd60c",
+    "ww_2ed0f8e1b7779fed4ffb357aff552cdb",
+    "ww_2f60492ca384e6e297af03cd908ff95a",
+    "ww_3158eb61373d63ee10b64285f351fdfa",
+    "ww_31a5200241c910717cb32ef0939a4f0f",
+    "ww_320db40ce3ce99e0a654570cec133e04",
+    "ww_32fcc8cfe1fa4c77b5c58dafd36d1a98",
+    "ww_34b79ddbbae1b7d0391d9caefa5d12f4",
+    "ww_353d65641c421808b1ab7111cd886ff9",
+    "ww_3725c379fb8e5707c981f64939a9982a",
+    "ww_374a18640f2aa2ae77a1ca3557738ba6",
+    "ww_37a70bfe6cb9b1af966d4664b1ad1e61",
+    "ww_37e0eaaff0973a8ab20092edeacf2ff0",
+    "ww_3815511cb8db0d28103b24ea2414a152",
+    "ww_39c262467c88c220e0a45750f725a4a8",
+    "ww_3ab2f3acb81d3e18ec62f94951ea8390",
+    "ww_3b9a098d733163842595082f2feae03c",
+    "ww_3c34ae6a89533052c6778f1d9bb4b317",
+    "ww_3d0f0b9625784afe52904d9e2441d95f",
+    "ww_3da678392d5ac1ff456fe6e06354fdef",
+    "ww_3e716c9d59d061dbf9e37203f9ff221d",
+    "ww_41f42510b0adae3011fd7179ae206086",
+    "ww_4236a3619615e6a340ce02461732b655",
+    "ww_43207fd5e34f87c48d584fc5c11befb8",
+    "ww_432bc07b920b9e25a83c780c7232c541",
+    "ww_4614b1f3a471f475f5857c052337e09e",
+    "ww_46232b608ec35d269f3db2c1e0e82cff",
+    "ww_46c28c0331fc21f3223734d210374f72",
+    "ww_486e5cc203a284532db9b631a011a168",
+    "ww_4a0255b7923d21c88bdc4d9c22d8936c",
+    "ww_4e6e3040e8851635294319dc95e93027",
+    "ww_4f382d26d3852b5edf97966804b49c01",
+    "ww_507c3f62063e6f4771cfba78809f76a4",
+    "ww_51123cc7268f8de95508a0aae34ad577",
+    "ww_51e4e58ffb0218aa3348acb99c6de545",
+    "ww_5211e739d7db35206c586d5ff27f34cf",
+    "ww_526e25ebabe938b8322c06d253f918b0",
+    "ww_5325dc48e755498686ad2e3a7dcde409",
+    "ww_535b2362e64ff901a954bb280afb197e",
+    "ww_583e39f257439685a80189ee1df5e134",
+    "ww_58ee2794cc87707943624dc8db2ff5a0",
+    "ww_5ab3fa43bf1cdfe8f008a84737679ab0",
+    "ww_5cca48cb4250836e4203b69ee8a2c685",
+    "ww_5d25db42f4ecf28302c623a3ff618264",
+    "ww_5d97a7ef70f6c883d61c5201c3069882",
+    "ww_5e45ee43ad4c583428f4381f141c836d",
+    "ww_5f34d0e6f248482868ba7b8ff25bd603",
+    "ww_61f0c4877ceb961e6ecab9bcd110a858",
+    "ww_6247e2816af2cfeaadb7304f3211baae"
+  ],
+  "judged_at": "2026-07-15T00:12:15Z",
+  "latency_ms": 206441,
+  "response_id": "resp_0bf003a507360442016a56cf913a24819ba9d4cdd18717456d",
+  "usage": {
+    "input_tokens": 11632,
+    "input_tokens_details": {
+      "cache_write_tokens": 11629,
+      "cached_tokens": 0
+    },
+    "output_tokens": 15394,
+    "output_tokens_details": {
+      "reasoning_tokens": 2876
+    },
+    "total_tokens": 27026
+  },
+  "case_count": 50,
+  "judgments": [
+    {
+      "case_slug": "ww_2c3ed841cc4f50e14ad08f67cbadadec",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2011.",
+          "verdict": "match",
+          "reference": 2011,
+          "provider_value": 2011,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 11-50.",
+          "verdict": "match",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "France/Paris matches FR/Paris.",
+          "verdict": "match",
+          "reference": {
+            "country": "FR",
+            "city": "Paris"
+          },
+          "provider_value": {
+            "country": "France",
+            "city": "Paris"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 85,
+          "rationale": "Software is a reasonable specific classification within the referenced technology and internet sector.",
+          "verdict": "match",
+          "reference": [
+            "Technology, Information and Internet"
+          ],
+          "provider_value": [
+            "Software"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Bankin differs only by the omitted apostrophe.",
+          "verdict": "match",
+          "reference": "Bankin'​",
+          "provider_value": "Bankin",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the bankin company page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/bankin",
+          "provider_value": "https://www.linkedin.com/company/bankin",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use bankin.com.",
+          "verdict": "match",
+          "reference": [
+            "bankin.com"
+          ],
+          "provider_value": [
+            "bankin.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 7,
+      "correct_field_yield_pct": 100.0,
+      "accuracy_when_present_pct": 100.0
+    },
+    {
+      "case_slug": "ww_2eaabe790df923e529ffd33a1afcd60c",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1863.",
+          "verdict": "match",
+          "reference": 1863,
+          "provider_value": 1863,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "5001-10000 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 5001,
+            "max": 10000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Amherst matches US/Amherst.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Amherst"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Amherst"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Colleges and universities is equivalent to higher education.",
+          "verdict": "match",
+          "reference": [
+            "Higher Education"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/Colleges & Universities"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "UMass Amherst is a common abbreviation of University of Massachusetts Amherst.",
+          "verdict": "match",
+          "reference": "University of Massachusetts Amherst",
+          "provider_value": "UMass Amherst",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "The provider uses /company/umassamherst rather than the referenced /school/umassamherst page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/school/umassamherst",
+          "provider_value": "https://www.linkedin.com/company/umassamherst",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use umass.edu.",
+          "verdict": "match",
+          "reference": [
+            "umass.edu"
+          ],
+          "provider_value": [
+            "umass.edu"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_2ed0f8e1b7779fed4ffb357aff552cdb",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1989.",
+          "verdict": "match",
+          "reference": 1989,
+          "provider_value": 1989,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Turkey matches TR, but the referenced city İstanbul is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "TR",
+            "city": "İstanbul"
+          },
+          "provider_value": {
+            "country": "Turkey",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 98,
+          "rationale": "Membership and nonprofit organizations are not equivalent to pharmaceutical manufacturing.",
+          "verdict": "mismatch",
+          "reference": [
+            "Pharmaceutical Manufacturing"
+          ],
+          "provider_value": [
+            "Organizations",
+            "Organizations/Membership Organizations",
+            "Organizations/Non-Profit & Charitable Organizations",
+            "Organizations/Religious Organizations"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 91,
+          "rationale": "TEKB is the organization's acronym, supported by the matching domain and company-page identity.",
+          "verdict": "match",
+          "reference": "Association of All Pharmacists Cooperatives",
+          "provider_value": "TEKB",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the same tekb company page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/tekb---t-m-eczac-kooperatifleri-birli-i",
+          "provider_value": "https://www.linkedin.com/company/tekb---t-m-eczac-kooperatifleri-birli-i",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use tekb.org.tr.",
+          "verdict": "match",
+          "reference": [
+            "tekb.org.tr"
+          ],
+          "provider_value": [
+            "tekb.org.tr"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_2f60492ca384e6e297af03cd908ff95a",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "11-50 does not match 501-1000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 501,
+            "max": 1000
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Argentina matches AR, but the referenced city Mendoza is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "AR",
+            "city": "Mendoza"
+          },
+          "provider_value": {
+            "country": "Argentina",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 97,
+          "rationale": "A holding company classification is not equivalent to investment management.",
+          "verdict": "mismatch",
+          "reference": [
+            "Investment Management"
+          ],
+          "provider_value": [
+            "Holding Companies & Conglomerates"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Grupo Broda.",
+          "verdict": "match",
+          "reference": "Grupo Broda",
+          "provider_value": "Grupo Broda",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the grupo-broda page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/grupo-broda",
+          "provider_value": "https://www.linkedin.com/company/grupo-broda",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 5,
+      "returned_fields": 5,
+      "correct_fields": 2,
+      "correct_field_yield_pct": 40.0,
+      "accuracy_when_present_pct": 40.0
+    },
+    {
+      "case_slug": "ww_3158eb61373d63ee10b64285f351fdfa",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1966.",
+          "verdict": "match",
+          "reference": 1966,
+          "provider_value": 1966,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 501-1000.",
+          "verdict": "match",
+          "reference": {
+            "min": 501,
+            "max": 1000
+          },
+          "provider_value": {
+            "min": 501,
+            "max": 1000
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Colombia matches CO, but the referenced city Bogotá is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "CO",
+            "city": "Bogotá"
+          },
+          "provider_value": {
+            "country": "Colombia",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Colleges and universities is equivalent to higher education.",
+          "verdict": "match",
+          "reference": [
+            "Higher Education"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/Colleges & Universities",
+            "Education/Training"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "The omitted (CO) qualifier does not change the university identity.",
+          "verdict": "match",
+          "reference": "Universidad Central (CO)",
+          "provider_value": "Universidad Central",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "The provider uses a /company/ page instead of the referenced /school/ page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/school/universidad-central-colombia-",
+          "provider_value": "https://www.linkedin.com/company/universidad-central-colombia-",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use ucentral.edu.co.",
+          "verdict": "match",
+          "reference": [
+            "ucentral.edu.co"
+          ],
+          "provider_value": [
+            "ucentral.edu.co"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_31a5200241c910717cb32ef0939a4f0f",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1989.",
+          "verdict": "match",
+          "reference": 1989,
+          "provider_value": 1989,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "India matches IN, but the referenced city Bengaluru is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "IN",
+            "city": "Bengaluru"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 92,
+          "rationale": "Apparel and accessories retail is a reasonable equivalent for apparel and fashion.",
+          "verdict": "match",
+          "reference": [
+            "Apparel & Fashion"
+          ],
+          "provider_value": [
+            "Retail",
+            "Retail/Apparel & Accessories Retail"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Van Heusen is materially different from Louis Philippe.",
+          "verdict": "mismatch",
+          "reference": "Louis Philippe",
+          "provider_value": "Van Heusen",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "The van-heusen-exclusive-store page is not the louisphilippe page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/company/louisphilippe",
+          "provider_value": "https://www.linkedin.com/company/van-heusen-exclusive-store",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "abfrl.in is a different registrable domain from louisphilippe.com.",
+          "verdict": "mismatch",
+          "reference": [
+            "louisphilippe.com"
+          ],
+          "provider_value": [
+            "abfrl.in"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 2,
+      "correct_field_yield_pct": 28.57,
+      "accuracy_when_present_pct": 28.57
+    },
+    {
+      "case_slug": "ww_320db40ce3ce99e0a654570cec133e04",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2006.",
+          "verdict": "match",
+          "reference": 2006,
+          "provider_value": 2006,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 51-200.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Brazil matches BR, but the referenced city Porto Alegre is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "BR",
+            "city": "Porto Alegre"
+          },
+          "provider_value": {
+            "country": "Brazil",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Media, publishing, and advertising are unrelated to aviation component manufacturing.",
+          "verdict": "mismatch",
+          "reference": [
+            "Aviation and Aerospace Component Manufacturing"
+          ],
+          "provider_value": [
+            "Media & Internet",
+            "Business Services/Advertising & Marketing",
+            "Media & Internet/Newspapers & News Services",
+            "Media & Internet/Publishing",
+            "Media & Internet/Data Collection & Internet Portals"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 93,
+          "rationale": "Voe NHT is a recognizable shortened brand form of NHT Linhas Aéreas.",
+          "verdict": "match",
+          "reference": "NHT Linhas Aéreas",
+          "provider_value": "Voe NHT",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the nht-linhas-a-reas page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/nht-linhas-a-reas",
+          "provider_value": "https://www.linkedin.com/company/nht-linhas-a-reas",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use voenht.com.br.",
+          "verdict": "match",
+          "reference": [
+            "voenht.com.br"
+          ],
+          "provider_value": [
+            "voenht.com.br"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_32fcc8cfe1fa4c77b5c58dafd36d1a98",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1907.",
+          "verdict": "match",
+          "reference": 1907,
+          "provider_value": 1907,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "501-1000 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 501,
+            "max": 1000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Columbus matches US/Columbus.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Columbus"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Columbus"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 96,
+          "rationale": "Custom software and IT services is equivalent to IT services and consulting.",
+          "verdict": "match",
+          "reference": [
+            "IT Services and IT Consulting"
+          ],
+          "provider_value": [
+            "Software",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Business Services/Custom Software & IT Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are CAS.",
+          "verdict": "match",
+          "reference": "CAS",
+          "provider_value": "CAS",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the cas company page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/cas",
+          "provider_value": "https://www.linkedin.com/company/cas",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use cas.org.",
+          "verdict": "match",
+          "reference": [
+            "cas.org"
+          ],
+          "provider_value": [
+            "cas.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_34b79ddbbae1b7d0391d9caefa5d12f4",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1917.",
+          "verdict": "match",
+          "reference": 1917,
+          "provider_value": 1917,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "201-500 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Germany/Munich matches DE/Munich.",
+          "verdict": "match",
+          "reference": {
+            "country": "DE",
+            "city": "Munich"
+          },
+          "provider_value": {
+            "country": "Germany",
+            "city": "Munich"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 95,
+          "rationale": "Equipment manufacturing is not equivalent to entertainment providers.",
+          "verdict": "mismatch",
+          "reference": [
+            "Entertainment Providers"
+          ],
+          "provider_value": [
+            "Manufacturing",
+            "Manufacturing/Industrial Machinery & Equipment",
+            "Manufacturing/Photographic & Optical Equipment",
+            "Manufacturing/Appliances",
+            "Manufacturing/Electronics"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are ARRI.",
+          "verdict": "match",
+          "reference": "ARRI",
+          "provider_value": "ARRI",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the arri company page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/arri",
+          "provider_value": "https://www.linkedin.com/company/arri",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use arri.com.",
+          "verdict": "match",
+          "reference": [
+            "arri.com"
+          ],
+          "provider_value": [
+            "arri.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_353d65641c421808b1ab7111cd886ff9",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2015.",
+          "verdict": "match",
+          "reference": 2015,
+          "provider_value": 2015,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 501-1000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 501,
+            "max": 1000
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 91,
+          "rationale": "Thailand matches TH, but Bangkok is broader than the referenced Thungmahamek, Sathon locality.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "TH",
+            "city": "Thungmahamek, Sathon"
+          },
+          "provider_value": {
+            "country": "Thailand",
+            "city": "Bangkok"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Real Estate.",
+          "verdict": "match",
+          "reference": [
+            "Real Estate"
+          ],
+          "provider_value": [
+            "Real Estate",
+            "Hospitality/Lodging & Resorts"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "LHMH is the supplied name's explicit acronym.",
+          "verdict": "match",
+          "reference": "LH Mall & Hotel (LHMH)",
+          "provider_value": "LHMH",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "lh-mall-hotel is a different page slug from the referenced lhmh page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/company/lhmh",
+          "provider_value": "https://www.linkedin.com/company/lh-mall-hotel",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use lhmh.co.th.",
+          "verdict": "match",
+          "reference": [
+            "lhmh.co.th"
+          ],
+          "provider_value": [
+            "lhmh.co.th"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_3725c379fb8e5707c981f64939a9982a",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2011.",
+          "verdict": "match",
+          "reference": 2011,
+          "provider_value": 2011,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "India matches IN, but the referenced city Kochi is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "IN",
+            "city": "Kochi"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Travel agencies and services is equivalent to travel arrangements.",
+          "verdict": "match",
+          "reference": [
+            "Travel Arrangements"
+          ],
+          "provider_value": [
+            "Hospitality",
+            "Hospitality/Travel Agencies & Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Danata Geo Travel.",
+          "verdict": "match",
+          "reference": "Danata Geo Travel",
+          "provider_value": "Danata Geo Travel",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the danata-geo-travel page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/danata-geo-travel",
+          "provider_value": "https://www.linkedin.com/company/danata-geo-travel",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use danatageotravel.com.",
+          "verdict": "match",
+          "reference": [
+            "danatageotravel.com"
+          ],
+          "provider_value": [
+            "danatageotravel.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_374a18640f2aa2ae77a1ca3557738ba6",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2016.",
+          "verdict": "match",
+          "reference": 2016,
+          "provider_value": 2016,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "1-10 is not the same canonical band as 2-10.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 2,
+            "max": 10
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "New Zealand matches NZ, but the referenced city Waihi Beach is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "NZ",
+            "city": "Waihi Beach"
+          },
+          "provider_value": {
+            "country": "New Zealand",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 97,
+          "rationale": "Management consulting and R&D are not equivalent to marketing services.",
+          "verdict": "mismatch",
+          "reference": [
+            "Marketing Services"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Plus and 'and' are equivalent, and Co is a common abbreviation of Company.",
+          "verdict": "match",
+          "reference": "Nicholson + Co",
+          "provider_value": "Nicholson and Company",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the nicandco page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/nicandco",
+          "provider_value": "https://www.linkedin.com/company/nicandco",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use nicandco.nz.",
+          "verdict": "match",
+          "reference": [
+            "nicandco.nz"
+          ],
+          "provider_value": [
+            "nicandco.nz"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_37a70bfe6cb9b1af966d4664b1ad1e61",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Hong Kong matches HK, but the referenced city Centra is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "HK",
+            "city": "Centra"
+          },
+          "provider_value": {
+            "country": "Hong Kong S.A.R.",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 94,
+          "rationale": "Media, internet portals, and news services reasonably match technology, information and media.",
+          "verdict": "match",
+          "reference": [
+            "Technology, Information and Media"
+          ],
+          "provider_value": [
+            "Media & Internet",
+            "Business Services/Advertising & Marketing",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Media & Internet/Newspapers & News Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are PANews.",
+          "verdict": "match",
+          "reference": "PANews",
+          "provider_value": "PANews",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the panews page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/panews",
+          "provider_value": "https://www.linkedin.com/company/panews",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use panewslab.com.",
+          "verdict": "match",
+          "reference": [
+            "panewslab.com"
+          ],
+          "provider_value": [
+            "panewslab.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_37e0eaaff0973a8ab20092edeacf2ff0",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1967.",
+          "verdict": "match",
+          "reference": 1967,
+          "provider_value": 1967,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 201-500.",
+          "verdict": "match",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Oroville matches US/Oroville.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Oroville"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Oroville"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Colleges and universities is equivalent to higher education.",
+          "verdict": "match",
+          "reference": [
+            "Higher Education"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/Colleges & Universities"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Butte College.",
+          "verdict": "match",
+          "reference": "Butte College",
+          "provider_value": "Butte College",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "The provider uses /company/buttecollege rather than the referenced /school/buttecollege page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/school/buttecollege",
+          "provider_value": "https://www.linkedin.com/company/buttecollege",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use butte.edu.",
+          "verdict": "match",
+          "reference": [
+            "butte.edu"
+          ],
+          "provider_value": [
+            "butte.edu"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_3815511cb8db0d28103b24ea2414a152",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2000.",
+          "verdict": "match",
+          "reference": 2000,
+          "provider_value": 2000,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "11-50 does not match 201-500.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Brazil matches BR, but the referenced city Rio de Janeiro is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "BR",
+            "city": "Rio de Janeiro"
+          },
+          "provider_value": {
+            "country": "Brazil",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 97,
+          "rationale": "Electronics manufacturing and retail are not equivalent to repair and maintenance.",
+          "verdict": "mismatch",
+          "reference": [
+            "Repair and Maintenance"
+          ],
+          "provider_value": [
+            "Manufacturing",
+            "Manufacturing/Electronics",
+            "Retail/Consumer Electronics & Computers Retail"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Grupo Multifix.",
+          "verdict": "match",
+          "reference": "Grupo Multifix",
+          "provider_value": "Grupo Multifix",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the grupomultifix page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/grupomultifix",
+          "provider_value": "https://www.linkedin.com/company/grupomultifix",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use grupomultifix.com.br.",
+          "verdict": "match",
+          "reference": [
+            "grupomultifix.com.br"
+          ],
+          "provider_value": [
+            "grupomultifix.com.br"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_39c262467c88c220e0a45750f725a4a8",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2014.",
+          "verdict": "match",
+          "reference": 2014,
+          "provider_value": 2014,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 97,
+          "rationale": "New Alresford is the conventional formal form of Alresford, and the country matches.",
+          "verdict": "match",
+          "reference": {
+            "country": "GB",
+            "city": "Alresford"
+          },
+          "provider_value": {
+            "country": "United Kingdom",
+            "city": "New Alresford"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly classifies the business as restaurants.",
+          "verdict": "match",
+          "reference": [
+            "Restaurants"
+          ],
+          "provider_value": [
+            "Hospitality",
+            "Hospitality/Restaurants"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Pulpo Negro.",
+          "verdict": "match",
+          "reference": "Pulpo Negro",
+          "provider_value": "Pulpo Negro",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the pulpo-negro page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/pulpo-negro",
+          "provider_value": "https://www.linkedin.com/company/pulpo-negro",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use pulponegro.co.uk.",
+          "verdict": "match",
+          "reference": [
+            "pulponegro.co.uk"
+          ],
+          "provider_value": [
+            "pulponegro.co.uk"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_3ab2f3acb81d3e18ec62f94951ea8390",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2003.",
+          "verdict": "match",
+          "reference": 2003,
+          "provider_value": 2003,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 51-200.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "India matches IN, but the referenced city Samalkha is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "in",
+            "city": "Samalkha"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "K-12 schools is equivalent to primary and secondary education.",
+          "verdict": "match",
+          "reference": [
+            "Primary and Secondary Education"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/K-12 Schools"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The names differ only in capitalization.",
+          "verdict": "match",
+          "reference": "HIMGIRI PUBLIC SCHOOL",
+          "provider_value": "Himgiri Public School",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the himgiri-public-school page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/himgiri-public-school",
+          "provider_value": "https://www.linkedin.com/company/himgiri-public-school",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use hpssamalkha.com.",
+          "verdict": "match",
+          "reference": [
+            "hpssamalkha.com"
+          ],
+          "provider_value": [
+            "hpssamalkha.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_3b9a098d733163842595082f2feae03c",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2009.",
+          "verdict": "match",
+          "reference": 2009,
+          "provider_value": 2009,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "51-200 does not match 201-500.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 51,
+            "max": 200
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "United States matches US, but the referenced Work From Anywhere location is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "US",
+            "city": "Work From Anywhere"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 88,
+          "rationale": "Custom software and IT services is a reasonable taxonomy equivalent to software development.",
+          "verdict": "match",
+          "reference": [
+            "Software Development"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Advertising & Marketing",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Business Services/Custom Software & IT Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Kickstarter.",
+          "verdict": "match",
+          "reference": "Kickstarter",
+          "provider_value": "Kickstarter",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the kickstarter page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/kickstarter",
+          "provider_value": "https://www.linkedin.com/company/kickstarter",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 98,
+          "rationale": "kickstarter.com and kck.st are different registrable domains, with no supplied domain equivalence.",
+          "verdict": "mismatch",
+          "reference": [
+            "kck.st"
+          ],
+          "provider_value": [
+            "kickstarter.com"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_3c34ae6a89533052c6778f1d9bb4b317",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1993.",
+          "verdict": "match",
+          "reference": 1993,
+          "provider_value": 1993,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "201-500 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "India/Kolkata matches IN/Kolkata.",
+          "verdict": "match",
+          "reference": {
+            "country": "IN",
+            "city": "Kolkata"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": "Kolkata"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Real Estate.",
+          "verdict": "match",
+          "reference": [
+            "Real Estate"
+          ],
+          "provider_value": [
+            "Real Estate",
+            "Hospitality/Lodging & Resorts",
+            "Hospitals & Physicians Clinics/Medical & Surgical Hospitals",
+            "Education/Colleges & Universities"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Spacing and omission of the generic Group suffix do not change the identity.",
+          "verdict": "match",
+          "reference": "AmbujaNeotia Group",
+          "provider_value": "Ambuja Neotia",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the ambuja-neotia-group page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/ambuja-neotia-group",
+          "provider_value": "https://www.linkedin.com/company/ambuja-neotia-group",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use ambujaneotia.com.",
+          "verdict": "match",
+          "reference": [
+            "ambujaneotia.com"
+          ],
+          "provider_value": [
+            "ambujaneotia.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_3d0f0b9625784afe52904d9e2441d95f",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "11-50 does not match 201-500.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 96,
+          "rationale": "Greece matches GR, but Athens is not the same supplied city as Dafni - Ymittos.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "GR",
+            "city": "Dafni - Ymittos"
+          },
+          "provider_value": {
+            "country": "Greece",
+            "city": "Athens"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Aerospace and defense is equivalent to defense and space.",
+          "verdict": "match",
+          "reference": [
+            "Defense & Space"
+          ],
+          "provider_value": [
+            "Manufacturing",
+            "Manufacturing/Aerospace & Defense",
+            "Manufacturing/Industrial Machinery & Equipment"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 91,
+          "rationale": "ΕΑΣ is the Greek acronym for the referenced organization, supported by the matching domain and page.",
+          "verdict": "match",
+          "reference": "Hellenic Defence Systems S.A.",
+          "provider_value": "ΕΑΣ",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the same hellenic-defence-systems-s.a. page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/hellenic-defence-systems-s.a.",
+          "provider_value": "https://www.linkedin.com/company/hellenic-defence-systems-s.a.",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use eas.gr.",
+          "verdict": "match",
+          "reference": [
+            "eas.gr"
+          ],
+          "provider_value": [
+            "eas.gr"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_3da678392d5ac1ff456fe6e06354fdef",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2001.",
+          "verdict": "match",
+          "reference": 2001,
+          "provider_value": 2001,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1001-5000 does not match 10001+.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 10001,
+            "max": null
+          },
+          "provider_value": {
+            "min": 1001,
+            "max": 5000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Weslaco matches US/Weslaco.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Weslaco"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Weslaco"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 95,
+          "rationale": "K-12 schools and education services reasonably match education administration programs.",
+          "verdict": "match",
+          "reference": [
+            "Education Administration Programs"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/K-12 Schools",
+            "Education/Training"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are IDEA Public Schools.",
+          "verdict": "match",
+          "reference": "IDEA Public Schools",
+          "provider_value": "IDEA Public Schools",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the idea-public-schools page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/idea-public-schools",
+          "provider_value": "https://www.linkedin.com/company/idea-public-schools",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use ideapublicschools.org.",
+          "verdict": "match",
+          "reference": [
+            "ideapublicschools.org"
+          ],
+          "provider_value": [
+            "ideapublicschools.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_3e716c9d59d061dbf9e37203f9ff221d",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1976.",
+          "verdict": "match",
+          "reference": 1976,
+          "provider_value": 1976,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "51-200 does not match 5001-10000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 5001,
+            "max": 10000
+          },
+          "provider_value": {
+            "min": 51,
+            "max": 200
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Argentina matches AR, but Ciudad Autonoma de Buenos Aires is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "AR",
+            "city": "Ciudad Autonoma de Buenos Aires"
+          },
+          "provider_value": {
+            "country": "Argentina",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 91,
+          "rationale": "Facilities management and cleaning services are not equivalent to outsourcing and offshoring consulting.",
+          "verdict": "mismatch",
+          "reference": [
+            "Outsourcing and Offshoring Consulting"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Facilities Management & Commercial Cleaning",
+            "Consumer Services/Cleaning Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Simplia Facility Solutions.",
+          "verdict": "match",
+          "reference": "Simplia Facility Solutions",
+          "provider_value": "Simplia Facility Solutions",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the simplia-facility-solutions page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/simplia-facility-solutions",
+          "provider_value": "https://www.linkedin.com/company/simplia-facility-solutions",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use simpliafacility.com.",
+          "verdict": "match",
+          "reference": [
+            "simpliafacility.com"
+          ],
+          "provider_value": [
+            "simpliafacility.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    },
+    {
+      "case_slug": "ww_41f42510b0adae3011fd7179ae206086",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1923.",
+          "verdict": "match",
+          "reference": 1923,
+          "provider_value": 1923,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 51-200.",
+          "verdict": "match",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 51,
+            "max": 200
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "France matches FR, but the referenced city Évreux is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "FR",
+            "city": "Évreux"
+          },
+          "provider_value": {
+            "country": "France",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 96,
+          "rationale": "Furniture retail is not equivalent to business supplies and equipment.",
+          "verdict": "mismatch",
+          "reference": [
+            "Business Supplies & Equipment"
+          ],
+          "provider_value": [
+            "Retail",
+            "Retail/Furniture"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Jeulin.",
+          "verdict": "match",
+          "reference": "Jeulin",
+          "provider_value": "Jeulin",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the jeulin page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/jeulin",
+          "provider_value": "https://www.linkedin.com/company/jeulin",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use jeulin.com.",
+          "verdict": "match",
+          "reference": [
+            "jeulin.com"
+          ],
+          "provider_value": [
+            "jeulin.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_4236a3619615e6a340ce02461732b655",
+      "fields": [
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Australia/Albury matches AU/Albury.",
+          "verdict": "match",
+          "reference": {
+            "country": "AU",
+            "city": "Albury"
+          },
+          "provider_value": {
+            "country": "Australia",
+            "city": "Albury"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Hospitality.",
+          "verdict": "match",
+          "reference": [
+            "Hospitality"
+          ],
+          "provider_value": [
+            "Hospitality",
+            "Hospitality/Lodging & Resorts"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 91,
+          "rationale": "Astor Hotel Albury is a location-qualified form consistent with Astor Hotel Motel and the matching domain.",
+          "verdict": "match",
+          "reference": "Astor Hotel Motel",
+          "provider_value": "Astor Hotel Albury",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "pub-funds-investments is not the referenced astor-hotel-motel page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/company/astor-hotel-motel",
+          "provider_value": "https://www.linkedin.com/company/pub-funds-investments",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use astorhotelalbury.com.au.",
+          "verdict": "match",
+          "reference": [
+            "astorhotelalbury.com.au"
+          ],
+          "provider_value": [
+            "astorhotelalbury.com.au"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 5,
+      "returned_fields": 5,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 80.0,
+      "accuracy_when_present_pct": 80.0
+    },
+    {
+      "case_slug": "ww_43207fd5e34f87c48d584fc5c11befb8",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 10001+.",
+          "verdict": "match",
+          "reference": {
+            "min": 10001,
+            "max": null
+          },
+          "provider_value": {
+            "min": 10001,
+            "max": null
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "United States matches US, but the referenced city Houston is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "US",
+            "city": "Houston"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 92,
+          "rationale": "Construction and civil engineering are adjacent services, not equivalent to the referenced Oil and Gas industry.",
+          "verdict": "mismatch",
+          "reference": [
+            "Oil and Gas"
+          ],
+          "provider_value": [
+            "Construction",
+            "Construction/Civil Engineering Construction",
+            "Construction/Architecture, Engineering & Design"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "McDermott is a clear shortened form of McDermott International, Ltd.",
+          "verdict": "match",
+          "reference": "McDermott International, Ltd",
+          "provider_value": "McDermott",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the mcdermott-international-inc- page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/mcdermott-international-inc-",
+          "provider_value": "https://www.linkedin.com/company/mcdermott-international-inc-",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use mcdermott.com.",
+          "verdict": "match",
+          "reference": [
+            "mcdermott.com"
+          ],
+          "provider_value": [
+            "mcdermott.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_432bc07b920b9e25a83c780c7232c541",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1001-5000 does not match 10001+.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 10001,
+            "max": null
+          },
+          "provider_value": {
+            "min": 1001,
+            "max": 5000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Brazil/São Paulo matches BR/São Paulo.",
+          "verdict": "match",
+          "reference": {
+            "country": "BR",
+            "city": "São Paulo"
+          },
+          "provider_value": {
+            "country": "Brazil",
+            "city": "São Paulo"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Construction.",
+          "verdict": "match",
+          "reference": [
+            "Construction"
+          ],
+          "provider_value": [
+            "Construction",
+            "Construction/Architecture, Engineering & Design",
+            "Construction/Commercial & Residential Construction",
+            "Construction/Civil Engineering Construction"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 98,
+          "rationale": "UTC is a clear shortened form of UTC Engenharia, supported by the matching domain and page.",
+          "verdict": "match",
+          "reference": "UTC Engenharia",
+          "provider_value": "UTC",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the utc-engenharia page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/utc-engenharia",
+          "provider_value": "https://www.linkedin.com/company/utc-engenharia",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use utc.com.br.",
+          "verdict": "match",
+          "reference": [
+            "utc.com.br"
+          ],
+          "provider_value": [
+            "utc.com.br"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 83.33,
+      "accuracy_when_present_pct": 83.33
+    },
+    {
+      "case_slug": "ww_4614b1f3a471f475f5857c052337e09e",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 51-200.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Russia matches RU, but the referenced city Moscow is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "RU",
+            "city": "Moscow"
+          },
+          "provider_value": {
+            "country": "Russia",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 96,
+          "rationale": "Advertising, generic business services, and training are not equivalent to events services.",
+          "verdict": "mismatch",
+          "reference": [
+            "Events Services"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Advertising & Marketing",
+            "Education/Training"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are LBS International Conferences.",
+          "verdict": "match",
+          "reference": "LBS International Conferences",
+          "provider_value": "LBS International Conferences",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the lbs-international-conferences page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/lbs-international-conferences",
+          "provider_value": "https://www.linkedin.com/company/lbs-international-conferences",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use lbsglobal.com.",
+          "verdict": "match",
+          "reference": [
+            "lbsglobal.com"
+          ],
+          "provider_value": [
+            "lbsglobal.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 3,
+      "correct_field_yield_pct": 50.0,
+      "accuracy_when_present_pct": 50.0
+    },
+    {
+      "case_slug": "ww_46232b608ec35d269f3db2c1e0e82cff",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/West Palm Beach matches US/West Palm Beach.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "West Palm Beach"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "West Palm Beach"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Veterinary Services.",
+          "verdict": "match",
+          "reference": [
+            "Veterinary"
+          ],
+          "provider_value": [
+            "Healthcare Services/Veterinary Services",
+            "Retail/Pet Products",
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Clear Lake Animal Hospital.",
+          "verdict": "match",
+          "reference": "Clear Lake Animal Hospital",
+          "provider_value": "Clear Lake Animal Hospital",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the clear-lake-animal-hospital page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/clear-lake-animal-hospital",
+          "provider_value": "https://www.linkedin.com/company/clear-lake-animal-hospital",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use vetinpalmbeach.com.",
+          "verdict": "match",
+          "reference": [
+            "vetinpalmbeach.com"
+          ],
+          "provider_value": [
+            "vetinpalmbeach.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 83.33,
+      "accuracy_when_present_pct": 83.33
+    },
+    {
+      "case_slug": "ww_46c28c0331fc21f3223734d210374f72",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1963.",
+          "verdict": "match",
+          "reference": 1963,
+          "provider_value": 1963,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "501-1000 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 501,
+            "max": 1000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Brazil matches BR, but the referenced city São Paulo is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "BR",
+            "city": "São Paulo"
+          },
+          "provider_value": {
+            "country": "Brazil",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Hospitality.",
+          "verdict": "match",
+          "reference": [
+            "Hospitality"
+          ],
+          "provider_value": [
+            "Hospitality",
+            "Hospitality/Lodging & Resorts"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 98,
+          "rationale": "Bourbon is a clear shortened brand form of Bourbon Hotels & Resorts.",
+          "verdict": "match",
+          "reference": "Bourbon Hotels & Resorts",
+          "provider_value": "Bourbon",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the bourbon-hospitalidade page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/bourbon-hospitalidade",
+          "provider_value": "https://www.linkedin.com/company/bourbon-hospitalidade",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use bourbon.com.br.",
+          "verdict": "match",
+          "reference": [
+            "bourbon.com.br"
+          ],
+          "provider_value": [
+            "bourbon.com.br"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_486e5cc203a284532db9b631a011a168",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 201-500.",
+          "verdict": "match",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Netherlands/Amsterdam conflicts with NO/Førde.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "NO",
+            "city": "Førde"
+          },
+          "provider_value": {
+            "country": "Netherlands",
+            "city": "Amsterdam"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 88,
+          "rationale": "The broad electricity, oil and gas category loses the referenced renewable-energy services meaning.",
+          "verdict": "mismatch",
+          "reference": [
+            "Services for Renewable Energy"
+          ],
+          "provider_value": [
+            "Energy, Utilities & Waste",
+            "Energy, Utilities & Waste/Electricity, Oil & Gas"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Tibber.",
+          "verdict": "match",
+          "reference": "Tibber",
+          "provider_value": "Tibber",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the tibber page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/tibber",
+          "provider_value": "https://www.linkedin.com/company/tibber",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use tibber.com.",
+          "verdict": "match",
+          "reference": [
+            "tibber.com"
+          ],
+          "provider_value": [
+            "tibber.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_4a0255b7923d21c88bdc4d9c22d8936c",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No founded year was supplied.",
+          "verdict": "not_returned",
+          "reference": 2013,
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No headcount band was supplied.",
+          "verdict": "not_returned",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No headquarters location was supplied.",
+          "verdict": "not_returned",
+          "reference": {
+            "country": "PL",
+            "city": "Katowice"
+          },
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No industry was supplied.",
+          "verdict": "not_returned",
+          "reference": [
+            "Civil Engineering"
+          ],
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No legal name was supplied.",
+          "verdict": "not_returned",
+          "reference": "AVN TEAM Tunneling support",
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No LinkedIn URL was supplied.",
+          "verdict": "not_returned",
+          "reference": "https://www.linkedin.com/company/avn-team-tunneling-support",
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No primary domain was supplied.",
+          "verdict": "not_returned",
+          "reference": [
+            "avnteam.com"
+          ],
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 0,
+      "correct_fields": 0,
+      "correct_field_yield_pct": 0.0,
+      "accuracy_when_present_pct": null
+    },
+    {
+      "case_slug": "ww_4e6e3040e8851635294319dc95e93027",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2017.",
+          "verdict": "match",
+          "reference": 2017,
+          "provider_value": 2017,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "1-10 is not the same canonical band as 2-10.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 2,
+            "max": 10
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Chicago matches US/Chicago.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Chicago"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Chicago"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 96,
+          "rationale": "The supplied finance and brokerage classifications reasonably match financial services.",
+          "verdict": "match",
+          "reference": [
+            "Financial Services"
+          ],
+          "provider_value": [
+            "Finance",
+            "Finance/Investment Banking",
+            "Finance/Lending & Brokerage",
+            "Finance/Venture Capital & Private Equity"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Blue Line Futures.",
+          "verdict": "match",
+          "reference": "Blue Line Futures",
+          "provider_value": "Blue Line Futures",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the blue-line-futures page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/blue-line-futures",
+          "provider_value": "https://www.linkedin.com/company/blue-line-futures",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use bluelinefutures.com.",
+          "verdict": "match",
+          "reference": [
+            "bluelinefutures.com"
+          ],
+          "provider_value": [
+            "bluelinefutures.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_4f382d26d3852b5edf97966804b49c01",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No founded year was supplied.",
+          "verdict": "not_returned",
+          "reference": 2026,
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No headcount band was supplied.",
+          "verdict": "not_returned",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "India/Mohali matches IN/Mohali.",
+          "verdict": "match",
+          "reference": {
+            "country": "IN",
+            "city": "Mohali"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": "Mohali"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 98,
+          "rationale": "Internet portals and custom software services are not equivalent to legal services.",
+          "verdict": "mismatch",
+          "reference": [
+            "Legal Services"
+          ],
+          "provider_value": [
+            "Media & Internet",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Business Services/Custom Software & IT Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are ClaimHit.",
+          "verdict": "match",
+          "reference": "ClaimHit",
+          "provider_value": "ClaimHit",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the claimhit page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/claimhit",
+          "provider_value": "https://www.linkedin.com/company/claimhit",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use claimhit.com.",
+          "verdict": "match",
+          "reference": [
+            "claimhit.com"
+          ],
+          "provider_value": [
+            "claimhit.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 5,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 80.0
+    },
+    {
+      "case_slug": "ww_507c3f62063e6f4771cfba78809f76a4",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2004.",
+          "verdict": "match",
+          "reference": 2004,
+          "provider_value": 2004,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "51-200 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 51,
+            "max": 200
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "France/Paris matches FR/Paris.",
+          "verdict": "match",
+          "reference": {
+            "country": "FR",
+            "city": "Paris"
+          },
+          "provider_value": {
+            "country": "France",
+            "city": "Paris"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 96,
+          "rationale": "Membership and nonprofit organization classifications are not equivalent to professional training and coaching.",
+          "verdict": "mismatch",
+          "reference": [
+            "Professional Training and Coaching"
+          ],
+          "provider_value": [
+            "Organizations",
+            "Organizations/Membership Organizations",
+            "Organizations/Non-Profit & Charitable Organizations",
+            "Organizations/Religious Organizations"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The names differ only in capitalization.",
+          "verdict": "match",
+          "reference": "EMCC FRANCE",
+          "provider_value": "EMCC France",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the emccfrance page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/emccfrance",
+          "provider_value": "https://www.linkedin.com/company/emccfrance",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use emccfrance.org.",
+          "verdict": "match",
+          "reference": [
+            "emccfrance.org"
+          ],
+          "provider_value": [
+            "emccfrance.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_51123cc7268f8de95508a0aae34ad577",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1001-5000 does not match 5001-10000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 5001,
+            "max": 10000
+          },
+          "provider_value": {
+            "min": 1001,
+            "max": 5000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 97,
+          "rationale": "Australia matches AU, but Black Mountain does not match the supplied city Acton.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "AU",
+            "city": "Acton"
+          },
+          "provider_value": {
+            "country": "Australia",
+            "city": "Black Mountain"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Research and development is equivalent to research services.",
+          "verdict": "match",
+          "reference": [
+            "Research Services"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are CSIRO.",
+          "verdict": "match",
+          "reference": "CSIRO",
+          "provider_value": "CSIRO",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the csiro page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/csiro",
+          "provider_value": "https://www.linkedin.com/company/csiro",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use csiro.au.",
+          "verdict": "match",
+          "reference": [
+            "csiro.au"
+          ],
+          "provider_value": [
+            "csiro.au"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_51e4e58ffb0218aa3348acb99c6de545",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "1-10 is not the same canonical band as 2-10.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 2,
+            "max": 10
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/San Clemente matches US/San Clemente.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "San Clemente"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "San Clemente"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Retail.",
+          "verdict": "match",
+          "reference": [
+            "Retail"
+          ],
+          "provider_value": [
+            "Retail",
+            "Manufacturing/Industrial Machinery & Equipment"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "The added article 'The' does not change the Hose Guys identity.",
+          "verdict": "match",
+          "reference": "Hose Guys",
+          "provider_value": "The Hose Guys",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the hose-guys page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/hose-guys",
+          "provider_value": "https://www.linkedin.com/company/hose-guys",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "thehoseguys.net is a different registrable domain from highpressurehose.com.",
+          "verdict": "mismatch",
+          "reference": [
+            "highpressurehose.com"
+          ],
+          "provider_value": [
+            "thehoseguys.net"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_5211e739d7db35206c586d5ff27f34cf",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "India matches IN, but the referenced city Bangalore is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "IN",
+            "city": "Bangalore"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 90,
+          "rationale": "The supplied consulting, staffing, portal, and engineering labels do not clearly match IT services.",
+          "verdict": "mismatch",
+          "reference": [
+            "Information Technology & Services"
+          ],
+          "provider_value": [
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development",
+            "Business Services/HR & Staffing",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Construction/Architecture, Engineering & Design"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Velesium Labs.",
+          "verdict": "match",
+          "reference": "Velesium Labs",
+          "provider_value": "Velesium Labs",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the velesiumlabs page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/velesiumlabs",
+          "provider_value": "https://www.linkedin.com/company/velesiumlabs",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use velesium.ai.",
+          "verdict": "match",
+          "reference": [
+            "velesium.ai"
+          ],
+          "provider_value": [
+            "velesium.ai"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 3,
+      "correct_field_yield_pct": 50.0,
+      "accuracy_when_present_pct": 50.0
+    },
+    {
+      "case_slug": "ww_526e25ebabe938b8322c06d253f918b0",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "5001-10000 does not match 10001+.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 10001,
+            "max": null
+          },
+          "provider_value": {
+            "min": 5001,
+            "max": 10000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Nashville matches US/Nashville.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Nashville"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Nashville"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 93,
+          "rationale": "Tire and rubber manufacturing is a specific motor-vehicle manufacturing classification.",
+          "verdict": "match",
+          "reference": [
+            "Motor Vehicle Manufacturing"
+          ],
+          "provider_value": [
+            "Manufacturing",
+            "Manufacturing/Plastic, Packaging & Containers",
+            "Manufacturing/Tires & Rubber"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Bridgestone Americas.",
+          "verdict": "match",
+          "reference": "Bridgestone Americas",
+          "provider_value": "Bridgestone Americas",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the bridgestone page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/bridgestone",
+          "provider_value": "https://www.linkedin.com/company/bridgestone",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use bridgestoneamericas.com.",
+          "verdict": "match",
+          "reference": [
+            "bridgestoneamericas.com"
+          ],
+          "provider_value": [
+            "bridgestoneamericas.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 83.33,
+      "accuracy_when_present_pct": 83.33
+    },
+    {
+      "case_slug": "ww_5325dc48e755498686ad2e3a7dcde409",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1997.",
+          "verdict": "match",
+          "reference": 1997,
+          "provider_value": 1997,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both bands are 11-50.",
+          "verdict": "match",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "India matches IN, but the referenced city New Delhi is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "IN",
+            "city": "New Delhi"
+          },
+          "provider_value": {
+            "country": "India",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "Drug-store retail is not equivalent to chemical manufacturing.",
+          "verdict": "mismatch",
+          "reference": [
+            "Chemical Manufacturing"
+          ],
+          "provider_value": [
+            "Retail/Drug Stores & Pharmacies",
+            "Retail"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The omitted Pvt Ltd legal suffix is immaterial.",
+          "verdict": "match",
+          "reference": "P. D. Polychem Pvt Ltd",
+          "provider_value": "P. D. Polychem",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the pdpolychem page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/pdpolychem",
+          "provider_value": "https://www.linkedin.com/company/pdpolychem",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use pdpolychem.com.",
+          "verdict": "match",
+          "reference": [
+            "pdpolychem.com"
+          ],
+          "provider_value": [
+            "pdpolychem.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_535b2362e64ff901a954bb280afb197e",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "201-500 does not match 10001+.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 10001,
+            "max": null
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "China matches CN, and no reference city was supplied.",
+          "verdict": "match",
+          "reference": {
+            "country": "CN",
+            "city": null
+          },
+          "provider_value": {
+            "country": "China",
+            "city": null
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 95,
+          "rationale": "Colleges and universities reasonably matches education management for this institution.",
+          "verdict": "match",
+          "reference": [
+            "Education Management"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/Colleges & Universities",
+            "Construction/Architecture, Engineering & Design"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 78,
+          "rationale": "Northern Jiaotong University is materially different from the authoritative name Beijing Jiaotong University.",
+          "verdict": "mismatch",
+          "reference": "Beijing Jiaotong University",
+          "provider_value": "Northern Jiaotong University",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "The northern-jiaotong-university company page differs from the referenced beijing-jiaotong-university school page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/school/beijing-jiaotong-university",
+          "provider_value": "https://www.linkedin.com/company/northern-jiaotong-university",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use njtu.edu.cn.",
+          "verdict": "match",
+          "reference": [
+            "njtu.edu.cn"
+          ],
+          "provider_value": [
+            "njtu.edu.cn"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 3,
+      "correct_field_yield_pct": 50.0,
+      "accuracy_when_present_pct": 50.0
+    },
+    {
+      "case_slug": "ww_583e39f257439685a80189ee1df5e134",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2010.",
+          "verdict": "match",
+          "reference": 2010,
+          "provider_value": 2010,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "501-1000 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 501,
+            "max": 1000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Sant Boi de Llobregat is a minor conventional wording variant of Sant Boi del Llobregat, and Spain matches ES.",
+          "verdict": "match",
+          "reference": {
+            "country": "ES",
+            "city": "Sant Boi del Llobregat"
+          },
+          "provider_value": {
+            "country": "Spain",
+            "city": "Sant Boi de Llobregat"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider's hospital and healthcare classifications match hospitals and health care.",
+          "verdict": "match",
+          "reference": [
+            "Hospitals and Health Care"
+          ],
+          "provider_value": [
+            "Hospitals & Physicians Clinics/Medical & Surgical Hospitals",
+            "Healthcare Services/Medical Laboratories & Imaging Centers",
+            "Healthcare Services/Mental Health & Rehabilitation Facilities",
+            "Healthcare Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The names differ only by the accent in Déu.",
+          "verdict": "match",
+          "reference": "Parc Sanitari Sant Joan de Deu",
+          "provider_value": "Parc Sanitari Sant Joan de Déu",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the parc-sanitari-sant-joan-de-deu page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/parc-sanitari-sant-joan-de-deu",
+          "provider_value": "https://www.linkedin.com/company/parc-sanitari-sant-joan-de-deu",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use pssjd.org.",
+          "verdict": "match",
+          "reference": [
+            "pssjd.org"
+          ],
+          "provider_value": [
+            "pssjd.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 6,
+      "correct_field_yield_pct": 85.71,
+      "accuracy_when_present_pct": 85.71
+    },
+    {
+      "case_slug": "ww_58ee2794cc87707943624dc8db2ff5a0",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "5001-10000 does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 5001,
+            "max": 10000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Storrs matches US/Storrs.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Storrs"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Storrs"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Colleges and universities is equivalent to higher education.",
+          "verdict": "match",
+          "reference": [
+            "Higher Education"
+          ],
+          "provider_value": [
+            "Education/Colleges & Universities",
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are University of Connecticut.",
+          "verdict": "match",
+          "reference": "University of Connecticut",
+          "provider_value": "University of Connecticut",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 99,
+          "rationale": "The provider uses a /company/ page instead of the referenced /school/ page.",
+          "verdict": "mismatch",
+          "reference": "https://www.linkedin.com/school/university-of-connecticut",
+          "provider_value": "https://www.linkedin.com/company/university-of-connecticut",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use uconn.edu.",
+          "verdict": "match",
+          "reference": [
+            "uconn.edu"
+          ],
+          "provider_value": [
+            "uconn.edu"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_5ab3fa43bf1cdfe8f008a84737679ab0",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "201-500 does not match 501-1000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 501,
+            "max": 1000
+          },
+          "provider_value": {
+            "min": 201,
+            "max": 500
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "K-12 schools is equivalent to primary and secondary education.",
+          "verdict": "match",
+          "reference": [
+            "Primary and Secondary Education"
+          ],
+          "provider_value": [
+            "Education",
+            "Education/K-12 Schools",
+            "Education/Training"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Appoquinimink School District.",
+          "verdict": "match",
+          "reference": "Appoquinimink School District",
+          "provider_value": "Appoquinimink School District",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the appoquinimink page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/appoquinimink",
+          "provider_value": "https://www.linkedin.com/company/appoquinimink",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use apposchooldistrict.com.",
+          "verdict": "match",
+          "reference": [
+            "apposchooldistrict.com"
+          ],
+          "provider_value": [
+            "apposchooldistrict.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 5,
+      "returned_fields": 5,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 80.0,
+      "accuracy_when_present_pct": 80.0
+    },
+    {
+      "case_slug": "ww_5cca48cb4250836e4203b69ee8a2c685",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "11-50 does not match 201-500.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 201,
+            "max": 500
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "United States/Hitchcock matches US/Hitchcock.",
+          "verdict": "match",
+          "reference": {
+            "country": "US",
+            "city": "Hitchcock"
+          },
+          "provider_value": {
+            "country": "United States",
+            "city": "Hitchcock"
+          },
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "K-12 schools is equivalent to primary and secondary education.",
+          "verdict": "match",
+          "reference": [
+            "Primary and Secondary Education"
+          ],
+          "provider_value": [
+            "Education/K-12 Schools",
+            "Education",
+            "Education/Training"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Hitchcock ISD.",
+          "verdict": "match",
+          "reference": "Hitchcock ISD",
+          "provider_value": "Hitchcock ISD",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the hitchcockisd page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/hitchcockisd",
+          "provider_value": "https://www.linkedin.com/company/hitchcockisd",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use hitchcockisd.org.",
+          "verdict": "match",
+          "reference": [
+            "hitchcockisd.org"
+          ],
+          "provider_value": [
+            "hitchcockisd.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 83.33,
+      "accuracy_when_present_pct": 83.33
+    },
+    {
+      "case_slug": "ww_5d25db42f4ecf28302c623a3ff618264",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 1989.",
+          "verdict": "match",
+          "reference": 1989,
+          "provider_value": 1989,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 51-200.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Turkey matches TR, but the referenced city Çankaya is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "TR",
+            "city": "Çankaya"
+          },
+          "provider_value": {
+            "country": "Turkey",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Freight, logistics, moving, and storage match the referenced transportation and logistics sector.",
+          "verdict": "match",
+          "reference": [
+            "Transportation, Logistics, Supply Chain and Storage"
+          ],
+          "provider_value": [
+            "Transportation",
+            "Transportation/Freight & Logistics Services",
+            "Transportation/Trucking, Moving & Storage"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 95,
+          "rationale": "Esen Moving is a reasonable shortened form of ESEN International Movers.",
+          "verdict": "match",
+          "reference": "ESEN International Movers",
+          "provider_value": "Esen Moving",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the esen-international-movers page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/esen-international-movers",
+          "provider_value": "https://www.linkedin.com/company/esen-international-movers",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use esenmoving.com.tr.",
+          "verdict": "match",
+          "reference": [
+            "esenmoving.com.tr"
+          ],
+          "provider_value": [
+            "esenmoving.com.tr"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_5d97a7ef70f6c883d61c5201c3069882",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "2003 does not match 1919.",
+          "verdict": "mismatch",
+          "reference": 1919,
+          "provider_value": 2003,
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "10001+ does not match 1001-5000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 1001,
+            "max": 5000
+          },
+          "provider_value": {
+            "min": 10001,
+            "max": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "United Kingdom matches GB, but the referenced city London is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "GB",
+            "city": "London"
+          },
+          "provider_value": {
+            "country": "United Kingdom",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The provider explicitly includes Retail.",
+          "verdict": "match",
+          "reference": [
+            "Retail"
+          ],
+          "provider_value": [
+            "Retail",
+            "Retail/Convenience Stores, Gas Stations & Liquor Stores",
+            "Retail/Grocery Retail",
+            "Retail/Consumer Electronics & Computers Retail",
+            "Retail/Department Stores, Shopping Centers & Superstores"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 98,
+          "rationale": "Tesco is the broader company name, not the referenced Tesco Technology entity.",
+          "verdict": "mismatch",
+          "reference": "Tesco Technology",
+          "provider_value": "Tesco",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No LinkedIn URL was supplied.",
+          "verdict": "not_returned",
+          "reference": "https://www.linkedin.com/company/tesco-technology",
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "tesco.com is a different registrable domain from tesco-careers.com.",
+          "verdict": "mismatch",
+          "reference": [
+            "tesco-careers.com"
+          ],
+          "provider_value": [
+            "tesco.com"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 6,
+      "correct_fields": 1,
+      "correct_field_yield_pct": 14.29,
+      "accuracy_when_present_pct": 16.67
+    },
+    {
+      "case_slug": "ww_5e45ee43ad4c583428f4381f141c836d",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1001-5000 does not match 5001-10000.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 5001,
+            "max": 10000
+          },
+          "provider_value": {
+            "min": 1001,
+            "max": 5000
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Italy matches IT, but the referenced city Genova is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "IT",
+            "city": "Genova"
+          },
+          "provider_value": {
+            "country": "Italy",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 91,
+          "rationale": "Engineering, management consulting, and R&D are reasonable professional-services classifications.",
+          "verdict": "match",
+          "reference": [
+            "Professional Services"
+          ],
+          "provider_value": [
+            "Construction/Architecture, Engineering & Design",
+            "Energy, Utilities & Waste/Waste Treatment, Environmental Services & Recycling",
+            "Business Services",
+            "Business Services/Management Consulting",
+            "Business Services/Research & Development"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "The names differ only in capitalization.",
+          "verdict": "match",
+          "reference": "RINA",
+          "provider_value": "Rina",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the rina page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/rina",
+          "provider_value": "https://www.linkedin.com/company/rina",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use rina.org.",
+          "verdict": "match",
+          "reference": [
+            "rina.org"
+          ],
+          "provider_value": [
+            "rina.org"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 6,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 66.67,
+      "accuracy_when_present_pct": 66.67
+    },
+    {
+      "case_slug": "ww_5f34d0e6f248482868ba7b8ff25bd603",
+      "fields": [
+        {
+          "attribute": "headcount_band",
+          "provider_present": false,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "No headcount band was supplied.",
+          "verdict": "not_returned",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": null,
+          "deterministic_baseline": "not_returned",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 93,
+          "rationale": "Slovakia matches SK, but Bratislava is broader than the referenced Rača locality.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "SK",
+            "city": "Rača"
+          },
+          "provider_value": {
+            "country": "Slovakia",
+            "city": "Bratislava"
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "Finance and investment classifications are not equivalent to custom software development.",
+          "verdict": "mismatch",
+          "reference": [
+            "IT System Custom Software Development"
+          ],
+          "provider_value": [
+            "Finance",
+            "Finance/Investment Banking",
+            "Finance/Lending & Brokerage",
+            "Finance/Venture Capital & Private Equity"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 99,
+          "rationale": "Capitalization and omission of the s.r.o. legal suffix are immaterial.",
+          "verdict": "match",
+          "reference": "U.Digital s.r.o.",
+          "provider_value": "u.Digital",
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the u-digital-s-r-o page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/u-digital-s-r-o",
+          "provider_value": "https://www.linkedin.com/company/u-digital-s-r-o",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use udigital.sk.",
+          "verdict": "match",
+          "reference": [
+            "udigital.sk"
+          ],
+          "provider_value": [
+            "udigital.sk"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 6,
+      "returned_fields": 5,
+      "correct_fields": 3,
+      "correct_field_yield_pct": 50.0,
+      "accuracy_when_present_pct": 60.0
+    },
+    {
+      "case_slug": "ww_61f0c4877ceb961e6ecab9bcd110a858",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2018.",
+          "verdict": "match",
+          "reference": 2018,
+          "provider_value": 2018,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "1-10 does not match 11-50.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 11,
+            "max": 50
+          },
+          "provider_value": {
+            "min": 1,
+            "max": 10
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "United Arab Emirates matches AE, but the referenced city Dubai is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "AE",
+            "city": "Dubai"
+          },
+          "provider_value": {
+            "country": "United Arab Emirates",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 92,
+          "rationale": "Software and internet portal services reasonably match technology, information and internet.",
+          "verdict": "match",
+          "reference": [
+            "Technology, Information and Internet"
+          ],
+          "provider_value": [
+            "Software",
+            "Media & Internet/Data Collection & Internet Portals",
+            "Business Services/Custom Software & IT Services"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": true
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Telechat.",
+          "verdict": "match",
+          "reference": "Telechat",
+          "provider_value": "Telechat",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the telechatapp page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/telechatapp",
+          "provider_value": "https://www.linkedin.com/company/telechatapp",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use telechat.com.",
+          "verdict": "match",
+          "reference": [
+            "telechat.com"
+          ],
+          "provider_value": [
+            "telechat.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 5,
+      "correct_field_yield_pct": 71.43,
+      "accuracy_when_present_pct": 71.43
+    },
+    {
+      "case_slug": "ww_6247e2816af2cfeaadb7304f3211baae",
+      "fields": [
+        {
+          "attribute": "founded_year",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are 2009.",
+          "verdict": "match",
+          "reference": 2009,
+          "provider_value": 2009,
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "headcount_band",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "11-50 does not match 51-200.",
+          "verdict": "mismatch",
+          "reference": {
+            "min": 51,
+            "max": 200
+          },
+          "provider_value": {
+            "min": 11,
+            "max": 50
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "hq_location",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 100,
+          "rationale": "South Africa matches ZA, but the referenced city Johannesburg is missing.",
+          "verdict": "mismatch",
+          "reference": {
+            "country": "ZA",
+            "city": "Johannesburg"
+          },
+          "provider_value": {
+            "country": "South Africa",
+            "city": null
+          },
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "industry",
+          "provider_present": true,
+          "is_correct": false,
+          "confidence": 92,
+          "rationale": "Electricity, oil and gas utilities are not equivalent to renewable-energy semiconductor manufacturing.",
+          "verdict": "mismatch",
+          "reference": [
+            "Renewable Energy Semiconductor Manufacturing"
+          ],
+          "provider_value": [
+            "Energy, Utilities & Waste",
+            "Energy, Utilities & Waste/Electricity, Oil & Gas"
+          ],
+          "deterministic_baseline": "mismatch",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "legal_name",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values are Pele Green Energy.",
+          "verdict": "match",
+          "reference": "Pele Green Energy",
+          "provider_value": "Pele Green Energy",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "linkedin_url",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both URLs identify the pele-green-energy page.",
+          "verdict": "match",
+          "reference": "https://www.linkedin.com/company/pele-green-energy",
+          "provider_value": "https://www.linkedin.com/company/pele-green-energy",
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        },
+        {
+          "attribute": "primary_domain",
+          "provider_present": true,
+          "is_correct": true,
+          "confidence": 100,
+          "rationale": "Both values use pelegreenenergy.com.",
+          "verdict": "match",
+          "reference": [
+            "pelegreenenergy.com"
+          ],
+          "provider_value": [
+            "pelegreenenergy.com"
+          ],
+          "deterministic_baseline": "match",
+          "changed_from_deterministic": false
+        }
+      ],
+      "evaluable_fields": 7,
+      "returned_fields": 7,
+      "correct_fields": 4,
+      "correct_field_yield_pct": 57.14,
+      "accuracy_when_present_pct": 57.14
+    }
+  ]
+}

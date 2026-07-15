@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-15T20:11:34Z",
+  "model": "gpt-5.6",
+  "reasoning_effort": "high",
+  "provider_batches_total": 7,
+  "provider_batches_judged": 7,
+  "provider_batches_failed": 0,
+  "source_calls_succeeded": 12,
+  "industry_judgments": 2093,
+  "changed_from_general_llm": 105,
+  "applied_policy_overrides": 3,
+  "usage": {
+    "input_tokens": 104321,
+    "output_tokens": 139753,
+    "total_tokens": 244074
+  },
+  "providers": [
+    {
+      "provider_slug": "apollo",
+      "cases_judged": 299,
+      "provider_values_present": 287,
+      "matches": 284,
+      "same_family_matches": 60,
+      "changed_from_general_llm": 17,
+      "changed_from_deterministic": 139,
+      "mean_confidence": 98.86,
+      "latency_ms": 199296,
+      "usage": {
+        "input_tokens": 14204,
+        "input_tokens_details": {
+          "cache_write_tokens": 14201,
+          "cached_tokens": 0
+        },
+        "output_tokens": 17423,
+        "output_tokens_details": {
+          "reasoning_tokens": 846
+        },
+        "total_tokens": 31627
+      }
+    },
+    {
+      "provider_slug": "company-enrich",
+      "cases_judged": 299,
+      "provider_values_present": 291,
+      "matches": 229,
+      "same_family_matches": 104,
+      "changed_from_general_llm": 30,
+      "changed_from_deterministic": 121,
+      "mean_confidence": 97.05,
+      "latency_ms": 676389,
+      "usage": {
+        "input_tokens": 20780,
+        "output_tokens": 33679,
+        "total_tokens": 54459
+      }
+    },
+    {
+      "provider_slug": "explorium",
+      "cases_judged": 299,
+      "provider_values_present": 283,
+      "matches": 258,
+      "same_family_matches": 172,
+      "changed_from_general_llm": 23,
+      "changed_from_deterministic": 191,
+      "mean_confidence": 97.49,
+      "latency_ms": 234962,
+      "usage": {
+        "input_tokens": 13417,
+        "input_tokens_details": {
+          "cache_write_tokens": 13414,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18740,
+        "output_tokens_details": {
+          "reasoning_tokens": 1990
+        },
+        "total_tokens": 32157
+      }
+    },
+    {
+      "provider_slug": "fiber",
+      "cases_judged": 299,
+      "provider_values_present": 297,
+      "matches": 292,
+      "same_family_matches": 7,
+      "changed_from_general_llm": 4,
+      "changed_from_deterministic": 9,
+      "mean_confidence": 99.85,
+      "latency_ms": 180738,
+      "usage": {
+        "input_tokens": 13079,
+        "input_tokens_details": {
+          "cache_write_tokens": 13076,
+          "cached_tokens": 0
+        },
+        "output_tokens": 16867,
+        "output_tokens_details": {
+          "reasoning_tokens": 745
+        },
+        "total_tokens": 29946
+      }
+    },
+    {
+      "provider_slug": "ocean",
+      "cases_judged": 299,
+      "provider_values_present": 297,
+      "matches": 285,
+      "same_family_matches": 35,
+      "changed_from_general_llm": 13,
+      "changed_from_deterministic": 23,
+      "mean_confidence": 98.95,
+      "latency_ms": 241789,
+      "usage": {
+        "input_tokens": 16929,
+        "input_tokens_details": {
+          "cache_write_tokens": 16926,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19677,
+        "output_tokens_details": {
+          "reasoning_tokens": 2988
+        },
+        "total_tokens": 36606
+      }
+    },
+    {
+      "provider_slug": "people-data-labs",
+      "cases_judged": 299,
+      "provider_values_present": 293,
+      "matches": 283,
+      "same_family_matches": 51,
+      "changed_from_general_llm": 14,
+      "changed_from_deterministic": 135,
+      "mean_confidence": 98.61,
+      "latency_ms": 205071,
+      "usage": {
+        "input_tokens": 12932,
+        "input_tokens_details": {
+          "cache_write_tokens": 12929,
+          "cached_tokens": 0
+        },
+        "output_tokens": 17544,
+        "output_tokens_details": {
+          "reasoning_tokens": 1733
+        },
+        "total_tokens": 30476
+      }
+    },
+    {
+      "provider_slug": "predictleads",
+      "cases_judged": 299,
+      "provider_values_present": 273,
+      "matches": 265,
+      "same_family_matches": 4,
+      "changed_from_general_llm": 4,
+      "changed_from_deterministic": 3,
+      "mean_confidence": 99.87,
+      "latency_ms": 173548,
+      "usage": {
+        "input_tokens": 12980,
+        "input_tokens_details": {
+          "cache_write_tokens": 12977,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15823,
+        "output_tokens_details": {
+          "reasoning_tokens": 580
+        },
+        "total_tokens": 28803
+      }
+    }
+  ]
+}
