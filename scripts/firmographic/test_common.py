@@ -60,9 +60,10 @@ class CohortTests(unittest.TestCase):
             group_cse.reference["linkedin_url"],
         )
 
-    def test_ground_truth_contains_only_scored_reference_fields(self) -> None:
+    def test_ground_truth_can_retain_deferred_reference_fields(self) -> None:
         cases, _ = load_all_cases()
-        self.assertTrue(all("funding_stage" not in case.reference for case in cases))
+        self.assertNotIn("funding_stage", SCORED_ATTRIBUTES)
+        self.assertTrue(all("funding_stage" in case.reference for case in cases))
 
 
 class NormalizationAndScoringTests(unittest.TestCase):
