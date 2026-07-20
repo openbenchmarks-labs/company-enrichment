@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "dataset_slug": "company-firmographic-linkedin-gt-2026-q3-v1",
+  "dataset_slug": "company-firmographic-linkedin-gt-2026-q3-v2",
   "status": "frozen",
   "created_at": "2026-07-14",
-  "method": "OpenBenchmarks team members manually reviewed each company website and LinkedIn company page, confirmed the pair represented the same entity, and recorded the available scored fields from LinkedIn.",
+  "method": "identity-verified LinkedIn references with audited redirect and exact-headcount policy",
   "candidate_count": 367,
   "identity_resolved_count": 305,
   "unretrievable_after_identity_review": 5,
@@ -41,8 +41,10 @@
           "Automotive"
         ],
         "linkedin_url": "https://www.linkedin.com/company/evirotechvehicles",
+        "headcount_exact": 2,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -62,8 +64,10 @@
           "Food and Beverage Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/delmontecorporation",
+        "headcount_exact": 4279,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -83,8 +87,10 @@
           "Professional Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/current-advisors",
+        "headcount_exact": 88,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -104,8 +110,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/go-airspeed",
+        "headcount_exact": 42,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -125,8 +133,10 @@
           "Dairy Product Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/kinislagroup",
+        "headcount_exact": 393,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -146,8 +156,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/simplypmg",
+        "headcount_exact": 422,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -167,8 +179,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lucen-software",
+        "headcount_exact": 58,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -188,8 +202,10 @@
           "Venture Capital and Private Equity Principals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/clarevia",
+        "headcount_exact": 22,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -209,8 +225,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/clearopx",
+        "headcount_exact": 35,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -230,8 +248,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sugarcrm",
+        "headcount_exact": 574,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -251,8 +271,10 @@
           "Biotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/engene",
+        "headcount_exact": 147,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -272,8 +294,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bluedolphinhq",
+        "headcount_exact": 84,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -293,8 +317,10 @@
           "Renewable Energy Equipment Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tempoinnovations",
+        "headcount_exact": 46,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -314,8 +340,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/brickwork-gtm",
+        "headcount_exact": 96,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -335,8 +363,10 @@
           "Robotics Engineering"
         ],
         "linkedin_url": "https://www.linkedin.com/company/agilityrobotics",
+        "headcount_exact": 432,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -356,8 +386,10 @@
           "E-Learning Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/blackboardco",
+        "headcount_exact": 2777,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -377,8 +409,10 @@
           "Marketing Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/fifty5blue",
+        "headcount_exact": 545,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -398,8 +432,10 @@
           "Medical Equipment Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/elumn8-medical",
+        "headcount_exact": 14,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -419,8 +455,10 @@
           "Mining"
         ],
         "linkedin_url": "https://www.linkedin.com/company/rpxgold",
+        "headcount_exact": 23,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -440,8 +478,10 @@
           "Education Administration Programs"
         ],
         "linkedin_url": "https://www.linkedin.com/company/covista-official",
+        "headcount_exact": 771,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -461,8 +501,10 @@
           "Law Practice"
         ],
         "linkedin_url": "https://www.linkedin.com/company/glancy-prongay-wolke-rotter-llp",
+        "headcount_exact": 43,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -482,8 +524,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/evolveprivatewealth",
+        "headcount_exact": 21,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -503,8 +547,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nakamotoinc",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -524,8 +570,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sergroup",
+        "headcount_exact": 383,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -545,8 +593,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cwill",
+        "headcount_exact": 99,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -566,8 +616,10 @@
           "Venture Capital and Private Equity Principals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/dynamiccorecapital",
+        "headcount_exact": 32,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -587,8 +639,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cma-advisors-group",
+        "headcount_exact": 93,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -608,8 +662,10 @@
           "Biotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/definiumtherapeutics",
+        "headcount_exact": 138,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -629,8 +685,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/oriondigitalcorp",
+        "headcount_exact": 18,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -650,8 +708,10 @@
           "Marketing Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/managoai",
+        "headcount_exact": 350,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -671,8 +731,10 @@
           "Plastics Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/vaiire",
+        "headcount_exact": 14,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -692,8 +754,10 @@
           "Mining"
         ],
         "linkedin_url": "https://www.linkedin.com/company/asbury-advanced-materials",
+        "headcount_exact": 171,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -713,8 +777,10 @@
           "Medical Equipment Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/envuemedical",
+        "headcount_exact": 24,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -734,8 +800,10 @@
           "Transportation, Logistics, Supply Chain and Storage"
         ],
         "linkedin_url": "https://www.linkedin.com/company/therockitcompany",
+        "headcount_exact": 110,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -755,8 +823,10 @@
           "Technology, Information and Internet"
         ],
         "linkedin_url": "https://www.linkedin.com/company/everforth",
+        "headcount_exact": 24238,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -776,8 +846,10 @@
           "Newspaper Publishing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/usatodayco",
+        "headcount_exact": 5796,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -797,8 +869,10 @@
           "Blockchain Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bnb-plus-corp",
+        "headcount_exact": 49,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -818,8 +892,10 @@
           "Solar Electric Power Generation"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nextpowerinc",
+        "headcount_exact": 880,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -839,8 +915,10 @@
           "Biotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ladderbio",
+        "headcount_exact": 16,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -860,8 +938,10 @@
           "Telecommunications"
         ],
         "linkedin_url": "https://www.linkedin.com/company/optimum",
+        "headcount_exact": 8376,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -881,8 +961,10 @@
           "Advertising Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bohan",
+        "headcount_exact": 115,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -902,8 +984,10 @@
           "Aviation and Aerospace Component Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/innovative-aerosystems",
+        "headcount_exact": 76,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -923,8 +1007,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/marshrisk",
+        "headcount_exact": 23480,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -944,8 +1030,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/calira",
+        "headcount_exact": 26,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -965,8 +1053,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/reflect-health-solutions",
+        "headcount_exact": 37,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -986,8 +1076,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/huwise",
+        "headcount_exact": 103,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -1007,8 +1099,10 @@
           "Public Safety"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ticsolutions",
+        "headcount_exact": 70,
         "headcount_min": 0,
-        "headcount_max": 1
+        "headcount_max": 1,
+        "funding_stage": null
       }
     },
     {
@@ -1028,8 +1122,10 @@
           "Pharmaceutical Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/qctechnologiesqcls",
+        "headcount_exact": 11,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1049,8 +1145,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/luciq",
+        "headcount_exact": 217,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -1070,8 +1168,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/shoe-carnival",
+        "headcount_exact": 3320,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1091,8 +1191,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/wellspring-family-office",
+        "headcount_exact": 44,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1112,8 +1214,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bed-bath-and-beyond-bbbt",
+        "headcount_exact": 233,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -1133,8 +1237,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/strategy",
+        "headcount_exact": 3492,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -1154,8 +1260,10 @@
           "Government Administration"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bradford-council",
+        "headcount_exact": 3262,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1175,8 +1283,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/romano-signs",
+        "headcount_exact": 9,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1196,8 +1306,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/modernia",
+        "headcount_exact": 43,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -1217,8 +1329,10 @@
           "Home Health Care Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/care-onboard-home-healthcare-center",
+        "headcount_exact": 13,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1238,8 +1352,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/harcourts",
+        "headcount_exact": 4670,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1259,8 +1375,10 @@
           "Vehicle Repair and Maintenance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/autocentrocapri",
+        "headcount_exact": 23,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -1280,8 +1398,10 @@
           "E-Learning Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/laoshi",
+        "headcount_exact": 12,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1301,8 +1421,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/solidarity-wealth",
+        "headcount_exact": 12,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1322,8 +1444,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/risd1877",
+        "headcount_exact": 2535,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -1343,8 +1467,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/brd-sogelease",
+        "headcount_exact": 117,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -1364,8 +1490,10 @@
           "Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/deutsche-angestellten-akademie---daa",
+        "headcount_exact": 2014,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -1385,8 +1513,10 @@
           "Performing Arts"
         ],
         "linkedin_url": "https://www.linkedin.com/company/revel-dance-convention",
+        "headcount_exact": 22,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1406,8 +1536,10 @@
           "Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/hospecobrands",
+        "headcount_exact": 141,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -1427,8 +1559,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cybage",
+        "headcount_exact": 9274,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1448,8 +1582,10 @@
           "Government Administration"
         ],
         "linkedin_url": "https://www.linkedin.com/company/prefeituraserra",
+        "headcount_exact": 3289,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -1469,8 +1605,10 @@
           "Mining"
         ],
         "linkedin_url": "https://www.linkedin.com/company/adaroenergy",
+        "headcount_exact": 1549,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -1490,8 +1628,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nobrokerhood",
+        "headcount_exact": 1113,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -1511,8 +1651,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/advanceai-aai",
+        "headcount_exact": 347,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -1532,8 +1674,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/l-t-ecc",
+        "headcount_exact": 11246,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -1553,8 +1697,10 @@
           "Accounting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/alpfa-usc-chapter",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1574,8 +1720,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/virginia-tech",
+        "headcount_exact": 15452,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1595,8 +1743,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lunet",
+        "headcount_exact": 1543,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -1616,8 +1766,10 @@
           "Staffing and Recruiting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mican-technologies",
+        "headcount_exact": 93,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -1637,8 +1789,10 @@
           "Waste Treatment and Disposal"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bert-containers",
+        "headcount_exact": 10,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1658,8 +1812,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/shopurfood1",
+        "headcount_exact": 1,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1679,8 +1835,10 @@
           "Aviation and Aerospace Component Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/wescon",
+        "headcount_exact": 51,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1700,8 +1858,10 @@
           "Legal Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/gamarraabogados",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1721,8 +1881,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/solvo-global",
+        "headcount_exact": 3573,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -1742,8 +1904,10 @@
           "Telecommunications"
         ],
         "linkedin_url": "https://www.linkedin.com/company/etisalat-nigeria",
+        "headcount_exact": 1522,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -1763,8 +1927,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/primark-stores-ltd",
+        "headcount_exact": 46436,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -1784,8 +1950,10 @@
           "Advertising Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/topvote",
+        "headcount_exact": 0,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1805,8 +1973,10 @@
           "Civic and Social Organizations"
         ],
         "linkedin_url": "https://www.linkedin.com/company/the-southwest-louisiana-economic-development-alliance",
+        "headcount_exact": 29,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1826,8 +1996,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/apolo-consulting-group",
+        "headcount_exact": 0,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1847,8 +2019,10 @@
           "Non-profit Organizations"
         ],
         "linkedin_url": "https://www.linkedin.com/company/project-hope",
+        "headcount_exact": 1263,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -1868,8 +2042,10 @@
           "Computer Games"
         ],
         "linkedin_url": "https://www.linkedin.com/company/theclashify",
+        "headcount_exact": 0,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -1889,8 +2065,10 @@
           "Airlines and Aviation"
         ],
         "linkedin_url": "https://www.linkedin.com/company/austrian-airlines",
+        "headcount_exact": 3215,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -1910,8 +2088,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/quinyx",
+        "headcount_exact": 290,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -1931,8 +2111,10 @@
           "Retail Luxury Goods and Jewelry"
         ],
         "linkedin_url": "https://www.linkedin.com/company/gemkara-com",
+        "headcount_exact": 13,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1952,8 +2134,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/techminds-learning-services",
+        "headcount_exact": 4,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1973,8 +2157,10 @@
           "Maritime Transportation"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cm-hammar",
+        "headcount_exact": 43,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -1994,8 +2180,10 @@
           "Banking"
         ],
         "linkedin_url": "https://www.linkedin.com/company/national-bank-of-pakistan-frankfurt-am-main",
+        "headcount_exact": 47,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2015,8 +2203,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/texas-a&m-university",
+        "headcount_exact": 30580,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2036,8 +2226,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bnyglobal",
+        "headcount_exact": 55173,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2057,8 +2249,10 @@
           "Appliances, Electrical, and Electronics Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/awesi",
+        "headcount_exact": 39,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2078,8 +2272,10 @@
           "Machinery Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tradimaq",
+        "headcount_exact": 1170,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2099,8 +2295,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/financial-design-group",
+        "headcount_exact": 31,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2120,8 +2318,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/goeagency",
+        "headcount_exact": 15,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2141,8 +2341,10 @@
           "Technology, Information and Internet"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bankin",
+        "headcount_exact": 69,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2162,8 +2364,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/umassamherst",
+        "headcount_exact": 11362,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2183,8 +2387,10 @@
           "Pharmaceutical Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tekb---t-m-eczac-kooperatifleri-birli-i",
+        "headcount_exact": 30,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2204,8 +2410,10 @@
           "Investment Management"
         ],
         "linkedin_url": "https://www.linkedin.com/company/grupo-broda",
+        "headcount_exact": 106,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -2225,8 +2433,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/universidad-central-colombia-",
+        "headcount_exact": 1804,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -2246,8 +2456,10 @@
           "Apparel & Fashion"
         ],
         "linkedin_url": "https://www.linkedin.com/company/louisphilippe",
+        "headcount_exact": 1079,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2267,8 +2479,10 @@
           "Aviation and Aerospace Component Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nht-linhas-a-reas",
+        "headcount_exact": 20,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2288,8 +2502,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cas",
+        "headcount_exact": 4604,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2309,8 +2525,10 @@
           "Entertainment Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/arri",
+        "headcount_exact": 812,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2330,8 +2548,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lhmh",
+        "headcount_exact": 70,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -2351,8 +2571,10 @@
           "Travel Arrangements"
         ],
         "linkedin_url": "https://www.linkedin.com/company/danata-geo-travel",
+        "headcount_exact": 79,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2372,8 +2594,10 @@
           "Marketing Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nicandco",
+        "headcount_exact": 1,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -2393,8 +2617,10 @@
           "Technology, Information and Media"
         ],
         "linkedin_url": "https://www.linkedin.com/company/panews",
+        "headcount_exact": 13,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2414,8 +2640,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/buttecollege",
+        "headcount_exact": 1205,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -2435,8 +2663,10 @@
           "Repair and Maintenance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/grupomultifix",
+        "headcount_exact": 90,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -2456,8 +2686,10 @@
           "Restaurants"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pulpo-negro",
+        "headcount_exact": 10,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2477,8 +2709,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/himgiri-public-school",
+        "headcount_exact": 22,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2498,8 +2732,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/kickstarter",
+        "headcount_exact": 399,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -2519,8 +2755,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ambuja-neotia-group",
+        "headcount_exact": 1064,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2540,8 +2778,10 @@
           "Defense & Space"
         ],
         "linkedin_url": "https://www.linkedin.com/company/hellenic-defence-systems-s.a.",
+        "headcount_exact": 68,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -2561,8 +2801,10 @@
           "Education Administration Programs"
         ],
         "linkedin_url": "https://www.linkedin.com/company/idea-public-schools",
+        "headcount_exact": 5868,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2582,8 +2824,10 @@
           "Outsourcing and Offshoring Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/simplia-facility-solutions",
+        "headcount_exact": 791,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -2603,8 +2847,10 @@
           "Business Supplies & Equipment"
         ],
         "linkedin_url": "https://www.linkedin.com/company/jeulin",
+        "headcount_exact": 150,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2624,8 +2870,10 @@
           "Hospitality"
         ],
         "linkedin_url": "https://www.linkedin.com/company/astor-hotel-motel",
+        "headcount_exact": 10,
         "headcount_min": null,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2645,8 +2893,10 @@
           "Oil and Gas"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mcdermott-international-inc-",
+        "headcount_exact": 23240,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2666,8 +2916,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/utc-engenharia",
+        "headcount_exact": 3685,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2687,8 +2939,10 @@
           "Events Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lbs-international-conferences",
+        "headcount_exact": 27,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -2708,8 +2962,10 @@
           "Veterinary"
         ],
         "linkedin_url": "https://www.linkedin.com/company/clear-lake-animal-hospital",
+        "headcount_exact": 17,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2729,8 +2985,10 @@
           "Hospitality"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bourbon-hospitalidade",
+        "headcount_exact": 1447,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2750,8 +3008,10 @@
           "Services for Renewable Energy"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tibber",
+        "headcount_exact": 294,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -2771,8 +3031,10 @@
           "Civil Engineering"
         ],
         "linkedin_url": "https://www.linkedin.com/company/avn-team-tunneling-support",
+        "headcount_exact": 11,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2792,8 +3054,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/blue-line-futures",
+        "headcount_exact": 11,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -2813,8 +3077,10 @@
           "Legal Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/claimhit",
+        "headcount_exact": 2,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2834,8 +3100,10 @@
           "Professional Training and Coaching"
         ],
         "linkedin_url": "https://www.linkedin.com/company/emccfrance",
+        "headcount_exact": 114,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -2855,8 +3123,10 @@
           "Research Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/csiro",
+        "headcount_exact": 6785,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -2876,8 +3146,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/hose-guys",
+        "headcount_exact": 10,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -2897,8 +3169,10 @@
           "Information Technology & Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/velesiumlabs",
+        "headcount_exact": 7,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2918,8 +3192,10 @@
           "Motor Vehicle Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bridgestone",
+        "headcount_exact": 19624,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2939,8 +3215,10 @@
           "Chemical Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pdpolychem",
+        "headcount_exact": 44,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -2960,8 +3238,10 @@
           "Education Management"
         ],
         "linkedin_url": "https://www.linkedin.com/school/beijing-jiaotong-university",
+        "headcount_exact": 1860,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -2981,8 +3261,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/parc-sanitari-sant-joan-de-deu",
+        "headcount_exact": 1754,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3002,8 +3284,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/university-of-connecticut",
+        "headcount_exact": 13496,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3023,8 +3307,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/appoquinimink",
+        "headcount_exact": 465,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -3044,8 +3330,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/hitchcockisd",
+        "headcount_exact": 131,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -3065,8 +3353,10 @@
           "Transportation, Logistics, Supply Chain and Storage"
         ],
         "linkedin_url": "https://www.linkedin.com/company/esen-international-movers",
+        "headcount_exact": 18,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3086,8 +3376,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tesco-technology",
+        "headcount_exact": 1149,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3107,8 +3399,10 @@
           "Professional Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/rina",
+        "headcount_exact": 8164,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -3128,8 +3422,10 @@
           "IT System Custom Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/u-digital-s-r-o",
+        "headcount_exact": 0,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3149,8 +3445,10 @@
           "Technology, Information and Internet"
         ],
         "linkedin_url": "https://www.linkedin.com/company/telechatapp",
+        "headcount_exact": 10,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3170,8 +3468,10 @@
           "Renewable Energy Semiconductor Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pele-green-energy",
+        "headcount_exact": 69,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3191,8 +3491,10 @@
           "Wholesale"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bestway-wholesale",
+        "headcount_exact": 1171,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3212,8 +3514,10 @@
           "Food and Beverage Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/c-h-guenther",
+        "headcount_exact": 1343,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3233,8 +3537,10 @@
           "Civil Engineering"
         ],
         "linkedin_url": "https://www.linkedin.com/company/algusa-constructora",
+        "headcount_exact": 11,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3254,8 +3560,10 @@
           "Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pladisglobal",
+        "headcount_exact": 3629,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -3275,8 +3583,10 @@
           "Retail Apparel and Fashion"
         ],
         "linkedin_url": "https://www.linkedin.com/company/fashionforgood",
+        "headcount_exact": 421,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3296,8 +3606,10 @@
           "Public Safety"
         ],
         "linkedin_url": "https://www.linkedin.com/company/icu-technologies-inc",
+        "headcount_exact": 30,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3317,8 +3629,10 @@
           "International Trade and Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/invest-northern-ireland",
+        "headcount_exact": 622,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -3338,8 +3652,10 @@
           "Advertising Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/upptic",
+        "headcount_exact": 31,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3359,8 +3675,10 @@
           "Staffing and Recruiting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/activoscolombia",
+        "headcount_exact": 2180,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -3380,8 +3698,10 @@
           "Research Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/smart-built-environment",
+        "headcount_exact": 14,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3401,8 +3721,10 @@
           "Defense and Space Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/iai",
+        "headcount_exact": 5089,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -3422,8 +3744,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/semir-international",
+        "headcount_exact": 1907,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -3443,8 +3767,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/heartworksiv",
+        "headcount_exact": 32,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3464,8 +3790,10 @@
           "Aviation and Aerospace Component Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sts-aviation-group",
+        "headcount_exact": 2675,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3485,8 +3813,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/brasolar",
+        "headcount_exact": 15,
         "headcount_min": null,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -3506,8 +3836,10 @@
           "Entertainment Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/rawstonegames",
+        "headcount_exact": 8,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3527,8 +3859,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/hospital",
+        "headcount_exact": 5323,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -3548,8 +3882,10 @@
           "Automation Machinery Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/jens-s-transmissioner-ab",
+        "headcount_exact": 42,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3569,8 +3905,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/corepay-in",
+        "headcount_exact": 1,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3590,8 +3928,10 @@
           "Media Production"
         ],
         "linkedin_url": "https://www.linkedin.com/company/workingdogproductions",
+        "headcount_exact": 33,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3611,8 +3951,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/healthassistance",
+        "headcount_exact": 88,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3632,8 +3974,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/paterson-public-schools",
+        "headcount_exact": 1666,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3653,8 +3997,10 @@
           "Computer Games"
         ],
         "linkedin_url": "https://www.linkedin.com/company/wildcard-alliance",
+        "headcount_exact": 10,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3674,8 +4020,10 @@
           "Staffing and Recruiting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/en-world",
+        "headcount_exact": 1404,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -3695,8 +4043,10 @@
           "Spectator Sports"
         ],
         "linkedin_url": "https://www.linkedin.com/company/the-barclays-center",
+        "headcount_exact": 525,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3716,8 +4066,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pomechain",
+        "headcount_exact": 8,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3737,8 +4089,10 @@
           "Telecommunications"
         ],
         "linkedin_url": "https://www.linkedin.com/company/orangepolska",
+        "headcount_exact": 4792,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3758,8 +4112,10 @@
           "Internet News"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cfnews",
+        "headcount_exact": 41,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3779,8 +4135,10 @@
           "Machinery Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/showcase/ridge-tool-company",
+        "headcount_exact": null,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -3800,8 +4158,10 @@
           "Leisure, Travel & Tourism"
         ],
         "linkedin_url": "https://www.linkedin.com/company/travelplan-globalia-",
+        "headcount_exact": 170,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -3821,8 +4181,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/catalystservicesuk",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3842,8 +4204,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/remaxurbe2",
+        "headcount_exact": 46,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -3863,8 +4227,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/aoe-nazarbayev-university",
+        "headcount_exact": 2953,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -3884,8 +4250,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/agoralimited",
+        "headcount_exact": 315,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -3905,8 +4273,10 @@
           "Packaging and Containers Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/corrpak-group",
+        "headcount_exact": 9,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3926,8 +4296,10 @@
           "Technology, Information and Internet"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pickmywork",
+        "headcount_exact": 118,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3947,8 +4319,10 @@
           "Technical and Vocational Training"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mfr-officiel",
+        "headcount_exact": 1574,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -3968,8 +4342,10 @@
           "Venture Capital and Private Equity Principals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/compass-venture-capital",
+        "headcount_exact": 1,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -3989,8 +4365,10 @@
           "Civic and Social Organizations"
         ],
         "linkedin_url": "https://www.linkedin.com/company/instedd-ilab-southeast-asia",
+        "headcount_exact": 8,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -4010,8 +4388,10 @@
           "Spectator Sports"
         ],
         "linkedin_url": "https://www.linkedin.com/company/group-cse",
+        "headcount_exact": 1062,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4031,8 +4411,10 @@
           "Chemical Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/qroma",
+        "headcount_exact": 1178,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4052,8 +4434,10 @@
           "Public Relations and Communications Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/message-matters-ltd",
+        "headcount_exact": 11,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -4073,8 +4457,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ima-financial-group-inc",
+        "headcount_exact": 3303,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4094,8 +4480,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/pzu",
+        "headcount_exact": 10904,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -4115,8 +4503,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/adm-interactive",
+        "headcount_exact": 53,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -4136,8 +4526,10 @@
           "Architecture and Planning"
         ],
         "linkedin_url": "https://www.linkedin.com/company/imoss-bureau-voor-stedebouw-bv",
+        "headcount_exact": 19,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4155,8 +4547,10 @@
         "industry": null,
         "industries": [],
         "linkedin_url": "https://www.linkedin.com/company/gen-x-diagnostics---india",
+        "headcount_exact": 3,
         "headcount_min": null,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -4176,8 +4570,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/touchpal",
+        "headcount_exact": 72,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4197,8 +4593,10 @@
           "Renewable Energy Semiconductor Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/big-mega-renewable-energy",
+        "headcount_exact": 10,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4218,8 +4616,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lease-link-canada",
+        "headcount_exact": 33,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4239,8 +4639,10 @@
           "Events Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/texzone-information-services-private-limited",
+        "headcount_exact": 55,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4260,8 +4662,10 @@
           "Wholesale Building Materials"
         ],
         "linkedin_url": "https://www.linkedin.com/company/zandscarpets",
+        "headcount_exact": 3,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4281,8 +4685,10 @@
           "Utilities"
         ],
         "linkedin_url": "https://www.linkedin.com/company/utilitywarehouse",
+        "headcount_exact": 5044,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4302,8 +4708,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/interac-corp",
+        "headcount_exact": 1073,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -4323,8 +4731,10 @@
           "Book and Periodical Publishing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lift-education-nz",
+        "headcount_exact": 27,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4344,8 +4754,10 @@
           "Wholesale Building Materials"
         ],
         "linkedin_url": "https://www.linkedin.com/company/keesafetyinc",
+        "headcount_exact": 105,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4365,8 +4777,10 @@
           "Fabricated Metal Products"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bergen-mekaniske-as",
+        "headcount_exact": 17,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4386,8 +4800,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tan-tock-seng-hospital",
+        "headcount_exact": 7162,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -4407,8 +4823,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/waterfront-group",
+        "headcount_exact": 117,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4428,8 +4846,10 @@
           "E-Learning Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/meducachile",
+        "headcount_exact": 6596,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -4449,8 +4869,10 @@
           "Artificial Intelligence"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bytespathglobal",
+        "headcount_exact": 7,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -4470,8 +4892,10 @@
           "Staffing and Recruiting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/accounting-&-finance-professionals",
+        "headcount_exact": 1113,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4491,8 +4915,10 @@
           "Professional Training and Coaching"
         ],
         "linkedin_url": "https://www.linkedin.com/company/digitalboost-org",
+        "headcount_exact": 146,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -4512,8 +4938,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/corporativo-overall",
+        "headcount_exact": 2770,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -4533,8 +4961,10 @@
           "Computer Hardware"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ghia",
+        "headcount_exact": 16,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -4554,8 +4984,10 @@
           "Investment Management"
         ],
         "linkedin_url": "https://www.linkedin.com/company/turner-&-co.-glasgow-limited.",
+        "headcount_exact": 24,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -4575,8 +5007,10 @@
           "Civil Engineering"
         ],
         "linkedin_url": "https://www.linkedin.com/company/maven-nz",
+        "headcount_exact": 114,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4596,8 +5030,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/gea",
+        "headcount_exact": 1342,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4617,8 +5053,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/youtap-indonesia",
+        "headcount_exact": 100,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4638,8 +5076,10 @@
           "Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/kprdsb",
+        "headcount_exact": 2001,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4659,8 +5099,10 @@
           "Spectator Sports"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sports-1-marketing",
+        "headcount_exact": 79,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4680,8 +5122,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/nottingham-trent-university",
+        "headcount_exact": 7896,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4701,8 +5145,10 @@
           "Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/focusprofessionalrussia",
+        "headcount_exact": 0,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -4722,8 +5168,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/cinnco",
+        "headcount_exact": 11,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4743,8 +5191,10 @@
           "Venture Capital and Private Equity Principals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/shamsvalley",
+        "headcount_exact": 1,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -4764,8 +5214,10 @@
           "Chemical Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/redachem",
+        "headcount_exact": 748,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -4785,8 +5237,10 @@
           "Truck Transportation"
         ],
         "linkedin_url": "https://www.linkedin.com/company/transmi-eirl",
+        "headcount_exact": 12,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4806,8 +5260,10 @@
           "Movies and Sound Recording"
         ],
         "linkedin_url": "https://www.linkedin.com/company/blender-org",
+        "headcount_exact": 1655,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4827,8 +5283,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/beziers-had",
+        "headcount_exact": 20,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4848,8 +5306,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bam-gt",
+        "headcount_exact": 3230,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -4869,8 +5329,10 @@
           "Education Management"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nasdaq-entrepreneurial-center",
+        "headcount_exact": 151,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4890,8 +5352,10 @@
           "Hospitality"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lake-mohawk-country-club",
+        "headcount_exact": 74,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4911,8 +5375,10 @@
           "Wholesale Metals and Minerals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/thebettsgroup",
+        "headcount_exact": 24,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4932,8 +5398,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/primio-app",
+        "headcount_exact": 23,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -4953,8 +5421,10 @@
           "Wholesale Paper Products"
         ],
         "linkedin_url": "https://www.linkedin.com/company/envelopes-com",
+        "headcount_exact": 15,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4974,8 +5444,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/school/ccpalionpride",
+        "headcount_exact": 98,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -4995,8 +5467,10 @@
           "Higher Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/harvestschoolstr",
+        "headcount_exact": 75,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5016,8 +5490,10 @@
           "Industrial Machinery Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/forbesmarshall",
+        "headcount_exact": 2794,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5037,8 +5513,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/jan-de-nul",
+        "headcount_exact": 6392,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -5058,8 +5536,10 @@
           "Staffing and Recruiting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/progressive-recruitment",
+        "headcount_exact": 1690,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -5079,8 +5559,10 @@
           "Professional Training and Coaching"
         ],
         "linkedin_url": "https://www.linkedin.com/school/pjm-investment-akademie-gmbh",
+        "headcount_exact": 46,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5100,8 +5582,10 @@
           "Airlines and Aviation"
         ],
         "linkedin_url": "https://www.linkedin.com/company/korean-air",
+        "headcount_exact": 3649,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -5121,8 +5605,10 @@
           "Data Infrastructure and Analytics"
         ],
         "linkedin_url": "https://www.linkedin.com/company/researchers-me",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5142,8 +5628,10 @@
           "Photography"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lifetouch",
+        "headcount_exact": 4975,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -5163,8 +5651,10 @@
           "Food and Beverage Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mad-squirrel",
+        "headcount_exact": 53,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5184,8 +5674,10 @@
           "Education Administration Programs"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mobile-county-public-school-system",
+        "headcount_exact": 2729,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -5205,8 +5697,10 @@
           "Food and Beverage Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/marfrig-global-foods",
+        "headcount_exact": 10004,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -5226,8 +5720,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/the-giddyup-group",
+        "headcount_exact": 136,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5247,8 +5743,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/damart",
+        "headcount_exact": 1229,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5268,8 +5766,10 @@
           "Government Administration"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ministere-des-armees",
+        "headcount_exact": 38006,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -5289,8 +5789,10 @@
           "Venture Capital and Private Equity Principals"
         ],
         "linkedin_url": "https://www.linkedin.com/company/randstad-innovation-fund",
+        "headcount_exact": 1,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -5310,8 +5812,10 @@
           "Hospitals and Health Care"
         ],
         "linkedin_url": "https://www.linkedin.com/company/de-haagse-tandarts",
+        "headcount_exact": 10,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5331,8 +5835,10 @@
           "Broadcast Media Production and Distribution"
         ],
         "linkedin_url": "https://www.linkedin.com/company/radio-france-internationale",
+        "headcount_exact": 1269,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -5352,8 +5858,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/caesar-app",
+        "headcount_exact": 47,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5373,8 +5881,10 @@
           "Industrial Machinery Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/zimmuhendislik",
+        "headcount_exact": 7,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5394,8 +5904,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/l-hitapiola",
+        "headcount_exact": 3228,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5415,8 +5927,10 @@
           "Medical Equipment Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/terumoneuro",
+        "headcount_exact": 1442,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5436,8 +5950,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/einzelhandel",
+        "headcount_exact": 3211,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5457,8 +5973,10 @@
           "Real Estate"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sirva",
+        "headcount_exact": 3643,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5478,8 +5996,10 @@
           "Transportation, Logistics, Supply Chain and Storage"
         ],
         "linkedin_url": "https://www.linkedin.com/company/xpressbees",
+        "headcount_exact": 8517,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -5499,8 +6019,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ari10-com",
+        "headcount_exact": 54,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5520,8 +6042,10 @@
           "Banking"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bancomercantilsantacruz",
+        "headcount_exact": 1693,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5541,8 +6065,10 @@
           "Computer and Network Security"
         ],
         "linkedin_url": "https://www.linkedin.com/company/blast-security",
+        "headcount_exact": 22,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5562,8 +6088,10 @@
           "Research Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/teknologiskinstitut",
+        "headcount_exact": 1584,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5583,8 +6111,10 @@
           "Retail"
         ],
         "linkedin_url": "https://www.linkedin.com/company/the-home-depot",
+        "headcount_exact": 139049,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -5604,8 +6134,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/neosoft-",
+        "headcount_exact": 1659,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5625,8 +6157,10 @@
           "Wholesale"
         ],
         "linkedin_url": "https://www.linkedin.com/company/azerty-de-mexico",
+        "headcount_exact": 52,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5646,8 +6180,10 @@
           "Food and Beverage Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ismailindustrieslimited",
+        "headcount_exact": 2067,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5667,8 +6203,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/airfi",
+        "headcount_exact": 63,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5688,8 +6226,10 @@
           "Biotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/spacepharma",
+        "headcount_exact": 26,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5709,8 +6249,10 @@
           "Business Consulting and Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/septembergroupllc",
+        "headcount_exact": 15,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5730,8 +6272,10 @@
           "Motor Vehicle Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/noovovans",
+        "headcount_exact": 39,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5751,8 +6295,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lloydson",
+        "headcount_exact": 1250,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5772,8 +6318,10 @@
           "Telecommunications"
         ],
         "linkedin_url": "https://www.linkedin.com/company/mobilitepower",
+        "headcount_exact": 14,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5793,8 +6341,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/district196",
+        "headcount_exact": 2259,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -5814,8 +6364,10 @@
           "Beverage Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/whiskyinvestdirect",
+        "headcount_exact": 19,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -5835,8 +6387,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/seitz-industriebau",
+        "headcount_exact": 13,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5856,8 +6410,10 @@
           "Nanotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/precision-fabricators",
+        "headcount_exact": 23,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5877,8 +6433,10 @@
           "Investment Management"
         ],
         "linkedin_url": "https://www.linkedin.com/company/devcapital",
+        "headcount_exact": 4,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -5898,8 +6456,10 @@
           "Biotechnology Research"
         ],
         "linkedin_url": "https://www.linkedin.com/company/bigomics-analytics",
+        "headcount_exact": 15,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5919,8 +6479,10 @@
           "Construction"
         ],
         "linkedin_url": "https://www.linkedin.com/company/action-utility-contractors-inc",
+        "headcount_exact": 11,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -5940,8 +6502,10 @@
           "Mechanical Or Industrial Engineering"
         ],
         "linkedin_url": "https://www.linkedin.com/company/retsch-gmbh",
+        "headcount_exact": 63,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -5961,8 +6525,10 @@
           "Advertising Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/linkleads-email-marketing",
+        "headcount_exact": 2,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -5982,8 +6548,10 @@
           "Software Development"
         ],
         "linkedin_url": "https://www.linkedin.com/company/red-pepper-software",
+        "headcount_exact": 52,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6003,8 +6571,10 @@
           "Entertainment Providers"
         ],
         "linkedin_url": "https://www.linkedin.com/company/share-creators-inc",
+        "headcount_exact": 46,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -6024,8 +6594,10 @@
           "Wholesale Import and Export"
         ],
         "linkedin_url": "https://www.linkedin.com/company/eair-llc",
+        "headcount_exact": 36,
         "headcount_min": 201,
-        "headcount_max": 500
+        "headcount_max": 500,
+        "funding_stage": null
       }
     },
     {
@@ -6045,8 +6617,10 @@
           "IT Services and IT Consulting"
         ],
         "linkedin_url": "https://www.linkedin.com/company/trace-payroll-services-limited",
+        "headcount_exact": 12,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6066,8 +6640,10 @@
           "Government Administration"
         ],
         "linkedin_url": "https://www.linkedin.com/company/nj-transit",
+        "headcount_exact": 5913,
         "headcount_min": 5001,
-        "headcount_max": 10000
+        "headcount_max": 10000,
+        "funding_stage": null
       }
     },
     {
@@ -6087,8 +6663,10 @@
           "Non-profit Organization Management"
         ],
         "linkedin_url": "https://www.linkedin.com/company/ong-pim-pam-pum",
+        "headcount_exact": 19,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6108,8 +6686,10 @@
           "Restaurants"
         ],
         "linkedin_url": "https://www.linkedin.com/company/parma-trattoria-&-mozzarella-bar",
+        "headcount_exact": 15,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6129,8 +6709,10 @@
           "Events Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/tech-field-day",
+        "headcount_exact": 14,
         "headcount_min": 2,
-        "headcount_max": 10
+        "headcount_max": 10,
+        "funding_stage": null
       }
     },
     {
@@ -6150,8 +6732,10 @@
           "Textile Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/styletextile",
+        "headcount_exact": 5335,
         "headcount_min": 10001,
-        "headcount_max": null
+        "headcount_max": null,
+        "funding_stage": null
       }
     },
     {
@@ -6171,8 +6755,10 @@
           "Wellness and Fitness Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/capstoneperformancetraining",
+        "headcount_exact": 11,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6192,8 +6778,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/lightspeed-data-solutions-inc.",
+        "headcount_exact": 18,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6213,8 +6801,10 @@
           "Law Practice"
         ],
         "linkedin_url": "https://www.linkedin.com/company/orrick",
+        "headcount_exact": 3221,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     },
     {
@@ -6234,8 +6824,10 @@
           "Primary and Secondary Education"
         ],
         "linkedin_url": "https://www.linkedin.com/company/istituto-salesiano-di-bologna",
+        "headcount_exact": 43,
         "headcount_min": 51,
-        "headcount_max": 200
+        "headcount_max": 200,
+        "funding_stage": null
       }
     },
     {
@@ -6255,8 +6847,10 @@
           "Transportation, Logistics, Supply Chain and Storage"
         ],
         "linkedin_url": "https://www.linkedin.com/company/transworld-terminalsprivatelimited",
+        "headcount_exact": 128,
         "headcount_min": 501,
-        "headcount_max": 1000
+        "headcount_max": 1000,
+        "funding_stage": null
       }
     },
     {
@@ -6276,8 +6870,10 @@
           "Medical Equipment Manufacturing"
         ],
         "linkedin_url": "https://www.linkedin.com/company/orthoson",
+        "headcount_exact": 19,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6297,8 +6893,10 @@
           "Financial Services"
         ],
         "linkedin_url": "https://www.linkedin.com/company/neo-asset-mangagement",
+        "headcount_exact": 94,
         "headcount_min": 11,
-        "headcount_max": 50
+        "headcount_max": 50,
+        "funding_stage": null
       }
     },
     {
@@ -6318,8 +6916,10 @@
           "Insurance"
         ],
         "linkedin_url": "https://www.linkedin.com/company/sos-international",
+        "headcount_exact": 1448,
         "headcount_min": 1001,
-        "headcount_max": 5000
+        "headcount_max": 5000,
+        "funding_stage": null
       }
     }
   ]

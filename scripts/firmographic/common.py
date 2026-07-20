@@ -6,6 +6,7 @@ identities were manually verified. Only available LinkedIn fields enter scoring.
 from __future__ import annotations
 
 import dataclasses
+import functools
 import hashlib
 import json
 import re
@@ -23,10 +24,11 @@ ROOT = Path(__file__).resolve().parents[2]
 SNAPSHOT_PATH = ROOT / "data" / "latest-firmographic.json"
 RUNS_DIR = ROOT / "data" / "firmographic-runs"
 GROUND_TRUTH_PATH = ROOT / "data" / "firmographic" / "company-ground-truth-v1.json"
+IDENTITY_REDIRECTS_PATH = ROOT / "data" / "firmographic" / "identity-redirects-v1.json"
 
-DATASET_SLUG = "company-firmographic-linkedin-gt-2026-q3-v1"
+DATASET_SLUG = "company-firmographic-linkedin-gt-2026-q3-v2"
 DATASET_NAME = "Company Firmographic Enrichment — 300-Company Cohort"
-LINKEDIN_REFERENCE_STATUS = "human_verified_linkedin_ground_truth_v1"
+LINKEDIN_REFERENCE_STATUS = "linkedin_live_ground_truth_v1"
 
 SCORED_ATTRIBUTES = (
     "legal_name",
@@ -72,6 +74,31 @@ def normalize_linkedin(value: Any) -> str | None:
         return raw.rstrip("/")
     path = re.sub(r"/+", "/", parsed.path).rstrip("/").lower()
     return f"https://www.linkedin.com{path}" if path else None
+
+
+@functools.lru_cache(maxsize=1)
+def _identity_redirects() -> dict[str, dict[str, str]]:
+    payload = json.loads(IDENTITY_REDIRECTS_PATH.read_text(encoding="utf-8"))
+    return {
+        key: {str(source): str(target) for source, target in (payload.get(key) or {}).items()}
+        for key in ("domain_redirects", "linkedin_redirects", "inactive_domains")
+    }
+
+
+def _resolve_redirect(value: str | None, redirects: dict[str, str]) -> str | None:
+    current, seen = value, set()
+    while current and current in redirects and current not in seen:
+        seen.add(current)
+        current = redirects[current]
+    return current
+
+
+def resolve_domain_identity(value: Any) -> str | None:
+    return _resolve_redirect(normalize_domain(value), _identity_redirects()["domain_redirects"])
+
+
+def resolve_linkedin_identity(value: Any) -> str | None:
+    return _resolve_redirect(normalize_linkedin(value), _identity_redirects()["linkedin_redirects"])
 
 
 def normalize_text(value: Any) -> str | None:
@@ -145,6 +172,8 @@ def _canonical_headcount_band(
     if minimum is None and maximum is None:
         return None
     candidate = (minimum, maximum)
+    if candidate == (1, 10):
+        return (2, 10)
     if candidate in HEADCOUNT_BANDS:
         return candidate
     if minimum is not None and maximum == minimum:
@@ -152,6 +181,22 @@ def _canonical_headcount_band(
             if minimum >= lower and (upper is None or minimum <= upper):
                 return lower, upper
     return None
+
+
+def _headcount_matches(reference: dict[str, Any], company: "NormalizedCompany") -> bool:
+    reference_band = _canonical_headcount_band(
+        reference.get("headcount_min"), reference.get("headcount_max")
+    )
+    provider_band = _canonical_headcount_band(company.headcount_min, company.headcount_max)
+    if reference_band and reference_band == provider_band:
+        return True
+    exact = _clean_int(reference.get("headcount_exact"))
+    provider_exact = (
+        company.headcount_min
+        if company.headcount_min is not None and company.headcount_min == company.headcount_max
+        else None
+    )
+    return bool(exact and provider_exact and abs(provider_exact - exact) / exact <= 0.05)
 
 
 @dataclasses.dataclass(frozen=True)
@@ -377,7 +422,9 @@ def reference_metrics(case: CompanyCase, result: ProviderResult) -> list[dict[st
             )
         if "primary_domain" in evaluable:
             comparisons["primary_domain"] = bool(
-                company.domains and normalize_domain(reference.get("primary_domain")) in company.domains
+                company.domains
+                and resolve_domain_identity(reference.get("primary_domain"))
+                in {resolve_domain_identity(domain) for domain in company.domains}
             )
         if "hq_location" in evaluable:
             country_matches = (
@@ -409,15 +456,11 @@ def reference_metrics(case: CompanyCase, result: ProviderResult) -> list[dict[st
         if "linkedin_url" in evaluable:
             comparisons["linkedin_url"] = bool(
                 company.linkedin_url
-                and normalize_linkedin(reference.get("linkedin_url")) == company.linkedin_url
+                and resolve_linkedin_identity(reference.get("linkedin_url"))
+                == resolve_linkedin_identity(company.linkedin_url)
             )
         if "headcount_band" in evaluable:
-            comparisons["headcount_band"] = (
-                _canonical_headcount_band(
-                    reference.get("headcount_min"), reference.get("headcount_max")
-                )
-                == _canonical_headcount_band(company.headcount_min, company.headcount_max)
-            )
+            comparisons["headcount_band"] = _headcount_matches(reference, company)
     for attribute in evaluable:
         correct = comparisons.get(attribute, False)
         metrics.append(

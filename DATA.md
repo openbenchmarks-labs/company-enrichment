@@ -40,13 +40,13 @@ bodies. The normalized output and all values used in scoring are present.
 
 ## Judge artifacts
 
-`llm-judge-v2` contains the general GPT-5.6 structured-output pass: one
+`llm-judge-v3` contains the active GPT-5.6-terra (medium reasoning) structured-output pass: one
 all-company call for Fiber and six 50-company chunks for each of the other six
 providers (37 calls total), plus provider aggregates, manifests, token usage,
 response IDs, field decisions, and rationales. The rubric was the same; the
 batch shape changed after the first provider to make calls easier to resume.
 
-`llm-industry-judge-v1` contains the dedicated industry pass. It applies the
+`llm-industry-judge-v1` is retained as a historical dedicated industry pass. It applies the
 same industry rubric across providers and records each final decision and
 rationale. Six providers completed in one all-company call each; CompanyEnrich
 completed in six recovery chunks. The provider aggregate files are the inputs

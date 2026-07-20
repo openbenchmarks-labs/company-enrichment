@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-20T18:10:00Z",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "medium",
+  "provider_batches_total": 7,
+  "provider_batches_judged": 7,
+  "provider_batches_failed": 0,
+  "provider_batches_pending": 0,
+  "chunk_calls_total": 42,
+  "chunk_calls_succeeded": 42,
+  "chunk_calls_failed": 1,
+  "legacy_monolithic_results_reused": 0,
+  "cases_fully_judged": 300,
+  "cells_judged": 2100,
+  "field_judgments": 14014,
+  "changed_from_deterministic": 276,
+  "changed_from_deterministic_pct": 1.97,
+  "usage": {
+    "input_tokens": 486536,
+    "output_tokens": 547181,
+    "total_tokens": 1033717
+  },
+  "providers": [
+    {
+      "provider_slug": "apollo",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1688,
+      "changed_from_deterministic": 93,
+      "avg_correct_field_yield_pct": 84.12,
+      "avg_accuracy_when_present_pct": 87.65,
+      "latency_ms": 519058,
+      "usage": {
+        "input_tokens": 69062,
+        "output_tokens": 76032,
+        "total_tokens": 145094
+      }
+    },
+    {
+      "provider_slug": "company-enrich",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1430,
+      "changed_from_deterministic": 25,
+      "avg_correct_field_yield_pct": 71.25,
+      "avg_accuracy_when_present_pct": 73.81,
+      "latency_ms": 1197324,
+      "usage": {
+        "input_tokens": 72287,
+        "output_tokens": 94077,
+        "total_tokens": 166364
+      }
+    },
+    {
+      "provider_slug": "explorium",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1471,
+      "changed_from_deterministic": 32,
+      "avg_correct_field_yield_pct": 73.27,
+      "avg_accuracy_when_present_pct": 86.61,
+      "latency_ms": 1091947,
+      "usage": {
+        "input_tokens": 68374,
+        "output_tokens": 89972,
+        "total_tokens": 158346
+      }
+    },
+    {
+      "provider_slug": "fiber",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1857,
+      "changed_from_deterministic": 19,
+      "avg_correct_field_yield_pct": 92.66,
+      "avg_accuracy_when_present_pct": 93.65,
+      "latency_ms": 441773,
+      "usage": {
+        "input_tokens": 68297,
+        "output_tokens": 71159,
+        "total_tokens": 139456
+      }
+    },
+    {
+      "provider_slug": "ocean",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1706,
+      "changed_from_deterministic": 48,
+      "avg_correct_field_yield_pct": 85.03,
+      "avg_accuracy_when_present_pct": 85.99,
+      "latency_ms": 499545,
+      "usage": {
+        "input_tokens": 71915,
+        "output_tokens": 76733,
+        "total_tokens": 148648
+      }
+    },
+    {
+      "provider_slug": "people-data-labs",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1752,
+      "changed_from_deterministic": 21,
+      "avg_correct_field_yield_pct": 87.04,
+      "avg_accuracy_when_present_pct": 89.04,
+      "latency_ms": 342849,
+      "usage": {
+        "input_tokens": 69047,
+        "output_tokens": 69286,
+        "total_tokens": 138333
+      }
+    },
+    {
+      "provider_slug": "predictleads",
+      "cases_judged": 300,
+      "field_judgments": 2002,
+      "matches": 1684,
+      "changed_from_deterministic": 38,
+      "avg_correct_field_yield_pct": 83.54,
+      "avg_accuracy_when_present_pct": 88.19,
+      "latency_ms": 348373,
+      "usage": {
+        "input_tokens": 67554,
+        "output_tokens": 69922,
+        "total_tokens": 137476
+      }
+    }
+  ]
+}

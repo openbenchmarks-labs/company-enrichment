@@ -15,8 +15,7 @@ DATA = ROOT / "data" / "firmographic"
 SNAPSHOT = ROOT / "data" / "latest-firmographic.json"
 GROUND_TRUTH = DATA / "company-ground-truth-v1.json"
 INPUTS = DATA / "company-inputs-v1.csv"
-GENERAL_JUDGE = DATA / "llm-judge-v2"
-INDUSTRY_JUDGE = DATA / "llm-industry-judge-v1"
+GENERAL_JUDGE = DATA / "llm-judge-v3"
 PROVIDERS = {
     "apollo", "company-enrich", "explorium", "fiber", "ocean",
     "people-data-labs", "predictleads",
@@ -28,13 +27,13 @@ SLICE_COUNTS = {
     "rebranded_or_domain_changed": 53,
 }
 PUBLISHED_YIELD = {
-    "people-data-labs": 86.66,
-    "fiber": 86.18,
-    "ocean": 85.33,
-    "apollo": 84.22,
-    "predictleads": 83.85,
-    "explorium": 74.13,
-    "company-enrich": 71.10,
+    "fiber": 91.91,
+    "people-data-labs": 86.93,
+    "ocean": 84.54,
+    "apollo": 84.12,
+    "predictleads": 83.54,
+    "explorium": 73.27,
+    "company-enrich": 71.25,
 }
 
 
@@ -62,6 +61,7 @@ def main() -> int:
     leaderboard = snapshot["leaderboard"]
 
     assert snapshot["status"] == "complete"
+    assert snapshot["dataset_slug"] == "company-firmographic-linkedin-gt-2026-q3-v2"
     assert len(cases) == snapshot["case_count"] == 300
     assert len(runs) == 2100
     assert len({case["case_slug"] for case in cases}) == 300
@@ -137,7 +137,7 @@ def main() -> int:
         for record in general_providers.values()
     )
     assert {record["prompt_version"] for record in general_providers.values()} == {
-        "firmographic-provider-chunk-judge-v2.0"
+        "firmographic-provider-chunk-judge-v3.0"
     }
     assert all(record["chunk_count"] == 6 for record in general_providers.values())
     assert len(list((GENERAL_JUDGE / "chunks").glob("*/*.json"))) == 42
@@ -147,31 +147,13 @@ def main() -> int:
         "checkpointed fixed-size company chunks, one provider per call"
     )
 
-    industry_providers = {
-        path.stem: load_json(path)
-        for path in (INDUSTRY_JUDGE / "providers").glob("*.json")
-    }
-    assert set(industry_providers) == PROVIDERS
-    assert all(
-        len(record["judgments"]) == record["case_count"] == 299
-        for record in industry_providers.values()
-    )
-    industry_source_calls = sum(
-        len(record.get("response_ids") or []) or int(bool(record.get("response_id")))
-        for record in industry_providers.values()
-    )
-    assert industry_source_calls == 12
-    recovery_chunks = list((INDUSTRY_JUDGE / "recovery-chunks").glob("*/*.json"))
-    assert len(recovery_chunks) == 6
-
     status_counts = Counter(run["status"] for run in runs)
     print("final companies: 300")
     print("provider cells: 2100")
     print(f"providers: {len(PROVIDERS)}")
     print(f"slices: {dict(Counter(case['slice'] for case in cases))}")
     print(f"statuses: {dict(sorted(status_counts.items()))}")
-    print("general judge calls: 42 (6 chunks × 7 providers)")
-    print("industry judge source calls: 12 (6 all-company + 6 recovery chunks)")
+    print("general judge calls: 42 (v3, six chunks × seven providers)")
     print("artifact verification passed; network calls: 0")
     return 0
 

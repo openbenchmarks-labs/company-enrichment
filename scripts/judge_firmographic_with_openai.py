@@ -34,14 +34,14 @@ from firmographic.common import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_DIR = ROOT / "data" / "firmographic" / "llm-judge-v2"
+OUTPUT_DIR = ROOT / "data" / "firmographic" / "llm-judge-v3"
 LEGACY_OUTPUT_DIR = ROOT / "data" / "firmographic" / "llm-judge-v1"
 PROVIDER_DIR = OUTPUT_DIR / "providers"
 CHUNK_DIR = OUTPUT_DIR / "chunks"
 ERROR_DIR = OUTPUT_DIR / "chunk-errors"
 MANIFEST_PATH = OUTPUT_DIR / "manifest.json"
 SUMMARY_PATH = OUTPUT_DIR / "summary.json"
-PROMPT_VERSION = "firmographic-provider-chunk-judge-v2.0"
+PROMPT_VERSION = "firmographic-provider-chunk-judge-v3.0"
 DEFAULT_MODEL = "gpt-5.6"
 DEFAULT_REASONING_EFFORT = "high"
 DEFAULT_BATCH_SIZE = 50
@@ -69,8 +69,13 @@ Otherwise return provider_present=true and decide correctness using these rules:
   and legal-suffix differences when company identity is clearly the same. Reject a parent,
   subsidiary, similarly named entity, or materially different name.
 - primary_domain: Ignore scheme, www, path, query, case, and trailing dot. Match only the same
-  registrable company domain or an explicitly supplied equivalent official domain. Do not treat a
-  parent/subsidiary domain as equivalent without evidence in the input.
+  registrable company domain or an explicitly supplied equivalent official domain. The benchmark's
+  audited official equivalents are: romanosigns.co.za=romano.co.za,
+  gettopvote.com=downtimedollars.com, bergenmek.no=bmg-as.no,
+  randstadinnovationfund.com=randstad.com, azerty.com.mx=azerty.mx,
+  salesianibologna.it=salesianibologna.net, semirbiz.com=semir.com, and
+  highpressurehose.com=thehoseguys.net. Do not treat a parent/subsidiary domain as equivalent
+  without evidence in the input.
 - hq_location: Compare only reference components supplied. Accept country names/codes,
   conventional city aliases, accents, and transliterations. When both country and city are
   supplied, both must agree.
@@ -78,10 +83,15 @@ Otherwise return provider_present=true and decide correctness using these rules:
 - industry: Accept established taxonomy synonyms and a reasonably equivalent description of the
   same primary business. Reject adjacent sectors and labels so broad they lose material meaning.
 - linkedin_url: Ignore scheme, host prefix, case, query, and trailing slash. Require the same
-  company page identity; do not infer an undocumented redirect.
-- headcount_band: Ignore separators and wording. Require the same canonical LinkedIn band. An
-  exact employee count matches when it falls inside the reference band. Reject merely overlapping
-  broad bands.
+  company page identity. The audited redirect freshdelmonte=delmontecorporation is the same page;
+  do not infer any other undocumented redirect.
+- headcount_band: The reference includes its canonical LinkedIn band and, when available, an
+  exact LinkedIn employee count. A provider band passes only when it is the same canonical
+  LinkedIn band; `1-10` is equivalent to LinkedIn's `2-10` small-company band, but reject other
+  merely overlapping broad bands. A provider exact count (min equals max)
+  also passes when it is within plus or minus 5% of the reference exact count, even if that count
+  falls on the other side of a band boundary. Do not use the exact-count tolerance for a provider
+  range.
 
 Output exactly one case result for every input case and exactly one field result for every supplied
 field. Use a short, value-specific rationale. Do not omit rows, merge companies, or override the
@@ -204,7 +214,10 @@ def _field_value(company: dict[str, Any] | None, attribute: str) -> Any:
         maximum = company.get("headcount_max")
         if minimum is None and maximum is None:
             return None
-        return {"min": minimum, "max": maximum}
+        value = {"min": minimum, "max": maximum}
+        if company.get("headcount_exact") is not None:
+            value["exact_count"] = company["headcount_exact"]
+        return value
     raise KeyError(attribute)
 
 
@@ -243,6 +256,10 @@ def _build_provider_input(
             attribute
             for attribute in SCORED_ATTRIBUTES
             if _truth_available(reference, attribute)
+            and not (
+                attribute == "primary_domain"
+                and (case.get("source_metadata") or {}).get("input_domain_status") == "inactive"
+            )
         ]
         expected[case_slug] = set(attributes)
         fields = []
