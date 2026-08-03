@@ -1,7 +1,8 @@
 """Shared contract, cohort loading, reference scoring, and snapshot I/O.
 
-The active benchmark is the frozen 300-company cohort whose website-to-LinkedIn
-identities were manually verified. Only available LinkedIn fields enter scoring.
+The active benchmark is the frozen 282-company human-reviewed cohort. Only
+available reference values enter scoring; company name and domain remain
+identity-audit fields, not scored attributes.
 """
 from __future__ import annotations
 
@@ -23,16 +24,14 @@ import pycountry
 ROOT = Path(__file__).resolve().parents[2]
 SNAPSHOT_PATH = ROOT / "data" / "latest-firmographic.json"
 RUNS_DIR = ROOT / "data" / "firmographic-runs"
-GROUND_TRUTH_PATH = ROOT / "data" / "firmographic" / "company-ground-truth-v1.json"
-IDENTITY_REDIRECTS_PATH = ROOT / "data" / "firmographic" / "identity-redirects-v1.json"
+GROUND_TRUTH_PATH = ROOT / "data" / "firmographic" / "company-ground-truth-v2.json"
+IDENTITY_REDIRECTS_PATH = ROOT / "data" / "firmographic" / "identity-redirects-v2.json"
 
-DATASET_SLUG = "company-firmographic-linkedin-gt-2026-q3-v2"
-DATASET_NAME = "Company Firmographic Enrichment — 300-Company Cohort"
-LINKEDIN_REFERENCE_STATUS = "linkedin_live_ground_truth_v1"
+DATASET_SLUG = "company-firmographic-enrichment-web-research-v2-293"
+DATASET_NAME = "Company Firmographic Enrichment — Web Research v2 (282 human-reviewed companies)"
+LINKEDIN_REFERENCE_STATUS = "human_reviewed_multi_source_v2"
 
 SCORED_ATTRIBUTES = (
-    "legal_name",
-    "primary_domain",
     "hq_location",
     "founded_year",
     "industry",
@@ -284,15 +283,15 @@ def load_all_cases(
     *,
     ground_truth_path: Path = GROUND_TRUTH_PATH,
 ) -> tuple[list[CompanyCase], dict[str, Any]]:
-    """Load the frozen 300-company cohort directly from the public ground truth."""
+    """Load the frozen 282-company cohort directly from the public ground truth."""
     manifest = json.loads(ground_truth_path.read_text(encoding="utf-8"))
     records = manifest.get("companies") or []
     if (
         manifest.get("status") != "frozen"
-        or manifest.get("company_count") != 300
-        or len(records) != 300
+        or manifest.get("company_count") != 282
+        or len(records) != 282
     ):
-        raise ValueError("ground truth is not the frozen 300-company cohort")
+        raise ValueError("ground truth is not the frozen 282-company cohort")
 
     digest = hashlib.sha256(ground_truth_path.read_bytes()).hexdigest()
     reference_file = str(ground_truth_path.relative_to(ROOT))
@@ -312,7 +311,7 @@ def load_all_cases(
                 reference=reference,
                 source_metadata={
                     "reference_status": LINKEDIN_REFERENCE_STATUS,
-                    "reference_source": "manually reviewed company websites and LinkedIn pages",
+                    "reference_source": "human-reviewed multi-source company references",
                     "reference_file": reference_file,
                     "reference_sha256": digest,
                     "identity_status": "human_verified",
@@ -335,7 +334,7 @@ def load_all_cases(
 
     return cases, {
         "reference_status": LINKEDIN_REFERENCE_STATUS,
-        "reference_source": "manually reviewed company websites and LinkedIn pages",
+        "reference_source": "human-reviewed multi-source company references",
         "reference_file": reference_file,
         "reference_sha256": digest,
         "reference_rows": len(cases),

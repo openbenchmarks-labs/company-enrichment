@@ -1,89 +1,108 @@
 # Company Enrichment Benchmark
 
-Open data and reproducible runner/judge code for the
+Open data and reproducible runners and judge code for the
 [OpenBenchmarks Company Enrichment Benchmark](https://openbenchmarks.com/company-enrichment).
 
-The frozen release compares seven company-enrichment APIs on the same 300
-domains: 78 stable-large companies, 89 long-tail companies, 80 subsidiaries,
-and 53 verified rebrands. It contains 2,100 final company-provider cells.
+## Current release
 
-## Scored fields
+The frozen release evaluates seven APIs on the same 282 reachable company
+domains: 71 stable-large companies, 88 long-tail companies, 71 subsidiaries,
+and 52 verified rebrands or domain changes. It contains 1,974 final
+company-provider cells.
 
-Every provider response is normalized to the same seven-field contract:
+Every Ground Truth field was refreshed and manually reviewed across official
+company sources, filings, registries, news, reputable reference sources,
+redirects, and canonical or alternate LinkedIn URLs. Candidate-source values
+only selected the cohort; they never became expected answers.
 
-- Company name
-- Primary domain
+## What is scored
+
+All providers receive the same input domain. The scored fields are:
+
 - Headquarters country and city
 - Founded year
 - Industry
 - LinkedIn company URL
-- Headcount band
+- Employee band
 
-The headline metric is **correct field yield**: correct fields divided by the
-reference fields available for that company. A missing or incorrect provider
-value lowers the score; a missing reference value is excluded. The leaderboard
-is the mean of the 300 company-level scores.
+Company name and primary domain remain in the data for identity audit, but are
+not part of the scored denominator. The headline metric, **correct field
+yield**, is the share of available Ground Truth fields correctly returned for a
+company; missing and incorrect provider values lower the score, while a blank
+Ground Truth field is excluded.
+
+Employee-band evaluation accepts exact-count containment and the documented
+five-percent tolerance when both values are exact counts, as well as narrowly
+off-by-one finite ranges. See `scripts/field_judge_prompts.py` for the complete
+versioned policy.
+
+## Active providers
+
+- Apollo
+- CompanyEnrich
+- Exa
+- Explorium
+- Parallel
+- People Data Labs
+- Predict Leads
+
+Fiber and Ocean.io are retained only as historical adapters; they are not in
+this snapshot.
 
 ## Repository map
 
 | Path | Contents |
 |---|---|
-| `data/firmographic/company-inputs-v1.csv` | Exact frozen 300-company input list and manually verified LinkedIn pairs |
-| `data/firmographic/company-ground-truth-v1.json` | Available reference fields recorded from the 300 verified LinkedIn pages |
-| `data/latest-firmographic.json` | Publication snapshot: inputs, 2,100 normalized provider outputs, judgments, and leaderboard |
-| `data/firmographic/llm-judge-v3/` | Active GPT-5.6-terra field-judge checkpoints, aggregate results, usage, and rationales |
-| `data/firmographic/llm-industry-judge-v1/` | Dedicated industry-judge checkpoints and final industry decisions |
-| `data/firmographic/pricing-v1.json` | Dated public entry-tier cost assumptions used for estimated USD cost |
-| `scripts/run_firmographic_full_benchmark.py` | Credit-safe, resumable provider runner |
-| `scripts/firmographic/providers/` | Seven provider adapters and normalization logic |
-| `scripts/judge_firmographic_with_openai.py` | Structured-output v3 judging and checkpoint application |
-| `scripts/recompute_firmographic_snapshot.py` | Offline metric and leaderboard recomputation |
-| `scripts/verify_public_artifacts.py` | Zero-network integrity and coverage checks |
+| `data/firmographic/company-inputs-v2.csv` | Exact frozen 282-company input list sent to every provider |
+| `data/firmographic/company-ground-truth-v2.json` | Compact human-reviewed Ground Truth reference |
+| `data/latest-firmographic.json` | Published snapshot: normalized provider responses, field decisions, and leaderboard |
+| `scripts/run_firmographic_full_benchmark.py` | Resumable runners for the standard enrichment APIs |
+| `scripts/run_web_research_benchmark.py` | Resumable Exa and Parallel web-research runners |
+| `scripts/firmographic/providers/` | Provider adapters and shared normalized response contract |
+| `scripts/field_judge_prompts.py` | Versioned GPT-5.6-terra medium-reasoning rubric for each scored field |
+| `scripts/run_dedicated_field_judges.py` | Checkpointed per-provider, per-field judge and snapshot applicator |
+| `scripts/export_firmographic_v2_artifacts.py` | Rebuilds the compact public inputs and Ground Truth files from the snapshot |
+| `scripts/verify_public_artifacts.py` | Offline integrity and coverage verification |
 
-See [DATA.md](DATA.md) for schemas and
-[the methodology](docs/company-enrichment/company-enrichment-sampling-method.md)
-for the complete sampling and evaluation contract.
+See [DATA.md](DATA.md) and [the methodology](docs/company-enrichment/company-enrichment-sampling-method.md)
+for the data contract and cohort construction details.
 
 ## Verify without API calls
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
+python3 scripts/export_firmographic_v2_artifacts.py
 python3 scripts/verify_public_artifacts.py
-
-PYTHONPATH=scripts .venv/bin/python -m unittest \
-  firmographic.test_common \
-  firmographic.test_provider_adapters \
-  firmographic.test_full_runner
 ```
-
-The verifier checks the frozen cohort, slice counts, 2,100-cell matrix, provider
-aggregates, and judge coverage. It makes no network calls.
 
 ## Re-run live APIs
 
-Copy `.env.example` to `.env.local` and configure only the providers you intend
-to run. Live vendor calls require `--confirm-paid`. Existing checkpoints of
-every status are skipped unless a retry status is explicitly selected.
+Copy `.env.example` to `.env.local` and configure only the provider(s) you
+intend to call. Every live runner requires `--confirm-paid` and resumes from
+successful checkpoints by default.
 
 ```bash
+# Exa and Parallel use the same domain-only web-research contract.
+PYTHONPATH=scripts .venv/bin/python scripts/run_web_research_benchmark.py \
+  --only parallel-research,exa-research-v2 --confirm-paid
+
+# Standard provider adapter example.
 PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
-  --only fiber --confirm-paid
+  --only apollo --confirm-paid
 ```
 
-The committed snapshot contains every normalized provider answer used by the
-benchmark, including status, latency, usage, errors, and adapter audit metadata.
-The runner intentionally stores the normalized benchmark contract, not literal
-full vendor HTTP response bodies.
+To rejudge after a new run, configure `OPENAI_API_KEY` and use the dedicated
+field judge. It sends one provider/field batch at a time, writes checkpoints,
+and applies results only with `--apply`.
 
-## Providers
+```bash
+PYTHONPATH=scripts .venv/bin/python scripts/run_dedicated_field_judges.py \
+  --confirm-paid --apply
+```
 
-- Apollo
-- CompanyEnrich
-- Explorium
-- Fiber
-- Ocean.io
-- People Data Labs
-- PredictLeads
+The snapshot includes normalized answers, request/response audit metadata,
+latency, usage, and the final per-field judge rationales. It excludes secrets
+and labeller review state.
 
 No vendor sponsors or controls this benchmark.

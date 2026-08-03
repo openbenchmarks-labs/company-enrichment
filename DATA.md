@@ -1,67 +1,65 @@
 # Data dictionary
 
-## Frozen inputs and ground truth
+## Frozen inputs and Ground Truth
 
-`data/firmographic/company-inputs-v1.csv` contains the exact 300 domains sent to
-every provider, their slices, stable case IDs, and the website-to-LinkedIn pairs
-verified by the OpenBenchmarks team.
+`data/firmographic/company-inputs-v2.csv` contains the exact 282 input domains
+sent to every provider, stable case IDs, and cohort slices.
 
-`data/firmographic/company-ground-truth-v1.json` is the independent scoring
-reference. Each company has an identity status and the available values for:
+`data/firmographic/company-ground-truth-v2.json` is the compact independent
+reference derived from the published snapshot. All fields were manually
+refreshed and reviewed for this release across official company sources,
+filings, registries, news, reputable reference sources, redirects, and
+canonical or alternate LinkedIn URLs.
 
-| Benchmark field | Stored keys |
+| Scored benchmark field | Stored keys |
 |---|---|
-| Company name | `legal_name` |
-| Primary domain | `primary_domain` |
-| Headquarters | `hq_country`, `hq_city` |
+| Headquarters location | `hq_country`, `hq_city` |
 | Founded year | `founded_year` |
 | Industry | `industry`, `industries` |
-| LinkedIn URL | `linkedin_url` |
-| Headcount band | `headcount_min`, `headcount_max` |
+| LinkedIn URL | `linkedin_url`, `linkedin_url_alternates` where verified |
+| Employee band / count | `headcount_min`, `headcount_max`, `headcount_exact` |
 
-Null reference values are excluded from that company's scoring denominator.
+`legal_name`, `primary_domain`, and `alternate_primary_domains` are retained
+for identity audit and judge context, but do not enter the metric denominator.
+Blank Ground Truth is excluded from the respective field denominator.
 
 ## Publication snapshot
 
-`data/latest-firmographic.json` is the file behind the published benchmark. Its
+`data/latest-firmographic.json` is the published 282-company snapshot. Its
 main arrays are:
 
-- `cases`: 300 frozen inputs and reference values
-- `runs`: 2,100 normalized provider responses and field-level metrics
-- `leaderboard`: seven provider aggregates derived from those cells
+- `cases`: frozen inputs and human-reviewed references
+- `runs`: 1,974 normalized provider responses and field-level metrics
+- `leaderboard`: seven provider aggregates calculated from those cells
 
-Each run includes the case/provider IDs, status, normalized response, latency,
-usage unit, selected adapter audit metadata, error, query time, coverage, and
-field-level judge decisions. `normalized` preserves every field produced by the
-shared adapter contract, while only the seven documented fields are scored.
+Each run includes the provider/case IDs, status, normalized response, latency,
+usage unit, selected request/response audit metadata, errors, coverage, and
+final field-level judge decisions. The full snapshot does not contain secrets
+or labeller review state.
 
-The provider runner did not retain the vendors' literal full HTTP response
-bodies. The normalized output and all values used in scoring are present.
+## Judge artifacts and policy
 
-## Judge artifacts
+The active rubric is the dedicated field judge in
+`scripts/field_judge_prompts.py`. It uses `gpt-5.6-terra` at medium reasoning
+and evaluates one field at a time for one provider, giving each decision a
+short, value-specific rationale. The prompts encode the audited equivalences:
 
-`llm-judge-v3` contains the active GPT-5.6-terra (medium reasoning) structured-output pass: one
-all-company call for Fiber and six 50-company chunks for each of the other six
-providers (37 calls total), plus provider aggregates, manifests, token usage,
-response IDs, field decisions, and rationales. The rubric was the same; the
-batch shape changed after the first provider to make calls easier to resume.
-
-`llm-industry-judge-v1` is retained as a historical dedicated industry pass. It applies the
-same industry rubric across providers and records each final decision and
-rationale. Six providers completed in one all-company call each; CompanyEnrich
-completed in six recovery chunks. The provider aggregate files are the inputs
-used by `--apply`, and the source-call checkpoints are retained for auditability.
-The scripts contain the versioned prompts and response schemas.
+- ISO country names/codes, including England/UK/GB
+- accepted city/metro aliases and specified localities
+- LinkedIn alternate URLs, including matching `/company/` and `/school/` slugs
+- semantic industry adjacency without treating materially different sectors as
+  equivalent
+- exact-count/range containment, ±5% exact-count tolerance, and narrow
+  off-by-one employee ranges
 
 ## Cohort labels
 
-Each input retains one of four sampling labels: `stable_large`, `long_tail`,
-`subsidiary`, or `rebranded_or_domain_changed`. These labels explain the
-coverage stress tested by the benchmark; they are not scored fields or expected
-provider answers. The final selection logic is documented in the methodology.
+Each input is labelled `stable_large`, `long_tail`, `subsidiary`, or
+`rebranded_or_domain_changed`. They are coverage-stress slices, not scored
+provider attributes.
 
-## Cost and latency
+## Historical files
 
-Latency is stored per provider-company cell in milliseconds. Usage is stored in
-the unit emitted or inferred by each adapter. `pricing-v1.json` contains the
-dated public entry-tier conversions used for estimated USD cost.
+The `*-v1` inputs, Ground Truth, pricing, and chunk-judge directories document
+the prior 300-company release. They are retained for auditability and must not
+be mixed with this v2 snapshot.

@@ -29,15 +29,17 @@ def reference_case(reference: dict) -> CompanyCase:
 
 
 class CohortTests(unittest.TestCase):
-    def test_active_contract_has_exactly_seven_fields(self) -> None:
-        self.assertEqual(7, len(SCORED_ATTRIBUTES))
+    def test_active_contract_has_exactly_five_scored_fields(self) -> None:
+        self.assertEqual(5, len(SCORED_ATTRIBUTES))
+        self.assertNotIn("legal_name", SCORED_ATTRIBUTES)
+        self.assertNotIn("primary_domain", SCORED_ATTRIBUTES)
         self.assertNotIn("funding_stage", SCORED_ATTRIBUTES)
         self.assertNotIn("operating_status", SCORED_ATTRIBUTES)
 
-    def test_final_cohort_has_300_unique_domains_across_four_slices(self) -> None:
+    def test_final_cohort_has_282_unique_domains_across_four_slices(self) -> None:
         cases, metadata = load_all_cases()
-        self.assertEqual(300, len(cases))
-        self.assertEqual(300, len({case.input_domain for case in cases}))
+        self.assertEqual(282, len(cases))
+        self.assertEqual(282, len({case.input_domain for case in cases}))
         self.assertEqual(
             {"stable_large", "long_tail", "subsidiary", "rebranded_or_domain_changed"},
             {case.slice for case in cases},
@@ -105,18 +107,23 @@ class NormalizationAndScoringTests(unittest.TestCase):
             "case",
             "ok",
             100,
-            normalized=NormalizedCompany(legal_name="Example", primary_domain="example.com"),
+            normalized=NormalizedCompany(
+                legal_name="Example",
+                primary_domain="example.com",
+                hq_country="US",
+                industry="Software",
+            ),
         )
         values = {
             metric["metric_name"]: metric["metric_value"]
             for metric in benchmark_metrics(case, result)
         }
         self.assertEqual(100, values["reference_accuracy_when_present_pct"])
-        self.assertEqual(40, values["correct_field_yield_pct"])
+        self.assertEqual(66.67, values["correct_field_yield_pct"])
         self.assertNotIn("reference_correct_founded_year", values)
 
     def test_unresolved_response_has_zero_coverage_and_yield(self) -> None:
-        case = reference_case({"primary_domain": "example.com"})
+        case = reference_case({"hq_country": "US"})
         values = {
             metric["metric_name"]: metric["metric_value"]
             for metric in benchmark_metrics(

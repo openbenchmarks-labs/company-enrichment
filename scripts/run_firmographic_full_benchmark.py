@@ -1,6 +1,6 @@
 """Credit-safe full-cohort company-enrichment runner.
 
-The runner evaluates the frozen 300-company final cohort while preserving and
+The runner evaluates the frozen 282-company final cohort while preserving and
 reusing every existing provider/company cell. It runs at most
 one request chain per provider concurrently and serializes all checkpoint
 writes in the main thread.
@@ -84,8 +84,8 @@ def _new_snapshot(cases: list[CompanyCase], manifest: dict[str, Any]) -> dict[st
         "status": "running",
         "reference_status": reference_status,
         "methodology_note": (
-            "Available fields recorded from 300 identity-verified LinkedIn company pages are "
-            "used as ground truth. Missing reference fields are excluded from denominators."
+            "Human-reviewed multi-source reference values are used as ground truth. "
+            "Missing reference fields are excluded from denominators."
         ),
         "slice": "all_current_slices",
         "case_count": len(cases),

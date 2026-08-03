@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-07-20",
+  "domain_redirects": {
+    "romanosigns.co.za": "romano.co.za",
+    "gettopvote.com": "downtimedollars.com",
+    "bergenmek.no": "bmg-as.no",
+    "randstadinnovationfund.com": "randstad.com",
+    "azerty.com.mx": "azerty.mx",
+    "salesianibologna.it": "salesianibologna.net",
+    "semirbiz.com": "semir.com",
+    "highpressurehose.com": "thehoseguys.net"
+  },
+  "linkedin_redirects": {
+    "https://www.linkedin.com/company/freshdelmonte": "https://www.linkedin.com/company/delmontecorporation"
+  },
+  "inactive_domains": {
+    "meduca.cl": "dns_unresolvable",
+    "harvestschools.org": "http_410_gone"
+  }
+}

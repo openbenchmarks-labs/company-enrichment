@@ -48,13 +48,13 @@ class FullRunnerTests(unittest.TestCase):
                 patch.object(runner, "_load_ledger", return_value=[]),
             ):
                 snapshot, indexes = runner._prepare_snapshot(cases, manifest, mutate=False)
-        self.assertEqual(300, len(snapshot["cases"]))
+        self.assertEqual(282, len(snapshot["cases"]))
         self.assertEqual(70, len(snapshot["runs"]))
         self.assertEqual(70, len(indexes))
 
     def test_rate_limit_error_is_timed_and_stops_only_that_provider(self) -> None:
         cases, _ = load_all_cases()
-        module = runner.REGISTRY["fiber"]
+        module = runner.REGISTRY["apollo"]
         error = ProviderHTTPError(
             429,
             "slow down",
