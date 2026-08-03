@@ -1,39 +1,38 @@
 #!/usr/bin/env python3
-"""Verify the committed benchmark artifacts without network or paid API calls."""
+"""Verify the published v2 benchmark without network or paid API calls."""
 from __future__ import annotations
 
 import csv
 import json
 from collections import Counter
 from decimal import ROUND_HALF_UP, Decimal
-from statistics import fmean, median
 from pathlib import Path
+from statistics import fmean, median
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "firmographic"
 SNAPSHOT = ROOT / "data" / "latest-firmographic.json"
-GROUND_TRUTH = DATA / "company-ground-truth-v1.json"
-INPUTS = DATA / "company-inputs-v1.csv"
-GENERAL_JUDGE = DATA / "llm-judge-v3"
+GROUND_TRUTH = DATA / "company-ground-truth-v2.json"
+INPUTS = DATA / "company-inputs-v2.csv"
 PROVIDERS = {
-    "apollo", "company-enrich", "explorium", "fiber", "ocean",
-    "people-data-labs", "predictleads",
+    "apollo", "company-enrich", "exa-research-v2", "explorium",
+    "parallel-research", "people-data-labs", "predictleads-enrichment",
 }
 SLICE_COUNTS = {
-    "stable_large": 78,
-    "long_tail": 89,
-    "subsidiary": 80,
-    "rebranded_or_domain_changed": 53,
+    "stable_large": 71,
+    "long_tail": 88,
+    "subsidiary": 71,
+    "rebranded_or_domain_changed": 52,
 }
 PUBLISHED_YIELD = {
-    "fiber": 91.91,
-    "people-data-labs": 86.93,
-    "ocean": 84.54,
-    "apollo": 84.12,
-    "predictleads": 83.54,
-    "explorium": 73.27,
-    "company-enrich": 71.25,
+    "apollo": 90.74,
+    "people-data-labs": 89.46,
+    "parallel-research": 87.10,
+    "predictleads-enrichment": 82.48,
+    "explorium": 70.52,
+    "company-enrich": 69.50,
+    "exa-research-v2": 60.47,
 }
 
 
@@ -41,119 +40,74 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def metric_value(run: dict, metric_name: str) -> float | None:
-    for metric in run["metrics"]:
-        if metric["metric_name"] == metric_name:
+def metric_value(run: dict, name: str) -> float | None:
+    for metric in run.get("metrics") or []:
+        if metric["metric_name"] == name and metric.get("metric_value") is not None:
             return float(metric["metric_value"])
     return None
 
 
-def snapshot_round(value: float, places: int = 2) -> float:
-    quantum = Decimal("1").scaleb(-places)
-    return float(Decimal(str(value)).quantize(quantum, rounding=ROUND_HALF_UP))
+def rounded(value: float) -> float:
+    return float(Decimal(str(value)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
 
 
 def main() -> int:
     snapshot = load_json(SNAPSHOT)
     ground_truth = load_json(GROUND_TRUTH)
-    cases = snapshot["cases"]
-    runs = snapshot["runs"]
-    leaderboard = snapshot["leaderboard"]
+    cases, runs, leaderboard = snapshot["cases"], snapshot["runs"], snapshot["leaderboard"]
 
     assert snapshot["status"] == "complete"
-    assert snapshot["dataset_slug"] == "company-firmographic-linkedin-gt-2026-q3-v2"
-    assert len(cases) == snapshot["case_count"] == 300
-    assert len(runs) == 2100
-    assert len({case["case_slug"] for case in cases}) == 300
-    assert len({case["input_domain"] for case in cases}) == 300
+    assert snapshot["dataset_slug"] == "company-firmographic-enrichment-web-research-v2-293"
+    assert len(cases) == snapshot["case_count"] == 282
+    assert len(runs) == 1974
+    assert len({case["case_slug"] for case in cases}) == 282
+    assert len({case["input_domain"] for case in cases}) == 282
     assert Counter(case["slice"] for case in cases) == Counter(SLICE_COUNTS)
+    assert tuple(snapshot["scored_attributes"]) == (
+        "hq_location", "founded_year", "industry", "linkedin_url", "headcount_band"
+    )
     assert {run["provider_slug"] for run in runs} == PROVIDERS
-    assert len({(run["case_slug"], run["provider_slug"]) for run in runs}) == 2100
-    assert Counter(run["provider_slug"] for run in runs) == Counter({p: 300 for p in PROVIDERS})
+    assert len({(run["case_slug"], run["provider_slug"]) for run in runs}) == 1974
+    assert Counter(run["provider_slug"] for run in runs) == Counter({provider: 282 for provider in PROVIDERS})
     assert all(run["status"] in {"ok", "not_found"} for run in runs)
 
     assert ground_truth["status"] == "frozen"
-    assert ground_truth["company_count"] == len(ground_truth["companies"]) == 300
+    assert ground_truth["company_count"] == len(ground_truth["companies"]) == 282
     assert ground_truth["slice_counts"] == SLICE_COUNTS
-    truth_by_slug = {row["case_slug"]: row for row in ground_truth["companies"]}
-    assert len(truth_by_slug) == 300
+    truth = {row["case_slug"]: row for row in ground_truth["companies"]}
+    assert set(truth) == {case["case_slug"] for case in cases}
     for case in cases:
-        truth = truth_by_slug[case["case_slug"]]
-        assert truth["input_domain"] == case["input_domain"]
-        assert truth["slice"] == case["slice"]
-        # The published snapshot shares a cross-benchmark schema and may carry
-        # unscored null fields (for example, funding_stage). Every firmographic
-        # reference field in the frozen ground-truth file must still agree.
-        assert truth["reference"] == {
-            field: case["reference"].get(field)
-            for field in truth["reference"]
-        }
-        assert truth["website_linkedin_identity"] == "human_verified"
+        row = truth[case["case_slug"]]
+        assert row["input_domain"] == case["input_domain"]
+        assert row["reference"] == case["reference"]
+        assert row["ground_truth_status"] == "human_reviewed"
 
     with INPUTS.open(encoding="utf-8", newline="") as handle:
         inputs = list(csv.DictReader(handle))
-    assert len(inputs) == 300
-    assert {row["case_slug"] for row in inputs} == set(truth_by_slug)
-    assert len({row["input_domain"] for row in inputs}) == 300
+    assert len(inputs) == 282
+    assert {row["case_slug"] for row in inputs} == set(truth)
+    assert len({row["input_domain"] for row in inputs}) == 282
 
-    leaderboard_by_provider = {row["provider_slug"]: row for row in leaderboard}
-    assert set(leaderboard_by_provider) == PROVIDERS
+    by_provider = {row["provider_slug"]: row for row in leaderboard}
+    assert set(by_provider) == PROVIDERS
     for provider, expected in PUBLISHED_YIELD.items():
         provider_runs = [run for run in runs if run["provider_slug"] == provider]
-        published = leaderboard_by_provider[provider]
-        yields = [
-            value for run in provider_runs
-            if (value := metric_value(run, "correct_field_yield_pct")) is not None
-        ]
-        accuracies = [
-            value for run in provider_runs
-            if (value := metric_value(run, "reference_accuracy_when_present_pct")) is not None
-        ]
-        coverage = [
-            value for run in provider_runs
-            if (value := metric_value(run, "attribute_coverage_pct")) is not None
-        ]
+        yields = [value for run in provider_runs if (value := metric_value(run, "correct_field_yield_pct")) is not None]
+        accuracies = [value for run in provider_runs if (value := metric_value(run, "reference_accuracy_when_present_pct")) is not None]
+        coverage = [value for run in provider_runs if (value := metric_value(run, "attribute_coverage_pct")) is not None]
+        published = by_provider[provider]
         assert published["avg_correct_field_yield_pct"] == expected
-        assert published["avg_correct_field_yield_pct"] == snapshot_round(
-            fmean(yields)
-        )
-        assert published["avg_reference_accuracy_when_present_pct"] == snapshot_round(
-            fmean(accuracies)
-        )
-        assert published["avg_attribute_coverage_pct"] == snapshot_round(
-            fmean(coverage)
-        )
+        assert published["avg_correct_field_yield_pct"] == rounded(fmean(yields))
+        assert published["avg_reference_accuracy_when_present_pct"] == rounded(fmean(accuracies))
+        assert published["avg_attribute_coverage_pct"] == rounded(fmean(coverage))
         assert published["median_latency_ms"] == median(
             run["latency_ms"] for run in provider_runs if run["latency_ms"] is not None
         )
 
-    general_providers = {
-        path.stem: load_json(path)
-        for path in (GENERAL_JUDGE / "providers").glob("*.json")
-    }
-    assert set(general_providers) == PROVIDERS
-    assert all(
-        len(record["judgments"]) == record["case_count"] == 300
-        for record in general_providers.values()
-    )
-    assert {record["prompt_version"] for record in general_providers.values()} == {
-        "firmographic-provider-chunk-judge-v3.0"
-    }
-    assert all(record["chunk_count"] == 6 for record in general_providers.values())
-    assert len(list((GENERAL_JUDGE / "chunks").glob("*/*.json"))) == 42
-    general_manifest = load_json(GENERAL_JUDGE / "manifest.json")
-    assert general_manifest["paid_calls_total"] == 42
-    assert general_manifest["paid_call_design"] == (
-        "checkpointed fixed-size company chunks, one provider per call"
-    )
-
-    status_counts = Counter(run["status"] for run in runs)
-    print("final companies: 300")
-    print("provider cells: 2100")
-    print(f"providers: {len(PROVIDERS)}")
+    print("final companies: 282")
+    print("provider cells: 1974")
+    print("providers: 7")
     print(f"slices: {dict(Counter(case['slice'] for case in cases))}")
-    print(f"statuses: {dict(sorted(status_counts.items()))}")
-    print("general judge calls: 42 (v3, six chunks × seven providers)")
     print("artifact verification passed; network calls: 0")
     return 0
 

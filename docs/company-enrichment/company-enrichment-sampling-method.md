@@ -1,8 +1,32 @@
 # Company Enrichment Sampling Method
 
-- Status: 300-company final evaluation cohort frozen
-- Cohort: `firmographic-2026-q3-v1`
-- Method frozen through: 2026-07-14 (America/Los_Angeles)
+## Current release: web-research v2
+
+- Status: 282-company final evaluation cohort frozen
+- Dataset: `company-firmographic-enrichment-web-research-v2-293`
+- Method refreshed through: 2026-08-03 (America/Los_Angeles)
+
+The current release keeps the discriminative candidate frame, removes seven
+unreachable input domains, and refreshes every displayed Ground Truth field by
+human review. Review used official company sites, filings, registries, news,
+reputable reference sources, audited redirects, and canonical or alternate
+LinkedIn URLs. Candidate-source attributes are selection hints only and never
+become expected answers.
+
+Every API received the same final input domain. The scored fields are HQ
+country/city, founded year, industry, LinkedIn URL, and employee band. Company
+name and domain remain identity-audit context only. The active provider set is
+Apollo, CompanyEnrich, Exa, Explorium, Parallel, People Data Labs, and Predict
+Leads. Field correctness is determined using the versioned `gpt-5.6-terra`
+medium-reasoning prompts in `scripts/field_judge_prompts.py`; the policy covers
+documented location, LinkedIn, industry, and headcount equivalences.
+
+Final slice distribution: 71 stable-large, 88 long-tail, 71 subsidiary, and 52
+verified rebrand/domain-change companies (282 total).
+
+The remainder of this document is the historical candidate-frame and v1
+sampling audit trail. Where it conflicts with this section, the v2 release
+description above governs.
 
 ## 1. Purpose
 

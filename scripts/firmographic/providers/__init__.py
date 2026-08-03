@@ -1,9 +1,9 @@
 from . import (
     apollo,
     company_enrich,
+    exa_research_v2,
     explorium,
-    fiber,
-    ocean_enrichment,
+    parallel_research,
     people_data_labs,
     predictleads,
 )
@@ -11,10 +11,10 @@ from . import (
 
 REGISTRY = {
     predictleads.VENDOR_SLUG: predictleads,
-    fiber.VENDOR_SLUG: fiber,
     explorium.VENDOR_SLUG: explorium,
     apollo.VENDOR_SLUG: apollo,
     people_data_labs.VENDOR_SLUG: people_data_labs,
-    ocean_enrichment.VENDOR_SLUG: ocean_enrichment,
     company_enrich.VENDOR_SLUG: company_enrich,
+    exa_research_v2.VENDOR_SLUG: exa_research_v2,
+    parallel_research.VENDOR_SLUG: parallel_research,
 }
