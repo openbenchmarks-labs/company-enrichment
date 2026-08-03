@@ -5,9 +5,9 @@ Open data and reproducible runners and judge code for the
 
 ## Current release
 
-The frozen release evaluates seven APIs on the same 282 reachable company
+The frozen release evaluates eight APIs on the same 282 reachable company
 domains: 71 stable-large companies, 88 long-tail companies, 71 subsidiaries,
-and 52 verified rebrands or domain changes. It contains 1,974 final
+and 52 verified rebrands or domain changes. It contains 2,256 final
 company-provider cells.
 
 Every Ground Truth field was refreshed and manually reviewed across official
@@ -33,8 +33,9 @@ Ground Truth field is excluded.
 
 Employee-band evaluation accepts exact-count containment and the documented
 five-percent tolerance when both values are exact counts, as well as narrowly
-off-by-one finite ranges. See `scripts/field_judge_prompts.py` for the complete
-versioned policy.
+off-by-one finite ranges. It is rejudged with the dedicated `gpt-5.6-sol`
+medium-reasoning numeric policy; the other semantic fields use `gpt-5.6-terra`.
+See `scripts/field_judge_prompts.py` for the complete versioned policy.
 
 ## Active providers
 
@@ -45,6 +46,7 @@ versioned policy.
 - Parallel
 - People Data Labs
 - Predict Leads
+- ZoomInfo
 
 Fiber and Ocean.io are retained only as historical adapters; they are not in
 this snapshot.
@@ -59,8 +61,10 @@ this snapshot.
 | `scripts/run_firmographic_full_benchmark.py` | Resumable runners for the standard enrichment APIs |
 | `scripts/run_web_research_benchmark.py` | Resumable Exa and Parallel web-research runners |
 | `scripts/firmographic/providers/` | Provider adapters and shared normalized response contract |
-| `scripts/field_judge_prompts.py` | Versioned GPT-5.6-terra medium-reasoning rubric for each scored field |
+| `scripts/field_judge_prompts.py` | Versioned Terra semantic-field and Sol employee-band judge policies |
 | `scripts/run_dedicated_field_judges.py` | Checkpointed per-provider, per-field judge and snapshot applicator |
+| `scripts/firmographic/run_zoominfo_enrichment.py` | Resumable ZoomInfo GTM CLI company-enrichment runner |
+| `scripts/firmographic/rejudge_headcount_sol.py` | Dedicated Sol medium employee-band rejudge runner |
 | `scripts/export_firmographic_v2_artifacts.py` | Rebuilds the compact public inputs and Ground Truth files from the snapshot |
 | `scripts/verify_public_artifacts.py` | Offline integrity and coverage verification |
 
@@ -90,6 +94,10 @@ PYTHONPATH=scripts .venv/bin/python scripts/run_web_research_benchmark.py \
 # Standard provider adapter example.
 PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
   --only apollo --confirm-paid
+
+# ZoomInfo uses its GTM CLI with the same domain-only field contract.
+PYTHONPATH=scripts .venv/bin/python scripts/firmographic/run_zoominfo_enrichment.py \
+  --run
 ```
 
 To rejudge after a new run, configure `OPENAI_API_KEY` and use the dedicated

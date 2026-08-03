@@ -30,7 +30,7 @@ main arrays are:
 
 - `cases`: frozen inputs and human-reviewed references
 - `runs`: 1,974 normalized provider responses and field-level metrics
-- `leaderboard`: seven provider aggregates calculated from those cells
+- `leaderboard`: eight provider aggregates calculated from those cells
 
 Each run includes the provider/case IDs, status, normalized response, latency,
 usage unit, selected request/response audit metadata, errors, coverage, and
