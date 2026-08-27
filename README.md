@@ -5,9 +5,9 @@ Open data and reproducible runners and judge code for the
 
 ## Current release
 
-The frozen release evaluates eight APIs on the same 282 reachable company
+The frozen release evaluates nine APIs on the same 282 reachable company
 domains: 71 stable-large companies, 88 long-tail companies, 71 subsidiaries,
-and 52 verified rebrands or domain changes. It contains 2,256 final
+and 52 verified rebrands or domain changes. It contains 2,538 final
 company-provider cells.
 
 Every Ground Truth field was refreshed and manually reviewed across official
@@ -46,6 +46,7 @@ See `scripts/field_judge_prompts.py` for the complete versioned policy.
 - Parallel
 - People Data Labs
 - Predict Leads
+- TinyFish
 - ZoomInfo
 
 Fiber and Ocean.io are retained only as historical adapters; they are not in
@@ -64,6 +65,7 @@ this snapshot.
 | `scripts/field_judge_prompts.py` | Versioned Terra semantic-field and Sol employee-band judge policies |
 | `scripts/run_dedicated_field_judges.py` | Checkpointed per-provider, per-field judge and snapshot applicator |
 | `scripts/firmographic/run_zoominfo_enrichment.py` | Resumable ZoomInfo GTM CLI company-enrichment runner |
+| `scripts/firmographic/run_tinyfish_enrichment.py` | Resumable TinyFish company API runner |
 | `scripts/firmographic/rejudge_headcount_sol.py` | Dedicated Sol medium employee-band rejudge runner |
 | `scripts/export_firmographic_v2_artifacts.py` | Rebuilds the compact public inputs and Ground Truth files from the snapshot |
 | `scripts/verify_public_artifacts.py` | Offline integrity and coverage verification |
@@ -97,6 +99,10 @@ PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
 
 # ZoomInfo uses its GTM CLI with the same domain-only field contract.
 PYTHONPATH=scripts .venv/bin/python scripts/firmographic/run_zoominfo_enrichment.py \
+  --run
+
+# TinyFish uses its company API with the same domain-only field contract.
+PYTHONPATH=scripts .venv/bin/python scripts/firmographic/run_tinyfish_enrichment.py \
   --run
 ```
 
