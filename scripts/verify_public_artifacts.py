@@ -17,7 +17,8 @@ GROUND_TRUTH = DATA / "company-ground-truth-v2.json"
 INPUTS = DATA / "company-inputs-v2.csv"
 PROVIDERS = {
     "apollo", "company-enrich", "exa-research-v2", "explorium",
-    "parallel-research", "people-data-labs", "predictleads-enrichment", "zoominfo",
+    "parallel-research", "people-data-labs", "predictleads-enrichment",
+    "tinyfish", "zoominfo",
 }
 SLICE_COUNTS = {
     "stable_large": 71,
@@ -34,6 +35,7 @@ PUBLISHED_YIELD = {
     "company-enrich": 69.65,
     "zoominfo": 63.94,
     "exa-research-v2": 60.44,
+    "tinyfish": 97.32,
 }
 
 
@@ -60,7 +62,7 @@ def main() -> int:
     assert snapshot["status"] == "complete"
     assert snapshot["dataset_slug"] == "company-firmographic-enrichment-web-research-v2-293"
     assert len(cases) == snapshot["case_count"] == 282
-    assert len(runs) == 2256
+    assert len(runs) == 2538
     assert len({case["case_slug"] for case in cases}) == 282
     assert len({case["input_domain"] for case in cases}) == 282
     assert Counter(case["slice"] for case in cases) == Counter(SLICE_COUNTS)
@@ -68,7 +70,7 @@ def main() -> int:
         "hq_location", "founded_year", "industry", "linkedin_url", "headcount_band"
     )
     assert {run["provider_slug"] for run in runs} == PROVIDERS
-    assert len({(run["case_slug"], run["provider_slug"]) for run in runs}) == 2256
+    assert len({(run["case_slug"], run["provider_slug"]) for run in runs}) == 2538
     assert Counter(run["provider_slug"] for run in runs) == Counter({provider: 282 for provider in PROVIDERS})
     assert all(run["status"] in {"ok", "not_found"} for run in runs)
 
@@ -106,8 +108,8 @@ def main() -> int:
         )
 
     print("final companies: 282")
-    print("provider cells: 2256")
-    print("providers: 8")
+    print("provider cells: 2538")
+    print("providers: 9")
     print(f"slices: {dict(Counter(case['slice'] for case in cases))}")
     print("artifact verification passed; network calls: 0")
     return 0
