@@ -175,7 +175,11 @@ def _prepare_snapshot(
                 )
         snapshot["created_at"] = existing.get("created_at") or snapshot["created_at"]
         for row in existing.get("runs") or []:
-            if row.get("case_slug") not in valid_cases or row.get("provider_slug") not in REGISTRY:
+            # Preserve complete arms produced by a specialized runner (for
+            # example ZoomInfo's CLI runner). The runnable registry controls
+            # which providers can receive new calls; it must not control which
+            # reviewed rows survive a resume.
+            if row.get("case_slug") not in valid_cases or not row.get("provider_slug"):
                 continue
             key = (row["case_slug"], row["provider_slug"])
             if key in indexes:
@@ -192,7 +196,22 @@ def _prepare_snapshot(
     # from an older reference. Recompute every cell locally without vendor calls.
     for row in snapshot["runs"]:
         case = valid_cases[row["case_slug"]]
-        normalized = NormalizedCompany(**row["normalized"]) if row.get("normalized") else None
+        normalized_payload = row.get("normalized") or {}
+        # Specialized adapters may retain additional audited values (ZoomInfo,
+        # for example, stores ``headcount_exact`` beside the scored band). Keep
+        # those keys in the published row, but pass only the shared contract to
+        # the scoring dataclass.
+        normalized = (
+            NormalizedCompany(
+                **{
+                    key: value
+                    for key, value in normalized_payload.items()
+                    if key in NormalizedCompany.__dataclass_fields__
+                }
+            )
+            if normalized_payload
+            else None
+        )
         result = ProviderResult(
             provider_slug=row["provider_slug"],
             provider_name=row.get("provider_name") or row["provider_slug"],

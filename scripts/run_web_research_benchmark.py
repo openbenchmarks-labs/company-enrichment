@@ -17,7 +17,12 @@ from typing import Any
 from dotenv import load_dotenv
 
 from firmographic.common import CompanyCase
-from firmographic.providers import exa_research, exa_research_v2, parallel_research
+from firmographic.providers import (
+    exa_research,
+    exa_research_v2,
+    parallel_research,
+    seltz_companies,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,8 +32,14 @@ PROVIDERS = {
     parallel_research.VENDOR_SLUG: parallel_research,
     exa_research.VENDOR_SLUG: exa_research,
     exa_research_v2.VENDOR_SLUG: exa_research_v2,
+    seltz_companies.VENDOR_SLUG: seltz_companies,
 }
-CONCURRENCY = {parallel_research.VENDOR_SLUG: 8, exa_research.VENDOR_SLUG: 12, exa_research_v2.VENDOR_SLUG: 5}
+CONCURRENCY = {
+    parallel_research.VENDOR_SLUG: 8,
+    exa_research.VENDOR_SLUG: 12,
+    exa_research_v2.VENDOR_SLUG: 5,
+    seltz_companies.VENDOR_SLUG: 6,
+}
 
 
 def output_path(provider: str, case: CompanyCase) -> Path:

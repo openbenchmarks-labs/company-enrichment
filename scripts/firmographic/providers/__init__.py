@@ -6,6 +6,7 @@ from . import (
     parallel_research,
     people_data_labs,
     predictleads,
+    seltz_companies,
 )
 
 
@@ -17,4 +18,5 @@ REGISTRY = {
     company_enrich.VENDOR_SLUG: company_enrich,
     exa_research_v2.VENDOR_SLUG: exa_research_v2,
     parallel_research.VENDOR_SLUG: parallel_research,
+    seltz_companies.VENDOR_SLUG: seltz_companies,
 }
