@@ -5,9 +5,9 @@ Open data and reproducible runners and judge code for the
 
 ## Current release
 
-The frozen release evaluates eight APIs on the same 282 reachable company
+The frozen release evaluates nine APIs on the same 282 reachable company
 domains: 71 stable-large companies, 88 long-tail companies, 71 subsidiaries,
-and 52 verified rebrands or domain changes. It contains 2,256 final
+and 52 verified rebrands or domain changes. It contains 2,538 final
 company-provider cells.
 
 Every Ground Truth field was refreshed and manually reviewed across official
@@ -46,6 +46,8 @@ See `scripts/field_judge_prompts.py` for the complete versioned policy.
 - Parallel
 - People Data Labs
 - Predict Leads
+- [Seltz](https://docs.seltz.ai/api-reference/answer), using the Answer API with
+  `scope=companies`
 - ZoomInfo
 
 Fiber and Ocean.io are retained only as historical adapters; they are not in
@@ -87,9 +89,9 @@ intend to call. Every live runner requires `--confirm-paid` and resumes from
 successful checkpoints by default.
 
 ```bash
-# Exa and Parallel use the same domain-only web-research contract.
+# Exa, Parallel, and Seltz use the same domain-only web-research contract.
 PYTHONPATH=scripts .venv/bin/python scripts/run_web_research_benchmark.py \
-  --only parallel-research,exa-research-v2 --confirm-paid
+  --only parallel-research,exa-research-v2,seltz-companies --confirm-paid
 
 # Standard provider adapter example.
 PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
@@ -112,5 +114,8 @@ PYTHONPATH=scripts .venv/bin/python scripts/run_dedicated_field_judges.py \
 The snapshot includes normalized answers, request/response audit metadata,
 latency, usage, and the final per-field judge rationales. It excludes secrets
 and labeller review state.
+
+Seltz pricing was not publicly disclosed when this release was measured, so
+the snapshot records request units but does not infer a dollar cost.
 
 No vendor sponsors or controls this benchmark.

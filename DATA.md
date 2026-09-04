@@ -29,8 +29,8 @@ Blank Ground Truth is excluded from the respective field denominator.
 main arrays are:
 
 - `cases`: frozen inputs and human-reviewed references
-- `runs`: 1,974 normalized provider responses and field-level metrics
-- `leaderboard`: eight provider aggregates calculated from those cells
+- `runs`: 2,538 normalized provider responses and field-level metrics
+- `leaderboard`: nine provider aggregates calculated from those cells
 
 Each run includes the provider/case IDs, status, normalized response, latency,
 usage unit, selected request/response audit metadata, errors, coverage, and

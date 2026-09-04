@@ -49,8 +49,39 @@ class FullRunnerTests(unittest.TestCase):
             ):
                 snapshot, indexes = runner._prepare_snapshot(cases, manifest, mutate=False)
         self.assertEqual(282, len(snapshot["cases"]))
-        self.assertEqual(70, len(snapshot["runs"]))
-        self.assertEqual(70, len(indexes))
+        self.assertEqual(80, len(snapshot["runs"]))
+        self.assertEqual(80, len(indexes))
+
+    def test_resume_preserves_specialized_provider_cells(self) -> None:
+        cases, manifest = load_all_cases()
+        existing = {
+            "dataset_slug": runner.DATASET_SLUG,
+            "created_at": "2026-07-14T00:00:00Z",
+            "cases": [cases[0].to_dict()],
+            "runs": [
+                {
+                    "provider_slug": "zoominfo",
+                    "provider_name": "ZoomInfo",
+                    "case_slug": cases[0].case_slug,
+                    "status": "ok",
+                    "latency_ms": 100,
+                    "normalized": {},
+                    "metrics": [],
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            snapshot_path = Path(directory) / "snapshot.json"
+            snapshot_path.write_text("{}", encoding="utf-8")
+            with (
+                patch.object(runner, "SNAPSHOT_PATH", snapshot_path),
+                patch.object(runner, "read_snapshot", return_value=existing),
+                patch.object(runner, "_load_ledger", return_value=[]),
+            ):
+                snapshot, indexes = runner._prepare_snapshot(cases, manifest, mutate=False)
+
+        self.assertIn((cases[0].case_slug, "zoominfo"), indexes)
+        self.assertEqual("zoominfo", snapshot["runs"][0]["provider_slug"])
 
     def test_rate_limit_error_is_timed_and_stops_only_that_provider(self) -> None:
         cases, _ = load_all_cases()
