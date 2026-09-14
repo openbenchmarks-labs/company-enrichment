@@ -1,38 +1,19 @@
 {
- "rebrand_source_row_18": {
-  "case_slug": "rebrand_source_row_18",
-  "legal_name": "Panorama Mortgage Group, LLC",
-  "primary_domain": "simplypmg.com",
+ "rebrand_source_row_13": {
+  "case_slug": "rebrand_source_row_13",
+  "legal_name": "Current",
+  "primary_domain": "current.co",
   "domains": [
-   "simplypmg.com"
+   "current.co"
   ],
-  "hq_country": "US",
-  "hq_city": "Las Vegas",
-  "founded_year": 2006,
-  "industry": "Financial Services",
+  "hq_country": null,
+  "hq_city": null,
+  "founded_year": 2023,
+  "industry": "Professional Services",
   "industries": [
-   "Financial Services"
+   "Professional Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/simplypmg",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
- "rebrand_source_row_17": {
-  "case_slug": "rebrand_source_row_17",
-  "legal_name": "Kinisla Group Limited",
-  "primary_domain": "kinisla.com",
-  "domains": [
-   "kinisla.com"
-  ],
-  "hq_country": "IE",
-  "hq_city": "Tralee",
-  "founded_year": 1972,
-  "industry": "Dairy Product Manufacturing",
-  "industries": [
-   "Dairy Product Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/kinislagroup",
+  "linkedin_url": "https://www.linkedin.com/company/current-advisors",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
@@ -56,6 +37,25 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "rebrand_source_row_17": {
+  "case_slug": "rebrand_source_row_17",
+  "legal_name": "Kinisla Group Limited",
+  "primary_domain": "kinisla.com",
+  "domains": [
+   "kinisla.com"
+  ],
+  "hq_country": "IE",
+  "hq_city": "Tralee",
+  "founded_year": 1972,
+  "industry": "Dairy Product Manufacturing",
+  "industries": [
+   "Dairy Product Manufacturing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/kinislagroup",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
  "rebrand_source_row_1": {
   "case_slug": "rebrand_source_row_1",
   "legal_name": "Envirotech Vehicles, Inc.",
@@ -74,26 +74,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
- },
- "rebrand_source_row_27": {
-  "case_slug": "rebrand_source_row_27",
-  "legal_name": "SugarAI Software Inc.",
-  "primary_domain": "sugarcrm.com",
-  "domains": [
-   "sugarcrm.com",
-   "sugarai.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Denver",
-  "founded_year": 2004,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/sugarcrm",
-  "linkedin_url_alternates": [],
-  "headcount_min": 501,
-  "headcount_max": 1000
  },
  "rebrand_source_row_10": {
   "case_slug": "rebrand_source_row_10",
@@ -114,43 +94,24 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "rebrand_source_row_21": {
-  "case_slug": "rebrand_source_row_21",
-  "legal_name": "Office Timeline, LLC",
-  "primary_domain": "lucensoftware.com",
+ "rebrand_source_row_18": {
+  "case_slug": "rebrand_source_row_18",
+  "legal_name": "Panorama Mortgage Group, LLC",
+  "primary_domain": "simplypmg.com",
   "domains": [
-   "lucensoftware.com"
+   "simplypmg.com"
   ],
   "hq_country": "US",
-  "hq_city": "Bellevue",
-  "founded_year": 2012,
-  "industry": "Software Development",
+  "hq_city": "Las Vegas",
+  "founded_year": 2006,
+  "industry": "Financial Services",
   "industries": [
-   "Software Development"
+   "Financial Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/lucen-software",
+  "linkedin_url": "https://www.linkedin.com/company/simplypmg",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "rebrand_source_row_23": {
-  "case_slug": "rebrand_source_row_23",
-  "legal_name": "ClearDox LLC",
-  "primary_domain": "clearopx.com",
-  "domains": [
-   "clearopx.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Stamford",
-  "founded_year": 2019,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/clearopx",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "rebrand_source_row_22": {
   "case_slug": "rebrand_source_row_22",
@@ -171,28 +132,47 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
- "rebrand_source_row_36": {
-  "case_slug": "rebrand_source_row_36",
-  "legal_name": "Brickwork GTM",
-  "primary_domain": "brick.work",
+ "rebrand_source_row_23": {
+  "case_slug": "rebrand_source_row_23",
+  "legal_name": "ClearDox LLC",
+  "primary_domain": "clearopx.com",
   "domains": [
-   "brick.work"
+   "clearopx.com"
   ],
   "hq_country": "US",
-  "hq_city": "Chicago",
-  "founded_year": 2009,
-  "industry": "Business Consulting and Services",
+  "hq_city": "Stamford",
+  "founded_year": 2019,
+  "industry": "Software Development",
   "industries": [
-   "Business Consulting and Services"
+   "Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/brickwork-gtm",
+  "linkedin_url": "https://www.linkedin.com/company/clearopx",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "rebrand_source_row_21": {
+  "case_slug": "rebrand_source_row_21",
+  "legal_name": "Office Timeline, LLC",
+  "primary_domain": "lucensoftware.com",
+  "domains": [
+   "lucensoftware.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Bellevue",
+  "founded_year": 2012,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/lucen-software",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
  },
  "rebrand_source_row_31": {
   "case_slug": "rebrand_source_row_31",
-  "legal_name": "BlueDolphin",
+  "legal_name": "BlueDolphin B.V.",
   "primary_domain": "bluedolphin.io",
   "domains": [
    "bluedolphin.io"
@@ -223,29 +203,12 @@
   "industries": [
    "Renewable Energy Equipment Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/tempoenergy",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "rebrand_source_row_37": {
-  "case_slug": "rebrand_source_row_37",
-  "legal_name": "Agility Robotics",
-  "primary_domain": "agilityrobotics.com",
-  "domains": [
-   "agilityrobotics.com"
+  "linkedin_url": "https://www.linkedin.com/company/tempoinnovations",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/tempoenergy"
   ],
-  "hq_country": "US",
-  "hq_city": "Salem",
-  "founded_year": 2015,
-  "industry": "Robotics Engineering",
-  "industries": [
-   "Robotics Engineering"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/agilityrobotics",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "rebrand_source_row_30": {
   "case_slug": "rebrand_source_row_30",
@@ -265,6 +228,82 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
+ },
+ "rebrand_source_row_36": {
+  "case_slug": "rebrand_source_row_36",
+  "legal_name": "Brickwork GTM",
+  "primary_domain": "brick.work",
+  "domains": [
+   "brick.work"
+  ],
+  "hq_country": "US",
+  "hq_city": "Chicago",
+  "founded_year": 2009,
+  "industry": "Business Consulting and Services",
+  "industries": [
+   "Business Consulting and Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/brickwork-gtm",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "rebrand_source_row_27": {
+  "case_slug": "rebrand_source_row_27",
+  "legal_name": "SugarAI Software Inc.",
+  "primary_domain": "sugarai.com",
+  "domains": [
+   "sugarai.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Denver",
+  "founded_year": 2004,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/sugarcrm",
+  "linkedin_url_alternates": [],
+  "headcount_min": 501,
+  "headcount_max": 1000
+ },
+ "rebrand_source_row_40": {
+  "case_slug": "rebrand_source_row_40",
+  "legal_name": "Fifty5Blue Group Ltd.",
+  "primary_domain": "fifty5blue.com",
+  "domains": [
+   "fifty5blue.com"
+  ],
+  "hq_country": "United Kingdom",
+  "hq_city": "London",
+  "founded_year": 1933,
+  "industry": "Marketing Services",
+  "industries": [
+   "Marketing Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/fifty5blue",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "rebrand_source_row_37": {
+  "case_slug": "rebrand_source_row_37",
+  "legal_name": "Agility Robotics, Inc.",
+  "primary_domain": "agilityrobotics.com",
+  "domains": [
+   "agilityrobotics.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Salem",
+  "founded_year": 2015,
+  "industry": "Robotics Engineering",
+  "industries": [
+   "Robotics Engineering"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/agilityrobotics",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "rebrand_source_row_39": {
   "case_slug": "rebrand_source_row_39",
@@ -304,40 +343,21 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_40": {
-  "case_slug": "rebrand_source_row_40",
-  "legal_name": "Fifty5Blue Group Ltd.",
-  "primary_domain": "fifty5blue.com",
+ "rebrand_source_row_49": {
+  "case_slug": "rebrand_source_row_49",
+  "legal_name": "Glancy Prongay Wolke & Rotter LLP",
+  "primary_domain": "glancylaw.com",
   "domains": [
-   "fifty5blue.com"
+   "glancylaw.com"
   ],
-  "hq_country": "United Kingdom",
-  "hq_city": "London",
-  "founded_year": 1933,
-  "industry": "Marketing Services",
+  "hq_country": "US",
+  "hq_city": "Los Angeles",
+  "founded_year": 1987,
+  "industry": "Law Practice",
   "industries": [
-   "Marketing Services"
+   "Law Practice"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/fifty5blue",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "rebrand_source_row_47": {
-  "case_slug": "rebrand_source_row_47",
-  "legal_name": "RPX Gold Inc.",
-  "primary_domain": "rpxgold.com",
-  "domains": [
-   "rpxgold.com"
-  ],
-  "hq_country": "CA",
-  "hq_city": "Toronto",
-  "founded_year": 1936,
-  "industry": "Mining",
-  "industries": [
-   "Mining"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/rpxgold",
+  "linkedin_url": "https://www.linkedin.com/company/glancy-prongay-wolke-rotter-llp",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -361,44 +381,6 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_49": {
-  "case_slug": "rebrand_source_row_49",
-  "legal_name": "Glancy Prongay Wolke & Rotter LLP",
-  "primary_domain": "glancylaw.com",
-  "domains": [
-   "glancylaw.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Los Angeles",
-  "founded_year": 1987,
-  "industry": "Law Practice",
-  "industries": [
-   "Law Practice"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/glancy-prongay-wolke-rotter-llp",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "rebrand_source_row_48": {
-  "case_slug": "rebrand_source_row_48",
-  "legal_name": "Covista",
-  "primary_domain": "covista.com",
-  "domains": [
-   "covista.com"
-  ],
-  "hq_country": "United States",
-  "hq_city": "Chicago",
-  "founded_year": 1973,
-  "industry": "Education Administration Programs",
-  "industries": [
-   "Education Administration Programs"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/covista-official",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
  "rebrand_source_row_51": {
   "case_slug": "rebrand_source_row_51",
   "legal_name": "Nakamoto",
@@ -418,43 +400,43 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_53": {
-  "case_slug": "rebrand_source_row_53",
-  "legal_name": "CWILL",
-  "primary_domain": "cwill.com",
+ "rebrand_source_row_52": {
+  "case_slug": "rebrand_source_row_52",
+  "legal_name": "Doxis GmbH",
+  "primary_domain": "doxis.com",
   "domains": [
-   "cwill.com"
+   "doxis.com"
   ],
-  "hq_country": "US",
-  "hq_city": "Cary",
-  "founded_year": 2014,
+  "hq_country": "DE",
+  "hq_city": "Bonn",
+  "founded_year": 1984,
   "industry": "Software Development",
   "industries": [
    "Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/cwill",
+  "linkedin_url": "https://www.linkedin.com/company/doxis",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 501,
+  "headcount_max": 1000
  },
- "rebrand_source_row_55": {
-  "case_slug": "rebrand_source_row_55",
-  "legal_name": "Carl Marks Securities LLC",
-  "primary_domain": "thecmagroup.com",
+ "rebrand_source_row_47": {
+  "case_slug": "rebrand_source_row_47",
+  "legal_name": "RPX Gold Inc.",
+  "primary_domain": "rpxgold.com",
   "domains": [
-   "thecmagroup.com"
+   "rpxgold.com"
   ],
-  "hq_country": "US",
-  "hq_city": "New York",
-  "founded_year": 1978,
-  "industry": "Financial Services",
+  "hq_country": "CA",
+  "hq_city": "Toronto",
+  "founded_year": 1936,
+  "industry": "Mining",
   "industries": [
-   "Financial Services"
+   "Mining"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/carl-marks-advisors",
+  "linkedin_url": "https://www.linkedin.com/company/rpxgold",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 11,
+  "headcount_max": 50
  },
  "rebrand_source_row_54": {
   "case_slug": "rebrand_source_row_54",
@@ -475,100 +457,43 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_52": {
-  "case_slug": "rebrand_source_row_52",
-  "legal_name": "Doxis GmbH",
-  "primary_domain": "doxis.com",
+ "rebrand_source_row_55": {
+  "case_slug": "rebrand_source_row_55",
+  "legal_name": "Carl Marks Securities LLC",
+  "primary_domain": "thecmagroup.com",
   "domains": [
-   "doxis.com"
+   "thecmagroup.com"
   ],
-  "hq_country": "DE",
-  "hq_city": "Bonn",
-  "founded_year": 1984,
-  "industry": "Softwareentwicklung",
-  "industries": [
-   "Softwareentwicklung"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/doxis",
-  "linkedin_url_alternates": [],
-  "headcount_min": 501,
-  "headcount_max": 1000
- },
- "rebrand_source_row_58": {
-  "case_slug": "rebrand_source_row_58",
-  "legal_name": "Orion Digital",
-  "primary_domain": "orion-digital.com",
-  "domains": [
-   "orion-digital.com"
-  ],
-  "hq_country": "CA",
-  "hq_city": "Vancouver",
-  "founded_year": 2003,
+  "hq_country": "US",
+  "hq_city": "New York",
+  "founded_year": 1978,
   "industry": "Financial Services",
   "industries": [
    "Financial Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/oriondigitalcorp",
+  "linkedin_url": "https://www.linkedin.com/company/carl-marks-advisors",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
  },
- "rebrand_source_row_60": {
-  "case_slug": "rebrand_source_row_60",
-  "legal_name": "ICE Recycling, LLC",
-  "primary_domain": "vaiire.com",
+ "rebrand_source_row_53": {
+  "case_slug": "rebrand_source_row_53",
+  "legal_name": "CWILL",
+  "primary_domain": "cwill.com",
   "domains": [
-   "vaiire.com"
+   "cwill.com"
   ],
   "hq_country": "US",
-  "hq_city": "Lake City",
-  "founded_year": 2008,
-  "industry": "Plastics Manufacturing",
+  "hq_city": "Cary",
+  "founded_year": 2014,
+  "industry": "Software Development",
   "industries": [
-   "Plastics Manufacturing"
+   "Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/vaiire",
+  "linkedin_url": "https://www.linkedin.com/company/cwill",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
- },
- "rebrand_source_row_61": {
-  "case_slug": "rebrand_source_row_61",
-  "legal_name": "Asbury Advanced Materials",
-  "primary_domain": "asbury.com",
-  "domains": [
-   "asbury.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Asbury",
-  "founded_year": 1895,
-  "industry": "Mining",
-  "industries": [
-   "Mining"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/asbury-advanced-materials",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
- "rebrand_source_row_6": {
-  "case_slug": "rebrand_source_row_6",
-  "legal_name": "Manago AI",
-  "primary_domain": "manago.ai",
-  "domains": [
-   "manago.ai"
-  ],
-  "hq_country": "PL",
-  "hq_city": "Kraków",
-  "founded_year": 2011,
-  "industry": "Marketing Services",
-  "industries": [
-   "Marketing Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/managoai",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
  },
  "rebrand_source_row_56": {
   "case_slug": "rebrand_source_row_56",
@@ -589,6 +514,82 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
+ "rebrand_source_row_58": {
+  "case_slug": "rebrand_source_row_58",
+  "legal_name": "Orion Digital",
+  "primary_domain": "orion-digital.com",
+  "domains": [
+   "orion-digital.com"
+  ],
+  "hq_country": "CA",
+  "hq_city": "Vancouver",
+  "founded_year": 2003,
+  "industry": "Financial Services",
+  "industries": [
+   "Financial Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/oriondigitalcorp",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "rebrand_source_row_6": {
+  "case_slug": "rebrand_source_row_6",
+  "legal_name": "Manago AI",
+  "primary_domain": "manago.ai",
+  "domains": [
+   "manago.ai"
+  ],
+  "hq_country": "PL",
+  "hq_city": "Kraków",
+  "founded_year": 2011,
+  "industry": "Marketing Services",
+  "industries": [
+   "Marketing Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/managoai",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
+ "rebrand_source_row_48": {
+  "case_slug": "rebrand_source_row_48",
+  "legal_name": "Covista",
+  "primary_domain": "covista.com",
+  "domains": [
+   "covista.com"
+  ],
+  "hq_country": "United States",
+  "hq_city": "Chicago",
+  "founded_year": 1973,
+  "industry": "Education Administration Programs",
+  "industries": [
+   "Education Administration Programs"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/covista-official",
+  "linkedin_url_alternates": [],
+  "headcount_min": 10001,
+  "headcount_max": null
+ },
+ "rebrand_source_row_61": {
+  "case_slug": "rebrand_source_row_61",
+  "legal_name": "Asbury Advanced Materials",
+  "primary_domain": "asbury.com",
+  "domains": [
+   "asbury.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Asbury",
+  "founded_year": 1895,
+  "industry": "Mining",
+  "industries": [
+   "Mining"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/asbury-advanced-materials",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
  "rebrand_source_row_62": {
   "case_slug": "rebrand_source_row_62",
   "legal_name": "ENvue Medical (USA) Inc.",
@@ -607,6 +608,25 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
+ },
+ "rebrand_source_row_60": {
+  "case_slug": "rebrand_source_row_60",
+  "legal_name": "ICE Recycling, LLC",
+  "primary_domain": "vaiire.com",
+  "domains": [
+   "vaiire.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Lake City",
+  "founded_year": 2008,
+  "industry": "Plastics Manufacturing",
+  "industries": [
+   "Plastics Manufacturing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/vaiire",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "rebrand_source_row_63": {
   "case_slug": "rebrand_source_row_63",
@@ -627,21 +647,21 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "rebrand_source_row_66": {
-  "case_slug": "rebrand_source_row_66",
-  "legal_name": "USA TODAY Co., Inc.",
-  "primary_domain": "usatodayco.com",
+ "rebrand_source_row_65": {
+  "case_slug": "rebrand_source_row_65",
+  "legal_name": "Everforth",
+  "primary_domain": "everforth.com",
   "domains": [
-   "usatodayco.com"
+   "everforth.com"
   ],
-  "hq_country": "US",
-  "hq_city": "New York",
-  "founded_year": 1906,
-  "industry": "Newspaper Publishing",
+  "hq_country": "United States",
+  "hq_city": "Glen Allen",
+  "founded_year": 1985,
+  "industry": "Technology, Information and Internet",
   "industries": [
-   "Newspaper Publishing"
+   "Technology, Information and Internet"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/usatodayco",
+  "linkedin_url": "https://www.linkedin.com/company/everforth",
   "linkedin_url_alternates": [],
   "headcount_min": 10001,
   "headcount_max": null
@@ -666,6 +686,25 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "rebrand_source_row_66": {
+  "case_slug": "rebrand_source_row_66",
+  "legal_name": "USA TODAY Co., Inc.",
+  "primary_domain": "usatodayco.com",
+  "domains": [
+   "usatodayco.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "New York",
+  "founded_year": 1906,
+  "industry": "Newspaper Publishing",
+  "industries": [
+   "Newspaper Publishing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/usatodayco",
+  "linkedin_url_alternates": [],
+  "headcount_min": 10001,
+  "headcount_max": null
+ },
  "rebrand_source_row_70": {
   "case_slug": "rebrand_source_row_70",
   "legal_name": "Ladder Bio Inc.",
@@ -682,46 +721,8 @@
   ],
   "linkedin_url": "https://www.linkedin.com/company/ladderbio",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "rebrand_source_row_65": {
-  "case_slug": "rebrand_source_row_65",
-  "legal_name": "Everforth",
-  "primary_domain": "everforth.com",
-  "domains": [
-   "everforth.com"
-  ],
-  "hq_country": "United States",
-  "hq_city": "Richmond",
-  "founded_year": 1985,
-  "industry": "Technology, Information and Internet",
-  "industries": [
-   "Technology, Information and Internet"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/everforth",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
- "rebrand_source_row_73": {
-  "case_slug": "rebrand_source_row_73",
-  "legal_name": "bohan Advertising",
-  "primary_domain": "artistsandoutlaws.com",
-  "domains": [
-   "artistsandoutlaws.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Nashville",
-  "founded_year": 1990,
-  "industry": "Advertising Services",
-  "industries": [
-   "Advertising Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/bohan",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 2,
+  "headcount_max": 10
  },
  "rebrand_source_row_69": {
   "case_slug": "rebrand_source_row_69",
@@ -742,25 +743,6 @@
   "headcount_min": 5001,
   "headcount_max": 10000
  },
- "rebrand_source_row_83": {
-  "case_slug": "rebrand_source_row_83",
-  "legal_name": "Reflect Health",
-  "primary_domain": "reflecthealth.com",
-  "domains": [
-   "reflecthealth.com"
-  ],
-  "hq_country": "United States",
-  "hq_city": "Mason",
-  "founded_year": 1994,
-  "industry": "Insurance",
-  "industries": [
-   "Insurance"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/reflect-health-solutions",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
  "rebrand_source_row_72": {
   "case_slug": "rebrand_source_row_72",
   "legal_name": "CSC Holdings, LLC",
@@ -780,6 +762,44 @@
   "headcount_min": 5001,
   "headcount_max": 10000
  },
+ "rebrand_source_row_73": {
+  "case_slug": "rebrand_source_row_73",
+  "legal_name": "Artists&Outlaws",
+  "primary_domain": "artistsandoutlaws.com",
+  "domains": [
+   "artistsandoutlaws.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Nashville",
+  "founded_year": 1990,
+  "industry": "Advertising Services",
+  "industries": [
+   "Advertising Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/bohan",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "rebrand_source_row_81": {
+  "case_slug": "rebrand_source_row_81",
+  "legal_name": "Clustermarket Limited",
+  "primary_domain": "calira.co",
+  "domains": [
+   "calira.co"
+  ],
+  "hq_country": "GB",
+  "hq_city": "London",
+  "founded_year": 2016,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/calira",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "rebrand_source_row_80": {
   "case_slug": "rebrand_source_row_80",
   "legal_name": "Marsh LLC",
@@ -795,32 +815,15 @@
    "Insurance"
   ],
   "linkedin_url": "https://www.linkedin.com/company/marshrisk",
-  "linkedin_url_alternates": [],
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/showcase/marshrisk"
+  ],
   "headcount_min": 10001,
   "headcount_max": null
  },
- "rebrand_source_row_81": {
-  "case_slug": "rebrand_source_row_81",
-  "legal_name": "Clustermarket Limited",
-  "primary_domain": "calira.co",
-  "domains": [
-   "calira.co"
-  ],
-  "hq_country": "GB",
-  "hq_city": "London",
-  "founded_year": 2015,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/calira",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "rebrand_source_row_77": {
   "case_slug": "rebrand_source_row_77",
-  "legal_name": "Innovative Aerosystems",
+  "legal_name": "Innovative Solutions & Support, Inc.",
   "primary_domain": "iascorp.com",
   "domains": [
    "iascorp.com"
@@ -837,21 +840,21 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
- "rebrand_source_row_84": {
-  "case_slug": "rebrand_source_row_84",
-  "legal_name": "OPENDATASOFT SA",
-  "primary_domain": "huwise.com",
+ "rebrand_source_row_83": {
+  "case_slug": "rebrand_source_row_83",
+  "legal_name": "Reflect Health",
+  "primary_domain": "reflecthealth.com",
   "domains": [
-   "huwise.com"
+   "reflecthealth.com"
   ],
-  "hq_country": "FR",
-  "hq_city": "Paris",
-  "founded_year": 2011,
-  "industry": "Software Development",
+  "hq_country": "United States",
+  "hq_city": "Mason",
+  "founded_year": 1994,
+  "industry": "Insurance",
   "industries": [
-   "Software Development"
+   "Insurance"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/huwise",
+  "linkedin_url": "https://www.linkedin.com/company/reflect-health-solutions",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -875,43 +878,24 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_94": {
-  "case_slug": "rebrand_source_row_94",
-  "legal_name": "Wellspring Financial Advisors LLC",
-  "primary_domain": "wellspringfo.com",
+ "rebrand_source_row_84": {
+  "case_slug": "rebrand_source_row_84",
+  "legal_name": "OPENDATASOFT SA",
+  "primary_domain": "huwise.com",
   "domains": [
-   "wellspringfo.com"
+   "huwise.com"
   ],
-  "hq_country": "US",
-  "hq_city": "Cleveland",
-  "founded_year": 2007,
-  "industry": "Financial Services",
+  "hq_country": "FR",
+  "hq_city": "Paris",
+  "founded_year": 2011,
+  "industry": "Software Development",
   "industries": [
-   "Financial Services"
+   "Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/wellspring-family-office",
+  "linkedin_url": "https://www.linkedin.com/company/huwise",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "rebrand_source_row_9": {
-  "case_slug": "rebrand_source_row_9",
-  "legal_name": "Shoe Station Group, Inc.",
-  "primary_domain": "shoecarnival.com",
-  "domains": [
-   "shoecarnival.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Fort Mill",
-  "founded_year": 1978,
-  "industry": "Retail",
-  "industries": [
-   "Retail"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/shoe-carnival",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "rebrand_source_row_87": {
   "case_slug": "rebrand_source_row_87",
@@ -932,9 +916,47 @@
   "headcount_min": 201,
   "headcount_max": 500
  },
+ "rebrand_source_row_9": {
+  "case_slug": "rebrand_source_row_9",
+  "legal_name": "Shoe Station Group, Inc.",
+  "primary_domain": "shoecarnival.com",
+  "domains": [
+   "shoecarnival.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Fort Mill",
+  "founded_year": 1978,
+  "industry": "Retail",
+  "industries": [
+   "Retail"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/shoe-carnival",
+  "linkedin_url_alternates": [],
+  "headcount_min": 5001,
+  "headcount_max": 10000
+ },
+ "rebrand_source_row_94": {
+  "case_slug": "rebrand_source_row_94",
+  "legal_name": "Wellspring Financial Advisors LLC",
+  "primary_domain": "wellspringfo.com",
+  "domains": [
+   "wellspringfo.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Cleveland",
+  "founded_year": 2007,
+  "industry": "Financial Services",
+  "industries": [
+   "Financial Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/wellspring-family-office",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "rebrand_source_row_97": {
   "case_slug": "rebrand_source_row_97",
-  "legal_name": "Strategy",
+  "legal_name": "Strategy Inc",
   "primary_domain": "strategy.com",
   "domains": [
    "strategy.com"
@@ -950,82 +972,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
- },
- "ww_0012a83c1e6cda9d73a22dbeaac47e8f": {
-  "case_slug": "ww_0012a83c1e6cda9d73a22dbeaac47e8f",
-  "legal_name": "Bradford Council",
-  "primary_domain": "bradford.gov.uk",
-  "domains": [
-   "bradford.gov.uk"
-  ],
-  "hq_country": "GB",
-  "hq_city": "BRADFORD",
-  "founded_year": 1974,
-  "industry": "Government Administration",
-  "industries": [
-   "Government Administration"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/bradford-council",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
- },
- "ww_037f16602eb7373091454e99f0c8da5c": {
-  "case_slug": "ww_037f16602eb7373091454e99f0c8da5c",
-  "legal_name": "Care On Board Home Health Care Center LLC",
-  "primary_domain": "care-onboard.com",
-  "domains": [
-   "care-onboard.com"
-  ],
-  "hq_country": "AE",
-  "hq_city": "Dubai",
-  "founded_year": 2021,
-  "industry": "Home Health Care Services",
-  "industries": [
-   "Home Health Care Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/care-onboard-home-healthcare-center",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_03e062d9f92027490903f1d2a49da9b9": {
-  "case_slug": "ww_03e062d9f92027490903f1d2a49da9b9",
-  "legal_name": "Harcourts Group (Australia) Pty Ltd",
-  "primary_domain": "harcourts.net",
-  "domains": [
-   "harcourts.net"
-  ],
-  "hq_country": "AU",
-  "hq_city": "Eagle Farm",
-  "founded_year": 1888,
-  "industry": "Real Estate",
-  "industries": [
-   "Real Estate"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/harcourts",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
- },
- "ww_04503fa46b58adb0e50c421ed5249180": {
-  "case_slug": "ww_04503fa46b58adb0e50c421ed5249180",
-  "legal_name": "AUTOCENTRO CAPRI S.A.",
-  "primary_domain": "autocentrocapri.com",
-  "domains": [
-   "autocentrocapri.com"
-  ],
-  "hq_country": "CO",
-  "hq_city": "Cali",
-  "founded_year": 1997,
-  "industry": "Vehicle Repair and Maintenance",
-  "industries": [
-   "Vehicle Repair and Maintenance"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/autocentrocapri",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
  },
  "rebrand_source_row_96": {
   "case_slug": "rebrand_source_row_96",
@@ -1046,6 +992,25 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
+ "ww_0012a83c1e6cda9d73a22dbeaac47e8f": {
+  "case_slug": "ww_0012a83c1e6cda9d73a22dbeaac47e8f",
+  "legal_name": "Bradford Council",
+  "primary_domain": "bradford.gov.uk",
+  "domains": [
+   "bradford.gov.uk"
+  ],
+  "hq_country": "GB",
+  "hq_city": "BRADFORD",
+  "founded_year": 1974,
+  "industry": "Government Administration",
+  "industries": [
+   "Government Administration"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/bradford-council",
+  "linkedin_url_alternates": [],
+  "headcount_min": 5001,
+  "headcount_max": 10000
+ },
  "ww_01a4ebc5504ed829b7c7358b36ebef95": {
   "case_slug": "ww_01a4ebc5504ed829b7c7358b36ebef95",
   "legal_name": "Modernia",
@@ -1056,14 +1021,33 @@
   "hq_country": "AR",
   "hq_city": "Cordoba",
   "founded_year": 2019,
-  "industry": "Construcción",
+  "industry": "Construction",
   "industries": [
-   "Construcción"
+   "Construction"
   ],
   "linkedin_url": "https://www.linkedin.com/company/modernia",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
+ },
+ "ww_03e062d9f92027490903f1d2a49da9b9": {
+  "case_slug": "ww_03e062d9f92027490903f1d2a49da9b9",
+  "legal_name": "Harcourts Group (Australia) Pty Ltd",
+  "primary_domain": "harcourts.net",
+  "domains": [
+   "harcourts.net"
+  ],
+  "hq_country": "AU",
+  "hq_city": "Eagle Farm",
+  "founded_year": 1888,
+  "industry": "Real Estate",
+  "industries": [
+   "Real Estate"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/harcourts",
+  "linkedin_url_alternates": [],
+  "headcount_min": 5001,
+  "headcount_max": 10000
  },
  "ww_048ec01d04362c38ca9aad65258e5093": {
   "case_slug": "ww_048ec01d04362c38ca9aad65258e5093",
@@ -1084,9 +1068,47 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
+ "ww_04503fa46b58adb0e50c421ed5249180": {
+  "case_slug": "ww_04503fa46b58adb0e50c421ed5249180",
+  "legal_name": "AUTOCENTRO CAPRI S.A.",
+  "primary_domain": "autocentrocapri.com",
+  "domains": [
+   "autocentrocapri.com"
+  ],
+  "hq_country": "CO",
+  "hq_city": "Cali",
+  "founded_year": 1997,
+  "industry": "Vehicle Repair and Maintenance",
+  "industries": [
+   "Vehicle Repair and Maintenance"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/autocentrocapri",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_037f16602eb7373091454e99f0c8da5c": {
+  "case_slug": "ww_037f16602eb7373091454e99f0c8da5c",
+  "legal_name": "Care On Board Home Health Care Center LLC",
+  "primary_domain": "care-onboard.com",
+  "domains": [
+   "care-onboard.com"
+  ],
+  "hq_country": "AE",
+  "hq_city": "Dubai",
+  "founded_year": 2021,
+  "industry": "Home Health Care Services",
+  "industries": [
+   "Home Health Care Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/care-onboard-home-healthcare-center",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_06d07fac68a3b137e3cdf18e55d4061a": {
   "case_slug": "ww_06d07fac68a3b137e3cdf18e55d4061a",
-  "legal_name": "Solidarity Wealth",
+  "legal_name": "Solidarity Wealth, LLC",
   "primary_domain": "solidaritywealth.com",
   "domains": [
    "solidaritywealth.com"
@@ -1151,52 +1173,33 @@
   "hq_country": "US",
   "hq_city": "Tampa",
   "founded_year": 2016,
-  "industry": "Seni Pentas",
+  "industry": "Performing Arts",
   "industries": [
-   "Seni Pentas"
+   "Performing Arts"
   ],
   "linkedin_url": "https://www.linkedin.com/company/revel-dance-convention",
   "linkedin_url_alternates": [],
   "headcount_min": 2,
   "headcount_max": 10
  },
- "ww_11f314ac631b971bb63f9967b65278a1": {
-  "case_slug": "ww_11f314ac631b971bb63f9967b65278a1",
-  "legal_name": "Prefeitura Municipal da Serra",
-  "primary_domain": "serra.es.gov.br",
+ "ww_0b444e668f2ebed85bfd5e2babd6d70e": {
+  "case_slug": "ww_0b444e668f2ebed85bfd5e2babd6d70e",
+  "legal_name": "DAA Deutsche Angestellten-Akademie gGmbH",
+  "primary_domain": "daa.de",
   "domains": [
-   "serra.es.gov.br"
+   "daa.de"
   ],
-  "hq_country": "BR",
-  "hq_city": "Serra",
-  "founded_year": 1833,
-  "industry": "Administração pública, defesa e seguridade social",
+  "hq_country": "DE",
+  "hq_city": "bundesweit",
+  "founded_year": 1946,
+  "industry": "Education",
   "industries": [
-   "Administração pública, defesa e seguridade social"
+   "Education"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/prefeituraserra",
+  "linkedin_url": "https://www.linkedin.com/company/deutsche-angestellten-akademie---daa",
   "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
- "ww_11ec7760151ba99608c124fc23a05b3a": {
-  "case_slug": "ww_11ec7760151ba99608c124fc23a05b3a",
-  "legal_name": "Cybage Software Pvt. Ltd.",
-  "primary_domain": "cybage.com",
-  "domains": [
-   "cybage.com"
-  ],
-  "hq_country": "IN",
-  "hq_city": "Pune",
-  "founded_year": 1995,
-  "industry": "IT Services and IT Consulting",
-  "industries": [
-   "IT Services and IT Consulting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/cybage",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
+  "headcount_min": 1001,
+  "headcount_max": 5000
  },
  "ww_0e4075da2a2527fdb67ab9469f626fc2": {
   "case_slug": "ww_0e4075da2a2527fdb67ab9469f626fc2",
@@ -1217,62 +1220,24 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
- "ww_0b444e668f2ebed85bfd5e2babd6d70e": {
-  "case_slug": "ww_0b444e668f2ebed85bfd5e2babd6d70e",
-  "legal_name": "DAA Deutsche Angestellten-Akademie gGmbH",
-  "primary_domain": "daa.de",
+ "ww_11ec7760151ba99608c124fc23a05b3a": {
+  "case_slug": "ww_11ec7760151ba99608c124fc23a05b3a",
+  "legal_name": "Cybage Software Pvt. Ltd.",
+  "primary_domain": "cybage.com",
   "domains": [
-   "daa.de"
-  ],
-  "hq_country": "DE",
-  "hq_city": "bundesweit",
-  "founded_year": 1946,
-  "industry": "Bildungswesen",
-  "industries": [
-   "Bildungswesen"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/deutsche-angestellten-akademie---daa",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_12c26854bcd45f5946775c31a00f5062": {
-  "case_slug": "ww_12c26854bcd45f5946775c31a00f5062",
-  "legal_name": "NoBroker Technology Solutions Pvt. Ltd.",
-  "primary_domain": "nobrokerhood.com",
-  "domains": [
-   "nobrokerhood.com"
+   "cybage.com"
   ],
   "hq_country": "IN",
-  "hq_city": "Bangalore",
-  "founded_year": 2018,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/nobrokerhood",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_133ba05b352951272ee8b075ff836aed": {
-  "case_slug": "ww_133ba05b352951272ee8b075ff836aed",
-  "legal_name": "Advance Intelligence Pte. Ltd.",
-  "primary_domain": "advance.ai",
-  "domains": [
-   "advance.ai"
-  ],
-  "hq_country": "SG",
-  "hq_city": "Singapore",
-  "founded_year": 2016,
+  "hq_city": "Pune",
+  "founded_year": 1995,
   "industry": "IT Services and IT Consulting",
   "industries": [
    "IT Services and IT Consulting"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/advanceai-aai",
+  "linkedin_url": "https://www.linkedin.com/company/cybage",
   "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
+  "headcount_min": 5001,
+  "headcount_max": 10000
  },
  "ww_11fda74849e1a70aea1b8c941dd63859": {
   "case_slug": "ww_11fda74849e1a70aea1b8c941dd63859",
@@ -1294,59 +1259,78 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_157b7cb6a857384c73cb44f599016c7e": {
-  "case_slug": "ww_157b7cb6a857384c73cb44f599016c7e",
-  "legal_name": "Stichting Lunet zorg",
-  "primary_domain": "lunet.nl",
+ "ww_133ba05b352951272ee8b075ff836aed": {
+  "case_slug": "ww_133ba05b352951272ee8b075ff836aed",
+  "legal_name": "Advance Intelligence Pte. Ltd.",
+  "primary_domain": "advance.ai",
   "domains": [
-   "lunet.nl"
+   "advance.ai"
   ],
-  "hq_country": "NL",
-  "hq_city": "Eindhoven",
-  "founded_year": 2008,
-  "industry": "Hospitals and Health Care",
+  "hq_country": "SG",
+  "hq_city": "Singapore",
+  "founded_year": 2016,
+  "industry": "IT Services and IT Consulting",
   "industries": [
-   "Hospitals and Health Care"
+   "IT Services and IT Consulting"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/lunet",
+  "linkedin_url": "https://www.linkedin.com/company/advanceai-aai",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
+ "ww_12c26854bcd45f5946775c31a00f5062": {
+  "case_slug": "ww_12c26854bcd45f5946775c31a00f5062",
+  "legal_name": "NoBroker Technology Solutions Pvt. Ltd.",
+  "primary_domain": "nobrokerhood.com",
+  "domains": [
+   "nobrokerhood.com"
+  ],
+  "hq_country": "IN",
+  "hq_city": "Bangalore",
+  "founded_year": 2018,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/nobrokerhood",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_15cc49b41290dbf4f0165f8c6d115233": {
-  "case_slug": "ww_15cc49b41290dbf4f0165f8c6d115233",
-  "legal_name": "Mican Technologies Inc.",
-  "primary_domain": "micantech.net",
+ "ww_11f314ac631b971bb63f9967b65278a1": {
+  "case_slug": "ww_11f314ac631b971bb63f9967b65278a1",
+  "legal_name": "Prefeitura Municipal da Serra",
+  "primary_domain": "serra.es.gov.br",
   "domains": [
-   "micantech.net"
+   "serra.es.gov.br"
   ],
-  "hq_country": "US",
-  "hq_city": "Bear",
-  "founded_year": 2007,
-  "industry": "Staffing and Recruiting",
+  "hq_country": "BR",
+  "hq_city": "Serra",
+  "founded_year": 1833,
+  "industry": "Government Administration",
   "industries": [
-   "Staffing and Recruiting"
+   "Government Administration"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/mican-technologies",
+  "linkedin_url": "https://www.linkedin.com/company/prefeituraserra",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 10001,
+  "headcount_max": null
  },
- "ww_1567ea411b1b2726d3486d15a57a822f": {
-  "case_slug": "ww_1567ea411b1b2726d3486d15a57a822f",
-  "legal_name": "Virginia Tech",
-  "primary_domain": "vt.edu",
+ "ww_136fd5494ff226ff5d6571170a1d9e3c": {
+  "case_slug": "ww_136fd5494ff226ff5d6571170a1d9e3c",
+  "legal_name": "L&T Construction",
+  "primary_domain": "lntecc.com",
   "domains": [
-   "vt.edu"
+   "lntecc.com"
   ],
-  "hq_country": "US",
-  "hq_city": "Blacksburg",
-  "founded_year": 1872,
-  "industry": "Higher Education",
+  "hq_country": "IN",
+  "hq_city": "Chennai",
+  "founded_year": 1938,
+  "industry": "Construction",
   "industries": [
-   "Higher Education"
+   "Construction"
   ],
-  "linkedin_url": "https://www.linkedin.com/school/virginia-tech",
+  "linkedin_url": "https://www.linkedin.com/company/l-t-ecc",
   "linkedin_url_alternates": [],
   "headcount_min": 10001,
   "headcount_max": null
@@ -1370,9 +1354,47 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_1567ea411b1b2726d3486d15a57a822f": {
+  "case_slug": "ww_1567ea411b1b2726d3486d15a57a822f",
+  "legal_name": "Virginia Tech",
+  "primary_domain": "vt.edu",
+  "domains": [
+   "vt.edu"
+  ],
+  "hq_country": "US",
+  "hq_city": "Blacksburg",
+  "founded_year": 1872,
+  "industry": "Higher Education",
+  "industries": [
+   "Higher Education"
+  ],
+  "linkedin_url": "https://www.linkedin.com/school/virginia-tech",
+  "linkedin_url_alternates": [],
+  "headcount_min": 5001,
+  "headcount_max": 10000
+ },
+ "ww_157b7cb6a857384c73cb44f599016c7e": {
+  "case_slug": "ww_157b7cb6a857384c73cb44f599016c7e",
+  "legal_name": "Stichting Lunet zorg",
+  "primary_domain": "lunet.nl",
+  "domains": [
+   "lunet.nl"
+  ],
+  "hq_country": "NL",
+  "hq_city": "Eindhoven",
+  "founded_year": 2008,
+  "industry": "Hospitals and Health Care",
+  "industries": [
+   "Hospitals and Health Care"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/lunet",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
  "ww_17650bd2b86d755728a4bcf42a6c3f4c": {
   "case_slug": "ww_17650bd2b86d755728a4bcf42a6c3f4c",
-  "legal_name": "Oudenaards Manutentiebedrijf NV",
+  "legal_name": "De Vreese Recycling - Bert Containers bv",
   "primary_domain": "bertcontainers.be",
   "domains": [
    "bertcontainers.be"
@@ -1408,9 +1430,28 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_15cc49b41290dbf4f0165f8c6d115233": {
+  "case_slug": "ww_15cc49b41290dbf4f0165f8c6d115233",
+  "legal_name": "Mican Technologies Inc.",
+  "primary_domain": "micantech.net",
+  "domains": [
+   "micantech.net"
+  ],
+  "hq_country": "US",
+  "hq_city": "Bear",
+  "founded_year": 2007,
+  "industry": "Staffing and Recruiting",
+  "industries": [
+   "Staffing and Recruiting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/mican-technologies",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
  "ww_1a2f30489fceb35bc993707dad1759cb": {
   "case_slug": "ww_1a2f30489fceb35bc993707dad1759cb",
-  "legal_name": "Estudio Gamarra Abogados",
+  "legal_name": "GAMARRA ABOGADOS S.A.C.",
   "primary_domain": "gamarrafirma.com",
   "domains": [
    "gamarrafirma.com"
@@ -1446,44 +1487,6 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_136fd5494ff226ff5d6571170a1d9e3c": {
-  "case_slug": "ww_136fd5494ff226ff5d6571170a1d9e3c",
-  "legal_name": "L&T Construction",
-  "primary_domain": "lntecc.com",
-  "domains": [
-   "lntecc.com"
-  ],
-  "hq_country": "IN",
-  "hq_city": "Chennai",
-  "founded_year": 1938,
-  "industry": "Construction",
-  "industries": [
-   "Construction"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/l-t-ecc",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
- "ww_1b9fd5e835e2b3d7d514724a7d87678c": {
-  "case_slug": "ww_1b9fd5e835e2b3d7d514724a7d87678c",
-  "legal_name": "Downtime Dollars",
-  "primary_domain": "gettopvote.com",
-  "domains": [
-   "gettopvote.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "New York",
-  "founded_year": 2018,
-  "industry": "Advertising Services",
-  "industries": [
-   "Advertising Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/topvote",
-  "linkedin_url_alternates": [],
-  "headcount_min": 2,
-  "headcount_max": 10
- },
  "ww_1e448844699d1b81c70ad05fe2967ede": {
   "case_slug": "ww_1e448844699d1b81c70ad05fe2967ede",
   "legal_name": "SWLA Economic Development Alliance & Chamber SWLA",
@@ -1502,6 +1505,25 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
+ },
+ "ww_1a461ff202a409d1e4ceb4597e935b07": {
+  "case_slug": "ww_1a461ff202a409d1e4ceb4597e935b07",
+  "legal_name": "Solvo Global",
+  "primary_domain": "solvoglobal.com",
+  "domains": [
+   "solvoglobal.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Duluth",
+  "founded_year": 2017,
+  "industry": "Business Consulting and Services",
+  "industries": [
+   "Business Consulting and Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/solvo-global",
+  "linkedin_url_alternates": [],
+  "headcount_min": 501,
+  "headcount_max": 1000
  },
  "ww_1aa2e91b77ea85e1c8846c89ee6e874d": {
   "case_slug": "ww_1aa2e91b77ea85e1c8846c89ee6e874d",
@@ -1522,6 +1544,25 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
+ "ww_21672681d57b4e78b5c16e723a792e4a": {
+  "case_slug": "ww_21672681d57b4e78b5c16e723a792e4a",
+  "legal_name": "The Clashify",
+  "primary_domain": "theclashify.com",
+  "domains": [
+   "theclashify.com"
+  ],
+  "hq_country": "IN",
+  "hq_city": "South Delhi",
+  "founded_year": 2019,
+  "industry": "Computer Games",
+  "industries": [
+   "Computer Games"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/the-clashify",
+  "linkedin_url_alternates": [],
+  "headcount_min": 2,
+  "headcount_max": 10
+ },
  "ww_21123b836fa2ca0959e8810e55974bf7": {
   "case_slug": "ww_21123b836fa2ca0959e8810e55974bf7",
   "legal_name": "Project HOPE — The People to People Health Foundation",
@@ -1541,43 +1582,63 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
- "ww_1a461ff202a409d1e4ceb4597e935b07": {
-  "case_slug": "ww_1a461ff202a409d1e4ceb4597e935b07",
-  "legal_name": "Solvo Global",
-  "primary_domain": "solvoglobal.com",
+ "ww_22ab5b1f63f42acef1a8f90636b97761": {
+  "case_slug": "ww_22ab5b1f63f42acef1a8f90636b97761",
+  "legal_name": "אוסטריאן איירליינס",
+  "primary_domain": "austrian.com",
   "domains": [
-   "solvoglobal.com"
+   "austrian.com"
+  ],
+  "hq_country": "AT",
+  "hq_city": "Vienna",
+  "founded_year": 1957,
+  "industry": "Airlines and Aviation",
+  "industries": [
+   "Airlines and Aviation"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/austrian-airlines",
+  "linkedin_url_alternates": [],
+  "headcount_min": 5001,
+  "headcount_max": 10000
+ },
+ "ww_1b9fd5e835e2b3d7d514724a7d87678c": {
+  "case_slug": "ww_1b9fd5e835e2b3d7d514724a7d87678c",
+  "legal_name": "By Top, Inc.",
+  "primary_domain": "downtimedollars.com",
+  "domains": [
+   "downtimedollars.com",
+   "gettopvote.com"
   ],
   "hq_country": "US",
-  "hq_city": "Duluth",
-  "founded_year": 2017,
-  "industry": "Business Consulting and Services",
+  "hq_city": "New York",
+  "founded_year": 2024,
+  "industry": "Technology, Information and Internet",
   "industries": [
-   "Business Consulting and Services"
+   "Technology, Information and Internet"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/solvo-global",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_21672681d57b4e78b5c16e723a792e4a": {
-  "case_slug": "ww_21672681d57b4e78b5c16e723a792e4a",
-  "legal_name": "The Clashify",
-  "primary_domain": "theclashify.com",
-  "domains": [
-   "theclashify.com"
-  ],
-  "hq_country": "IN",
-  "hq_city": "South Delhi",
-  "founded_year": 2019,
-  "industry": "Computer Games",
-  "industries": [
-   "Computer Games"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/the-clashify",
+  "linkedin_url": "https://www.linkedin.com/company/gettopvote",
   "linkedin_url_alternates": [],
   "headcount_min": 2,
   "headcount_max": 10
+ },
+ "ww_243d5f6e89764f4e460ca0c31ac920a5": {
+  "case_slug": "ww_243d5f6e89764f4e460ca0c31ac920a5",
+  "legal_name": "CM Hammar AB",
+  "primary_domain": "cmhammar.com",
+  "domains": [
+   "cmhammar.com"
+  ],
+  "hq_country": "SE",
+  "hq_city": "Gothenburg",
+  "founded_year": 1856,
+  "industry": "Maritime Transportation",
+  "industries": [
+   "Maritime Transportation"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/cm-hammar",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
  },
  "ww_2345d47041ac7d9b90131135a29668c9": {
   "case_slug": "ww_2345d47041ac7d9b90131135a29668c9",
@@ -1598,25 +1659,6 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_22ab5b1f63f42acef1a8f90636b97761": {
-  "case_slug": "ww_22ab5b1f63f42acef1a8f90636b97761",
-  "legal_name": "אוסטריאן איירליינס",
-  "primary_domain": "austrian.com",
-  "domains": [
-   "austrian.com"
-  ],
-  "hq_country": "AT",
-  "hq_city": "Vienna",
-  "founded_year": 1957,
-  "industry": "Fluggesellschaften und Luftfahrt",
-  "industries": [
-   "Fluggesellschaften und Luftfahrt"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/austrian-airlines",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
- },
  "ww_23e773c1e0d69f2513443fdb2de05c48": {
   "case_slug": "ww_23e773c1e0d69f2513443fdb2de05c48",
   "legal_name": "Techminds Learning Services Pvt Ltd",
@@ -1636,40 +1678,21 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_233e04d35d6a4bbfcbb99c6ffcb873dd": {
-  "case_slug": "ww_233e04d35d6a4bbfcbb99c6ffcb873dd",
-  "legal_name": "Quinyx",
-  "primary_domain": "quinyx.com",
+ "ww_26ebcc8da55c5cd86c36c98362866db7": {
+  "case_slug": "ww_26ebcc8da55c5cd86c36c98362866db7",
+  "legal_name": "National Bank of Pakistan Filiale Frankfurt am Main",
+  "primary_domain": "nbpffm.de",
   "domains": [
-   "quinyx.com"
+   "nbpffm.de"
   ],
-  "hq_country": "SE",
-  "hq_city": "Stockholm",
-  "founded_year": 2005,
-  "industry": "Software Development",
+  "hq_country": "DE",
+  "hq_city": "Frankfurt am Main",
+  "founded_year": 1949,
+  "industry": "Banking",
   "industries": [
-   "Software Development"
+   "Banking"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/quinyx",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
- "ww_29b78f44f94b1cf83c888ef8de96fae6": {
-  "case_slug": "ww_29b78f44f94b1cf83c888ef8de96fae6",
-  "legal_name": "The Bank of New York Mellon Corporation",
-  "primary_domain": "bny.com",
-  "domains": [
-   "bny.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "New York",
-  "founded_year": 1784,
-  "industry": "Financial Services",
-  "industries": [
-   "Financial Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/bnyglobal",
+  "linkedin_url": "https://www.linkedin.com/company/national-bank-of-pakistan-frankfurt-am-main",
   "linkedin_url_alternates": [],
   "headcount_min": 10001,
   "headcount_max": null
@@ -1693,43 +1716,62 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_26ebcc8da55c5cd86c36c98362866db7": {
-  "case_slug": "ww_26ebcc8da55c5cd86c36c98362866db7",
-  "legal_name": "National Bank of Pakistan Filiale Frankfurt am Main",
-  "primary_domain": "nbpffm.de",
+ "ww_2b3d67b7d6eb86091b342fc32a73a80c": {
+  "case_slug": "ww_2b3d67b7d6eb86091b342fc32a73a80c",
+  "legal_name": "Allied Wholesale Electrical Supply, Inc.",
+  "primary_domain": "awesi.com",
   "domains": [
-   "nbpffm.de"
+   "awesi.com"
   ],
-  "hq_country": "Germany",
-  "hq_city": "Frankfurt am Main",
-  "founded_year": 1949,
-  "industry": "Bankwesen",
+  "hq_country": "US",
+  "hq_city": "Indianapolis",
+  "founded_year": 1985,
+  "industry": "Appliances, Electrical, and Electronics Manufacturing",
   "industries": [
-   "Bankwesen"
+   "Appliances, Electrical, and Electronics Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/national-bank-of-pakistan-frankfurt-am-main",
+  "linkedin_url": "https://www.linkedin.com/company/awesi",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_29b78f44f94b1cf83c888ef8de96fae6": {
+  "case_slug": "ww_29b78f44f94b1cf83c888ef8de96fae6",
+  "legal_name": "The Bank of New York Mellon Corporation",
+  "primary_domain": "bny.com",
+  "domains": [
+   "bny.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "New York",
+  "founded_year": 1784,
+  "industry": "Financial Services",
+  "industries": [
+   "Financial Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/bnyglobal",
   "linkedin_url_alternates": [],
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_243d5f6e89764f4e460ca0c31ac920a5": {
-  "case_slug": "ww_243d5f6e89764f4e460ca0c31ac920a5",
-  "legal_name": "CM Hammar AB",
-  "primary_domain": "cmhammar.com",
+ "ww_2b5c0760b9beed96ad106617dedd44fa": {
+  "case_slug": "ww_2b5c0760b9beed96ad106617dedd44fa",
+  "legal_name": "Tradimaq",
+  "primary_domain": "tradimaq.com.br",
   "domains": [
-   "cmhammar.com"
+   "tradimaq.com.br"
   ],
-  "hq_country": "SE",
-  "hq_city": "Gothenburg",
-  "founded_year": 1856,
-  "industry": "Maritime Transportation",
+  "hq_country": "BR",
+  "hq_city": "Contagem",
+  "founded_year": 1988,
+  "industry": "Machinery Manufacturing",
   "industries": [
-   "Maritime Transportation"
+   "Machinery Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/cm-hammar",
+  "linkedin_url": "https://www.linkedin.com/company/tradimaq",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 1001,
+  "headcount_max": 5000
  },
  "ww_2c3bc1cec97df18a0c1030783613c35f": {
   "case_slug": "ww_2c3bc1cec97df18a0c1030783613c35f",
@@ -1746,25 +1788,6 @@
    "Financial Services"
   ],
   "linkedin_url": "https://www.linkedin.com/company/goeagency",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_2b3d67b7d6eb86091b342fc32a73a80c": {
-  "case_slug": "ww_2b3d67b7d6eb86091b342fc32a73a80c",
-  "legal_name": "Allied Wholesale Electrical Supply, Inc.",
-  "primary_domain": "awesi.com",
-  "domains": [
-   "awesi.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Indianapolis",
-  "founded_year": 1985,
-  "industry": "Appliances, Electrical, and Electronics Manufacturing",
-  "industries": [
-   "Appliances, Electrical, and Electronics Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/awesi",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -1788,43 +1811,24 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_2c3ed841cc4f50e14ad08f67cbadadec": {
-  "case_slug": "ww_2c3ed841cc4f50e14ad08f67cbadadec",
-  "legal_name": "Bankin'​",
-  "primary_domain": "bankin.com",
+ "ww_2ed0f8e1b7779fed4ffb357aff552cdb": {
+  "case_slug": "ww_2ed0f8e1b7779fed4ffb357aff552cdb",
+  "legal_name": "Association of All Pharmacists Cooperatives",
+  "primary_domain": "tekb.org.tr",
   "domains": [
-   "bankin.com"
+   "tekb.org.tr"
   ],
-  "hq_country": "FR",
-  "hq_city": "Paris",
-  "founded_year": 2011,
-  "industry": "Technology, Information and Internet",
+  "hq_country": "TR",
+  "hq_city": "İstanbul",
+  "founded_year": 1989,
+  "industry": "Pharmaceutical Manufacturing",
   "industries": [
-   "Technology, Information and Internet"
+   "Pharmaceutical Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/bankin",
+  "linkedin_url": "https://www.linkedin.com/company/tekb---t-m-eczac-kooperatifleri-birli-i",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
- },
- "ww_2b5c0760b9beed96ad106617dedd44fa": {
-  "case_slug": "ww_2b5c0760b9beed96ad106617dedd44fa",
-  "legal_name": "Tradimaq",
-  "primary_domain": "tradimaq.com.br",
-  "domains": [
-   "tradimaq.com.br"
-  ],
-  "hq_country": "BR",
-  "hq_city": "Contagem",
-  "founded_year": 1988,
-  "industry": "Machinery Manufacturing",
-  "industries": [
-   "Machinery Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/tradimaq",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
  },
  "ww_2eaabe790df923e529ffd33a1afcd60c": {
   "case_slug": "ww_2eaabe790df923e529ffd33a1afcd60c",
@@ -1845,62 +1849,43 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_2f60492ca384e6e297af03cd908ff95a": {
-  "case_slug": "ww_2f60492ca384e6e297af03cd908ff95a",
-  "legal_name": "Grupo Broda",
-  "primary_domain": "grupobroda.com",
+ "ww_2c3ed841cc4f50e14ad08f67cbadadec": {
+  "case_slug": "ww_2c3ed841cc4f50e14ad08f67cbadadec",
+  "legal_name": "Bankin'​",
+  "primary_domain": "bankin.com",
   "domains": [
-   "grupobroda.com"
+   "bankin.com"
   ],
-  "hq_country": "AR",
-  "hq_city": "Mendoza",
-  "founded_year": 2017,
-  "industry": "Gestión de inversiones",
+  "hq_country": "FR",
+  "hq_city": "Paris",
+  "founded_year": 2011,
+  "industry": "Technology, Information and Internet",
   "industries": [
-   "Gestión de inversiones"
+   "Technology, Information and Internet"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/grupo-broda",
-  "linkedin_url_alternates": [],
-  "headcount_min": 501,
-  "headcount_max": 1000
- },
- "ww_31a5200241c910717cb32ef0939a4f0f": {
-  "case_slug": "ww_31a5200241c910717cb32ef0939a4f0f",
-  "legal_name": "Louis Philippe",
-  "primary_domain": "louisphilippe.com",
-  "domains": [
-   "louisphilippe.com"
-  ],
-  "hq_country": "IN",
-  "hq_city": "Bengaluru",
-  "founded_year": 1989,
-  "industry": "Apparel & Fashion",
-  "industries": [
-   "Apparel & Fashion"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/louisphilippe",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_2ed0f8e1b7779fed4ffb357aff552cdb": {
-  "case_slug": "ww_2ed0f8e1b7779fed4ffb357aff552cdb",
-  "legal_name": "Association of All Pharmacists Cooperatives",
-  "primary_domain": "tekb.org.tr",
-  "domains": [
-   "tekb.org.tr"
-  ],
-  "hq_country": "TR",
-  "hq_city": "İstanbul",
-  "founded_year": 1989,
-  "industry": "Pharmaceutical Manufacturing",
-  "industries": [
-   "Pharmaceutical Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/tekb---t-m-eczac-kooperatifleri-birli-i",
+  "linkedin_url": "https://www.linkedin.com/company/bankin",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
+ },
+ "ww_233e04d35d6a4bbfcbb99c6ffcb873dd": {
+  "case_slug": "ww_233e04d35d6a4bbfcbb99c6ffcb873dd",
+  "legal_name": "Quinyx",
+  "primary_domain": "quinyx.com",
+  "domains": [
+   "quinyx.com"
+  ],
+  "hq_country": "SE",
+  "hq_city": "Stockholm",
+  "founded_year": 2005,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/quinyx",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "ww_3158eb61373d63ee10b64285f351fdfa": {
   "case_slug": "ww_3158eb61373d63ee10b64285f351fdfa",
@@ -1921,24 +1906,43 @@
   "headcount_min": 201,
   "headcount_max": 500
  },
- "ww_34b79ddbbae1b7d0391d9caefa5d12f4": {
-  "case_slug": "ww_34b79ddbbae1b7d0391d9caefa5d12f4",
-  "legal_name": "Arnold & Richter Cine Technik GmbH & Co. Betriebs KG",
-  "primary_domain": "arri.com",
+ "ww_31a5200241c910717cb32ef0939a4f0f": {
+  "case_slug": "ww_31a5200241c910717cb32ef0939a4f0f",
+  "legal_name": "Louis Philippe",
+  "primary_domain": "louisphilippe.com",
   "domains": [
-   "arri.com"
+   "louisphilippe.com"
   ],
-  "hq_country": "DE",
-  "hq_city": "Munich",
-  "founded_year": 1917,
-  "industry": "Entertainment Providers",
+  "hq_country": "IN",
+  "hq_city": "Bengaluru",
+  "founded_year": 1989,
+  "industry": "Apparel & Fashion",
   "industries": [
-   "Entertainment Providers"
+   "Apparel & Fashion"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/arri",
+  "linkedin_url": "https://www.linkedin.com/company/louisphilippe",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
+ },
+ "ww_2f60492ca384e6e297af03cd908ff95a": {
+  "case_slug": "ww_2f60492ca384e6e297af03cd908ff95a",
+  "legal_name": "Grupo Broda",
+  "primary_domain": "grupobroda.com",
+  "domains": [
+   "grupobroda.com"
+  ],
+  "hq_country": "AR",
+  "hq_city": "Mendoza",
+  "founded_year": 2017,
+  "industry": "Investment Management",
+  "industries": [
+   "Investment Management"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/grupo-broda",
+  "linkedin_url_alternates": [],
+  "headcount_min": 501,
+  "headcount_max": 1000
  },
  "ww_32fcc8cfe1fa4c77b5c58dafd36d1a98": {
   "case_slug": "ww_32fcc8cfe1fa4c77b5c58dafd36d1a98",
@@ -1959,24 +1963,43 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_320db40ce3ce99e0a654570cec133e04": {
-  "case_slug": "ww_320db40ce3ce99e0a654570cec133e04",
-  "legal_name": "Brava Linhas Aéreas",
-  "primary_domain": "voenht.com.br",
+ "ww_34b79ddbbae1b7d0391d9caefa5d12f4": {
+  "case_slug": "ww_34b79ddbbae1b7d0391d9caefa5d12f4",
+  "legal_name": "Arnold & Richter Cine Technik GmbH & Co. Betriebs KG",
+  "primary_domain": "arri.com",
   "domains": [
-   "voenht.com.br"
+   "arri.com"
   ],
-  "hq_country": "BR",
-  "hq_city": "Porto Alegre",
-  "founded_year": 2006,
-  "industry": "Aviation and Aerospace Component Manufacturing",
+  "hq_country": "DE",
+  "hq_city": "Munich",
+  "founded_year": 1917,
+  "industry": "Entertainment Providers",
   "industries": [
-   "Aviation and Aerospace Component Manufacturing"
+   "Entertainment Providers"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/nht-linhas-a-reas",
+  "linkedin_url": "https://www.linkedin.com/company/arri",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_374a18640f2aa2ae77a1ca3557738ba6": {
+  "case_slug": "ww_374a18640f2aa2ae77a1ca3557738ba6",
+  "legal_name": "Nicholson + Co",
+  "primary_domain": "nicandco.nz",
+  "domains": [
+   "nicandco.nz"
+  ],
+  "hq_country": "NZ",
+  "hq_city": "Waihi Beach",
+  "founded_year": 2016,
+  "industry": "Operations Consulting",
+  "industries": [
+   "Operations Consulting"
+  ],
+  "linkedin_url": null,
+  "linkedin_url_alternates": [],
+  "headcount_min": 2,
+  "headcount_max": 10
  },
  "ww_353d65641c421808b1ab7111cd886ff9": {
   "case_slug": "ww_353d65641c421808b1ab7111cd886ff9",
@@ -1997,46 +2020,6 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
- "ww_374a18640f2aa2ae77a1ca3557738ba6": {
-  "case_slug": "ww_374a18640f2aa2ae77a1ca3557738ba6",
-  "legal_name": "Nicholson + Co",
-  "primary_domain": "nicandco.nz",
-  "domains": [
-   "nicandco.nz"
-  ],
-  "hq_country": "NZ",
-  "hq_city": "Waihi Beach",
-  "founded_year": 2016,
-  "industry": "Operations Consulting",
-  "industries": [
-   "Operations Consulting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/hawkbrookpm",
-  "linkedin_url_alternates": [
-   "https://www.linkedin.com/company/hawkbrookpm"
-  ],
-  "headcount_min": 2,
-  "headcount_max": 10
- },
- "ww_3815511cb8db0d28103b24ea2414a152": {
-  "case_slug": "ww_3815511cb8db0d28103b24ea2414a152",
-  "legal_name": "Grupo Multifix",
-  "primary_domain": "grupomultifix.com.br",
-  "domains": [
-   "grupomultifix.com.br"
-  ],
-  "hq_country": "BR",
-  "hq_city": "Rio de Janeiro",
-  "founded_year": 2000,
-  "industry": "Repair and Maintenance",
-  "industries": [
-   "Repair and Maintenance"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/grupomultifix",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
  "ww_3725c379fb8e5707c981f64939a9982a": {
   "case_slug": "ww_3725c379fb8e5707c981f64939a9982a",
   "legal_name": "Danata Geo Travel",
@@ -2056,6 +2039,25 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_320db40ce3ce99e0a654570cec133e04": {
+  "case_slug": "ww_320db40ce3ce99e0a654570cec133e04",
+  "legal_name": "Brava Linhas Aéreas",
+  "primary_domain": "voenht.com.br",
+  "domains": [
+   "voenht.com.br"
+  ],
+  "hq_country": "BR",
+  "hq_city": "Porto Alegre",
+  "founded_year": 2006,
+  "industry": "Aviation and Aerospace Component Manufacturing",
+  "industries": [
+   "Aviation and Aerospace Component Manufacturing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/nht-linhas-a-reas",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
  "ww_37a70bfe6cb9b1af966d4664b1ad1e61": {
   "case_slug": "ww_37a70bfe6cb9b1af966d4664b1ad1e61",
   "legal_name": "PANews",
@@ -2071,25 +2073,6 @@
    "Technology, Information and Media"
   ],
   "linkedin_url": "https://www.linkedin.com/company/panews",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_39c262467c88c220e0a45750f725a4a8": {
-  "case_slug": "ww_39c262467c88c220e0a45750f725a4a8",
-  "legal_name": "Pulpo Negro",
-  "primary_domain": "pulponegro.co.uk",
-  "domains": [
-   "pulponegro.co.uk"
-  ],
-  "hq_country": "GB",
-  "hq_city": "Alresford",
-  "founded_year": 2014,
-  "industry": "Restaurants",
-  "industries": [
-   "Restaurants"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/pulpo-negro",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -2113,6 +2096,44 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
+ "ww_3815511cb8db0d28103b24ea2414a152": {
+  "case_slug": "ww_3815511cb8db0d28103b24ea2414a152",
+  "legal_name": "Grupo Multifix",
+  "primary_domain": "grupomultifix.com.br",
+  "domains": [
+   "grupomultifix.com.br"
+  ],
+  "hq_country": "BR",
+  "hq_city": "Rio de Janeiro",
+  "founded_year": 2000,
+  "industry": "Repair and Maintenance",
+  "industries": [
+   "Repair and Maintenance"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/grupomultifix",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
+ "ww_39c262467c88c220e0a45750f725a4a8": {
+  "case_slug": "ww_39c262467c88c220e0a45750f725a4a8",
+  "legal_name": "Pulpo Negro",
+  "primary_domain": "pulponegro.co.uk",
+  "domains": [
+   "pulponegro.co.uk"
+  ],
+  "hq_country": "GB",
+  "hq_city": "Alresford",
+  "founded_year": 2014,
+  "industry": "Restaurants",
+  "industries": [
+   "Restaurants"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/pulpo-negro",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_37e0eaaff0973a8ab20092edeacf2ff0": {
   "case_slug": "ww_37e0eaaff0973a8ab20092edeacf2ff0",
   "legal_name": "Butte College",
@@ -2127,8 +2148,10 @@
   "industries": [
    "Higher Education"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/buttecollege",
-  "linkedin_url_alternates": [],
+  "linkedin_url": "https://www.linkedin.com/school/buttecollege",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/buttecollege"
+  ],
   "headcount_min": 201,
   "headcount_max": 500
  },
@@ -2151,6 +2174,44 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
+ "ww_3b9a098d733163842595082f2feae03c": {
+  "case_slug": "ww_3b9a098d733163842595082f2feae03c",
+  "legal_name": "Kickstarter, PBC",
+  "primary_domain": "kickstarter.com",
+  "domains": [
+   "kickstarter.com"
+  ],
+  "hq_country": "United States",
+  "hq_city": "Brooklyn",
+  "founded_year": 2009,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/kickstarter",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
+ "ww_3da678392d5ac1ff456fe6e06354fdef": {
+  "case_slug": "ww_3da678392d5ac1ff456fe6e06354fdef",
+  "legal_name": "IDEA Public Schools",
+  "primary_domain": "ideapublicschools.org",
+  "domains": [
+   "ideapublicschools.org"
+  ],
+  "hq_country": "US",
+  "hq_city": "Weslaco",
+  "founded_year": 2001,
+  "industry": "Education Administration Programs",
+  "industries": [
+   "Education Administration Programs"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/idea-public-schools",
+  "linkedin_url_alternates": [],
+  "headcount_min": 10001,
+  "headcount_max": null
+ },
  "ww_3d0f0b9625784afe52904d9e2441d95f": {
   "case_slug": "ww_3d0f0b9625784afe52904d9e2441d95f",
   "legal_name": "Hellenic Defence Systems S.A.",
@@ -2170,49 +2231,6 @@
   "headcount_min": 201,
   "headcount_max": 500
  },
- "ww_3da678392d5ac1ff456fe6e06354fdef": {
-  "case_slug": "ww_3da678392d5ac1ff456fe6e06354fdef",
-  "legal_name": "IDEA Public Schools",
-  "primary_domain": "ideapublicschools.org",
-  "domains": [
-   "ideapublicschools.org"
-  ],
-  "hq_country": "US",
-  "hq_city": "Weslaco",
-  "founded_year": 2001,
-  "industry": "Mga Programa para sa Education Administration",
-  "industries": [
-   "Mga Programa para sa Education Administration"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/idea-public-schools",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
- "ww_3b9a098d733163842595082f2feae03c": {
-  "case_slug": "ww_3b9a098d733163842595082f2feae03c",
-  "legal_name": "Kickstarter, PBC",
-  "primary_domain": "kickstarter.com",
-  "domains": [
-   "kickstarter.com"
-  ],
-  "hq_country": "United States",
-  "hq_city": "Brooklyn",
-  "founded_year": 2009,
-  "industry": "IT and Telecom",
-  "industries": [
-   "IT and Telecom",
-   "Consumer Software",
-   "Information Technology",
-   "IT Services",
-   "Internet Publishing and Broadcasting and Web Search Portals",
-   "Information Retrieval Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/kickstarter",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
  "ww_3e716c9d59d061dbf9e37203f9ff221d": {
   "case_slug": "ww_3e716c9d59d061dbf9e37203f9ff221d",
   "legal_name": "SIMPLIA S.A.",
@@ -2223,33 +2241,14 @@
   "hq_country": "AR",
   "hq_city": "Olivos - Pcia. de Buenos Aires",
   "founded_year": 1976,
-  "industry": "Consultoría de externalización y deslocalización",
+  "industry": "Outsourcing and Offshoring Consulting",
   "industries": [
-   "Consultoría de externalización y deslocalización"
+   "Outsourcing and Offshoring Consulting"
   ],
   "linkedin_url": "https://www.linkedin.com/company/simplia-facility-solutions",
   "linkedin_url_alternates": [],
   "headcount_min": 5001,
   "headcount_max": 10000
- },
- "ww_41f42510b0adae3011fd7179ae206086": {
-  "case_slug": "ww_41f42510b0adae3011fd7179ae206086",
-  "legal_name": "Jeulin",
-  "primary_domain": "jeulin.com",
-  "domains": [
-   "jeulin.com"
-  ],
-  "hq_country": "FR",
-  "hq_city": "Évreux",
-  "founded_year": 1923,
-  "industry": "Business Supplies & Equipment",
-  "industries": [
-   "Business Supplies & Equipment"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/jeulin",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
  },
  "ww_4236a3619615e6a340ce02461732b655": {
   "case_slug": "ww_4236a3619615e6a340ce02461732b655",
@@ -2274,6 +2273,25 @@
   "headcount_min": null,
   "headcount_max": null
  },
+ "ww_41f42510b0adae3011fd7179ae206086": {
+  "case_slug": "ww_41f42510b0adae3011fd7179ae206086",
+  "legal_name": "Jeulin SAS",
+  "primary_domain": "jeulin.com",
+  "domains": [
+   "jeulin.com"
+  ],
+  "hq_country": "FR",
+  "hq_city": "Évreux",
+  "founded_year": 1923,
+  "industry": "Business Supplies & Equipment",
+  "industries": [
+   "Business Supplies & Equipment"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/jeulin",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
  "ww_432bc07b920b9e25a83c780c7232c541": {
   "case_slug": "ww_432bc07b920b9e25a83c780c7232c541",
   "legal_name": "UTC ENGENHARIA S.A.",
@@ -2293,6 +2311,25 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
+ "ww_46232b608ec35d269f3db2c1e0e82cff": {
+  "case_slug": "ww_46232b608ec35d269f3db2c1e0e82cff",
+  "legal_name": "CLEAR LAKE ANIMAL HOSPITAL, P.A.",
+  "primary_domain": "vetinpalmbeach.com",
+  "domains": [
+   "vetinpalmbeach.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "West Palm Beach",
+  "founded_year": 2011,
+  "industry": "Veterinary",
+  "industries": [
+   "Veterinary"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/clear-lake-animal-hospital",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_4614b1f3a471f475f5857c052337e09e": {
   "case_slug": "ww_4614b1f3a471f475f5857c052337e09e",
   "legal_name": "LLC \"LBS International Conferences\"",
@@ -2309,8 +2346,8 @@
   ],
   "linkedin_url": "https://www.linkedin.com/company/lbs-international-conferences",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "ww_43207fd5e34f87c48d584fc5c11befb8": {
   "case_slug": "ww_43207fd5e34f87c48d584fc5c11befb8",
@@ -2331,40 +2368,40 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_46232b608ec35d269f3db2c1e0e82cff": {
-  "case_slug": "ww_46232b608ec35d269f3db2c1e0e82cff",
-  "legal_name": "Clear Lake Animal Hospital",
-  "primary_domain": "vetinpalmbeach.com",
+ "ww_4e6e3040e8851635294319dc95e93027": {
+  "case_slug": "ww_4e6e3040e8851635294319dc95e93027",
+  "legal_name": "Blue Line Futures",
+  "primary_domain": "bluelinefutures.com",
   "domains": [
-   "vetinpalmbeach.com"
+   "bluelinefutures.com"
   ],
   "hq_country": "US",
-  "hq_city": "West Palm Beach",
-  "founded_year": 2011,
-  "industry": "Veterinary",
+  "hq_city": "Chicago",
+  "founded_year": 2017,
+  "industry": "Financial Services",
   "industries": [
-   "Veterinary"
+   "Financial Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/clear-lake-animal-hospital",
+  "linkedin_url": "https://www.linkedin.com/company/blue-line-futures",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 2,
+  "headcount_max": 10
  },
- "ww_4f382d26d3852b5edf97966804b49c01": {
-  "case_slug": "ww_4f382d26d3852b5edf97966804b49c01",
-  "legal_name": "Scintillation Research and Analytics Services Pvt. Ltd.",
-  "primary_domain": "claimhit.com",
+ "ww_4a0255b7923d21c88bdc4d9c22d8936c": {
+  "case_slug": "ww_4a0255b7923d21c88bdc4d9c22d8936c",
+  "legal_name": "AVN TEAM Anna Horoszczak",
+  "primary_domain": "avnteam.com",
   "domains": [
-   "claimhit.com"
+   "avnteam.com"
   ],
-  "hq_country": "IN",
-  "hq_city": "Mohali",
-  "founded_year": 2026,
-  "industry": "Legal Services",
+  "hq_country": "PL",
+  "hq_city": "Katowice",
+  "founded_year": 2013,
+  "industry": "Civil Engineering",
   "industries": [
-   "Legal Services"
+   "Civil Engineering"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/claimhit",
+  "linkedin_url": "https://www.linkedin.com/company/avn-team-tunneling-support",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -2388,43 +2425,24 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_4a0255b7923d21c88bdc4d9c22d8936c": {
-  "case_slug": "ww_4a0255b7923d21c88bdc4d9c22d8936c",
-  "legal_name": "AVN TEAM Tunneling support",
-  "primary_domain": "avnteam.com",
+ "ww_486e5cc203a284532db9b631a011a168": {
+  "case_slug": "ww_486e5cc203a284532db9b631a011a168",
+  "legal_name": "Tibber AS",
+  "primary_domain": "tibber.com",
   "domains": [
-   "avnteam.com"
+   "tibber.com"
   ],
-  "hq_country": "PL",
-  "hq_city": "Katowice",
-  "founded_year": 2013,
-  "industry": "Civil Engineering",
+  "hq_country": "NO",
+  "hq_city": "Førde",
+  "founded_year": 2015,
+  "industry": "Services for Renewable Energy",
   "industries": [
-   "Civil Engineering"
+   "Services for Renewable Energy"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/avn-team-tunneling-support",
+  "linkedin_url": "https://www.linkedin.com/company/tibber",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_4e6e3040e8851635294319dc95e93027": {
-  "case_slug": "ww_4e6e3040e8851635294319dc95e93027",
-  "legal_name": "Blue Line Futures",
-  "primary_domain": "bluelinefutures.com",
-  "domains": [
-   "bluelinefutures.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Chicago",
-  "founded_year": 2017,
-  "industry": "Financial Services",
-  "industries": [
-   "Financial Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/blue-line-futures",
-  "linkedin_url_alternates": [],
-  "headcount_min": 2,
-  "headcount_max": 10
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "ww_507c3f62063e6f4771cfba78809f76a4": {
   "case_slug": "ww_507c3f62063e6f4771cfba78809f76a4",
@@ -2445,25 +2463,6 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_51e4e58ffb0218aa3348acb99c6de545": {
-  "case_slug": "ww_51e4e58ffb0218aa3348acb99c6de545",
-  "legal_name": "The Hose Guys Inc.",
-  "primary_domain": "highpressurehose.com",
-  "domains": [
-   "highpressurehose.com"
-  ],
-  "hq_country": "United States",
-  "hq_city": "San Clemente",
-  "founded_year": 2007,
-  "industry": "Retail",
-  "industries": [
-   "Retail"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/hose-guys",
-  "linkedin_url_alternates": [],
-  "headcount_min": 2,
-  "headcount_max": 10
- },
  "ww_5211e739d7db35206c586d5ff27f34cf": {
   "case_slug": "ww_5211e739d7db35206c586d5ff27f34cf",
   "legal_name": "Velesium Labs Private Limited",
@@ -2483,43 +2482,43 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_486e5cc203a284532db9b631a011a168": {
-  "case_slug": "ww_486e5cc203a284532db9b631a011a168",
-  "legal_name": "Tibber",
-  "primary_domain": "tibber.com",
+ "ww_4f382d26d3852b5edf97966804b49c01": {
+  "case_slug": "ww_4f382d26d3852b5edf97966804b49c01",
+  "legal_name": "Scintillation Research and Analytics Services Pvt. Ltd.",
+  "primary_domain": "claimhit.com",
   "domains": [
-   "tibber.com"
+   "claimhit.com"
   ],
-  "hq_country": "NO",
-  "hq_city": "Førde",
-  "founded_year": 2015,
-  "industry": "Services for Renewable Energy",
+  "hq_country": "IN",
+  "hq_city": "Mohali",
+  "founded_year": 2026,
+  "industry": "Legal Services",
   "industries": [
-   "Services for Renewable Energy"
+   "Legal Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/tibber",
+  "linkedin_url": "https://www.linkedin.com/company/claimhit",
   "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
+  "headcount_min": 11,
+  "headcount_max": 50
  },
- "ww_5ab3fa43bf1cdfe8f008a84737679ab0": {
-  "case_slug": "ww_5ab3fa43bf1cdfe8f008a84737679ab0",
-  "legal_name": "Appoquinimink School District",
-  "primary_domain": "apposchooldistrict.com",
+ "ww_51e4e58ffb0218aa3348acb99c6de545": {
+  "case_slug": "ww_51e4e58ffb0218aa3348acb99c6de545",
+  "legal_name": "The Hose Guys Inc.",
+  "primary_domain": "highpressurehose.com",
   "domains": [
-   "apposchooldistrict.com"
+   "highpressurehose.com"
   ],
   "hq_country": "US",
-  "hq_city": "Odessa",
-  "founded_year": 1969,
-  "industry": "E-learning",
+  "hq_city": "San Clemente",
+  "founded_year": 2007,
+  "industry": "Retail",
   "industries": [
-   "E-learning"
+   "Retail"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/appoquinimink-school-district",
+  "linkedin_url": "https://www.linkedin.com/company/hose-guys",
   "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
+  "headcount_min": 2,
+  "headcount_max": 10
  },
  "ww_526e25ebabe938b8322c06d253f918b0": {
   "case_slug": "ww_526e25ebabe938b8322c06d253f918b0",
@@ -2531,9 +2530,9 @@
   "hq_country": "US",
   "hq_city": "Nashville",
   "founded_year": 1931,
-  "industry": "การผลิตยานพาหนะแบบใช้มอเตอร์",
+  "industry": "Motor Vehicle Manufacturing",
   "industries": [
-   "การผลิตยานพาหนะแบบใช้มอเตอร์"
+   "Motor Vehicle Manufacturing"
   ],
   "linkedin_url": "https://www.linkedin.com/company/bridgestone",
   "linkedin_url_alternates": [],
@@ -2550,30 +2549,30 @@
   "hq_country": "ES",
   "hq_city": "Sant Boi del Llobregat",
   "founded_year": 2010,
-  "industry": "Hospitales y atención sanitaria",
+  "industry": "Hospitals and Health Care",
   "industries": [
-   "Hospitales y atención sanitaria"
+   "Hospitals and Health Care"
   ],
   "linkedin_url": "https://www.linkedin.com/company/parc-sanitari-sant-joan-de-deu",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_5cca48cb4250836e4203b69ee8a2c685": {
-  "case_slug": "ww_5cca48cb4250836e4203b69ee8a2c685",
-  "legal_name": "Hitchcock ISD",
-  "primary_domain": "hitchcockisd.org",
+ "ww_5ab3fa43bf1cdfe8f008a84737679ab0": {
+  "case_slug": "ww_5ab3fa43bf1cdfe8f008a84737679ab0",
+  "legal_name": "Appoquinimink School District",
+  "primary_domain": "apposchooldistrict.com",
   "domains": [
-   "hitchcockisd.org"
+   "apposchooldistrict.com"
   ],
-  "hq_country": "United States",
-  "hq_city": "Hitchcock",
-  "founded_year": 1948,
-  "industry": "Primary and Secondary Education",
+  "hq_country": "US",
+  "hq_city": "Odessa",
+  "founded_year": 1969,
+  "industry": "E-learning",
   "industries": [
-   "Primary and Secondary Education"
+   "E-learning"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/hitchcockisd",
+  "linkedin_url": "https://www.linkedin.com/company/appoquinimink-school-district",
   "linkedin_url_alternates": [],
   "headcount_min": 201,
   "headcount_max": 500
@@ -2597,24 +2596,24 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_5325dc48e755498686ad2e3a7dcde409": {
-  "case_slug": "ww_5325dc48e755498686ad2e3a7dcde409",
-  "legal_name": "P. D. Polychem Pvt Ltd",
-  "primary_domain": "pdpolychem.com",
+ "ww_5cca48cb4250836e4203b69ee8a2c685": {
+  "case_slug": "ww_5cca48cb4250836e4203b69ee8a2c685",
+  "legal_name": "Hitchcock ISD",
+  "primary_domain": "hitchcockisd.org",
   "domains": [
-   "pdpolychem.com"
+   "hitchcockisd.org"
   ],
-  "hq_country": "IN",
-  "hq_city": "New Delhi",
-  "founded_year": 1997,
-  "industry": "Chemical Manufacturing",
+  "hq_country": "US",
+  "hq_city": "Hitchcock",
+  "founded_year": 1948,
+  "industry": "Primary and Secondary Education",
   "industries": [
-   "Chemical Manufacturing"
+   "Primary and Secondary Education"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/pdpolychem",
+  "linkedin_url": "https://www.linkedin.com/company/hitchcockisd",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "ww_5d25db42f4ecf28302c623a3ff618264": {
   "case_slug": "ww_5d25db42f4ecf28302c623a3ff618264",
@@ -2635,21 +2634,21 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
- "ww_5f34d0e6f248482868ba7b8ff25bd603": {
-  "case_slug": "ww_5f34d0e6f248482868ba7b8ff25bd603",
-  "legal_name": "U.Digital s.r.o.",
-  "primary_domain": "udigital.sk",
+ "ww_5325dc48e755498686ad2e3a7dcde409": {
+  "case_slug": "ww_5325dc48e755498686ad2e3a7dcde409",
+  "legal_name": "P. D. Polychem Pvt Ltd",
+  "primary_domain": "pdpolychem.com",
   "domains": [
-   "udigital.sk"
+   "pdpolychem.com"
   ],
-  "hq_country": "SK",
-  "hq_city": "Rača",
-  "founded_year": 2003,
-  "industry": "IT System Custom Software Development",
+  "hq_country": "IN",
+  "hq_city": "New Delhi",
+  "founded_year": 1997,
+  "industry": "Chemical Manufacturing",
   "industries": [
-   "IT System Custom Software Development"
+   "Chemical Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/u-digital-s-r-o",
+  "linkedin_url": "https://www.linkedin.com/company/pdpolychem",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -2673,40 +2672,21 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "rebrand_source_row_13": {
-  "case_slug": "rebrand_source_row_13",
-  "legal_name": "Current",
-  "primary_domain": "current.co",
+ "ww_5f34d0e6f248482868ba7b8ff25bd603": {
+  "case_slug": "ww_5f34d0e6f248482868ba7b8ff25bd603",
+  "legal_name": "U.Digital s.r.o.",
+  "primary_domain": "udigital.sk",
   "domains": [
-   "current.co"
+   "udigital.sk"
   ],
-  "hq_country": null,
-  "hq_city": null,
-  "founded_year": 2023,
-  "industry": "Professional Services",
+  "hq_country": "SK",
+  "hq_city": "Rača",
+  "founded_year": 2003,
+  "industry": "IT System Custom Software Development",
   "industries": [
-   "Professional Services"
+   "IT System Custom Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/current-advisors",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_65e66f8c0afdb9b8229d9029cb3016af": {
-  "case_slug": "ww_65e66f8c0afdb9b8229d9029cb3016af",
-  "legal_name": "Planeando Soluciones del Bajío, S.A. de C.V.",
-  "primary_domain": "algusaconstructora.com",
-  "domains": [
-   "algusaconstructora.com"
-  ],
-  "hq_country": "MX",
-  "hq_city": "Queretaro",
-  "founded_year": 2013,
-  "industry": "Ingeniería civil",
-  "industries": [
-   "Ingeniería civil"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/algusa-constructora",
+  "linkedin_url": "https://www.linkedin.com/company/u-digital-s-r-o",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -2733,8 +2713,9 @@
  "ww_630c28168d48d0bf014d177b72c02978": {
   "case_slug": "ww_630c28168d48d0bf014d177b72c02978",
   "legal_name": "Bestway Wholesale Limited",
-  "primary_domain": "bestwaygroup.co.uk",
+  "primary_domain": "bestwaywholesale.co.uk",
   "domains": [
+   "bestwaywholesale.co.uk",
    "bestwaygroup.co.uk"
   ],
   "hq_country": "GB",
@@ -2745,6 +2726,25 @@
    "Wholesale"
   ],
   "linkedin_url": "https://www.linkedin.com/company/bestway-wholesale",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_5d97a7ef70f6c883d61c5201c3069882": {
+  "case_slug": "ww_5d97a7ef70f6c883d61c5201c3069882",
+  "legal_name": "Tesco Technology",
+  "primary_domain": "tesco-careers.com",
+  "domains": [
+   "tesco-careers.com"
+  ],
+  "hq_country": "GB",
+  "hq_city": "London",
+  "founded_year": 1919,
+  "industry": "Retail",
+  "industries": [
+   "Retail"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/tesco-technology",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
@@ -2768,24 +2768,24 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_5d97a7ef70f6c883d61c5201c3069882": {
-  "case_slug": "ww_5d97a7ef70f6c883d61c5201c3069882",
-  "legal_name": "Tesco Technology",
-  "primary_domain": "tesco-careers.com",
+ "ww_65e66f8c0afdb9b8229d9029cb3016af": {
+  "case_slug": "ww_65e66f8c0afdb9b8229d9029cb3016af",
+  "legal_name": "Planeando Soluciones del Bajío, S.A. de C.V.",
+  "primary_domain": "algusaconstructora.com",
   "domains": [
-   "tesco-careers.com"
+   "algusaconstructora.com"
   ],
-  "hq_country": "GB",
-  "hq_city": "London",
-  "founded_year": 1919,
-  "industry": "Retail",
+  "hq_country": "MX",
+  "hq_city": "Queretaro",
+  "founded_year": 2013,
+  "industry": "Civil Engineering",
   "industries": [
-   "Retail"
+   "Civil Engineering"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/tesco-technology",
+  "linkedin_url": "https://www.linkedin.com/company/algusa-constructora",
   "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
+  "headcount_min": 11,
+  "headcount_max": 50
  },
  "ww_675fd9f03c1db48ad5a3c500d945a73c": {
   "case_slug": "ww_675fd9f03c1db48ad5a3c500d945a73c",
@@ -2825,25 +2825,6 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_689629807e89478f1d6ec2002b7f82bc": {
-  "case_slug": "ww_689629807e89478f1d6ec2002b7f82bc",
-  "legal_name": "Stichting Fashion for Good",
-  "primary_domain": "fashionforgood.com",
-  "domains": [
-   "fashionforgood.com"
-  ],
-  "hq_country": "NL",
-  "hq_city": "Amsterdam",
-  "founded_year": 2017,
-  "industry": "Retail Apparel and Fashion",
-  "industries": [
-   "Retail Apparel and Fashion"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/fashionforgood",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_6b770f3b7c281868ec42c36703320eb2": {
   "case_slug": "ww_6b770f3b7c281868ec42c36703320eb2",
   "legal_name": "Invest Northern Ireland",
@@ -2863,25 +2844,6 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
- "ww_6c782e066051527678b2d95fcf333d89": {
-  "case_slug": "ww_6c782e066051527678b2d95fcf333d89",
-  "legal_name": "Activos S.A.S.",
-  "primary_domain": "activos.com.co",
-  "domains": [
-   "activos.com.co"
-  ],
-  "hq_country": "CO",
-  "hq_city": "Bogotá",
-  "founded_year": 1982,
-  "industry": "Staffing and Recruiting",
-  "industries": [
-   "Staffing and Recruiting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/activoscolombia",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
- },
  "ww_6c12888121ec598c20897888e81aa659": {
   "case_slug": "ww_6c12888121ec598c20897888e81aa659",
   "legal_name": "Upptic",
@@ -2900,6 +2862,44 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
+ },
+ "ww_6d24a5ca0921fea0b7048c85f25b932d": {
+  "case_slug": "ww_6d24a5ca0921fea0b7048c85f25b932d",
+  "legal_name": "Smart Built Environment",
+  "primary_domain": "smartbuilt.se",
+  "domains": [
+   "smartbuilt.se"
+  ],
+  "hq_country": "SE",
+  "hq_city": "Stockholm",
+  "founded_year": 2015,
+  "industry": "Research Services",
+  "industries": [
+   "Research Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/smart-built-environment",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_6c782e066051527678b2d95fcf333d89": {
+  "case_slug": "ww_6c782e066051527678b2d95fcf333d89",
+  "legal_name": "Activos S.A.S.",
+  "primary_domain": "activos.com.co",
+  "domains": [
+   "activos.com.co"
+  ],
+  "hq_country": "CO",
+  "hq_city": "Bogotá",
+  "founded_year": 1982,
+  "industry": "Staffing and Recruiting",
+  "industries": [
+   "Staffing and Recruiting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/activoscolombia",
+  "linkedin_url_alternates": [],
+  "headcount_min": 10001,
+  "headcount_max": null
  },
  "ww_6f28f4d866235f72702219514eef4e12": {
   "case_slug": "ww_6f28f4d866235f72702219514eef4e12",
@@ -2922,28 +2922,9 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_6d24a5ca0921fea0b7048c85f25b932d": {
-  "case_slug": "ww_6d24a5ca0921fea0b7048c85f25b932d",
-  "legal_name": "Smart Built Environment",
-  "primary_domain": "smartbuilt.se",
-  "domains": [
-   "smartbuilt.se"
-  ],
-  "hq_country": "SE",
-  "hq_city": "Stockholm",
-  "founded_year": 2015,
-  "industry": "Forskning",
-  "industries": [
-   "Forskning"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/smart-built-environment",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_7096dca61db91fb5534429a147cf01ca": {
   "case_slug": "ww_7096dca61db91fb5534429a147cf01ca",
-  "legal_name": "Zhejiang Senma Clothing Co., Ltd.",
+  "legal_name": "Zhejiang Semir Garment Co., Ltd.",
   "primary_domain": "semirbiz.com",
   "domains": [
    "semirbiz.com"
@@ -2959,44 +2940,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 5001,
   "headcount_max": 10000
- },
- "ww_7412ae8dbd8c1bb976a375f5569187d3": {
-  "case_slug": "ww_7412ae8dbd8c1bb976a375f5569187d3",
-  "legal_name": "HECO HEALTH SAUDE TECNOLOGIA E SERVICOS LTDA - ME",
-  "primary_domain": "heco.health",
-  "domains": [
-   "heco.health"
-  ],
-  "hq_country": "BR",
-  "hq_city": "São Paulo",
-  "founded_year": 2010,
-  "industry": "Business Consulting and Services",
-  "industries": [
-   "Business Consulting and Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/hospital",
-  "linkedin_url_alternates": [],
-  "headcount_min": 2,
-  "headcount_max": 10
- },
- "ww_71028d01d546b4bb60cbcb762fa7777c": {
-  "case_slug": "ww_71028d01d546b4bb60cbcb762fa7777c",
-  "legal_name": "Heartworks IV",
-  "primary_domain": "heartworksiv.com",
-  "domains": [
-   "heartworksiv.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Tampa",
-  "founded_year": 1994,
-  "industry": "Hospitals and Health Care",
-  "industries": [
-   "Hospitals and Health Care"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/heartworksiv",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
  },
  "ww_720e79c7f49c1042fdbd8d7657c098d6": {
   "case_slug": "ww_720e79c7f49c1042fdbd8d7657c098d6",
@@ -3016,6 +2959,25 @@
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
+ },
+ "ww_71028d01d546b4bb60cbcb762fa7777c": {
+  "case_slug": "ww_71028d01d546b4bb60cbcb762fa7777c",
+  "legal_name": "Heartworks IV",
+  "primary_domain": "heartworksiv.com",
+  "domains": [
+   "heartworksiv.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Tampa",
+  "founded_year": 1994,
+  "industry": "Hospitals and Health Care",
+  "industries": [
+   "Hospitals and Health Care"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/heartworksiv",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "ww_72d8ba6e28731add68ca0712d415897d": {
   "case_slug": "ww_72d8ba6e28731add68ca0712d415897d",
@@ -3045,34 +3007,53 @@
   ],
   "hq_country": "CN",
   "hq_city": "Ningbo",
-  "founded_year": 2014,
-  "industry": "娱乐提供商",
+  "founded_year": 2015,
+  "industry": "Entertainment Providers",
   "industries": [
-   "娱乐提供商"
+   "Entertainment Providers"
   ],
   "linkedin_url": "https://www.linkedin.com/company/rawstonegames",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_7ab8678e1f3786db20b74478b3dcfaa8": {
-  "case_slug": "ww_7ab8678e1f3786db20b74478b3dcfaa8",
-  "legal_name": "Health Assistance",
-  "primary_domain": "coopsalute.org",
+ "ww_7412ae8dbd8c1bb976a375f5569187d3": {
+  "case_slug": "ww_7412ae8dbd8c1bb976a375f5569187d3",
+  "legal_name": "HECO HEALTH SAUDE TECNOLOGIA E SERVICOS LTDA - ME",
+  "primary_domain": "heco.health",
   "domains": [
-   "coopsalute.org"
+   "heco.health"
   ],
-  "hq_country": "IT",
-  "hq_city": "Formello (RM)",
-  "founded_year": 2014,
-  "industry": "Hospitals and Health Care",
+  "hq_country": "BR",
+  "hq_city": "São Paulo",
+  "founded_year": 2010,
+  "industry": "Business Consulting and Services",
   "industries": [
-   "Hospitals and Health Care"
+   "Business Consulting and Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/healthassistance",
+  "linkedin_url": "https://www.linkedin.com/company/hospital",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 2,
+  "headcount_max": 10
+ },
+ "ww_689629807e89478f1d6ec2002b7f82bc": {
+  "case_slug": "ww_689629807e89478f1d6ec2002b7f82bc",
+  "legal_name": "Stichting Fashion for Good",
+  "primary_domain": "fashionforgood.com",
+  "domains": [
+   "fashionforgood.com"
+  ],
+  "hq_country": "NL",
+  "hq_city": "Amsterdam",
+  "founded_year": 2017,
+  "industry": "Retail Apparel and Fashion",
+  "industries": [
+   "Retail Apparel and Fashion"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/fashionforgood",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
  },
  "ww_7536e84e6ba35207c6f3b6e088cf8319": {
   "case_slug": "ww_7536e84e6ba35207c6f3b6e088cf8319",
@@ -3131,6 +3112,63 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_7ab8678e1f3786db20b74478b3dcfaa8": {
+  "case_slug": "ww_7ab8678e1f3786db20b74478b3dcfaa8",
+  "legal_name": "Health Assistance",
+  "primary_domain": "coopsalute.org",
+  "domains": [
+   "coopsalute.org"
+  ],
+  "hq_country": "IT",
+  "hq_city": "Formello (RM)",
+  "founded_year": 2014,
+  "industry": "Hospitals and Health Care",
+  "industries": [
+   "Hospitals and Health Care"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/healthassistance",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_7c77080acc898d293b6d10277e161170": {
+  "case_slug": "ww_7c77080acc898d293b6d10277e161170",
+  "legal_name": "PATERSON PUBLIC SCHOOLS",
+  "primary_domain": "paterson.k12.nj.us",
+  "domains": [
+   "paterson.k12.nj.us"
+  ],
+  "hq_country": "US",
+  "hq_city": "Paterson",
+  "founded_year": 1900,
+  "industry": "Primary and Secondary Education",
+  "industries": [
+   "Primary and Secondary Education"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/paterson-public-schools",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_7d6ef7159994fd58fffcea264aefb5db": {
+  "case_slug": "ww_7d6ef7159994fd58fffcea264aefb5db",
+  "legal_name": "The Wildcard Alliance",
+  "primary_domain": "wildcardgame.com",
+  "domains": [
+   "wildcardgame.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "McKinney",
+  "founded_year": 2021,
+  "industry": "Computer Games",
+  "industries": [
+   "Computer Games"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/wildcard-alliance",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_7da995c4475a937dfdd1dbc776850f36": {
   "case_slug": "ww_7da995c4475a937dfdd1dbc776850f36",
   "legal_name": "en world Japan K.K.",
@@ -3149,25 +3187,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 201,
   "headcount_max": 500
- },
- "ww_7c77080acc898d293b6d10277e161170": {
-  "case_slug": "ww_7c77080acc898d293b6d10277e161170",
-  "legal_name": "PATERSON PUBLIC SCHOOLS",
-  "primary_domain": "paterson.k12.nj.us",
-  "domains": [
-   "paterson.k12.nj.us"
-  ],
-  "hq_country": "United States",
-  "hq_city": "Paterson",
-  "founded_year": 1900,
-  "industry": "Primary and Secondary Education",
-  "industries": [
-   "Primary and Secondary Education"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/paterson-public-schools",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
  },
  "ww_7fa3ceee2137a442ef2acc5a716f50c3": {
   "case_slug": "ww_7fa3ceee2137a442ef2acc5a716f50c3",
@@ -3207,63 +3226,6 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_7d6ef7159994fd58fffcea264aefb5db": {
-  "case_slug": "ww_7d6ef7159994fd58fffcea264aefb5db",
-  "legal_name": "The Wildcard Alliance",
-  "primary_domain": "wildcardgame.com",
-  "domains": [
-   "wildcardgame.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "McKinney",
-  "founded_year": 2021,
-  "industry": "Computer Games",
-  "industries": [
-   "Computer Games"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/wildcard-alliance",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_859268caa778a8c4c300af9df1739076": {
-  "case_slug": "ww_859268caa778a8c4c300af9df1739076",
-  "legal_name": "AVORIS RETAIL DIVISION SL",
-  "primary_domain": "travelplan.es",
-  "domains": [
-   "travelplan.es"
-  ],
-  "hq_country": "ES",
-  "hq_city": "Llucmajor",
-  "founded_year": 1986,
-  "industry": "Ocio, viajes y turismo",
-  "industries": [
-   "Ocio, viajes y turismo"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/travelplan-globalia-",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
- "ww_8004d637b6236202217be3dfcdd8ce59": {
-  "case_slug": "ww_8004d637b6236202217be3dfcdd8ce59",
-  "legal_name": "Orange Polska",
-  "primary_domain": "orange.pl",
-  "domains": [
-   "orange.pl"
-  ],
-  "hq_country": "PL",
-  "hq_city": "Warszawa",
-  "founded_year": 1991,
-  "industry": "Telecommunications",
-  "industries": [
-   "Telecommunications"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/orangepolska",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
- },
  "ww_844c6d82a7a0fd3365c7dc5e496aa39b": {
   "case_slug": "ww_844c6d82a7a0fd3365c7dc5e496aa39b",
   "legal_name": "Ridge Tool Company",
@@ -3278,9 +3240,9 @@
   "industries": [
    "Machinery Manufacturing"
   ],
-  "linkedin_url": "https://www.linkedin.com/showcase/ridge-tool-company",
+  "linkedin_url": "https://www.linkedin.com/company/ridge-tool-company",
   "linkedin_url_alternates": [
-   "https://www.linkedin.com/company/ridge-tool-company"
+   "https://www.linkedin.com/showcase/ridge-tool-company"
   ],
   "headcount_min": 201,
   "headcount_max": 500
@@ -3304,6 +3266,63 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_8004d637b6236202217be3dfcdd8ce59": {
+  "case_slug": "ww_8004d637b6236202217be3dfcdd8ce59",
+  "legal_name": "Orange Polska",
+  "primary_domain": "orange.pl",
+  "domains": [
+   "orange.pl"
+  ],
+  "hq_country": "PL",
+  "hq_city": "Warszawa",
+  "founded_year": 1991,
+  "industry": "Telecommunications",
+  "industries": [
+   "Telecommunications"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/orangepolska",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_859268caa778a8c4c300af9df1739076": {
+  "case_slug": "ww_859268caa778a8c4c300af9df1739076",
+  "legal_name": "AVORIS RETAIL DIVISION SL",
+  "primary_domain": "travelplan.es",
+  "domains": [
+   "travelplan.es"
+  ],
+  "hq_country": "ES",
+  "hq_city": "Llucmajor",
+  "founded_year": 1986,
+  "industry": "Leisure, Travel & Tourism",
+  "industries": [
+   "Leisure, Travel & Tourism"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/travelplan-globalia-",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
+ },
+ "ww_85b179903512d9148c3b05be74b1f1e1": {
+  "case_slug": "ww_85b179903512d9148c3b05be74b1f1e1",
+  "legal_name": "Catalyst Services UK Ltd",
+  "primary_domain": "catalystservicesuk.com",
+  "domains": [
+   "catalystservicesuk.com"
+  ],
+  "hq_country": "GB",
+  "hq_city": "Oldham",
+  "founded_year": 2014,
+  "industry": "Insurance",
+  "industries": [
+   "Insurance"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/catalystservicesuk",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_8717c3c4893196eb0a4ab5f09e789e64": {
   "case_slug": "ww_8717c3c4893196eb0a4ab5f09e789e64",
   "legal_name": "Agora Limited",
@@ -3322,82 +3341,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 501,
   "headcount_max": 1000
- },
- "ww_85b179903512d9148c3b05be74b1f1e1": {
-  "case_slug": "ww_85b179903512d9148c3b05be74b1f1e1",
-  "legal_name": "Catalyst Services UK",
-  "primary_domain": "catalystservicesuk.com",
-  "domains": [
-   "catalystservicesuk.com"
-  ],
-  "hq_country": "GB",
-  "hq_city": "Oldham",
-  "founded_year": 2014,
-  "industry": "Insurance",
-  "industries": [
-   "Insurance"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/catalystservicesuk",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_86b8935fbd47e2722904456718d148d6": {
-  "case_slug": "ww_86b8935fbd47e2722904456718d148d6",
-  "legal_name": "Autonomous Organization of Education \"Nazarbayev University\"",
-  "primary_domain": "nu.edu.kz",
-  "domains": [
-   "nu.edu.kz"
-  ],
-  "hq_country": "KZ",
-  "hq_city": "Astana",
-  "founded_year": 2010,
-  "industry": "Higher Education",
-  "industries": [
-   "Higher Education"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/aoe-nazarbayev-university",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_87fa5fad29d583aa0986b12ceabc3df9": {
-  "case_slug": "ww_87fa5fad29d583aa0986b12ceabc3df9",
-  "legal_name": "CorrPak Group",
-  "primary_domain": "corrpakgroup.com",
-  "domains": [
-   "corrpakgroup.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Zeeland",
-  "founded_year": 2021,
-  "industry": "Packaging and Containers Manufacturing",
-  "industries": [
-   "Packaging and Containers Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/corrpak-group",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_896d7ea6ffc0a80e9c3703fb35fd7a34": {
-  "case_slug": "ww_896d7ea6ffc0a80e9c3703fb35fd7a34",
-  "legal_name": "Maisons familiales rurales (MFR)",
-  "primary_domain": "mfr.fr",
-  "domains": [
-   "mfr.fr"
-  ],
-  "hq_country": "FR",
-  "hq_city": "Paris",
-  "founded_year": 1937,
-  "industry": "Technical and Vocational Training",
-  "industries": [
-   "Technical and Vocational Training"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/mfr-officiel",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
  },
  "ww_867e9ab13f591b6da73a3c5ef92048d9": {
   "case_slug": "ww_867e9ab13f591b6da73a3c5ef92048d9",
@@ -3418,9 +3361,66 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
+ "ww_86b8935fbd47e2722904456718d148d6": {
+  "case_slug": "ww_86b8935fbd47e2722904456718d148d6",
+  "legal_name": "Autonomous Organization of Education \"Nazarbayev University\"",
+  "primary_domain": "nu.edu.kz",
+  "domains": [
+   "nu.edu.kz"
+  ],
+  "hq_country": "KZ",
+  "hq_city": "Astana",
+  "founded_year": 2010,
+  "industry": "Higher Education",
+  "industries": [
+   "Higher Education"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/aoe-nazarbayev-university",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_896d7ea6ffc0a80e9c3703fb35fd7a34": {
+  "case_slug": "ww_896d7ea6ffc0a80e9c3703fb35fd7a34",
+  "legal_name": "Maisons familiales rurales (MFR)",
+  "primary_domain": "mfr.fr",
+  "domains": [
+   "mfr.fr"
+  ],
+  "hq_country": "FR",
+  "hq_city": "Paris",
+  "founded_year": 1937,
+  "industry": "Technical and Vocational Training",
+  "industries": [
+   "Technical and Vocational Training"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/mfr-officiel",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_87fa5fad29d583aa0986b12ceabc3df9": {
+  "case_slug": "ww_87fa5fad29d583aa0986b12ceabc3df9",
+  "legal_name": "CorrPak Group",
+  "primary_domain": "corrpakgroup.com",
+  "domains": [
+   "corrpakgroup.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Zeeland",
+  "founded_year": 2021,
+  "industry": "Packaging and Containers Manufacturing",
+  "industries": [
+   "Packaging and Containers Manufacturing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/corrpak-group",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_8bbed0561fb3eaa614232d7a2214eaa0": {
   "case_slug": "ww_8bbed0561fb3eaa614232d7a2214eaa0",
-  "legal_name": "CSE Talent, LLC",
+  "legal_name": "CSE Brands, LLC",
   "primary_domain": "groupcse.com",
   "domains": [
    "groupcse.com"
@@ -3456,9 +3456,28 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
+ "ww_8928d9d198ec2dfc3961ce107b9695d8": {
+  "case_slug": "ww_8928d9d198ec2dfc3961ce107b9695d8",
+  "legal_name": "Reculta Solutions Private Limited",
+  "primary_domain": "pickmywork.com",
+  "domains": [
+   "pickmywork.com"
+  ],
+  "hq_country": "IN",
+  "hq_city": "Gurgaon",
+  "founded_year": 2020,
+  "industry": "Technology, Information and Internet",
+  "industries": [
+   "Technology, Information and Internet"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/pickmywork",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_8d23698a945eceb8bf52b3f00072f524": {
   "case_slug": "ww_8d23698a945eceb8bf52b3f00072f524",
-  "legal_name": "QROMA",
+  "legal_name": "CORPORACION PERUANA DE PRODUCTOS QUIMICOS S.A.",
   "primary_domain": "qroma.com.pe",
   "domains": [
    "qroma.com.pe"
@@ -3494,6 +3513,25 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
+ "ww_927d99cef5c78d08d546dd21268ec355": {
+  "case_slug": "ww_927d99cef5c78d08d546dd21268ec355",
+  "legal_name": "IMOSS bureau voor stedebouw bv",
+  "primary_domain": "imoss.nl",
+  "domains": [
+   "imoss.nl"
+  ],
+  "hq_country": "NL",
+  "hq_city": "Amersfoort",
+  "founded_year": 2002,
+  "industry": "Architecture and Planning",
+  "industries": [
+   "Architecture and Planning"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/imoss-bureau-voor-stedebouw-bv",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_8f1fd091cc48ed9cbc666ea885f31a93": {
   "case_slug": "ww_8f1fd091cc48ed9cbc666ea885f31a93",
   "legal_name": "IMA Financial Group, Inc.",
@@ -3512,25 +3550,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
- },
- "ww_8928d9d198ec2dfc3961ce107b9695d8": {
-  "case_slug": "ww_8928d9d198ec2dfc3961ce107b9695d8",
-  "legal_name": "Reculta Solutions Private Limited",
-  "primary_domain": "pickmywork.com",
-  "domains": [
-   "pickmywork.com"
-  ],
-  "hq_country": "IN",
-  "hq_city": "Gurgaon",
-  "founded_year": 2020,
-  "industry": "Technology, Information and Internet",
-  "industries": [
-   "Technology, Information and Internet"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/pickmywork",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
  },
  "ww_912fba58607e905e25fbe5f75ebbb0ef": {
   "case_slug": "ww_912fba58607e905e25fbe5f75ebbb0ef",
@@ -3551,28 +3570,9 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_927d99cef5c78d08d546dd21268ec355": {
-  "case_slug": "ww_927d99cef5c78d08d546dd21268ec355",
-  "legal_name": "IMOSS bureau voor stedebouw bv",
-  "primary_domain": "imoss.nl",
-  "domains": [
-   "imoss.nl"
-  ],
-  "hq_country": "NL",
-  "hq_city": "Amersfoort",
-  "founded_year": 2002,
-  "industry": "Architecture and Planning",
-  "industries": [
-   "Architecture and Planning"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/imoss-bureau-voor-stedebouw-bv",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_9145f9fce1b3d36b3cf02899b17298df": {
   "case_slug": "ww_9145f9fce1b3d36b3cf02899b17298df",
-  "legal_name": "ADM Interactive",
+  "legal_name": "ADM Interactive OÜ",
   "primary_domain": "adm.ee",
   "domains": [
    "adm.ee"
@@ -3586,62 +3586,24 @@
   ],
   "linkedin_url": "https://www.linkedin.com/company/adm-interactive",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 201,
+  "headcount_max": 500
  },
- "ww_9854e1a1f89ee9bcae85c716c75acb34": {
-  "case_slug": "ww_9854e1a1f89ee9bcae85c716c75acb34",
-  "legal_name": "TouchPal",
-  "primary_domain": "touchpal.com",
+ "ww_99e002fefb78253291bf83d335fd4da8": {
+  "case_slug": "ww_99e002fefb78253291bf83d335fd4da8",
+  "legal_name": "Texzone Information Services Pvt. Ltd.",
+  "primary_domain": "texzoneindia.com",
   "domains": [
-   "touchpal.com"
+   "texzoneindia.com"
   ],
-  "hq_country": "US",
-  "hq_city": "Santa Clara",
-  "founded_year": 2008,
-  "industry": "IT Services and IT Consulting",
+  "hq_country": "IN",
+  "hq_city": "Mumbai",
+  "founded_year": 2006,
+  "industry": "Events Services",
   "industries": [
-   "IT Services and IT Consulting"
+   "Events Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/touchpal",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_99d4a02f5011c51b6084b311ebe72d89": {
-  "case_slug": "ww_99d4a02f5011c51b6084b311ebe72d89",
-  "legal_name": "Lease Link Canada Corp.",
-  "primary_domain": "leaselink.ca",
-  "domains": [
-   "leaselink.ca"
-  ],
-  "hq_country": "CA",
-  "hq_city": "Edmonton",
-  "founded_year": 1998,
-  "industry": "Financial Services",
-  "industries": [
-   "Financial Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/lease-link-canada",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_9a5f7131b46fd2bcfb6106cbcd4e84f3": {
-  "case_slug": "ww_9a5f7131b46fd2bcfb6106cbcd4e84f3",
-  "legal_name": "Zia and Sagor Carpets Trading L.L.C",
-  "primary_domain": "zandscarpet.com",
-  "domains": [
-   "zandscarpet.com"
-  ],
-  "hq_country": "AE",
-  "hq_city": "Warsan 3",
-  "founded_year": 2016,
-  "industry": "بيع مواد الإنشاءات بالجملة",
-  "industries": [
-   "بيع مواد الإنشاءات بالجملة"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/zandscarpets",
+  "linkedin_url": "https://www.linkedin.com/company/texzone-information-services-private-limited",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -3665,21 +3627,59 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
- "ww_99e002fefb78253291bf83d335fd4da8": {
-  "case_slug": "ww_99e002fefb78253291bf83d335fd4da8",
-  "legal_name": "Texzone Information Services Pvt. Ltd.",
-  "primary_domain": "texzoneindia.com",
+ "ww_99d4a02f5011c51b6084b311ebe72d89": {
+  "case_slug": "ww_99d4a02f5011c51b6084b311ebe72d89",
+  "legal_name": "Lease Link Canada Corp.",
+  "primary_domain": "leaselink.ca",
   "domains": [
-   "texzoneindia.com"
+   "leaselink.ca"
   ],
-  "hq_country": "IN",
-  "hq_city": "Mumbai",
-  "founded_year": 2006,
-  "industry": "Events Services",
+  "hq_country": "CA",
+  "hq_city": "Edmonton",
+  "founded_year": 1998,
+  "industry": "Financial Services",
   "industries": [
-   "Events Services"
+   "Financial Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/texzone-information-services-private-limited",
+  "linkedin_url": "https://www.linkedin.com/company/lease-link-canada",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_9854e1a1f89ee9bcae85c716c75acb34": {
+  "case_slug": "ww_9854e1a1f89ee9bcae85c716c75acb34",
+  "legal_name": "TouchPal",
+  "primary_domain": "touchpal.com",
+  "domains": [
+   "touchpal.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Santa Clara",
+  "founded_year": 2008,
+  "industry": "IT Services and IT Consulting",
+  "industries": [
+   "IT Services and IT Consulting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/touchpal",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_9a5f7131b46fd2bcfb6106cbcd4e84f3": {
+  "case_slug": "ww_9a5f7131b46fd2bcfb6106cbcd4e84f3",
+  "legal_name": "Zia and Sagor Carpets Trading L.L.C",
+  "primary_domain": "zandscarpet.com",
+  "domains": [
+   "zandscarpet.com"
+  ],
+  "hq_country": "AE",
+  "hq_city": "Warsan 3",
+  "founded_year": 2016,
+  "industry": "Wholesale Building Materials",
+  "industries": [
+   "Wholesale Building Materials"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/zandscarpets",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -3703,25 +3703,6 @@
   "headcount_min": 201,
   "headcount_max": 500
  },
- "ww_9d0cec3f95d8950e74658af9825562ea": {
-  "case_slug": "ww_9d0cec3f95d8950e74658af9825562ea",
-  "legal_name": "Lift Education",
-  "primary_domain": "lifteducation.com",
-  "domains": [
-   "lifteducation.com"
-  ],
-  "hq_country": "NZ",
-  "hq_city": "Wellington",
-  "founded_year": 2004,
-  "industry": "Édition de livres et périodiques",
-  "industries": [
-   "Édition de livres et périodiques"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/lift-education-nz",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_9a8a2b75b7e0e44fbfb63657d9c04e51": {
   "case_slug": "ww_9a8a2b75b7e0e44fbfb63657d9c04e51",
   "legal_name": "Utility Warehouse Limited",
@@ -3741,6 +3722,44 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
+ "ww_9df981e28f837797e4cd2dc925b5ac4e": {
+  "case_slug": "ww_9df981e28f837797e4cd2dc925b5ac4e",
+  "legal_name": "Kee Safety Limited",
+  "primary_domain": "keesafety.com",
+  "domains": [
+   "keesafety.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Buffalo",
+  "founded_year": 1958,
+  "industry": "Wholesale Building Materials",
+  "industries": [
+   "Wholesale Building Materials"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/keesafetyinc",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_9d0cec3f95d8950e74658af9825562ea": {
+  "case_slug": "ww_9d0cec3f95d8950e74658af9825562ea",
+  "legal_name": "LIFT EDUCATION E TŪ LIMITED",
+  "primary_domain": "lifteducation.com",
+  "domains": [
+   "lifteducation.com"
+  ],
+  "hq_country": "NZ",
+  "hq_city": "Wellington",
+  "founded_year": 2004,
+  "industry": "Book and Periodical Publishing",
+  "industries": [
+   "Book and Periodical Publishing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/lift-education-nz",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_9eab5a76741e5945a56a37514566c011": {
   "case_slug": "ww_9eab5a76741e5945a56a37514566c011",
   "legal_name": "Bergen Mekaniske AS.",
@@ -3756,25 +3775,6 @@
    "Fabricated Metal Products"
   ],
   "linkedin_url": "https://www.linkedin.com/company/bergen-mekaniske-as",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_a17c66baf7ecfb46712b81a5d64dcf21": {
-  "case_slug": "ww_a17c66baf7ecfb46712b81a5d64dcf21",
-  "legal_name": "Waterfront Group",
-  "primary_domain": "waterfrontgrp.com",
-  "domains": [
-   "waterfrontgrp.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Cornelius",
-  "founded_year": 1994,
-  "industry": "Real Estate",
-  "industries": [
-   "Real Estate"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/waterfront-group",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -3798,63 +3798,6 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
- "ww_a42fbf9ed83f4dffaa4fa637c129e5e6": {
-  "case_slug": "ww_a42fbf9ed83f4dffaa4fa637c129e5e6",
-  "legal_name": "Accounting & Finance Professionals",
-  "primary_domain": "afprofessionals.com",
-  "domains": [
-   "afprofessionals.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Phoenix",
-  "founded_year": 1999,
-  "industry": "Staffing and Recruiting",
-  "industries": [
-   "Staffing and Recruiting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/accounting-&-finance-professionals",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_9df981e28f837797e4cd2dc925b5ac4e": {
-  "case_slug": "ww_9df981e28f837797e4cd2dc925b5ac4e",
-  "legal_name": "Kee Safety Limited",
-  "primary_domain": "keesafety.com",
-  "domains": [
-   "keesafety.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Buffalo",
-  "founded_year": 1958,
-  "industry": "Wholesale Building Materials",
-  "industries": [
-   "Wholesale Building Materials"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/keesafetyinc",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_a723cdefc158eb32951f62beb287c4a6": {
-  "case_slug": "ww_a723cdefc158eb32951f62beb287c4a6",
-  "legal_name": "Turner & Co. (Glasgow) Limited",
-  "primary_domain": "turner.co.uk",
-  "domains": [
-   "turner.co.uk"
-  ],
-  "hq_country": "GB",
-  "hq_city": "Glasgow",
-  "founded_year": 1912,
-  "industry": "Investment Management",
-  "industries": [
-   "Investment Management"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/turner-&-co.-glasgow-limited.",
-  "linkedin_url_alternates": [],
-  "headcount_min": 201,
-  "headcount_max": 500
- },
  "ww_a4637ab273ac085c46a22f43cd9ece49": {
   "case_slug": "ww_a4637ab273ac085c46a22f43cd9ece49",
   "legal_name": "Digital Boost Upskilling, Ltd.",
@@ -3874,21 +3817,40 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
- "ww_ae0b54daa2fb7633bf6349d1c642c328": {
-  "case_slug": "ww_ae0b54daa2fb7633bf6349d1c642c328",
-  "legal_name": "GEA – Consulenti di Direzione S.p.A.",
-  "primary_domain": "gea.it",
+ "ww_a17c66baf7ecfb46712b81a5d64dcf21": {
+  "case_slug": "ww_a17c66baf7ecfb46712b81a5d64dcf21",
+  "legal_name": "Waterfront Group",
+  "primary_domain": "waterfrontgrp.com",
   "domains": [
-   "gea.it"
+   "waterfrontgrp.com"
   ],
-  "hq_country": "IT",
-  "hq_city": "Milano",
-  "founded_year": 1965,
-  "industry": "Business Consulting and Services",
+  "hq_country": "US",
+  "hq_city": "Cornelius",
+  "founded_year": 1994,
+  "industry": "Real Estate",
   "industries": [
-   "Business Consulting and Services"
+   "Real Estate"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/gea",
+  "linkedin_url": "https://www.linkedin.com/company/waterfront-group",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_a42fbf9ed83f4dffaa4fa637c129e5e6": {
+  "case_slug": "ww_a42fbf9ed83f4dffaa4fa637c129e5e6",
+  "legal_name": "Accounting & Finance Professionals",
+  "primary_domain": "afprofessionals.com",
+  "domains": [
+   "afprofessionals.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Phoenix",
+  "founded_year": 1999,
+  "industry": "Staffing and Recruiting",
+  "industries": [
+   "Staffing and Recruiting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/accounting-&-finance-professionals",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -3912,6 +3874,25 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
+ "ww_ae0b54daa2fb7633bf6349d1c642c328": {
+  "case_slug": "ww_ae0b54daa2fb7633bf6349d1c642c328",
+  "legal_name": "GEA – Consulenti di Direzione S.p.A.",
+  "primary_domain": "gea.it",
+  "domains": [
+   "gea.it"
+  ],
+  "hq_country": "IT",
+  "hq_city": "Milano",
+  "founded_year": 1965,
+  "industry": "Business Consulting and Services",
+  "industries": [
+   "Business Consulting and Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/gea",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_a49ff3e5cd3fb3d269b6edf8ccbca025": {
   "case_slug": "ww_a49ff3e5cd3fb3d269b6edf8ccbca025",
   "legal_name": "Corporativo Overall",
@@ -3930,6 +3911,25 @@
   "linkedin_url_alternates": [],
   "headcount_min": 10001,
   "headcount_max": null
+ },
+ "ww_a723cdefc158eb32951f62beb287c4a6": {
+  "case_slug": "ww_a723cdefc158eb32951f62beb287c4a6",
+  "legal_name": "Turner & Co. (Glasgow) Limited",
+  "primary_domain": "turner.co.uk",
+  "domains": [
+   "turner.co.uk"
+  ],
+  "hq_country": "GB",
+  "hq_city": "Glasgow",
+  "founded_year": 1912,
+  "industry": "Investment Management",
+  "industries": [
+   "Investment Management"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/turner-&-co.-glasgow-limited.",
+  "linkedin_url_alternates": [],
+  "headcount_min": 201,
+  "headcount_max": 500
  },
  "ww_a4b2a31e88e20111647133531938e993": {
   "case_slug": "ww_a4b2a31e88e20111647133531938e993",
@@ -3950,25 +3950,6 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
- "ww_aea621c01e95cab0540d279d531bfff6": {
-  "case_slug": "ww_aea621c01e95cab0540d279d531bfff6",
-  "legal_name": "Youtap Indonesia",
-  "primary_domain": "youtap.id",
-  "domains": [
-   "youtap.id"
-  ],
-  "hq_country": "ID",
-  "hq_city": "Jakarta",
-  "founded_year": 2018,
-  "industry": "Financial Services",
-  "industries": [
-   "Financial Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/youtap-indonesia",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
  "ww_aeb628bde170cc23573f0b2c50674e20": {
   "case_slug": "ww_aeb628bde170cc23573f0b2c50674e20",
   "legal_name": "Kawartha Pine Ridge District School Board",
@@ -3988,25 +3969,6 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_b1e076df6775a6ed193f2563e8461655": {
-  "case_slug": "ww_b1e076df6775a6ed193f2563e8461655",
-  "legal_name": "CINNCO",
-  "primary_domain": "cinnco.co",
-  "domains": [
-   "cinnco.co"
-  ],
-  "hq_country": "CO",
-  "hq_city": "Manizales",
-  "founded_year": 2013,
-  "industry": "IT Services and IT Consulting",
-  "industries": [
-   "IT Services and IT Consulting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/cinnco",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_b04ccd57418c722ce17c92fd94e4e3a6": {
   "case_slug": "ww_b04ccd57418c722ce17c92fd94e4e3a6",
   "legal_name": "Nottingham Trent University",
@@ -4021,10 +3983,31 @@
   "industries": [
    "Higher Education"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/nottingham-trent-university",
-  "linkedin_url_alternates": [],
+  "linkedin_url": "https://www.linkedin.com/school/nottingham-trent-university",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/nottingham-trent-university"
+  ],
   "headcount_min": 1001,
   "headcount_max": 5000
+ },
+ "ww_aea621c01e95cab0540d279d531bfff6": {
+  "case_slug": "ww_aea621c01e95cab0540d279d531bfff6",
+  "legal_name": "PT Mitra Digital Sukses",
+  "primary_domain": "youtap.id",
+  "domains": [
+   "youtap.id"
+  ],
+  "hq_country": "ID",
+  "hq_city": "Jakarta",
+  "founded_year": 2018,
+  "industry": "Financial Services",
+  "industries": [
+   "Financial Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/youtap-indonesia",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "ww_b5863195c72bfc4f244fead4fd93bfdf": {
   "case_slug": "ww_b5863195c72bfc4f244fead4fd93bfdf",
@@ -4045,6 +4028,25 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
+ "ww_b1e076df6775a6ed193f2563e8461655": {
+  "case_slug": "ww_b1e076df6775a6ed193f2563e8461655",
+  "legal_name": "Cinnco S.A.S",
+  "primary_domain": "cinnco.co",
+  "domains": [
+   "cinnco.co"
+  ],
+  "hq_country": "CO",
+  "hq_city": "Manizales",
+  "founded_year": 2013,
+  "industry": "IT Services and IT Consulting",
+  "industries": [
+   "IT Services and IT Consulting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/cinnco",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_b9281cd9078ff2d736f7ab5188b3fde0": {
   "case_slug": "ww_b9281cd9078ff2d736f7ab5188b3fde0",
   "legal_name": "Banco Agromercantil de Guatemala, S.A.",
@@ -4052,8 +4054,8 @@
   "domains": [
    "bam.com.gt"
   ],
-  "hq_country": "GT",
-  "hq_city": "Guatemala",
+  "hq_country": "Guatemala",
+  "hq_city": "Guatemala City",
   "founded_year": 1926,
   "industry": "Financial Services",
   "industries": [
@@ -4083,6 +4085,25 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_b5f826c8c39505be6b882245d2683b56": {
+  "case_slug": "ww_b5f826c8c39505be6b882245d2683b56",
+  "legal_name": "Blender Institute B.V.",
+  "primary_domain": "blender.org",
+  "domains": [
+   "blender.org"
+  ],
+  "hq_country": "NL",
+  "hq_city": "Amsterdam",
+  "founded_year": 2002,
+  "industry": "Movies and Sound Recording",
+  "industries": [
+   "Movies and Sound Recording"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/blender-org",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_b861a9831c5104c06e9975c7e7aa877b": {
   "case_slug": "ww_b861a9831c5104c06e9975c7e7aa877b",
   "legal_name": "BEZIERS HAD",
@@ -4090,8 +4111,8 @@
   "domains": [
    "beziers-had.fr"
   ],
-  "hq_country": "France",
-  "hq_city": "Béziers",
+  "hq_country": "FR",
+  "hq_city": "BEZIERS",
   "founded_year": 2009,
   "industry": "Hospitals and Health Care",
   "industries": [
@@ -4121,14 +4142,33 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_bc20331fd4628403d6db6d5700f58717": {
+  "case_slug": "ww_bc20331fd4628403d6db6d5700f58717",
+  "legal_name": "Primio",
+  "primary_domain": "primio.app",
+  "domains": [
+   "primio.app"
+  ],
+  "hq_country": "NL",
+  "hq_city": "Rotterdam",
+  "founded_year": 2022,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/primio-app",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_bbb6aa241d0eb3909b841880fbdce620": {
   "case_slug": "ww_bbb6aa241d0eb3909b841880fbdce620",
-  "legal_name": "The Betts Group",
+  "legal_name": "Stephen Betts & Sons Limited",
   "primary_domain": "bettsmetals.com",
   "domains": [
    "bettsmetals.com"
   ],
-  "hq_country": "United Kingdom",
+  "hq_country": "GB",
   "hq_city": "Birmingham",
   "founded_year": 1760,
   "industry": "Wholesale Metals and Minerals",
@@ -4136,6 +4176,25 @@
    "Wholesale Metals and Minerals"
   ],
   "linkedin_url": "https://www.linkedin.com/company/thebettsgroup",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_bca426ed7f6f2c51ba05caf7ed8ef22b": {
+  "case_slug": "ww_bca426ed7f6f2c51ba05caf7ed8ef22b",
+  "legal_name": "Harvest International Schools TR",
+  "primary_domain": "harvestschools.org",
+  "domains": [
+   "harvestschools.org"
+  ],
+  "hq_country": "TR",
+  "hq_city": "Istanbul",
+  "founded_year": 2019,
+  "industry": "Higher Education",
+  "industries": [
+   "Higher Education"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/harvestschoolstr",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -4178,63 +4237,6 @@
   "headcount_min": 51,
   "headcount_max": 200
  },
- "ww_b5f826c8c39505be6b882245d2683b56": {
-  "case_slug": "ww_b5f826c8c39505be6b882245d2683b56",
-  "legal_name": "Blender Institute B.V.",
-  "primary_domain": "blender.org",
-  "domains": [
-   "blender.org"
-  ],
-  "hq_country": "NL",
-  "hq_city": "Amsterdam",
-  "founded_year": 2002,
-  "industry": "Movies and Sound Recording",
-  "industries": [
-   "Movies and Sound Recording"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/blender-org",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_bca426ed7f6f2c51ba05caf7ed8ef22b": {
-  "case_slug": "ww_bca426ed7f6f2c51ba05caf7ed8ef22b",
-  "legal_name": "Harvest International Schools TR",
-  "primary_domain": "harvestschools.org",
-  "domains": [
-   "harvestschools.org"
-  ],
-  "hq_country": "TR",
-  "hq_city": "Istanbul",
-  "founded_year": 2019,
-  "industry": "Higher Education",
-  "industries": [
-   "Higher Education"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/harvestschoolstr",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_bc20331fd4628403d6db6d5700f58717": {
-  "case_slug": "ww_bc20331fd4628403d6db6d5700f58717",
-  "legal_name": "Primio",
-  "primary_domain": "primio.app",
-  "domains": [
-   "primio.app"
-  ],
-  "hq_country": "NL",
-  "hq_city": "Rotterdam",
-  "founded_year": 2022,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/primio-app",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_bf734e15bc860a6d25257c4aef8f593e": {
   "case_slug": "ww_bf734e15bc860a6d25257c4aef8f593e",
   "legal_name": "PJM Investment Akademie GmbH",
@@ -4242,15 +4244,17 @@
   "domains": [
    "pjmueller.de"
   ],
-  "hq_country": "Germany",
+  "hq_country": "DE",
   "hq_city": "Hamburg",
   "founded_year": 2014,
   "industry": "Professional Training and Coaching",
   "industries": [
    "Professional Training and Coaching"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/pjm-investment-akademie-gmbh",
-  "linkedin_url_alternates": [],
+  "linkedin_url": "https://www.linkedin.com/school/pjm-investment-akademie-gmbh",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/pjm-investment-akademie-gmbh"
+  ],
   "headcount_min": 51,
   "headcount_max": 200
  },
@@ -4292,6 +4296,25 @@
   "headcount_min": 5001,
   "headcount_max": 10000
  },
+ "ww_c30ef2e7822e8d57238813025b1431d4": {
+  "case_slug": "ww_c30ef2e7822e8d57238813025b1431d4",
+  "legal_name": "Researchers Marketing Management LLC",
+  "primary_domain": "researchers.me",
+  "domains": [
+   "researchers.me"
+  ],
+  "hq_country": "AE",
+  "hq_city": "Dubai",
+  "founded_year": 2022,
+  "industry": "Data Infrastructure and Analytics",
+  "industries": [
+   "Data Infrastructure and Analytics"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/researchers-me",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_c1dad158473d599736ffe74624b615b1": {
   "case_slug": "ww_c1dad158473d599736ffe74624b615b1",
   "legal_name": "Korean Air Lines Co., Ltd.",
@@ -4330,40 +4353,21 @@
   "headcount_min": 5001,
   "headcount_max": 10000
  },
- "ww_c30ef2e7822e8d57238813025b1431d4": {
-  "case_slug": "ww_c30ef2e7822e8d57238813025b1431d4",
-  "legal_name": "Researchers.me",
-  "primary_domain": "researchers.me",
+ "ww_c39080d5290573c0da8e39b6f65e4362": {
+  "case_slug": "ww_c39080d5290573c0da8e39b6f65e4362",
+  "legal_name": "Red Squirrel Group Limited",
+  "primary_domain": "madsquirrelbrew.co.uk",
   "domains": [
-   "researchers.me"
+   "madsquirrelbrew.co.uk"
   ],
-  "hq_country": "AE",
-  "hq_city": "Dubai",
-  "founded_year": 2022,
-  "industry": "الهياكل الأساسية للبيانات والتحليلات",
+  "hq_country": "GB",
+  "hq_city": "Hemel Hempstead",
+  "founded_year": 2010,
+  "industry": "Food and Beverage Services",
   "industries": [
-   "الهياكل الأساسية للبيانات والتحليلات"
+   "Food and Beverage Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/researchers-me",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_c6cdf76db74acb676e2f4a320fe0a93f": {
-  "case_slug": "ww_c6cdf76db74acb676e2f4a320fe0a93f",
-  "legal_name": "The GiddyUp Group, Inc.",
-  "primary_domain": "giddyup.io",
-  "domains": [
-   "giddyup.io"
-  ],
-  "hq_country": "US",
-  "hq_city": "Ventura",
-  "founded_year": 2013,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/the-giddyup-group",
+  "linkedin_url": "https://www.linkedin.com/company/mad-squirrel",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -4387,21 +4391,21 @@
   "headcount_min": 5001,
   "headcount_max": 10000
  },
- "ww_c39080d5290573c0da8e39b6f65e4362": {
-  "case_slug": "ww_c39080d5290573c0da8e39b6f65e4362",
-  "legal_name": "Red Squirrel Group Limited",
-  "primary_domain": "madsquirrelbrew.co.uk",
+ "ww_c6cdf76db74acb676e2f4a320fe0a93f": {
+  "case_slug": "ww_c6cdf76db74acb676e2f4a320fe0a93f",
+  "legal_name": "The GiddyUp Group, Inc.",
+  "primary_domain": "giddyup.io",
   "domains": [
-   "madsquirrelbrew.co.uk"
+   "giddyup.io"
   ],
-  "hq_country": "GB",
-  "hq_city": "Hemel Hempstead",
-  "founded_year": 2010,
-  "industry": "Food and Beverage Services",
+  "hq_country": "US",
+  "hq_city": "Ventura",
+  "founded_year": 2013,
+  "industry": "Software Development",
   "industries": [
-   "Food and Beverage Services"
+   "Software Development"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/mad-squirrel",
+  "linkedin_url": "https://www.linkedin.com/company/the-giddyup-group",
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
@@ -4444,28 +4448,9 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_ba4e2de519d7413925e8b8199cdcdd6a": {
-  "case_slug": "ww_ba4e2de519d7413925e8b8199cdcdd6a",
-  "legal_name": "Lake Mohawk Country Club",
-  "primary_domain": "lakemohawkcc.com",
-  "domains": [
-   "lakemohawkcc.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Sparta",
-  "founded_year": 1927,
-  "industry": "Hospitality",
-  "industries": [
-   "Hospitality"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/lake-mohawk-country-club",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
  "ww_c577c99f4d3fe0ba8f94844d3c7d588e": {
   "case_slug": "ww_c577c99f4d3fe0ba8f94844d3c7d588e",
-  "legal_name": "Marfrig Global Foods",
+  "legal_name": "Marfrig Global Foods S.A.",
   "primary_domain": "marfrig.com.br",
   "domains": [
    "marfrig.com.br"
@@ -4520,6 +4505,25 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_cd3d95b5e8f83320f010930265f8d5ca": {
+  "case_slug": "ww_cd3d95b5e8f83320f010930265f8d5ca",
+  "legal_name": "Radio France Internationale",
+  "primary_domain": "rfi.fr",
+  "domains": [
+   "rfi.fr"
+  ],
+  "hq_country": "FR",
+  "hq_city": "Issy-les-Moulineaux",
+  "founded_year": 1975,
+  "industry": "Broadcast Media Production and Distribution",
+  "industries": [
+   "Broadcast Media Production and Distribution"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/radio-france-internationale",
+  "linkedin_url_alternates": [],
+  "headcount_min": 501,
+  "headcount_max": 1000
+ },
  "ww_ce7831a074404d86972c595baeedfeee": {
   "case_slug": "ww_ce7831a074404d86972c595baeedfeee",
   "legal_name": "ZİM Mühendislik Taş. Mak. İml. İnş. Dış Tic. Ltd. Şti.",
@@ -4530,9 +4534,9 @@
   "hq_country": "TR",
   "hq_city": "Ankara",
   "founded_year": 1997,
-  "industry": "Endüstriyel Makine İmalatı",
+  "industry": "Industrial Machinery Manufacturing",
   "industries": [
-   "Endüstriyel Makine İmalatı"
+   "Industrial Machinery Manufacturing"
   ],
   "linkedin_url": "https://www.linkedin.com/company/zimmuhendislik",
   "linkedin_url_alternates": [],
@@ -4558,120 +4562,6 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_cf79ae6addba60ad018347359bd144d2": {
-  "case_slug": "ww_cf79ae6addba60ad018347359bd144d2",
-  "legal_name": "LähiTapiola",
-  "primary_domain": "lahitapiola.fi",
-  "domains": [
-   "lahitapiola.fi"
-  ],
-  "hq_country": "FI",
-  "hq_city": "Espoo",
-  "founded_year": 1982,
-  "industry": "Insurance",
-  "industries": [
-   "Insurance"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/l-hitapiola",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_cd3d95b5e8f83320f010930265f8d5ca": {
-  "case_slug": "ww_cd3d95b5e8f83320f010930265f8d5ca",
-  "legal_name": "Radio France Internationale",
-  "primary_domain": "rfi.fr",
-  "domains": [
-   "rfi.fr"
-  ],
-  "hq_country": "FR",
-  "hq_city": "Issy-les-Moulineaux",
-  "founded_year": 1975,
-  "industry": "Broadcast Media Production and Distribution",
-  "industries": [
-   "Broadcast Media Production and Distribution"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/radio-france-internationale",
-  "linkedin_url_alternates": [],
-  "headcount_min": 501,
-  "headcount_max": 1000
- },
- "ww_d0781cdd2edefab8811b6f1f7d570e42": {
-  "case_slug": "ww_d0781cdd2edefab8811b6f1f7d570e42",
-  "legal_name": "Sirva Worldwide, Inc.",
-  "primary_domain": "sirva.com",
-  "domains": [
-   "sirva.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Oakbrook Terrace",
-  "founded_year": 1998,
-  "industry": "Real Estate",
-  "industries": [
-   "Real Estate"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/sirva",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_d40f9e1e33b9a9ab05d6b941af5a6f63": {
-  "case_slug": "ww_d40f9e1e33b9a9ab05d6b941af5a6f63",
-  "legal_name": "BLAST CYBER ISRAEL  LTD",
-  "primary_domain": "blast.security",
-  "domains": [
-   "blast.security"
-  ],
-  "hq_country": "US",
-  "hq_city": "Long Island City",
-  "founded_year": 2024,
-  "industry": "Computer and Network Security",
-  "industries": [
-   "Computer and Network Security"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/blast-security",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_d18f32c3cddc78ccc40d534f10e48f29": {
-  "case_slug": "ww_d18f32c3cddc78ccc40d534f10e48f29",
-  "legal_name": "Ari10",
-  "primary_domain": "ari10.com",
-  "domains": [
-   "ari10.com"
-  ],
-  "hq_country": "PL",
-  "hq_city": "Poznań",
-  "founded_year": 2017,
-  "industry": "Financial Services",
-  "industries": [
-   "Financial Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/ari10-com",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_d7bc578046daf48ed2c1e6746ff68490": {
-  "case_slug": "ww_d7bc578046daf48ed2c1e6746ff68490",
-  "legal_name": "Neosoft",
-  "primary_domain": "neosoft.fr",
-  "domains": [
-   "neosoft.fr"
-  ],
-  "hq_country": "FR",
-  "hq_city": "Paris",
-  "founded_year": 2005,
-  "industry": "IT Services and IT Consulting",
-  "industries": [
-   "IT Services and IT Consulting"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/neosoft_",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
  "ww_d027519051ee6d8cad6e48dace66bc2d": {
   "case_slug": "ww_d027519051ee6d8cad6e48dace66bc2d",
   "legal_name": "MicroVention, Inc.",
@@ -4691,21 +4581,59 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
- "ww_d4a93297083a23cc099f7bd6a8621131": {
-  "case_slug": "ww_d4a93297083a23cc099f7bd6a8621131",
-  "legal_name": "Danish Technological Institute",
-  "primary_domain": "teknologisk.dk",
+ "ww_ba4e2de519d7413925e8b8199cdcdd6a": {
+  "case_slug": "ww_ba4e2de519d7413925e8b8199cdcdd6a",
+  "legal_name": "Lake Mohawk Country Club",
+  "primary_domain": "lakemohawkcc.com",
   "domains": [
-   "teknologisk.dk"
+   "lakemohawkcc.com"
   ],
-  "hq_country": "DK",
-  "hq_city": "Taastrup",
-  "founded_year": 1906,
-  "industry": "Research Services",
+  "hq_country": "US",
+  "hq_city": "Sparta",
+  "founded_year": 1927,
+  "industry": "Hospitality",
   "industries": [
-   "Research Services"
+   "Hospitality"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/teknologiskinstitut",
+  "linkedin_url": "https://www.linkedin.com/company/lake-mohawk-country-club",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_cf79ae6addba60ad018347359bd144d2": {
+  "case_slug": "ww_cf79ae6addba60ad018347359bd144d2",
+  "legal_name": "LähiTapiola",
+  "primary_domain": "lahitapiola.fi",
+  "domains": [
+   "lahitapiola.fi"
+  ],
+  "hq_country": "FI",
+  "hq_city": "Espoo",
+  "founded_year": 1982,
+  "industry": "Insurance",
+  "industries": [
+   "Insurance"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/l-hitapiola",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_d0781cdd2edefab8811b6f1f7d570e42": {
+  "case_slug": "ww_d0781cdd2edefab8811b6f1f7d570e42",
+  "legal_name": "Sirva Worldwide, Inc.",
+  "primary_domain": "sirva.com",
+  "domains": [
+   "sirva.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Oakbrook Terrace",
+  "founded_year": 1998,
+  "industry": "Real Estate",
+  "industries": [
+   "Real Estate"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/sirva",
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
@@ -4729,6 +4657,103 @@
   "headcount_min": 10001,
   "headcount_max": null
  },
+ "ww_d18f32c3cddc78ccc40d534f10e48f29": {
+  "case_slug": "ww_d18f32c3cddc78ccc40d534f10e48f29",
+  "legal_name": "Ari10",
+  "primary_domain": "ari10.com",
+  "domains": [
+   "ari10.com"
+  ],
+  "hq_country": "PL",
+  "hq_city": "Poznań",
+  "founded_year": 2017,
+  "industry": "Financial Services",
+  "industries": [
+   "Financial Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/ari10-com",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_d40f9e1e33b9a9ab05d6b941af5a6f63": {
+  "case_slug": "ww_d40f9e1e33b9a9ab05d6b941af5a6f63",
+  "legal_name": "BLAST CYBER ISRAEL  LTD",
+  "primary_domain": "blast.security",
+  "domains": [
+   "blast.security"
+  ],
+  "hq_country": "US",
+  "hq_city": "Long Island City",
+  "founded_year": 2024,
+  "industry": "Computer and Network Security",
+  "industries": [
+   "Computer and Network Security"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/blast-security",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_d4a93297083a23cc099f7bd6a8621131": {
+  "case_slug": "ww_d4a93297083a23cc099f7bd6a8621131",
+  "legal_name": "Danish Technological Institute",
+  "primary_domain": "teknologisk.dk",
+  "domains": [
+   "teknologisk.dk"
+  ],
+  "hq_country": "DK",
+  "hq_city": "Taastrup",
+  "founded_year": 1906,
+  "industry": "Research Services",
+  "industries": [
+   "Research Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/teknologiskinstitut",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
+ "ww_d63fbf8c3173730f82b150c5ef38b8ff": {
+  "case_slug": "ww_d63fbf8c3173730f82b150c5ef38b8ff",
+  "legal_name": "The Home Depot",
+  "primary_domain": "homedepot.com",
+  "domains": [
+   "homedepot.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Atlanta",
+  "founded_year": 1979,
+  "industry": "Retail",
+  "industries": [
+   "Retail"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/the-home-depot",
+  "linkedin_url_alternates": [],
+  "headcount_min": 10001,
+  "headcount_max": null
+ },
+ "ww_d7bc578046daf48ed2c1e6746ff68490": {
+  "case_slug": "ww_d7bc578046daf48ed2c1e6746ff68490",
+  "legal_name": "Neosoft",
+  "primary_domain": "neosoft.fr",
+  "domains": [
+   "neosoft.fr"
+  ],
+  "hq_country": "FR",
+  "hq_city": "Paris",
+  "founded_year": 2005,
+  "industry": "IT Services and IT Consulting",
+  "industries": [
+   "IT Services and IT Consulting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/neosoft-",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/neosoft_"
+  ],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
  "ww_d80190f31bf86f143dcd0ce9766990c6": {
   "case_slug": "ww_d80190f31bf86f143dcd0ce9766990c6",
   "legal_name": "Azerty de Mexico SA de CV",
@@ -4747,25 +4772,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 51,
   "headcount_max": 200
- },
- "ww_d63fbf8c3173730f82b150c5ef38b8ff": {
-  "case_slug": "ww_d63fbf8c3173730f82b150c5ef38b8ff",
-  "legal_name": "The Home Depot",
-  "primary_domain": "homedepot.com",
-  "domains": [
-   "homedepot.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Atlanta",
-  "founded_year": 1978,
-  "industry": "Retail",
-  "industries": [
-   "Retail"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/the-home-depot",
-  "linkedin_url_alternates": [],
-  "headcount_min": 10001,
-  "headcount_max": null
  },
  "ww_d92dbeaf912a30561039420aa8560bc3": {
   "case_slug": "ww_d92dbeaf912a30561039420aa8560bc3",
@@ -4786,6 +4792,25 @@
   "headcount_min": 1001,
   "headcount_max": 5000
  },
+ "ww_da18bc4c4d886ea41fcaba372bdedade": {
+  "case_slug": "ww_da18bc4c4d886ea41fcaba372bdedade",
+  "legal_name": "AirFi",
+  "primary_domain": "airfi.aero",
+  "domains": [
+   "airfi.aero"
+  ],
+  "hq_country": "NL",
+  "hq_city": "The Hague",
+  "founded_year": 2012,
+  "industry": "IT Services and IT Consulting",
+  "industries": [
+   "IT Services and IT Consulting"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/airfi",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
  "ww_dc0c5fdddb3a1f373a91da7ea6c2d732": {
   "case_slug": "ww_dc0c5fdddb3a1f373a91da7ea6c2d732",
   "legal_name": "Mybushotel LLC dba Noovo",
@@ -4801,82 +4826,6 @@
    "Motor Vehicle Manufacturing"
   ],
   "linkedin_url": "https://www.linkedin.com/company/noovovans",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_dc0eed22bb626fd154463c19c7e0108b": {
-  "case_slug": "ww_dc0eed22bb626fd154463c19c7e0108b",
-  "legal_name": "Lloydson",
-  "primary_domain": "lloydson.com",
-  "domains": [
-   "lloydson.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "New York",
-  "founded_year": null,
-  "industry": "Software Development",
-  "industries": [
-   "Software Development"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/lloydson",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_da18bc4c4d886ea41fcaba372bdedade": {
-  "case_slug": "ww_da18bc4c4d886ea41fcaba372bdedade",
-  "legal_name": "AirFi",
-  "primary_domain": "airfi.aero",
-  "domains": [
-   "airfi.aero"
-  ],
-  "hq_country": "NL",
-  "hq_city": "The Hague",
-  "founded_year": 2012,
-  "industry": "IT-services en consultancy",
-  "industries": [
-   "IT-services en consultancy"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/airfi",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_dfa93581b5c0c079a8b00d25161e1005": {
-  "case_slug": "ww_dfa93581b5c0c079a8b00d25161e1005",
-  "legal_name": "Mobilite",
-  "primary_domain": "mobilitepower.com",
-  "domains": [
-   "mobilitepower.com"
-  ],
-  "hq_country": "CA",
-  "hq_city": "Hamilton",
-  "founded_year": 2020,
-  "industry": "Telecommunications",
-  "industries": [
-   "Telecommunications"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/mobilitepower",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_da219be8afda052a8b51f31c438af377": {
-  "case_slug": "ww_da219be8afda052a8b51f31c438af377",
-  "legal_name": "SpacePharma R&D Israel Ltd.",
-  "primary_domain": "spacepharma.health",
-  "domains": [
-   "spacepharma.health"
-  ],
-  "hq_country": "CH",
-  "hq_city": "Courgenay",
-  "founded_year": 2012,
-  "industry": "Biotechnology Research",
-  "industries": [
-   "Biotechnology Research"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/spacepharma",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -4900,6 +4849,65 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
+ "ww_da219be8afda052a8b51f31c438af377": {
+  "case_slug": "ww_da219be8afda052a8b51f31c438af377",
+  "legal_name": "SpacePharma R&D Israel Ltd.",
+  "primary_domain": "spacepharma.health",
+  "domains": [
+   "spacepharma.health"
+  ],
+  "hq_country": "CH",
+  "hq_city": "Courgenay",
+  "founded_year": 2012,
+  "industry": "Biotechnology Research",
+  "industries": [
+   "Biotechnology Research"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/spacepharma",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_dc0eed22bb626fd154463c19c7e0108b": {
+  "case_slug": "ww_dc0eed22bb626fd154463c19c7e0108b",
+  "legal_name": "Lloydson",
+  "primary_domain": "lloydson.com",
+  "domains": [
+   "lloydson.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "New York",
+  "founded_year": 1688,
+  "industry": "Software Development",
+  "industries": [
+   "Software Development"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/formnuance",
+  "linkedin_url_alternates": [
+   "https://www.linkedin.com/company/lloydson"
+  ],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_dfa93581b5c0c079a8b00d25161e1005": {
+  "case_slug": "ww_dfa93581b5c0c079a8b00d25161e1005",
+  "legal_name": "Mobilite",
+  "primary_domain": "mobilitepower.com",
+  "domains": [
+   "mobilitepower.com"
+  ],
+  "hq_country": "CA",
+  "hq_city": "Hamilton",
+  "founded_year": 2020,
+  "industry": "Telecommunications",
+  "industries": [
+   "Telecommunications"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/mobilitepower",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_dfd319c28b718755c6c7e700e21ce0f1": {
   "case_slug": "ww_dfd319c28b718755c6c7e700e21ce0f1",
   "legal_name": "Independent School District 196",
@@ -4918,25 +4926,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 1001,
   "headcount_max": 5000
- },
- "ww_e2da886f376c017f6c0ab2bb73516dd8": {
-  "case_slug": "ww_e2da886f376c017f6c0ab2bb73516dd8",
-  "legal_name": "Seitz Industriebau GmbH & Co. KG",
-  "primary_domain": "seitz-speicher.de",
-  "domains": [
-   "seitz-speicher.de"
-  ],
-  "hq_country": "DE",
-  "hq_city": "Speicher",
-  "founded_year": 1995,
-  "industry": "Construction",
-  "industries": [
-   "Construction"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/seitz-industriebau",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
  },
  "ww_e18231069588ddd3e35b0f36c4b16610": {
   "case_slug": "ww_e18231069588ddd3e35b0f36c4b16610",
@@ -4957,6 +4946,63 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
+ "ww_e521943b58ff75715dd16dbb5e1e19fa": {
+  "case_slug": "ww_e521943b58ff75715dd16dbb5e1e19fa",
+  "legal_name": "Precision Fabricators",
+  "primary_domain": "precision-fab.com",
+  "domains": [
+   "precision-fab.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Stoughton",
+  "founded_year": 1987,
+  "industry": "Nanotechnology Research",
+  "industries": [
+   "Nanotechnology Research"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/precision-fabricators",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_e2da886f376c017f6c0ab2bb73516dd8": {
+  "case_slug": "ww_e2da886f376c017f6c0ab2bb73516dd8",
+  "legal_name": "Seitz Industriebau GmbH & Co. KG",
+  "primary_domain": "seitz-speicher.de",
+  "domains": [
+   "seitz-speicher.de"
+  ],
+  "hq_country": "DE",
+  "hq_city": "Speicher",
+  "founded_year": 1995,
+  "industry": "Construction",
+  "industries": [
+   "Construction"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/seitz-industriebau",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_e6c40156574939a44f787ba4cbb48ddb": {
+  "case_slug": "ww_e6c40156574939a44f787ba4cbb48ddb",
+  "legal_name": "BigOmics Analytics SA",
+  "primary_domain": "bigomics.ch",
+  "domains": [
+   "bigomics.ch"
+  ],
+  "hq_country": "CH",
+  "hq_city": "Lugano",
+  "founded_year": 2018,
+  "industry": "Biotechnology Research",
+  "industries": [
+   "Biotechnology Research"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/bigomics-analytics",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
  "ww_e552059ae74b3149786b486cd99144c6": {
   "case_slug": "ww_e552059ae74b3149786b486cd99144c6",
   "legal_name": "DEV Capital",
@@ -4976,44 +5022,6 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
- "ww_eaa39182f0bc458b0e47b3fc3a08bb84": {
-  "case_slug": "ww_eaa39182f0bc458b0e47b3fc3a08bb84",
-  "legal_name": "RETSCH",
-  "primary_domain": "retsch.com",
-  "domains": [
-   "retsch.com"
-  ],
-  "hq_country": "DE",
-  "hq_city": "Haan",
-  "founded_year": 1915,
-  "industry": "Mechanical Or Industrial Engineering",
-  "industries": [
-   "Mechanical Or Industrial Engineering"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/retsch-gmbh",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
- },
- "ww_e6c40156574939a44f787ba4cbb48ddb": {
-  "case_slug": "ww_e6c40156574939a44f787ba4cbb48ddb",
-  "legal_name": "BigOmics Analytics",
-  "primary_domain": "bigomics.ch",
-  "domains": [
-   "bigomics.ch"
-  ],
-  "hq_country": "CH",
-  "hq_city": "Lugano",
-  "founded_year": 2018,
-  "industry": "Biotechnology Research",
-  "industries": [
-   "Biotechnology Research"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/bigomics-analytics",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
  "ww_e960e1cbb8fd54728026677aa7caf71c": {
   "case_slug": "ww_e960e1cbb8fd54728026677aa7caf71c",
   "legal_name": "Action Utility Contractors Inc",
@@ -5021,9 +5029,9 @@
   "domains": [
    "actionutilitycontractors.com"
   ],
-  "hq_country": "United States",
+  "hq_country": "US",
   "hq_city": "Empire",
-  "founded_year": 1995,
+  "founded_year": 1996,
   "industry": "Construction",
   "industries": [
    "Construction"
@@ -5033,21 +5041,21 @@
   "headcount_min": 2,
   "headcount_max": 10
  },
- "ww_e521943b58ff75715dd16dbb5e1e19fa": {
-  "case_slug": "ww_e521943b58ff75715dd16dbb5e1e19fa",
-  "legal_name": "Precision Fabricators",
-  "primary_domain": "precision-fab.com",
+ "ww_eb98ec29ea29440204ac0412be1e2b1a": {
+  "case_slug": "ww_eb98ec29ea29440204ac0412be1e2b1a",
+  "legal_name": "LinkLeads.vn",
+  "primary_domain": "linkleads.vn",
   "domains": [
-   "precision-fab.com"
+   "linkleads.vn"
   ],
-  "hq_country": "US",
-  "hq_city": "Stoughton",
-  "founded_year": 1987,
-  "industry": "納米技術研究",
+  "hq_country": "VN",
+  "hq_city": "Hanoi",
+  "founded_year": 2006,
+  "industry": "Advertising Services",
   "industries": [
-   "納米技術研究"
+   "Advertising Services"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/precision-fabricators",
+  "linkedin_url": "https://www.linkedin.com/company/linkleads-email-marketing",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
@@ -5071,24 +5079,24 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_eb98ec29ea29440204ac0412be1e2b1a": {
-  "case_slug": "ww_eb98ec29ea29440204ac0412be1e2b1a",
-  "legal_name": "LinkLeads.vn",
-  "primary_domain": "linkleads.vn",
+ "ww_eaa39182f0bc458b0e47b3fc3a08bb84": {
+  "case_slug": "ww_eaa39182f0bc458b0e47b3fc3a08bb84",
+  "legal_name": "RETSCH",
+  "primary_domain": "retsch.com",
   "domains": [
-   "linkleads.vn"
+   "retsch.com"
   ],
-  "hq_country": "VN",
-  "hq_city": "Hanoi",
-  "founded_year": 2006,
-  "industry": "Advertising Services",
+  "hq_country": "DE",
+  "hq_city": "Haan",
+  "founded_year": 1915,
+  "industry": "Mechanical Or Industrial Engineering",
   "industries": [
-   "Advertising Services"
+   "Mechanical Or Industrial Engineering"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/linkleads-email-marketing",
+  "linkedin_url": "https://www.linkedin.com/company/retsch-gmbh",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "ww_ec487bdd221d18cee09a4091d097e7fe": {
   "case_slug": "ww_ec487bdd221d18cee09a4091d097e7fe",
@@ -5109,24 +5117,24 @@
   "headcount_min": 201,
   "headcount_max": 500
  },
- "ww_efff4a474eca3081cb0831ece43b786a": {
-  "case_slug": "ww_efff4a474eca3081cb0831ece43b786a",
-  "legal_name": "ONG \"Pim Pam Pum\"",
-  "primary_domain": "pimpampum.fr",
+ "ww_ec1f2b4d9be6caf8a50533737cdda9f4": {
+  "case_slug": "ww_ec1f2b4d9be6caf8a50533737cdda9f4",
+  "legal_name": "Share Creators Software Inc.",
+  "primary_domain": "sharecreators.com",
   "domains": [
-   "pimpampum.fr"
+   "sharecreators.com"
   ],
-  "hq_country": "FR",
-  "hq_city": "Paris",
-  "founded_year": 2022,
-  "industry": "Gestion des associations et fondations",
+  "hq_country": "US",
+  "hq_city": "Burlingame",
+  "founded_year": 2018,
+  "industry": "Entertainment Providers",
   "industries": [
-   "Gestion des associations et fondations"
+   "Entertainment Providers"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/ong-pim-pam-pum",
+  "linkedin_url": "https://www.linkedin.com/company/share-creators-inc",
   "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
+  "headcount_min": 51,
+  "headcount_max": 200
  },
  "ww_f04b823098403f7cb451732f35aab376": {
   "case_slug": "ww_f04b823098403f7cb451732f35aab376",
@@ -5147,24 +5155,62 @@
   "headcount_min": 11,
   "headcount_max": 50
  },
- "ww_ec1f2b4d9be6caf8a50533737cdda9f4": {
-  "case_slug": "ww_ec1f2b4d9be6caf8a50533737cdda9f4",
-  "legal_name": "Share Creators",
-  "primary_domain": "sharecreators.com",
+ "ww_efff4a474eca3081cb0831ece43b786a": {
+  "case_slug": "ww_efff4a474eca3081cb0831ece43b786a",
+  "legal_name": "ONG \"Pim Pam Pum\"",
+  "primary_domain": "pimpampum.fr",
   "domains": [
-   "sharecreators.com"
+   "pimpampum.fr"
+  ],
+  "hq_country": "FR",
+  "hq_city": "Paris",
+  "founded_year": 2022,
+  "industry": "Non-profit Organization Management",
+  "industries": [
+   "Non-profit Organization Management"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/ong-pim-pam-pum",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_eef83da5f4bf1168b71baec76e8d17cb": {
+  "case_slug": "ww_eef83da5f4bf1168b71baec76e8d17cb",
+  "legal_name": "NJ TRANSIT",
+  "primary_domain": "njtransit.com",
+  "domains": [
+   "njtransit.com"
   ],
   "hq_country": "US",
-  "hq_city": "Burlingame",
-  "founded_year": 2018,
-  "industry": "Entertainment Providers",
+  "hq_city": "Newark",
+  "founded_year": 1981,
+  "industry": "Government Administration",
   "industries": [
-   "Entertainment Providers"
+   "Government Administration"
   ],
-  "linkedin_url": "https://www.linkedin.com/company/share-creators-inc",
+  "linkedin_url": "https://www.linkedin.com/company/nj-transit",
   "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
+  "headcount_min": 5001,
+  "headcount_max": 10000
+ },
+ "ww_f26214b3c2129316bfacb41b11f2a9a6": {
+  "case_slug": "ww_f26214b3c2129316bfacb41b11f2a9a6",
+  "legal_name": "Gestalt IT Media LLC",
+  "primary_domain": "techfieldday.com",
+  "domains": [
+   "techfieldday.com"
+  ],
+  "hq_country": "US",
+  "hq_city": "Hudson",
+  "founded_year": 2009,
+  "industry": "Events Services",
+  "industries": [
+   "Events Services"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/tech-field-day",
+  "linkedin_url_alternates": [],
+  "headcount_min": 2,
+  "headcount_max": 10
  },
  "ww_f5720cd55ad50c8a41e270c1a250678e": {
   "case_slug": "ww_f5720cd55ad50c8a41e270c1a250678e",
@@ -5184,63 +5230,6 @@
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50
- },
- "ww_eef83da5f4bf1168b71baec76e8d17cb": {
-  "case_slug": "ww_eef83da5f4bf1168b71baec76e8d17cb",
-  "legal_name": "NJ TRANSIT",
-  "primary_domain": "njtransit.com",
-  "domains": [
-   "njtransit.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Newark",
-  "founded_year": 1981,
-  "industry": "Administración pública",
-  "industries": [
-   "Administración pública"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/nj-transit",
-  "linkedin_url_alternates": [],
-  "headcount_min": 5001,
-  "headcount_max": 10000
- },
- "ww_f26214b3c2129316bfacb41b11f2a9a6": {
-  "case_slug": "ww_f26214b3c2129316bfacb41b11f2a9a6",
-  "legal_name": "Tech Field Day",
-  "primary_domain": "techfieldday.com",
-  "domains": [
-   "techfieldday.com"
-  ],
-  "hq_country": "US",
-  "hq_city": "Hudson",
-  "founded_year": 2009,
-  "industry": "Events Services",
-  "industries": [
-   "Events Services"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/tech-field-day",
-  "linkedin_url_alternates": [],
-  "headcount_min": 2,
-  "headcount_max": 10
- },
- "ww_f66920ce3326117a94d7225091a6af20": {
-  "case_slug": "ww_f66920ce3326117a94d7225091a6af20",
-  "legal_name": "Istituto Salesiano BVSL Bologna",
-  "primary_domain": "salesianibologna.it",
-  "domains": [
-   "salesianibologna.it"
-  ],
-  "hq_country": "IT",
-  "hq_city": "Bologna",
-  "founded_year": 1897,
-  "industry": "Primary and Secondary Education",
-  "industries": [
-   "Primary and Secondary Education"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/istituto-salesiano-di-bologna",
-  "linkedin_url_alternates": [],
-  "headcount_min": 51,
-  "headcount_max": 200
  },
  "ww_f3bba9cfab80aea71926f5f5f5368ad4": {
   "case_slug": "ww_f3bba9cfab80aea71926f5f5f5368ad4",
@@ -5263,7 +5252,7 @@
  },
  "ww_f3f169821867f3be0647ae198e0a304d": {
   "case_slug": "ww_f3f169821867f3be0647ae198e0a304d",
-  "legal_name": "Capstone Performance Training",
+  "legal_name": "Capstone Performance Training, LLC",
   "primary_domain": "capstoneperformancetraining.com",
   "domains": [
    "capstoneperformancetraining.com"
@@ -5318,6 +5307,63 @@
   "headcount_min": 501,
   "headcount_max": 1000
  },
+ "ww_f66920ce3326117a94d7225091a6af20": {
+  "case_slug": "ww_f66920ce3326117a94d7225091a6af20",
+  "legal_name": "Istituto Salesiano BVSL Bologna",
+  "primary_domain": "salesianibologna.it",
+  "domains": [
+   "salesianibologna.it"
+  ],
+  "hq_country": "IT",
+  "hq_city": "Bologna",
+  "founded_year": 1897,
+  "industry": "Primary and Secondary Education",
+  "industries": [
+   "Primary and Secondary Education"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/istituto-salesiano-di-bologna",
+  "linkedin_url_alternates": [],
+  "headcount_min": 51,
+  "headcount_max": 200
+ },
+ "ww_f80fc889c58f1719e12e34c62454221e": {
+  "case_slug": "ww_f80fc889c58f1719e12e34c62454221e",
+  "legal_name": "ORTHOSON Ltd",
+  "primary_domain": "orthoson.com",
+  "domains": [
+   "orthoson.com"
+  ],
+  "hq_country": "GB",
+  "hq_city": "Oxford",
+  "founded_year": 2019,
+  "industry": "Medical Equipment Manufacturing",
+  "industries": [
+   "Medical Equipment Manufacturing"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/orthoson",
+  "linkedin_url_alternates": [],
+  "headcount_min": 11,
+  "headcount_max": 50
+ },
+ "ww_fb580da97fdc843019c5d4609038612d": {
+  "case_slug": "ww_fb580da97fdc843019c5d4609038612d",
+  "legal_name": "SOS International A/S",
+  "primary_domain": "sos.eu",
+  "domains": [
+   "sos.eu"
+  ],
+  "hq_country": "DK",
+  "hq_city": "Copenhagen",
+  "founded_year": 1961,
+  "industry": "Insurance",
+  "industries": [
+   "Insurance"
+  ],
+  "linkedin_url": "https://www.linkedin.com/company/sos-international",
+  "linkedin_url_alternates": [],
+  "headcount_min": 1001,
+  "headcount_max": 5000
+ },
  "ww_f9b554404f9d45536239799e23c7da8c": {
   "case_slug": "ww_f9b554404f9d45536239799e23c7da8c",
   "legal_name": "Neo Alternative Asset Managers Private Limited",
@@ -5333,44 +5379,6 @@
    "Financial Services"
   ],
   "linkedin_url": "https://www.linkedin.com/company/neo-asset-mangagement",
-  "linkedin_url_alternates": [],
-  "headcount_min": 11,
-  "headcount_max": 50
- },
- "ww_fb580da97fdc843019c5d4609038612d": {
-  "case_slug": "ww_fb580da97fdc843019c5d4609038612d",
-  "legal_name": "SOS International A/S",
-  "primary_domain": "sos.eu",
-  "domains": [
-   "sos.eu"
-  ],
-  "hq_country": "DK",
-  "hq_city": "Copenhagen",
-  "founded_year": 1961,
-  "industry": "Forsikring",
-  "industries": [
-   "Forsikring"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/sos-international",
-  "linkedin_url_alternates": [],
-  "headcount_min": 1001,
-  "headcount_max": 5000
- },
- "ww_f80fc889c58f1719e12e34c62454221e": {
-  "case_slug": "ww_f80fc889c58f1719e12e34c62454221e",
-  "legal_name": "ORTHOSON Ltd",
-  "primary_domain": "orthoson.com",
-  "domains": [
-   "orthoson.com"
-  ],
-  "hq_country": "GB",
-  "hq_city": "Oxford",
-  "founded_year": 2015,
-  "industry": "Medical Equipment Manufacturing",
-  "industries": [
-   "Medical Equipment Manufacturing"
-  ],
-  "linkedin_url": "https://www.linkedin.com/company/orthoson",
   "linkedin_url_alternates": [],
   "headcount_min": 11,
   "headcount_max": 50

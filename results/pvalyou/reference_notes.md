@@ -1,6 +1,39 @@
 # Where our answer and the reference disagree, with the page evidence
 
-Fifteen of 1,329 field answers. Read as of 2026-09-13.
+Twenty-three of 1,329 field answers, and two we do not give. Read as of 2026-09-14.
+
+## The company renamed and the reference holds the old identity
+
+| case | field | reference | ours | what the page says |
+|---|---|---|---|---|
+| By Top, Inc. (gettopvote.com) | linkedin_url, industry | `/company/topvote`, Advertising Services | `/company/gettopvote`, Technology, Information and Internet | gettopvote.com redirects to downtimedollars.com; the company describes itself as "Topvote (now Downtime Dollars)" and its live page is the one we hold. |
+| Lloydson (lloydson.com) | linkedin_url | `/company/lloydson` | `/company/formnuance` | `/company/lloydson` now opens a page titled "Form & Nuance" whose canonical address is `/company/formnuance`. |
+
+## The page states a different founding year than the reference
+
+Our answer is the year the company states on its own LinkedIn page, read from the page's
+"Founded" field. Over the 210 cases with a reference year that policy agrees with the reference
+205 times, more than any other single source we hold. These five are the remainder.
+
+| case | reference | page states |
+|---|---|---|
+| The Home Depot | 1978 | 1979 |
+| Clustermarket Limited | 2015 | 2016 (the UK registry says 2015-03-12) |
+| Ningbo Rawstone Creative Import and Export | 2014 | 2015 |
+| Action Utility Contractors | 1995 | 1996 |
+| ORTHOSON Ltd | 2015 | 2019 (the UK registry says 2015-09-28) |
+
+## A showcase page
+
+| case | reference | ours | note |
+|---|---|---|---|
+| Ridge Tool Company (RIDGID) | `/showcase/ridge-tool-company` | `/company/ridge-tool-company` | Both open the same brand page under Emerson's account. We hold the `/company/` address as the company's page and keep the showcase address as an alias; the reference for Marsh (`/company/marshrisk`) makes the opposite choice for the same shape. |
+
+## The page's declared size band against its member count
+
+| case | reference | ours | note |
+|---|---|---|---|
+| Tempo Innovations | 11-50 (46 members) | 51-200 | The page declares 51-200 and lists 49 members. We answer the declared band; over the 282 the declared band agrees with the reference far more often than the count's band does. |
 
 ## LinkedIn serves one page under several addresses
 

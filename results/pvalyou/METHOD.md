@@ -32,14 +32,19 @@ repository, called through OpenRouter:
 
 | metric | value |
 |---|---|
-| enrichment success rate | 98.76% |
-| field accuracy | 98.95% (1,314 correct of 1,328 returned) |
-| field coverage | 99.92% (1,328 returned of 1,329 available) |
+| enrichment success rate | 98.00% |
+| field accuracy | 98.27% (1,304 correct of 1,327 returned) |
+| field coverage | 99.85% (1,327 returned of 1,329 available) |
 | resolution | 100% (282 of 282) |
 
-Per field: founded_year 100.0%, hq_location 99.6%, headcount_band 98.9%, industry 98.6%,
-linkedin_url 97.5%.
+Per field: hq_location 99.6%, headcount_band 98.6%, industry 98.2%, founded_year 97.6%,
+linkedin_url 96.5%.
+
+These are the numbers of one pass: all 282 companies sent through the same code version on
+2026-09-14, 280 of them read live that night, then judged once. Earlier passes that re-ran
+subsets after each fix scored higher (98.76%); the single pass is the one we stand behind.
 
 ## Where we disagree with the reference
 
-Fifteen answers. Each is listed in `reference_notes.md` with what the page says today.
+Twenty-three answers, plus two we do not give. Each is listed in `reference_notes.md` with what
+the page says today.
