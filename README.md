@@ -89,9 +89,10 @@ intend to call. Every live runner requires `--confirm-paid` and resumes from
 successful checkpoints by default.
 
 ```bash
-# Exa, Parallel, and Seltz use the same domain-only web-research contract.
+# Exa, Parallel, Seltz, and Extruct Deep Research use the same domain-only
+# web-research contract. Extruct is POST /v1/deep_research_tasks (not AI Tables).
 PYTHONPATH=scripts .venv/bin/python scripts/run_web_research_benchmark.py \
-  --only parallel-research,exa-research-v2,seltz-companies --confirm-paid
+  --only parallel-research,exa-research-v2,seltz-companies,extruct-deep-research --confirm-paid
 
 # Standard provider adapter example.
 PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
