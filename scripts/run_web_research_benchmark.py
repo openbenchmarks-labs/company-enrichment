@@ -20,6 +20,7 @@ from firmographic.common import CompanyCase
 from firmographic.providers import (
     exa_research,
     exa_research_v2,
+    extruct_deep_research,
     parallel_research,
     seltz_companies,
 )
@@ -33,12 +34,14 @@ PROVIDERS = {
     exa_research.VENDOR_SLUG: exa_research,
     exa_research_v2.VENDOR_SLUG: exa_research_v2,
     seltz_companies.VENDOR_SLUG: seltz_companies,
+    extruct_deep_research.VENDOR_SLUG: extruct_deep_research,
 }
 CONCURRENCY = {
     parallel_research.VENDOR_SLUG: 8,
     exa_research.VENDOR_SLUG: 12,
     exa_research_v2.VENDOR_SLUG: 5,
     seltz_companies.VENDOR_SLUG: 6,
+    extruct_deep_research.VENDOR_SLUG: 3,
 }
 
 
