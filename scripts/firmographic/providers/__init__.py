@@ -1,6 +1,7 @@
 from . import (
     apollo,
     company_enrich,
+    cufinder,
     exa_research_v2,
     explorium,
     parallel_research,
@@ -19,4 +20,5 @@ REGISTRY = {
     exa_research_v2.VENDOR_SLUG: exa_research_v2,
     parallel_research.VENDOR_SLUG: parallel_research,
     seltz_companies.VENDOR_SLUG: seltz_companies,
+    cufinder.VENDOR_SLUG: cufinder,
 }
