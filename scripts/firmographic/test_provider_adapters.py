@@ -7,6 +7,7 @@ from firmographic.common import CompanyCase
 from firmographic.providers import (
     apollo,
     company_enrich,
+    cufinder,
     explorium,
     fiber,
     ocean_enrichment,
@@ -263,6 +264,57 @@ class PredictLeadsAdapterTests(unittest.TestCase):
         self.assertEqual(1, result.cost_units)
         self.assertEqual("extended_company_request", result.cost_unit)
         self.assertEqual((51, 200), (result.normalized.headcount_min, result.normalized.headcount_max))
+
+
+class CUFinderAdapterTests(unittest.TestCase):
+    @patch.dict("os.environ", {"CUFINDER_API_KEY": "test"})
+    @patch("firmographic.providers.cufinder.request_json")
+    def test_normalizes_company_and_prefers_employee_band(self, request_mock) -> None:
+        request_mock.return_value = (
+            {
+                "success": True,
+                "data": {
+                    "company": {
+                        "name": "Example, Inc.",
+                        "domain": "example.com",
+                        "industry": {"name": "software development"},
+                        "size": {"employee_range": "1001-5000", "employee_count": 4_200},
+                        "location": {"country": "united states", "country_code": "US", "city": "boston"},
+                        "social": {"linkedin": "linkedin.com/company/example"},
+                        "founded_year": 2012,
+                        "linkedin_id": "123",
+                    }
+                },
+                "meta": {"confidence": 99, "credits": {"charged": 3}},
+            },
+            480,
+        )
+
+        result = cufinder.run(_case())
+
+        self.assertEqual("ok", result.status)
+        self.assertEqual(3.0, result.cost_units)
+        self.assertEqual("cufinder_credit", result.cost_unit)
+        self.assertEqual("US", result.normalized.hq_country)
+        self.assertEqual("boston", result.normalized.hq_city)
+        self.assertEqual(2012, result.normalized.founded_year)
+        self.assertEqual("software development", result.normalized.industry)
+        self.assertEqual("https://www.linkedin.com/company/example", result.normalized.linkedin_url)
+        self.assertEqual((1_001, 5_000), (result.normalized.headcount_min, result.normalized.headcount_max))
+        self.assertEqual({"query": "example.com"}, request_mock.call_args.kwargs["json_body"])
+
+    @patch.dict("os.environ", {"CUFINDER_API_KEY": "test"})
+    @patch("firmographic.providers.cufinder.request_json")
+    def test_falls_back_to_exact_count_and_handles_empty_company(self, request_mock) -> None:
+        request_mock.return_value = (
+            {"data": {"company": {"name": "Example", "size": {"employee_range": None, "employee_count": 37}}}},
+            400,
+        )
+        result = cufinder.run(_case())
+        self.assertEqual((37, 37), (result.normalized.headcount_min, result.normalized.headcount_max))
+
+        request_mock.return_value = ({"success": True, "data": {"company": {}}}, 400)
+        self.assertEqual("not_found", cufinder.run(_case()).status)
 
 
 if __name__ == "__main__":
