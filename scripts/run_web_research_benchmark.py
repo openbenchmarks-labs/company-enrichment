@@ -21,6 +21,7 @@ from firmographic.providers import (
     exa_research,
     exa_research_v2,
     parallel_research,
+    riveter_enrich,
     seltz_companies,
 )
 
@@ -33,12 +34,14 @@ PROVIDERS = {
     exa_research.VENDOR_SLUG: exa_research,
     exa_research_v2.VENDOR_SLUG: exa_research_v2,
     seltz_companies.VENDOR_SLUG: seltz_companies,
+    riveter_enrich.VENDOR_SLUG: riveter_enrich,
 }
 CONCURRENCY = {
     parallel_research.VENDOR_SLUG: 8,
     exa_research.VENDOR_SLUG: 12,
     exa_research_v2.VENDOR_SLUG: 5,
     seltz_companies.VENDOR_SLUG: 6,
+    riveter_enrich.VENDOR_SLUG: 25,  # Riveter runs at most 25 rows at a time per account; more only queue
 }
 
 

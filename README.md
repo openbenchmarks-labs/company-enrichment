@@ -89,9 +89,9 @@ intend to call. Every live runner requires `--confirm-paid` and resumes from
 successful checkpoints by default.
 
 ```bash
-# Exa, Parallel, and Seltz use the same domain-only web-research contract.
+# Exa, Parallel, Seltz, and Riveter use the same domain-only web-research contract.
 PYTHONPATH=scripts .venv/bin/python scripts/run_web_research_benchmark.py \
-  --only parallel-research,exa-research-v2,seltz-companies --confirm-paid
+  --only parallel-research,exa-research-v2,seltz-companies,riveter-enrich --confirm-paid
 
 # Standard provider adapter example.
 PYTHONPATH=scripts .venv/bin/python scripts/run_firmographic_full_benchmark.py \
@@ -117,5 +117,19 @@ and labeller review state.
 
 Seltz pricing was not publicly disclosed when this release was measured, so
 the snapshot records request units but does not infer a dollar cost.
+
+[Riveter](https://docs.riveterhq.com) (`riveter-enrich`, `RIVETER_API_KEY`)
+is a row-enrichment API: one AI agent per row fills a set of typed output
+columns together, with web search, page reads, and LinkedIn company lookups as
+tools. The adapter saves the shared contract as a recipe once per process with
+`POST /v1/enrichments` (free): the task prompt, the ten scored fields as typed
+columns, a budget of 30 credits per row, and the LinkedIn company tools the
+account can use. Each case then runs as one row through `POST /v1/enrich`,
+polled on `GET /v1/runs/{id}` until it finishes, and the cells and their
+source URLs are read from `GET /v1/datasets/{id}/rows`. Latency is kickoff to
+terminal run status, polling included. Cost is the `credits_used` the run
+reports (`riveter_credit`), billed as the lower of the agent's spend and the
+budget; the Self-Serve list price was $0.025 per credit on 2026-11-04.
+Leaderboard results are pending.
 
 No vendor sponsors or controls this benchmark.
