@@ -49,8 +49,8 @@ class FullRunnerTests(unittest.TestCase):
             ):
                 snapshot, indexes = runner._prepare_snapshot(cases, manifest, mutate=False)
         self.assertEqual(282, len(snapshot["cases"]))
-        self.assertEqual(80, len(snapshot["runs"]))
-        self.assertEqual(80, len(indexes))
+        self.assertEqual(len(old_runs), len(snapshot["runs"]))
+        self.assertEqual(len(old_runs), len(indexes))
 
     def test_resume_preserves_specialized_provider_cells(self) -> None:
         cases, manifest = load_all_cases()
